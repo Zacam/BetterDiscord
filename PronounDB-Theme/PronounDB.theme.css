@@ -3,7 +3,7 @@
 * @author Zacam
 * @version 1.2.1
 * @description A Theme which changes PronounDB Text Color
-* @source https://github.com/Zacam/BetterDiscord/PronounDB-Theme
-* @updateUrl https://github.com/Zacam/BetterDiscord/PronounDB-Theme/blob/main/PronounDB.theme.css
+* @source https://github.com/Zacam/BetterDiscord
+* @updateUrl https://github.com/Zacam/BetterDiscord/blob/main/PronounDB-Theme/PronounDB.theme.css
 */
-@import url(https://Zacam.github.io/PronounDB-Theme/Pronoun.css);
+@import url(https://raw.githubusercontent.com/Zacam/BetterDiscord/main/PronounDB-Theme/Pronoun.css);
