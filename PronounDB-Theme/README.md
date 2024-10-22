@@ -8,7 +8,7 @@ Alter line `7363` to go from:
 `pronoun.pronouns`
 
 To look like:
-`pronoun.pronouns, " ", "\u2022", " "`
+`pronoun.pronouns, " ", "\u2022", "\u00A0"`
 
 
 ### Screenshot
