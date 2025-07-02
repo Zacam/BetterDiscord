@@ -183,6 +183,52 @@ div[aria-label="User Profile (Alt+P)"][role="button"]>svg path:nth-of-type(2) {
 }
  /* /END Main Discord Toolbar */
 
+ /* Server Top Area */
+li:has(div[id*="upcoming-events"]) div[class*="iconContainer"] {
+	background-image: url("https://discord.com/assets/914d5f92720b2df3.svg") !important;
+	background-position: center !important;
+	background-repeat: no-repeat;
+}
+
+li:has(div[id*="upcoming-events"]) div[class*="iconContainer"]>svg {
+	display: none !important;
+}
+
+li:has(div[id*="home-tab"]) div[class*="iconContainer"] {
+	background-image: url("https://discord.com/assets/d9984ccdb6413349.svg") !important;
+	background-position: center !important;
+	background-repeat: no-repeat;
+}
+
+li:has(div[id*="home-tab"]) div[class*="iconContainer"] svg {
+	display: none !important;
+}
+
+
+li:has(div[aria-label*="Channels"]) div[class*="basicChannelRowLink"] svg path:nth-of-type(2) {
+	fill: #d4af37 !important;
+}
+
+li:has(div[aria-label="Members"]) div[class*="iconContainer"] {
+	background-image: url("https://discord.com/assets/be8706c9515e4e6e.svg") !important;
+	background-size: 20px !important;
+	background-position: center !important;
+	background-repeat: no-repeat;
+}
+
+li:has(div[aria-label="Members"]) svg {
+	display: none !important;
+}
+
+li:has(div[aria-label="Server Boosts"]) div[class*="basicChannelRowLink"] svg>path {
+	fill: #FE73F9 !important;
+}
+
+li:has(div[aria-label="Server Shop"]) div[class*="basicChannelRowLink"] svg g>path {
+	fill: #3AA55C !important;
+	filter: hue-rotate(90deg) !important;
+}
+
  /* Server Dropdown */
 div[id="guild-header-popout-premium-subscribe"]>div[class="iconContainer_c1e9c4"]>svg path {
 	fill: #FE73F9 !important;
