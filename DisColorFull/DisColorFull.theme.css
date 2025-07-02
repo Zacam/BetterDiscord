@@ -55,6 +55,21 @@ div[aria-label="Inbox"][role="button"]>svg {
 	display: none !important;
 }
 
+div[aria-label="Recent Mentions"] div[class="headerTitle_ab6641"] {
+	background-image: url("https://discord.com/assets/a4c4a23d67f9f4cb.svg") !important;
+	background-size: 20px !important;
+	background-position: left !important;
+	background-repeat: no-repeat;
+}
+
+div[aria-label="Recent Mentions"] div[class="headerTitle_ab6641"]>svg {
+	display: none !important;
+}
+
+div[aria-label="Recent Mentions"] div[class="headerTitle_ab6641"]>div[class*="inboxTitle_ab6641"] {
+	margin-left: 28px !important;
+}
+
 div[aria-label="Hide Member List"][role="button"] {
 	background-image: url("https://discord.com/assets/be8706c9515e4e6e.svg") !important;
 	background-size: 18px !important;
