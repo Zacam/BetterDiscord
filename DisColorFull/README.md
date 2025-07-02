@@ -10,17 +10,17 @@ Theme Author's are free to import for use within their own works.
 
 ### Screenshots
 
-General Chatting Toolbar:
+General Chatting Toolbar:</br>
 ![](Chat.png)
 
-General Toolbar in DM's:
+General Toolbar in DM's:</br>
 ![](DMs.png)
 
-Server Drop Down Menu:
+Server Drop Down Menu:</br>
 ![](ServerDrop.png)
 
-User Panel on connected to VC:
+User Panel on connected to VC:</br>
 ![](User-VC.png)
 
-VC Action Bar:
+VC Action Bar:</br>
 ![](VC-Bar.png)
