@@ -1,7 +1,7 @@
 /**
 * @name DisColorFull
 * @author Zacam
-* @version 1.0.8
+* @version 1.0.9
 * @description Fills in Discords bland SVG's with Color || Inspired by @NYRI4's `Discolored' Theme
 * @source https://github.com/Zacam/BetterDiscord/tree/main/DisColorFull
 * @updateUrl https://zacam.github.io/BetterDiscord/DisColorFull/DisColorFull.theme.css
@@ -59,18 +59,18 @@ div[class="toolbar__9293f"]>div[class="recentsIcon_c99c29"]>div[aria-label="Inbo
 	display: none !important;
 }
  /* Popout */
-div[id="popout_4386"] div[aria-label="Inbox"] div[class="headerTitle_ab6641"] {
+div[id*="popout_"] div[aria-label="Inbox"] div[class="headerTitle_ab6641"] {
 	background-image: url("https://discord.com/assets/a4c4a23d67f9f4cb.svg") !important;
 	background-size: 20px !important;
 	background-position: left !important;
 	background-repeat: no-repeat;
 }
 
-div[id="popout_4386"] div[aria-label="Inbox"] div[class="headerTitle_ab6641"]>svg {
+div[id*="popout_"] div[aria-label="Inbox"] div[class="headerTitle_ab6641"]>svg {
 	display: none !important;
 }
 
-div[id="popout_4386"] div[aria-label="Inbox"] div[class="headerTitle_ab6641"]>div[class*="inboxTitle_ab6641"] {
+div[id*="popout_"] div[aria-label="Inbox"] div[class="headerTitle_ab6641"]>div[class*="inboxTitle_ab6641"] {
 	margin-left: 28px !important;
 }
 
