@@ -1,7 +1,7 @@
 /**
 * @name DisColorFull
 * @author Zacam
-* @version 1.0.7
+* @version 1.0.8
 * @description Fills in Discords bland SVG's with Color || Inspired by @NYRI4's `Discolored' Theme
 * @source https://github.com/Zacam/BetterDiscord/tree/main/DisColorFull
 * @updateUrl https://zacam.github.io/BetterDiscord/DisColorFull/DisColorFull.theme.css
@@ -10,7 +10,7 @@
 /* Colorful SVG */
  /* Main Discord Toolbar */
 /* Threads */
-div[aria-label="Threads"][role="button"] {
+div[class="toolbar__9293f"]>div[aria-label="Threads"][role="button"] {
 	background-image: url("https://discord.com/assets/5f5b447d1ae0cba4.svg") !important;
 	background-size: 16px !important;
 	background-position: center !important;
@@ -18,12 +18,12 @@ div[aria-label="Threads"][role="button"] {
 	transform: rotate(45deg) !important;
 }
 
-div[aria-label="Threads"][role="button"]>svg {
+div[class="toolbar__9293f"]>div[aria-label="Threads"][role="button"]>svg {
 	display: none !important;
 }
 
 /* Notificatin Settings */
-div[aria-label="Notification Settings"][role="button"] {
+div[class="toolbar__9293f"]>div[aria-label="Notification Settings"][role="button"] {
 	background-image: url("https://discord.com/assets/ca750a2b73e36154.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
@@ -31,310 +31,310 @@ div[aria-label="Notification Settings"][role="button"] {
 	transform: scaleX(-1) !important;
 }
 
-div[aria-label="Notification Settings"][role="button"]>svg {
+div[class="toolbar__9293f"]>div[aria-label="Notification Settings"][role="button"]>svg {
 	display: none !important;
 }
 
 /* Pinned Messages */
-div[aria-label="Pinned Messages"][role="button"] {
+div[class="toolbar__9293f"]>div[aria-label="Pinned Messages"][role="button"] {
 	background-image: url("https://discord.com/assets/c7ba45651998dd2c.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[aria-label="Pinned Messages"][role="button"]>svg {
+div[class="toolbar__9293f"]>div[aria-label="Pinned Messages"][role="button"]>svg {
 	display: none !important;
 }
 
 /* Inbox and Inbox in Popup */
-div[aria-label="Inbox"][role="button"] {
+div[class="toolbar__9293f"]>div[class="recentsIcon_c99c29"]>div[aria-label="Inbox"][role="button"] {
 	background-image: url("https://discord.com/assets/a4c4a23d67f9f4cb.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[aria-label="Inbox"][role="button"]>svg {
+div[class="toolbar__9293f"]>div[class="recentsIcon_c99c29"]>div[aria-label="Inbox"][role="button"]>svg {
 	display: none !important;
 }
  /* Popout */
-div[aria-label="Inbox"] div[class="headerTitle_ab6641"] {
+div[id="popout_4386"] div[aria-label="Inbox"] div[class="headerTitle_ab6641"] {
 	background-image: url("https://discord.com/assets/a4c4a23d67f9f4cb.svg") !important;
 	background-size: 20px !important;
 	background-position: left !important;
 	background-repeat: no-repeat;
 }
 
-div[aria-label="Inbox"] div[class="headerTitle_ab6641"]>svg {
+div[id="popout_4386"] div[aria-label="Inbox"] div[class="headerTitle_ab6641"]>svg {
 	display: none !important;
 }
 
-div[aria-label="Inbox"] div[class="headerTitle_ab6641"]>div[class*="inboxTitle_ab6641"] {
+div[id="popout_4386"] div[aria-label="Inbox"] div[class="headerTitle_ab6641"]>div[class*="inboxTitle_ab6641"] {
 	margin-left: 28px !important;
 }
 
 /* Show/Hide Member List */
-div[aria-label="Hide Member List"][role="button"] {
+div[class="toolbar__9293f"]>div[aria-label="Hide Member List"][role="button"] {
 	background-image: url("https://discord.com/assets/be8706c9515e4e6e.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[aria-label="Hide Member List"][role="button"]>svg {
+div[class="toolbar__9293f"]>div[aria-label="Hide Member List"][role="button"]>svg {
 	display: none !important;
 }
 
 /* Contextual Help Button */
-div[aria-label="Help"][role="button"]>svg>path {
+div[class="toolbar__9293f"]>div[aria-label="Help"][role="button"]>svg>path {
 	fill: #7289DA !important;
 }
 
 /* Friends View : New Group DM */
-div[class*="inviteToolbar"]>div[aria-label="New Group DM"] {
+div[class="toolbar__9293f"]>div[class*="inviteToolbar"]>div[aria-label="New Group DM"] {
 	background-image: url("https://discord.com/assets/e121c79c0d9d21e5.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[class*="inviteToolbar"]>div[aria-label="New Group DM"]>svg>path:nth-of-type(2) {
+div[class="toolbar__9293f"]>div[class*="inviteToolbar"]>div[aria-label="New Group DM"]>svg>path:nth-of-type(2) {
 	display: none !important;
 }
 
-div[class*="inviteToolbar"]>div[aria-label="New Group DM"]>svg>path:nth-of-type(1) {
+div[class="toolbar__9293f"]>div[class*="inviteToolbar"]>div[aria-label="New Group DM"]>svg>path:nth-of-type(1) {
 	fill: #3AA55C !important;
 }
 
  /* DM's View */
  /*---------------------------------------------------------------------------------------------*/
 /* Start Voice Call */
-div[aria-label="Start Voice Call"][role="button"]>svg>path:nth-of-type(1) {
+div[class="toolbar__9293f"]>div[aria-label="Start Voice Call"][role="button"]>svg>path:nth-of-type(1) {
 	fill: #3AA55C !important;
 	fill-rule: nonzero !important;
 }
 
-div[aria-label="Start Voice Call"][role="button"]>svg>path:nth-of-type(2) {
+div[class="toolbar__9293f"]>div[aria-label="Start Voice Call"][role="button"]>svg>path:nth-of-type(2) {
 	fill: #3AA55C !important;
 }
 
 /* Start Video Call */
-div[aria-label="Start Video Call"][role="button"] {
+div[class="toolbar__9293f"]>div[aria-label="Start Video Call"][role="button"] {
 	background-image: url("https://discord.com/assets/d1612a30f6f75120.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[aria-label="Start Video Call"][role="button"]>svg {
+div[class="toolbar__9293f"]>div[aria-label="Start Video Call"][role="button"]>svg {
 	display: none !important;
 }
 
 /* Add Friends to DM */
-div[aria-label="Add Friends to DM"] {
+div[class="toolbar__9293f"]>div[aria-label="Add Friends to DM"] {
 	background-image: url("https://discord.com/assets/5b12dce3a467ed97.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[aria-label="Add Friends to DM"]>svg path:nth-of-type(1) {
+div[class="toolbar__9293f"]>div[aria-label="Add Friends to DM"]>svg path:nth-of-type(1) {
 	display: none !important;
 }
 
-div[aria-label="Add Friends to DM"]>svg path:nth-of-type(2) {
+div[class="toolbar__9293f"]>div[aria-label="Add Friends to DM"]>svg path:nth-of-type(2) {
 	fill: #3AA55C !important;
 }
 
 /* Hide User Profile */
-div[aria-label="Hide User Profile"][role="button"]>svg path:nth-of-type(1) {
+div[class="toolbar__9293f"]>div[aria-label="Hide User Profile"][role="button"]>svg path:nth-of-type(1) {
 	fill: #7289DA !important;
 }
 
-div[aria-label="Hide User Profile"][role="button"]>svg path:nth-of-type(2) {
+div[class="toolbar__9293f"]>div[aria-label="Hide User Profile"][role="button"]>svg path:nth-of-type(2) {
 	fill: var(--icon-tertiary) !important;
 }
 
  /* CollapsibleUI SVG's */
-div[aria-label="Server List (Alt+S)"][role="button"] {
+div[class="cui-toolbar"]>div[aria-label="Server List (Alt+S)"][role="button"] {
 	background-image: url("https://discord.com/assets/c66649a1b3353499.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[aria-label="Server List (Alt+S)"][role="button"]>svg {
+div[class="cui-toolbar"]>div[aria-label="Server List (Alt+S)"][role="button"]>svg {
 	display: none !important;
 }
 
-div[aria-label="Message Input (Alt+I)"][role="button"] {
+div[class="cui-toolbar"]>div[aria-label="Message Input (Alt+I)"][role="button"] {
 	background-image: url("https://discord.com/assets/8ae7ca9bbac47c60.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[aria-label="Message Input (Alt+I)"][role="button"]>svg {
+div[class="cui-toolbar"]>div[aria-label="Message Input (Alt+I)"][role="button"]>svg {
 	display: none !important;
 }
 
-div[aria-label="Members List (Alt+M)"][role="button"] {
+div[class="cui-toolbar"]>div[aria-label="Members List (Alt+M)"][role="button"] {
 	background-image: url("https://discord.com/assets/be8706c9515e4e6e.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[aria-label="Members List (Alt+M)"][role="button"]>svg {
+div[class="cui-toolbar"]>div[aria-label="Members List (Alt+M)"][role="button"]>svg {
 	display: none !important;
 }
 
-div[aria-label="User Profile (Alt+P)"][role="button"]>svg path:nth-of-type(1) {
+div[class="cui-toolbar"]>div[aria-label="User Profile (Alt+P)"][role="button"]>svg path:nth-of-type(1) {
 	fill: #7289DA !important;
 }
 
-div[aria-label="User Profile (Alt+P)"][role="button"]>svg path:nth-of-type(2) {
+div[class="cui-toolbar"]>div[aria-label="User Profile (Alt+P)"][role="button"]>svg path:nth-of-type(2) {
 	fill: var(--icon-tertiary) !important;
 }
  /* /END Main Discord Toolbar */
 /*---------------------------------------------------------------------------------------------*/
  /* Server Channels Area, Pre-Divider */
 /* Events */
-li:has(div[id*="upcoming-events"]) div[class*="iconContainer"] {
+ul[aria-label="Channels"]>li:has(div[id*="upcoming-events"]) div[class*="iconContainer"] {
 	background-image: url("https://discord.com/assets/914d5f92720b2df3.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-li:has(div[id*="upcoming-events"]) div[class*="iconContainer"]>svg {
+ul[aria-label="Channels"]>li:has(div[id*="upcoming-events"]) div[class*="iconContainer"]>svg {
 	display: none !important;
 }
 
 /* Server Guide */
-li:has(div[id*="home-tab"]) div[class*="iconContainer"] {
+ul[aria-label="Channels"]>li:has(div[id*="home-tab"]) div[class*="iconContainer"] {
 	background-image: url("https://discord.com/assets/d9984ccdb6413349.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-li:has(div[id*="home-tab"]) div[class*="iconContainer"] svg {
+ul[aria-label="Channels"]>li:has(div[id*="home-tab"]) div[class*="iconContainer"] svg {
 	display: none !important;
 }
 
 /* Browse Channels */
-li:has(div[aria-label*="Channels"]) div[class*="basicChannelRowLink"] svg path:nth-of-type(2) {
+ul[aria-label="Channels"]>li:has(div[aria-label*="Channels"]) div[class*="basicChannelRowLink"] svg path:nth-of-type(2) {
 	fill: #d4af37 !important;
 }
 
 /* Members */
-li:has(div[aria-label="Members"]) div[class*="iconContainer"] {
+ul[aria-label="Channels"]>div>li:has(div[aria-label="Members"]) div[class*="iconContainer"] {
 	background-image: url("https://discord.com/assets/be8706c9515e4e6e.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-li:has(div[aria-label="Members"]) svg {
+ul[aria-label="Channels"]>div>li:has(div[aria-label="Members"]) svg {
 	display: none !important;
 }
 
 /* Server Boosts */
-li:has(div[aria-label="Server Boosts"]) div[class*="basicChannelRowLink"] svg>path {
+ul[aria-label="Channels"]>li:has(div[aria-label="Server Boosts"]) div[class*="basicChannelRowLink"] svg>path {
 	fill: #FE73F9 !important;
 }
 
 /* Server Shop */
-li:has(div[aria-label="Server Shop"]) div[class*="basicChannelRowLink"] svg g>path {
+ul[aria-label="Channels"]>li:has(div[aria-label="Server Shop"]) div[class*="basicChannelRowLink"] svg g>path {
 	fill: #3AA55C !important;
 	filter: hue-rotate(90deg) !important;
 }
 /*---------------------------------------------------------------------------------------------*/
  /* Server Dropdown */
 /* Server Boost */
-div[id="guild-header-popout-premium-subscribe"]>div[class="iconContainer_c1e9c4"]>svg path {
+div[aria-label="Server Actions"] div[id="guild-header-popout-premium-subscribe"]>div[class="iconContainer_c1e9c4"]>svg path {
 	fill: #FE73F9 !important;
 }
 
 /* Invite People */
-div[id="guild-header-popout-invite-people"]>div[class="iconContainer_c1e9c4"] {
+div[aria-label="Server Actions"] div[id="guild-header-popout-invite-people"]>div[class="iconContainer_c1e9c4"] {
 	background-image: url("https://discord.com/assets/5b12dce3a467ed97.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[id="guild-header-popout-invite-people"]>div[class="iconContainer_c1e9c4"]>svg path:nth-of-type(1) {
+div[aria-label="Server Actions"] div[id="guild-header-popout-invite-people"]>div[class="iconContainer_c1e9c4"]>svg path:nth-of-type(1) {
 	display: none !important;
 }
 
-div[id="guild-header-popout-invite-people"]>div[class="iconContainer_c1e9c4"]>svg path:nth-of-type(2) {
+div[aria-label="Server Actions"] div[id="guild-header-popout-invite-people"]>div[class="iconContainer_c1e9c4"]>svg path:nth-of-type(2) {
 	fill: #3AA55C !important;
 }
 
 /* Create Channel */
-div[id="guild-header-popout-create-channel"]>div[class="iconContainer_c1e9c4"]>svg path {
+div[aria-label="Server Actions"] div[id="guild-header-popout-create-channel"]>div[class="iconContainer_c1e9c4"]>svg path {
 	fill: #3AA55C !important;
 }
 
 /* Create Category */
-div[id="guild-header-popout-create-category"]>div[class="iconContainer_c1e9c4"] {
+div[aria-label="Server Actions"] div[id="guild-header-popout-create-category"]>div[class="iconContainer_c1e9c4"] {
 	background-image: url("https://discord.com/assets/edd480d5e90bc7c6.svg") !important;
 	background-size: 20px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[id="guild-header-popout-create-category"]>div[class="iconContainer_c1e9c4"]>svg {
+div[aria-label="Server Actions"] div[id="guild-header-popout-create-category"]>div[class="iconContainer_c1e9c4"]>svg {
 	display: none !important;
 }
 
 /* Create Event */
-div[id="guild-header-popout-create-event"]>div[class="iconContainer_c1e9c4"] {
+div[aria-label="Server Actions"] div[id="guild-header-popout-create-event"]>div[class="iconContainer_c1e9c4"] {
 	background-image: url("https://discord.com/assets/914d5f92720b2df3.svg") !important;
 	background-size: 20px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[id="guild-header-popout-create-event"]>div[class="iconContainer_c1e9c4"]>svg {
+div[aria-label="Server Actions"] div[id="guild-header-popout-create-event"]>div[class="iconContainer_c1e9c4"]>svg {
 	display: none !important;
 }
 
 /* App Directory */
-div[id="guild-header-popout-application-directory"]>div[class="iconContainer_c1e9c4"]>svg path {
+div[aria-label="Server Actions"] div[id="guild-header-popout-application-directory"]>div[class="iconContainer_c1e9c4"]>svg path {
 	fill: #3AA55C !important;
 	filter: hue-rotate(90deg) !important;
 }
 
 /* Notification Settings */
-div[id="guild-header-popout-notifications"]>div[class="iconContainer_c1e9c4"] {
+div[aria-label="Server Actions"] div[id="guild-header-popout-notifications"]>div[class="iconContainer_c1e9c4"] {
 	background-image: url("https://discord.com/assets/5a9bb1889bc6b8dc.svg") !important;
 	background-size: 20px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[id="guild-header-popout-notifications"]>div[class="iconContainer_c1e9c4"]>svg {
+div[aria-label="Server Actions"] div[id="guild-header-popout-notifications"]>div[class="iconContainer_c1e9c4"]>svg {
 	display: none !important;
 }
 
 /* Privacy Settings */
-div[id="guild-header-popout-privacy"]>div[class="iconContainer_c1e9c4"] {
+div[aria-label="Server Actions"] div[id="guild-header-popout-privacy"]>div[class="iconContainer_c1e9c4"] {
 	background-image: url("https://discord.com/assets/51cc7794c9a923de.svg") !important;
 	background-size: 20px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[id="guild-header-popout-privacy"]>div[class="iconContainer_c1e9c4"]>svg {
+div[aria-label="Server Actions"] div[id="guild-header-popout-privacy"]>div[class="iconContainer_c1e9c4"]>svg {
 	display: none !important;
 }
 
 /* Edit Per-server Profile */
-div[id="guild-header-popout-change-nickname"]>div[class="iconContainer_c1e9c4"] {
+div[aria-label="Server Actions"] div[id="guild-header-popout-change-nickname"]>div[class="iconContainer_c1e9c4"] {
 	background-image: url("https://discord.com/assets/fe96ae6b8d6103d2.svg") !important;
 	background-size: 20px !important;
 	background-position: center !important;
@@ -342,14 +342,14 @@ div[id="guild-header-popout-change-nickname"]>div[class="iconContainer_c1e9c4"] 
 	transform: scaleX(-1) !important;
 }
 
-div[id="guild-header-popout-change-nickname"]>div[class="iconContainer_c1e9c4"]>svg {
+div[aria-label="Server Actions"] div[id="guild-header-popout-change-nickname"]>div[class="iconContainer_c1e9c4"]>svg {
 	display: none !important;
 }
  /* /END Server Dropdown */
 /*---------------------------------------------------------------------------------------------*/
 
  /* Chat Input */
-button[aria-label="Send a gift"] div[class="lottieIcon__5eb9b lottieIconColors__5eb9b"] {
+div[class*="channelTextArea_"] div[class="buttons__74017"]>button[aria-label="Send a gift"] div[class="lottieIcon__5eb9b lottieIconColors__5eb9b"] {
 	background-image: url("https://discord.com/assets/949f113339307625.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
@@ -357,18 +357,18 @@ button[aria-label="Send a gift"] div[class="lottieIcon__5eb9b lottieIconColors__
 	opacity: 0.5 !important;
 }
 
-button[aria-label="Send a gift"] div[class="lottieIcon__5eb9b lottieIconColors__5eb9b"]:hover {
+div[class*="channelTextArea_"] div[class="buttons__74017"]>button[aria-label="Send a gift"] div[class="lottieIcon__5eb9b lottieIconColors__5eb9b"]:hover {
 	opacity: 1 !important;
 }
 
-button[aria-label="Send a gift"] div[class="lottieIcon__5eb9b lottieIconColors__5eb9b"]>svg>g {
+div[class*="channelTextArea_"] div[class="buttons__74017"]>button[aria-label="Send a gift"] div[class="lottieIcon__5eb9b lottieIconColors__5eb9b"]>svg>g {
 	display: none !important;
 }
 /*---------------------------------------------------------------------------------------------*/
 /* VC */
  /* User Panel */
 /* User Modal Area during VC */
-button[aria-label="Noise Suppression powered by Krisp"] svg g>path{
+section[aria-label="User area"] button[aria-label="Noise Suppression powered by Krisp"] svg g>path{
 	fill: #ffa500 !important;
 }
 
@@ -377,23 +377,23 @@ section[aria-label="User area"] button[aria-label="Disconnect"] svg g>path {
 }
 
 /* VC Screenshare Button */
-button[aria-label="Share Your Screen"]>div>div[class*="lottieIcon__5eb9b lottieIconColors__5eb9b"] {
+section[aria-label="User area"] button[aria-label="Share Your Screen"]>div>div[class*="lottieIcon__5eb9b lottieIconColors__5eb9b"] {
 	background-image: url("https://discord.com/assets/85dcccc0e0a8812b.svg") !important;
 	background-size: 16px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-button[aria-label="Share Your Screen"] svg {
+section[aria-label="User area"] button[aria-label="Share Your Screen"] svg {
 	display: none !important;
 }
 
-button[aria-label="Start An Activity"] svg path {
+section[aria-label="User area"] button[aria-label="Start An Activity"] svg path {
 	fill: #3AA55C !important;
 	filter: hue-rotate(90deg) !important;
 }
  /* VC Soundboard */
-button[aria-label="Open Soundboard"] div[class*="lottieIcon__5eb9b lottieIconColors__5eb9b"],
+section[aria-label="User area"] button[aria-label="Open Soundboard"] div[class*="lottieIcon__5eb9b lottieIconColors__5eb9b"],
 div[class="buttonSection__1405b"]:nth-of-type(2)>
 div[class="attachedCaretButtonContainer_f1ceac"] div[class*="lottieIcon__5eb9b lottieIconColors__5eb9b"] {
 	background-image: url("https://discord.com/assets/a0fbefd37a6dd7e7.svg") !important;
@@ -403,7 +403,7 @@ div[class="attachedCaretButtonContainer_f1ceac"] div[class*="lottieIcon__5eb9b l
 	transform: rotate(-45deg) !important;
 }
 
-button[aria-label="Open Soundboard"] svg,
+section[aria-label="User area"] button[aria-label="Open Soundboard"] svg,
 div[class="buttonSection__1405b"]:nth-of-type(2)>
 div[class="attachedCaretButtonContainer_f1ceac"] div[class*="lottieIcon__5eb9b lottieIconColors__5eb9b"] svg {
 	display: none !important;
