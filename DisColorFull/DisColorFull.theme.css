@@ -1,7 +1,7 @@
 /**
 * @name DisColorFull
 * @author Zacam
-* @version 1.0.12
+* @version 1.0.13
 * @description Fills in Discords bland SVG's with Color || Inspired by @NYRI4's `Discolored' Theme
 * @source https://github.com/Zacam/BetterDiscord/tree/main/DisColorFull
 * @updateUrl https://zacam.github.io/BetterDiscord/DisColorFull/DisColorFull.theme.css
@@ -112,14 +112,14 @@ div[class*="toolbar__9293f"]>div[aria-label="Pinned Messages"]>svg {
 }
 
 /* Inbox and Inbox in Popup */
-div[class*="toolbar__9293f"] div[class*="recentsIcon_c99c29"]>div[aria-label="Inbox"] {
+div[class*="recentsIcon_c99c29"]>div[aria-label="Inbox"] {
 	background-image: url("https://discord.com/assets/a4c4a23d67f9f4cb.svg") !important;
 	background-size: 18px !important;
 	background-position: center !important;
 	background-repeat: no-repeat;
 }
 
-div[class*="toolbar__9293f"] div[class*="recentsIcon_c99c29"]>div[aria-label="Inbox"]>svg {
+div[class*="recentsIcon_c99c29"]>div[aria-label="Inbox"]>svg {
 	display: none !important;
 }
  /* Popout */
