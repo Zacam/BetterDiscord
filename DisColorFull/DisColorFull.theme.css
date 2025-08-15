@@ -1,11 +1,31 @@
 /**
 * @name DisColorFull
 * @author Zacam
-* @version 1.1.1
+* @version 1.1.2
 * @description Fills in Discords bland SVG's with Color || Inspired by @NYRI4's `Discolored' Theme
 * @source https://github.com/Zacam/BetterDiscord/tree/main/DisColorFull
 * @updateUrl https://zacam.github.io/BetterDiscord/DisColorFull/DisColorFull.theme.css
 */
+
+/* Add Reaction */
+.hoverBarButton_f84418[aria-label="Add Reaction"],
+#message-actions-reactions .iconContainer_c1e9c4 {
+	background-image: url("	https://discord.com/assets/31fb1e8e3632d1f4.svg");
+	background-size: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.6;
+}
+
+.hoverBarButton_f84418[aria-label="Add Reaction"]:hover,
+#message-actions-reactions .iconContainer_c1e9c4 {
+	opacity: 1;
+}
+
+.hoverBarButton_f84418[aria-label="Add Reaction"]>svg,
+#message-actions-reactions .iconContainer_c1e9c4>svg {
+	display: none;
+}
 
 /* Inbox SVG */
 div[aria-label="Inbox"] {
@@ -33,7 +53,8 @@ div[id^="popout_"] div[aria-label="Inbox"] div[class="headerTitle_ab6641"]>div[c
 
 /* Threads SVG */
 div[aria-label="Threads"],
-div[id="message-thread"] div[class^="iconContainer"] {
+div[id="message-thread"] div[class^="iconContainer"],
+div[id="message-actions-thread"] div[class^="iconContainer"] {
 	background-image: url("https://discord.com/assets/5f5b447d1ae0cba4.svg");
 	background-size: 16px;
 	background-position: center;
@@ -42,7 +63,8 @@ div[id="message-thread"] div[class^="iconContainer"] {
 }
 
 div[aria-label="Threads"]>svg,
-div[id="message-thread"] div[class^="iconContainer"]>svg {
+div[id="message-thread"] div[class^="iconContainer"]>svg,
+div[id="message-actions-thread"] div[class^="iconContainer"]>svg {
 	display: none;
 }
 
@@ -63,7 +85,8 @@ div[id="guild-header-popout-notifications"]>div[class^="iconContainer"]>svg {
 
 /* Pin Message SVG */
 div[aria-label="Pinned Messages"],
-div[id="message-pin"] div[class^="iconContainer"] {
+div[id="message-pin"] div[class^="iconContainer"],
+div[id="message-actions-pin"] div[class^="iconContainer"] {
 	background-image: url("https://discord.com/assets/c7ba45651998dd2c.svg");
 	background-size: 18px;
 	background-position: center;
@@ -71,13 +94,15 @@ div[id="message-pin"] div[class^="iconContainer"] {
 }
 
 div[aria-label="Pinned Messages"]>svg,
-div[id="message-pin"] div[class^="iconContainer"]>svg {
+div[id="message-pin"] div[class^="iconContainer"]>svg,
+div[id="message-actions-pin"] div[class^="iconContainer"]>svg {
 	display: none;
 }
 
 /* Friends View : New Group DM */
 div[aria-label="New Group DM"],
-div[id="message-mark-unread"] div[class^="iconContainer"] {
+div[id="message-mark-unread"] div[class^="iconContainer"],
+div[id="message-actions-mark-unread"] div[class^="iconContainer"] {
 	background-image: url("https://discord.com/assets/e121c79c0d9d21e5.svg");
 	background-size: 18px;
 	background-position: center;
@@ -85,7 +110,8 @@ div[id="message-mark-unread"] div[class^="iconContainer"] {
 }
 
 div[aria-label="New Group DM"]>svg>path:nth-of-type(2),
-div[id="message-mark-unread"] div[class^="iconContainer"]>svg path:nth-of-type(1) {
+div[id="message-mark-unread"] div[class^="iconContainer"]>svg path:nth-of-type(1),
+div[id="message-actions-mark-unread"] div[class^="iconContainer"]>svg path:nth-of-type(1) {
 	display: none;
 }
 
@@ -95,6 +121,7 @@ div[aria-label="New Group DM"]>svg>path:nth-of-type(1) {
 
 /* Edit Message */
 div[id="message-edit"] div[class^="iconContainer"],
+div[id="message-actions-edit"] div[class^="iconContainer"],
 div[aria-label="Message Actions"] div[aria-label="Edit"],
 div[id="guild-header-popout-change-nickname"]>div[class^="iconContainer"] {
 	background-image: url("https://discord.com/assets/fe96ae6b8d6103d2.svg");
@@ -105,6 +132,7 @@ div[id="guild-header-popout-change-nickname"]>div[class^="iconContainer"] {
 }
 
 div[id="message-edit"] div[class^="iconContainer"]>svg,
+div[id="message-actions-edit"] div[class^="iconContainer"]>svg,
 div[aria-label="Message Actions"] div[aria-label="Edit"]>svg path,
 div[id="guild-header-popout-change-nickname"]>div[class^="iconContainer"]>svg {
 	display: none;
@@ -112,12 +140,14 @@ div[id="guild-header-popout-change-nickname"]>div[class^="iconContainer"]>svg {
 
  /* Copy Link */
 div[role="menu"][aria-label="Message Actions"] 
-div[id="message-copy-link"] div[class^="iconContainer"] {
+div[id="message-copy-link"] div[class^="iconContainer"],
+div[id="message-actions-copy-link"] div[class^="iconContainer"] {
 	background-image: url("	https://discord.com/assets/ed3a958a3bb08d4a.svg");
 }
 
 div[role="menu"][aria-label="Message Actions"] 
-div[id="message-copy-link"] div[class^="iconContainer"]>svg {
+div[id="message-copy-link"] div[class^="iconContainer"]>svg,
+div[id="message-actions-copy-link"] div[class^="iconContainer"]>svg {
 	display: none;
 }
 
@@ -136,6 +166,15 @@ div[class^="toolbar__9293f"]>div[aria-label="Hide Member List"]>svg {
 /* Help Button */
 div[class^="toolbar__9293f"]>div[aria-label="Help"]>svg>path {
 	fill: #7289DA;
+}
+
+/* Search */
+[class^=searchBar]>[class^=icon]>[class^=iconContainer] {
+	background-image: url("https://discord.com/assets/74f0a67afb481b21.svg");
+}
+
+[class^=searchBar]>[class^=icon]>[class^=iconContainer] svg {
+	display: none;
 }
 
  /*---------------------------------------------------------------------------------------------*/
