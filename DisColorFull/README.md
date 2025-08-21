@@ -8,6 +8,10 @@ Limited Compatiblity with CollapsibleUI Plugin SVG's.
 
 Theme Author's are free to import for use within their own works.
 
+### To Do:
+Since this themelete currently uses a LOT of aria-labels, it will presently only work correctly on EN language users.
+Discord needs to data-type some things before this can become and International Themelete, sadly.
+
 ### Screenshots
 
 General Chatting Toolbar:</br>
