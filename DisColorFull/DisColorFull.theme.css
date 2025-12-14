@@ -1,21 +1,21 @@
 /**
 * @name DisColorFull SVG
 * @author Zacam
-* @version 1.3.4
+* @version 1.3.5
 * @description Fills in Discords bland SVG's with Color || Inspired by @NYRI4's `Discolored' Theme
 * @source https://github.com/Zacam/BetterDiscord/tree/main/DisColorFull
 */
 
 /* Main Titlebar */
 /* Inbox */
-[class^="clickable_"]:has(svg) {
+:is([class^="trailing"],[class^="toolbar__9293f"]) [class^="clickable_"]:has(svg) {
 	background-image: url("https://discord.com/assets/a4c4a23d67f9f4cb.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-[class^="clickable_"] svg>path,
+:is([class^="trailing"],[class^="toolbar__9293f"]) [class^="clickable_"] svg>path,
 svg[class^="inbox"] {
 	display: none;
 }
@@ -162,6 +162,7 @@ svg>path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0"] {
 /**</Toolbar>/
 
 /* Avatar Wrapper - VC */
+ /* Colorize the VC Area */
  /* Krisp */
 [class*="voiceButtonsContainer"]>button:first-of-type svg g>path {
 	fill: #ffa500 !important;
@@ -171,7 +172,7 @@ svg>path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0"] {
 	fill: var(--status-danger) !important;
 }
 
- /* Server Channel List - VC User Indicators */
+ /* Server Channel List - Voice User Indicators */
 [class^="voiceUser"] [class^="iconGroup"]:first-of-type {
 	svg:has(path[d^="m2.7 22.7 20-20a1 1 0 0 0-1.4-1.4l-20 20a1"]),
 	svg:has(path[d^="M22.7 2.7a1 1 0 0 0-1.4-1.4l-20 20a1"]) {
