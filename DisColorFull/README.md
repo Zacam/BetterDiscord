@@ -23,8 +23,8 @@ General Toolbar in DM's:</br>
 Server Drop Down Menu:</br>
 ![](ServerDrop.png)
 
-User Panel on connected to VC:</br>
+Avatar Wrapper - Connected:</br>
 ![](User-VC.png)
 
-VC Action Bar:</br>
+Server Channel Mute/Deafen:</br>
 ![](VC-Bar.png)
