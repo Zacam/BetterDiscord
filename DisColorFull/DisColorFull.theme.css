@@ -1,26 +1,26 @@
 /**
 * @name DisColorFull SVG
 * @author Zacam
-* @version 1.3.6
+* @version 1.3.7
 * @description Fills in Discords bland SVG's with Color || Inspired by @NYRI4's `Discolored' Theme
 * @source https://github.com/Zacam/BetterDiscord/tree/main/DisColorFull
 */
 
 /* Main Titlebar */
-/* Inbox */
-:is([class^="trailing"],[class^="toolbar__9293f"]) [class^="clickable_"]:has(svg) {
+ /* Inbox */
+:is([class*="-trailing"],[class*="-toolbar"]) [class*="-clickable"]:not([class*="-iconWrapper"]) {
 	background-image: url("https://discord.com/assets/a4c4a23d67f9f4cb.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-:is([class^="trailing"],[class^="toolbar__9293f"]) [class^="clickable_"] svg>path,
-svg[class^="inbox"] {
+:is([class*="-trailing"],[class*="-toolbar"]) [class*="-clickable"]:not([class*="-iconWrapper"]) svg>path,
+svg[class*="-inbox"] {
 	display: none;
 }
 
-div:has(>svg[class^="inbox"]) {
+div:has(>svg[class*="-inbox"]) {
 	background-image: url("https://discord.com/assets/a4c4a23d67f9f4cb.svg");
 	background-size: 18px;
 	background-position: left;
@@ -32,26 +32,23 @@ div[id*="popout_"] h1[class*="inboxTitle"] {
 }
 
  /* Checkpoint */
-[class^="trailing"]>[class^="button_"],
-.toolbar__9293f [class^="buttons_"]>[class^="button_"] {
+:is([class*="trailing"], [class*="toolbar"]) [class*="button"]:has(>svg>path[d*="M5.1 1a2.1 2.1 0 0 1 1.8 3.14h14.05c.84"]) {
 	background-image: url("https://discord.com/assets/e5333cf49e7d6d2b.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-[class^="trailing"]>[class^="button_"],
-.toolbar__9293f [class^="buttons_"]>[class^="button_"] {
-	svg>path {
+:is([class*="trailing"], [class*="toolbar"]) [class*="button"] {
+	>svg:has(>path[d*="M5.1 1a2.1 2.1 0 0 1 1.8 3.14h14.05c.84"]) {
 		display: none;
 	}
 }
 
  /* Help Button */
 a[href="https://support.discord.com"] svg>path {
-	fill: #7289DA;
-}
-/*</Main Titlebar>*/
+	fill: #7289DA !important;
+}/*</Main Titlebar>*/
 
 /* Tiny + on Invites/Events etc */
 svg>path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0"] {
@@ -59,20 +56,24 @@ svg>path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0"] {
 }
 
 /* Toolbar */
-/* Search */
-[class^="searchBar"] [class^="icon"]>svg {
+ /* Search */
+[class*="-searchBar"] [class*="-icon"] svg:first-of-type {
 	background-image: url("https://discord.com/assets/74f0a67afb481b21.svg");
 	background-size: 16px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-[class^="searchBar"] [class^="icon"] svg>path {
+[class*="-searchBar"] [class*="-icon"] svg:first-of-type>path {
 	display: none;
 }
 
-/* Threads */
-.toolbar__9293f>[class^="icon"]:has(>svg>path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"]) {
+[class*="-searchBar"] [class*="-icon"] svg>path[d^="M17.3 18.7a1 1 0 0 0 1.4-1.4L13.42 12l5"] {
+	fill: rgb(216, 58, 66);
+}
+
+ /* Threads */
+[class*="-toolbar"]>[class*="-icon"]:has(>svg>path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"]) {
 	background-image: url("https://discord.com/assets/5f5b447d1ae0cba4.svg");
 	background-size: 16px;
 	background-position: center;
@@ -80,12 +81,12 @@ svg>path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0"] {
 	transform: rotate(45deg);
 }
 
-.toolbar__9293f>[class^="icon"]>svg:has(>path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"]) {
+[class*="-toolbar"]>[class*="-icon"]>svg:has(>path[d^="M12 2.81a1 1 0 0 1 0-1.41l.36-.36a1"]) {
 	display: none;
 }
 
-/* Notification Bell */
-.toolbar__9293f>[class^="iconWrapper"]:has(>svg>path[d^="M1.3 21.3a1 1 0 1 0 1.4 1.4l20-20a1"]) {
+ /* Notification Bell */
+[class*="-toolbar"]>[class*="-icon"]:has(>svg>path[d^="M1.3 21.3a1 1 0 1 0 1.4 1.4l20-20a1"]) {
 	background-image: url("https://discord.com/assets/ca750a2b73e36154.svg");
 	background-size: 18px;
 	background-position: center;
@@ -93,76 +94,75 @@ svg>path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0"] {
 	transform: scaleX(-1);
 }
 
-.toolbar__9293f>[class^="iconWrapper"]>svg:has(>path[d^="M1.3 21.3a1 1 0 1 0 1.4 1.4l20-20a1"]) {
+[class*="-toolbar"]>[class*="-icon"]>svg:has(>path[d^="M1.3 21.3a1 1 0 1 0 1.4 1.4l20-20a1"]) {
 	display: none;
 }
 
-/* Pin Message */
-.toolbar__9293f>[class^="iconWrapper"]:has(>svg path[d^="M19.38 11.38a3 3 0 0 0 4.24 0l.03-.03a.5.5 0 0 0 0-.7L13.35.35a.5.5"]) {
+ /* Pin Message */
+[class*="-toolbar"]>[class*="-icon"]:has(>svg path[d^="M19.38 11.38a3 3 0 0 0 4.24 0l.03-.03a.5.5 0 0 0 0-.7L13.35.35a.5.5"]) {
 	background-image: url("https://discord.com/assets/c7ba45651998dd2c.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.toolbar__9293f>[class^="iconWrapper"]>svg:has(path[d^="M19.38 11.38a3 3 0 0 0 4.24 0l.03-.03a.5.5 0 0 0 0-.7L13.35.35a.5.5"]) {
+[class*="-toolbar"]>[class*="-icon"]>svg:has(path[d^="M19.38 11.38a3 3 0 0 0 4.24 0l.03-.03a.5.5 0 0 0 0-.7L13.35.35a.5.5"]) {
 	display: none;
 }
 
-/* Show/Hide Member List */
-.toolbar__9293f>[class^="iconWrapper"]:has(>svg>path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5"]) {
+ /* Show/Hide Member List */
+[class*="-toolbar"]>[class*="-icon"]:has(>svg>path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5"]) {
 	background-image: url("https://discord.com/assets/be8706c9515e4e6e.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.toolbar__9293f>[class^="iconWrapper"]>svg:has(>path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5"]) {
+[class*="-toolbar"]>[class*="-icon"]>svg:has(>path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5"]) {
 	display: none;
 }
 
-/* Start Voice Call */
-.toolbar__9293f>[class^="iconWrapper"]>svg>path[d^="M2 7.4A5.4 5.4 0 0 1 7.4 2c.36 0 .7.22.83.55l1.93 4.64a1"],
-.toolbar__9293f>[class^="iconWrapper"]>svg>path[d^="M13 7a1 1 0 0 1 1-1 4 4 0 0 1 4 4 1 1 0 1 1-2 0 2 2 0 0 0-2-2 1 1 0 0 1-1-1Z"] {
+ /* Start Voice Call */
+[class*="-toolbar"]>[class*="-icon"]>svg>path[d^="M2 7.4A5.4 5.4 0 0 1 7.4 2c.36 0 .7.22.83.55l1.93 4.64a1"],
+[class*="-toolbar"]>[class*="-icon"]>svg>path[d^="M13 7a1 1 0 0 1 1-1 4 4 0 0 1 4 4 1 1 0 1 1-2 0 2 2 0 0 0-2-2 1 1 0 0 1-1-1Z"] {
 	fill: #3AA55C;
 }
 
-/* Start Video Call */
-.toolbar__9293f>[class^="iconWrapper"]:has(>svg>path[d^="M4 4a3 3 0 0 0-3 3v10a3"]) {
+ /* Start Video Call */
+[class*="-toolbar"]>[class*="-icon"]:has(>svg>path[d^="M4 4a3 3 0 0 0-3 3v10a3"]) {
 	background-image: url("https://discord.com/assets/d1612a30f6f75120.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.toolbar__9293f>[class^="iconWrapper"]>svg:has(>path[d^="M4 4a3 3 0 0 0-3 3v10a3"]) {
+[class*="-toolbar"]>[class*="-icon"]>svg:has(>path[d^="M4 4a3 3 0 0 0-3 3v10a3"]) {
 	display: none;
 }
 
-/* Hide User Profile */
-.toolbar__9293f>[class^="iconWrapper"]>svg>path[d^="M23 12.38c-.02.38-.45.58-.78.4a6.97 6.97 0 0 0-6.27-.08.54.54"] {
+ /* Hide User Profile */
+[class*="-toolbar"]>[class*="-icon"]>svg>path[d^="M23 12.38c-.02.38-.45.58-.78.4a6.97 6.97 0 0 0-6.27-.08.54.54"] {
 	fill: #7289DA;
 }
 
-.toolbar__9293f>[class^="iconWrapper"][class*="selected"]>svg path[d="M24 19a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"] {
+[class*="-toolbar"]>[class*="-icon"][class*="selected"]>svg path[d="M24 19a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"] {
 	fill: #A48BE2;
 }
 
-/* Friends List : New Group DM */
-.inviteToolbar__133bf>[class^="iconWrapper"]:has(>svg>path[d^="M20.76 12.57c.4.3 1.23.13 1.24-.37V12a10"]) {
+ /* Friends List : New Group DM */
+[class*="inviteToolbar"]>[class*="-icon"] {
 	background-image: url("https://discord.com/assets/e121c79c0d9d21e5.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.inviteToolbar__133bf>[class^="iconWrapper"]>svg>path[d^="M20.76 12.57c.4.3 1.23.13 1.24-.37V12a10"] {
+[class*="inviteToolbar"]>[class*="icon"]>svg>path[d^="M20.76 12.57c.4.3 1.23.13 1.24-.37V12a10"] {
 	display: none;
-}
-/**</Toolbar>/
+}/**</Toolbar>/
 
 /* Avatar Wrapper - VC */
- /* Krisp */
+  /* Krisp */
 [class*="voiceButtonsContainer"]>button:first-of-type svg g>path {
 	fill: #ffa500 !important;
 }
@@ -172,35 +172,34 @@ svg>path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0"] {
 }
 
  /* Server Channel List - Voice User Indicators */
-[class^="voiceUser"] [class^="iconGroup"]:first-of-type {
+[class*="voiceUser"] [class*="iconGroup"]:first-of-type {
 	svg:has(path[d^="m2.7 22.7 20-20a1 1 0 0 0-1.4-1.4l-20 20a1"]),
 	svg:has(path[d^="M22.7 2.7a1 1 0 0 0-1.4-1.4l-20 20a1"]) {
 		color: var(--status-danger) !important;
 	}
-}
-/*</Avatar Wrapper - VC>*/
+}/*</Avatar Wrapper - VC>*/
 
 /* BetterFriendList - Friend Since */
-.peopleListItem_cc6179 [class^="actions"] [class^="actionButton"]:has(>svg[name="Clock"]) {
+[class*="peopleListItem"] [class*="actions"]>[class*="actionButton"]:has(>svg[name="Clock"]) {
 	background-image: url("https://discord.com/assets/4b5b72e2e8203486.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.peopleListItem_cc6179 [class^="actions"] [class^="actionButton"]>svg[name="Clock"]:has(>path) {
+[class*="peopleListItem"] [class*="actions"]>[class*="actionButton"]>svg[name="Clock"]:has(>path) {
 	display: none;
 }
 
 /* Friend List - "Message" */
-.peopleListItem_cc6179 [class^="actions"]>[class^="actionButton"]:has(>svg>path[d="M12 22a10 10 0 1 0-8.45-4.64c.13.19.11.44-.04.61l-2.06 2.37A1 1 0 0 0 2.2 22H12Z"]) {
+[class*="peopleListItem"] [class*="actions"]>[class*="actionButton"]:has(>svg>path[d="M12 22a10 10 0 1 0-8.45-4.64c.13.19.11.44-.04.61l-2.06 2.37A1 1 0 0 0 2.2 22H12Z"]) {
 	background-image: url("https://discord.com/assets/e121c79c0d9d21e5.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.peopleListItem_cc6179 [class^="actions"] [class^="actionButton"]>svg:has(>path[d="M12 22a10 10 0 1 0-8.45-4.64c.13.19.11.44-.04.61l-2.06 2.37A1 1 0 0 0 2.2 22H12Z"]) {
+[class*="peopleListItem"] [class*="actions"]>[class*="actionButton"]>svg:has(>path[d="M12 22a10 10 0 1 0-8.45-4.64c.13.19.11.44-.04.61l-2.06 2.37A1 1 0 0 0 2.2 22H12Z"]) {
 	display: none;
 }
 
@@ -284,4 +283,61 @@ svg>path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0"] {
 
 #guild-header-popout-change-nickname svg:has(path) {
 	display: none;
+}
+
+/* Connections */
+ /* Steam */
+button[style*="/assets/1f7ec18f3695d4cf.svg"] {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg") !important;
+}
+
+img[alt^="Steam"] {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 32px;
+	display: block;
+	box-sizing: border-box;
+	padding-left: 38px;
+}
+
+ /* Playstation */
+div[id*="context-transfer-playstation"]>div[class$="-iconContainer"]:has(svg) {
+background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
+	background-size: 24px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+div[id*="context-transfer-playstation"]>div[class$="-iconContainer"] svg:has(path) {
+	display: none;
+}
+
+button[style*="/assets/eed203a7ec517e23.svg"] {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg") !important;
+}
+
+img[src="/assets/eed203a7ec517e23.svg"] {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 32px;
+	display: block;
+	box-sizing: border-box;
+	padding-left: 38px;
+}
+
+ /* Twitter */
+button[style*="/assets/a61999ae9bfb9658.svg"] {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg") !important;
+}
+
+img[src="/assets/a61999ae9bfb9658.svg"] {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 32px;
+	display: block;
+	box-sizing: border-box;
+	padding-left: 38px;
 }
