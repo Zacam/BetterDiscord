@@ -621,6 +621,11 @@ nav._5e434347c823b592-guilds {
   /* optionally hide the bar at bottom of server list */
 ._5e434347c823b592-sidebar:after {
 	display: none;
+}
+
+ /* Shrink Padding when on VC */
+._5e434347c823b592-panels .e131a99484292a19-container {
+	padding-bottom: 0px;
 }/*</Avatar Wrapper>*/
 
 /* Chat Body                                                                                                    */
