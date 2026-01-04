@@ -172,6 +172,12 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 [class*="oneByOneGrid"],
 [class^="imageWrapper"] {
 	border-radius: 0px !important;
+}
+
+ /* Popout Container */
+#popout_15494>div>div {
+	border: 2px groove var(--oPur-42) !important;
+	border-radius: 12px;
 }/*</General Discord>*/
 
 /* Settings Panel                                                                                               */
