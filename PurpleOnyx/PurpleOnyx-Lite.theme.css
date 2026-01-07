@@ -86,6 +86,13 @@ button._201d5e8a3c09670a-button._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-c
 	background: var(--oPur-64);
 }
 
+footer._8a031a135bfcb9ba-actionBar button {
+	background: var(--oPur-64);
+	&:hover {
+		background: var(--oPur-32);
+	}
+}
+
  /* CHeck Boxes */
 div[class*="checkbox"][class*="checked"] {
 	background-color: var(--oPur-64);
