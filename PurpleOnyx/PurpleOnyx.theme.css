@@ -74,9 +74,6 @@
 	--spoiler-hidden-background-hover: var(--oPur-32) !important;
 	--__current--spoiler-background-color: var(--oPur-32) !important;
 	--__spoiler-background-color--revealed: var(--oPur-21) !important;
- /* Plugins Fix */
-	--interactive-normal: currentColor;
-	--interactive-hover: var(--interactive-icon-hover);
 }
 
 /* Better Discord overrides                                                                                     */
@@ -350,7 +347,7 @@ div[class^="toolbar"] svg>path[d^="M 19.2,3 12,10.2"] {
   /* Re-Iconify Search from Aurora (@riddim_glitch) */
 ._9293f6b2fc12398a-upperContainer ._9293f6b2fc12398a-toolbar ._496769951eb140fe-search {
 	order: -1;
-	._974928fe84ca9647-searchBar {
+	.c322aadb96ff59c9-searchBar {
 		/* Make the default state only show an icon that can be clicked. */
 		transition: all ease 0.3s;
 		width: 25px;
@@ -359,11 +356,11 @@ div[class^="toolbar"] svg>path[d^="M 19.2,3 12,10.2"] {
 		background: none;
 		border: none;
 		padding: 0;
-		._974928fe84ca9647-icon {
+		.c322aadb96ff59c9-icon {
 			cursor: pointer;
 		}
 	}
-	._974928fe84ca9647-focused ._974928fe84ca9647-searchBar, ._974928fe84ca9647-open ._974928fe84ca9647-searchBar {
+	.c322aadb96ff59c9-focused .c322aadb96ff59c9-searchBar, .c322aadb96ff59c9-open .c322aadb96ff59c9-searchBar {
 		/* Expand the search bar when focused, and keep it expanded when text is entered. */
 		width: 225px;
 		box-sizing: border-box;
@@ -371,24 +368,24 @@ div[class^="toolbar"] svg>path[d^="M 19.2,3 12,10.2"] {
 		background: var(--input-background-default);
 		border: 2px solid var(--border-active);
 		padding: 2px 0;
-		._974928fe84ca9647-icon {
+		.c322aadb96ff59c9-icon {
 			cursor: pointer;
 		}
 	}
 }
 
   /* Search Results Header */
-.f3b986a284a18c78-totalResults>div[style="color: var(--text-strong);"]{
+.ae7890a1b8e75804-totalResults>div[style="color: var(--text-strong);"]{
 	color: var(--oPur-84) !important;
 }
 
   /* Search "Jump to Post" Button */
-[id^="search-results"]>._02a39cb2980ceaaf-buttonsContainer>._02a39cb2980ceaaf-button {
-	border: 1px groove var(--border-active) !important;
+[id^="search-results"]>._80bf8435713f6adb-buttonsContainer>._80bf8435713f6adb-button {
+	border: 1px solid var(--border-active) !important;
 	color: var(--oPur-64) !important;
 	&:hover
 	{
-		border: 1px groove var(--oPurple) !important;
+		border: 1px solid var(--oPurple) !important;
 		color: var(--oPurple) !important;
 	}
 }
@@ -411,11 +408,12 @@ div[class^="toolbar"] svg>path[d^="M 19.2,3 12,10.2"] {
 }
 
   /* ManaPageSwitcher Overrides */
- ._86c0fae6715927dc-container {
+ ._3f123bbf537a483c-container {
 	margin-bottom: unset !important;
 }
 
-._86c0fae6715927dc-container:has(nav.c1521037ef09de7e-pageControl) {
+header.ae7890a1b8e75804-searchHeader,
+.a98f3b020416ad54-searchResultsWrap .b82a71028a53dcf8-container {
 	border: 2px groove var(--border-active) !important;
 }
 
@@ -893,7 +891,7 @@ main ol[data-list-id="chat-messages"] li:has(._5126c0cd07f243a0-groupStart):befo
 /* Members List                                                                                                 */
 aside.c8ffbb79449f399c-membersWrap {
 	.c8ffbb79449f399c-members {
-		padding-bottom: 48px;
+		padding-bottom: var(--custom-app-panels-height);
 	}
 	.d125d22cdfd32cfe-content {
 		height: unset !important;
@@ -915,6 +913,9 @@ h3.c8ffbb79449f399c-membersGroup {
 		text-decoration-line: underline;
 		text-decoration-color: inherit;
 		text-decoration-style: double;
+	}
+	.c8ffbb79449f399c-membersGroupHeader {
+		display: inline;
 	}
 }/*</Members List>*/
 
