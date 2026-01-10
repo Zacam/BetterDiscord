@@ -375,16 +375,6 @@ header.ae7890a1b8e75804-searchHeader,
 /*</Toolbar>*/
 
 /* Profiles                                                                                                     */
- /* Remove Invisible status active Warning indicator */
-.caf8029394395f0b-container:has(.b18fe29d6fe8dd82-hiddenVisually)>svg {
-	display: none;
-}
-
- /* Remove the Muted Bell from DnD */
-.ce832809562bf737-menuItemLabel>svg {
-	display: none;
-}
-
  /* "Verified" Check on Connections */
 svg._3e3b0b1c0f688f9e-flowerStar>path {
 	fill: var(--oPur-64) !important;
@@ -574,9 +564,14 @@ section._5e434347c823b592-panels {
 	border: 1px solid var(--oPur-42);
 }
 
- /* SimplifiedUserMenu Width Alignment */
-#account-panel {
-	width: 225px !important;
+ /* Remove Invisible status active Warning indicator */
+.caf8029394395f0b-container:has(.b18fe29d6fe8dd82-hiddenVisually)>svg {
+	display: none;
+}
+
+ /* Remove the Muted Bell from DnD */
+.ce832809562bf737-menuItemLabel>svg {
+	display: none;
 }
 
  /* UserMenu */
