@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx Lite
  * @author Zacam
- * @version 9
+ * @version 9.1
  * @description Purple Accented NewUI Onyx Compact | Lite (No Imports/Plugins)
 */
 
@@ -26,12 +26,14 @@
 	--app-frame-border: var(--oPur-42) !important;
 	--border-active: var(--oPur-64) !important;
 	--border-subtle: var(--oPur-32) !important;
+	--checkbox-background-selected-default: var(--oPur-64) !important;
 	--input-border-default: var(--oPur-32) !important;
 	--input-border-hover: var(--oPur-42) !important;
 	--input-border-active: var(--oPur-64) !important;
 	--mention-foreground: rgb(164,128,226) !important;
 	--message-mentioned-background-default: rgba(164,128,226,0.05) !important;
 	--message-mentioned-background-hover: rgba(164,128,226,0.05) !important;
+	--radio-background-selected-default: var(--oPur-64) !important;
 	--spoiler-hidden-background: rgba(164,128,226,0.11) !important;
 	--spoiler-hidden-background-hover: var(--oPur-32) !important;
 	--__current--spoiler-background-color: var(--oPur-32) !important;
@@ -126,7 +128,10 @@ border-color: var(--oPur-42) !important;
 
  /* Number Badges */
 ._2b1f52e43a8f1c02-numberBadge {
-	background-color: rgba(164,128,226,0.5) !important;
+	--badge-notification-background: rgba(164,128,226,0.5);
+	&[style^="background-color: var(--status-danger);"] {
+		--status-danger: rgba(164,128,226,0.5);
+	}
 }
 
  /* Radio Dots */
@@ -144,8 +149,9 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 }
 
  /* Switches */
+.a2827844fe91d55f-switchIndicator[style*="background-color: rgb(88, 101, 242)"],
 ._3f21e80f8677ec40-container._3f21e80f8677ec40-checked {
-	background-color: var(--oPur-64) !important;;
+	background-color: var(--oPur-64) !important;
 }
 
  /* Text Hyperlinks */
@@ -396,11 +402,6 @@ svg._3e3b0b1c0f688f9e-flowerStar>path {
 }/*</Profiles>*/
 
 /* Servers Panel                                                                                                */
-nav .ef3116c2da186559-unreadMentionsIndicatorTop,
-nav .ef3116c2da186559-unreadMentionsIndicatorBottom {
-	display: none;
-}
-
  /* Separator */
 ._252b6afd49fda06f-guildSeparator {
 	background-color: var(--oPur-64) !important;
@@ -413,6 +414,11 @@ nav .ef3116c2da186559-unreadMentionsIndicatorBottom {
 	svg._2b1f52e43a8f1c02-icon {
 		color: var(--rs-online-color) !important;
 	}
+}
+
+.cc5dd25190031396-lowerBadge{
+	--badge-notification-background: rgba(164,128,226,0.5);
+	--background-feedback-notification: rgba(164,128,226,0.5);
 }
 
 ._650eb104245d257b-iconBadge._650eb104245d257b-isCurrentUserConnected {
@@ -836,15 +842,6 @@ main ol[data-list-id="chat-messages"] li:has(._5126c0cd07f243a0-groupStart):befo
 }/*</VC>*/
 
 /* Members List                                                                                                 */
-aside.c8ffbb79449f399c-membersWrap {
-	.c8ffbb79449f399c-members {
-		padding-bottom: var(--custom-app-panels-height);
-	}
-	.d125d22cdfd32cfe-content {
-		height: unset !important;
-	}
-}
-
 .c8ffbb79449f399c-container {
 	border-left-color: var(--border-active);
 }
