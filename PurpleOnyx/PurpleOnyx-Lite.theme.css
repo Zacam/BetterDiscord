@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx Lite
  * @author Zacam
- * @version 9.1
+ * @version 9.2
  * @description Purple Accented NewUI Onyx Compact | Lite (No Imports/Plugins)
 */
 
@@ -27,6 +27,7 @@
 	--border-active: var(--oPur-64) !important;
 	--border-subtle: var(--oPur-32) !important;
 	--checkbox-background-selected-default: var(--oPur-64) !important;
+	--checkbox-background-selected-hover: var(--oPur-42) !important;
 	--input-border-default: var(--oPur-32) !important;
 	--input-border-hover: var(--oPur-42) !important;
 	--input-border-active: var(--oPur-64) !important;
@@ -84,20 +85,25 @@ input:not([readOnly]):focus {
 
  /* Buttons */
 button.a22cb0c66246f5d3-button.a22cb0c66246f5d3-sm.a22cb0c66246f5d3-primary.a22cb0c66246f5d3-hasText,
-button._201d5e8a3c09670a-button._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand._201d5e8a3c09670a-sizeSmall._201d5e8a3c09670a-grow {
-	background: var(--oPur-64);
+button.a22cb0c66246f5d3-button.a22cb0c66246f5d3-sm.a22cb0c66246f5d3-secondary,
+button._201d5e8a3c09670a-button._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand._201d5e8a3c09670a-sizeSmall._201d5e8a3c09670a-grow,
+button._201d5e8a3c09670a-button._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand._201d5e8a3c09670a-sizeMedium._201d5e8a3c09670a-grow {
+	background: var(--oPur-42);
 }
 
 footer._8a031a135bfcb9ba-actionBar button {
 	background: var(--oPur-64);
 	&:hover {
-		background: var(--oPur-32);
+		background: var(--oPur-42);
 	}
 }
 
  /* CHeck Boxes */
 div[class*="checkbox"][class*="checked"] {
 	background-color: var(--oPur-64);
+	&:hover {
+		background-color: var(--oPur-42);
+	}
 }
 
  /* Minimal Menu Size */
@@ -128,10 +134,10 @@ border-color: var(--oPur-42) !important;
 
  /* Number Badges */
 ._2b1f52e43a8f1c02-numberBadge {
+	--background-accent: rgba(164,128,226,0.5);
+	--background-feedback-notification: rgba(164,128,226,0.5);
 	--badge-notification-background: rgba(164,128,226,0.5);
-	&[style^="background-color: var(--status-danger);"] {
-		--status-danger: rgba(164,128,226,0.5);
-	}
+	--status-danger: rgba(164,128,226,0.5);
 }
 
  /* Radio Dots */
@@ -152,6 +158,10 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 .a2827844fe91d55f-switchIndicator[style*="background-color: rgb(88, 101, 242)"],
 ._3f21e80f8677ec40-container._3f21e80f8677ec40-checked {
 	background-color: var(--oPur-64) !important;
+}
+
+.a2827844fe91d55f-switchIndicator[style*="background-color: rgba(0, 0, 0, 0.12);"] {
+	background-color: #72767d !important;
 }
 
  /* Text Hyperlinks */
@@ -198,14 +208,14 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 	margin-block: 21px 21px;
 }
 
-._6131ab3dbe0affed-panel [role="tablist"]>.aa8da23faa27393c-selected {
+.d6f9e90c3456ac40-tabBarItem.aa8da23faa27393c-item.aa8da23faa27393c-brand.aa8da23faa27393c-selected {
 	color: var(--oPur-64) !important;
 	&::after {
 		background-color: var(--oPur-64) !important;
 	}
 }
 
-._6131ab3dbe0affed-panel [role="tablist"]>.f8303a11ec48bef3-tab:hover {
+.d6f9e90c3456ac40-tabBarItem.aa8da23faa27393c-item.aa8da23faa27393c-brand:hover {
 	&::after {
 		background-color: var(--oPur-84) !important;
 	}
@@ -249,6 +259,7 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 
  /* Pinned Messages / Inbox Notification Pip */
 ._9293f6b2fc12398a-iconBadgeBottom,
+._6fddf2ee3574a18a-unread,
 .c99c29809d200a61-badge {
 	background-color: var(--oPurple);
 }
@@ -782,6 +793,11 @@ main ol[data-list-id="chat-messages"] li:has(._5126c0cd07f243a0-groupStart):befo
 }
 .b8880176888cc928-typingDots>.b8880176888cc928-text {
 	margin-left: 4px !important;
+}
+
+ /* Slowmode Indicator */
+.b216994de061a9e2-cooldownWrapper {
+	padding-inline-end: 22px;
 }
 
  /* Message Reply Mention Toggle */
