@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx
  * @author Zacam
- * @version 9.2
+ * @version 9.3
  * @description Purple Accented NewUI Onyx Compact
 */
 
@@ -553,6 +553,11 @@ nav .f37cb1984c371ee5-header {
  /* Remove Avatars from VC Users */
 ._07f9193042954787-voiceUser ._55bab3f0b2555838-userAvatar {
 	display: none;
+}
+
+ /* Collapsed VC Summary SVG Color */
+._629e4c86564a4ee7-voiceUserSummary ._183c2cc3c55377b0-icon {
+	color: var(--text-feedback-positive);
 }
 
  /* Channel Groups Headers */
