@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx
  * @author Zacam
- * @version 9.3
+ * @version 9.4
  * @description Purple Accented NewUI Onyx Compact
 */
 
@@ -124,8 +124,7 @@ input:not([readOnly]):focus {
  /* Buttons */
 button.a22cb0c66246f5d3-button.a22cb0c66246f5d3-sm.a22cb0c66246f5d3-primary.a22cb0c66246f5d3-hasText,
 button.a22cb0c66246f5d3-button.a22cb0c66246f5d3-sm.a22cb0c66246f5d3-secondary,
-button._201d5e8a3c09670a-button._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand._201d5e8a3c09670a-sizeSmall._201d5e8a3c09670a-grow,
-button._201d5e8a3c09670a-button._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand._201d5e8a3c09670a-sizeMedium._201d5e8a3c09670a-grow {
+button._201d5e8a3c09670a-button._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand {
 	background: var(--oPur-42);
 }
 
@@ -458,6 +457,17 @@ svg._3e3b0b1c0f688f9e-flowerStar>path {
 	/* Clip the color to text only */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+/* Timezones Plugin Customization */
+.timezone-badge {
+	background-color: rgba(11,11,11,.55);
+	color: var(--text-default);
+	font-weight: 600;
+	top: unset;
+	bottom: 8px;
+	left: unset;
+	right: 12px;
 }/*</Profiles>*/
 
 /* Servers Panel                                                                                                */
@@ -586,6 +596,10 @@ nav .f37cb1984c371ee5-header {
 }
 
  /* Selected Channel */
+.c69b6db0641110f6-containerDefault.c69b6db0641110f6-selected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant {
+	background-color: var(--oPurple) !important;
+}
+
 ._2ea32c412048f708-modeSelected ._2ea32c412048f708-link {
 	background: var(--interactive-background-hover) !important;
 }
@@ -939,17 +953,6 @@ h3.c8ffbb79449f399c-membersGroup {
 
 /* DMs                                                                                                          */
  /* Friend List */
-  /* Radial Status Header Spacing Fix */
-._44b0c28be7879b7b-wrapper.f75fb00fb7356cbe-avatar {
-	margin-left: var(--rs-small-width);
-}
-
-  /* Radial Status Avatar Size Fix */
-._44b0c28be7879b7b-wrapper[style*="20px"] foreignObject[mask*=svg-mask-avatar-status-round-20] {
-	width: 25px;
-	height: 25px;
-}
-
   /* Selected "Tab" */
 ._133bf5eea8e33a34-tabBar .aa8da23faa27393c-selected {
 	background-color: var(--oPur-21) !important;

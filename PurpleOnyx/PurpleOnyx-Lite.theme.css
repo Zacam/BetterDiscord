@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx Lite
  * @author Zacam
- * @version 9.3
+ * @version 9.4
  * @description Purple Accented NewUI Onyx Compact | Lite (No Imports/Plugins)
 */
 
@@ -86,8 +86,7 @@ input:not([readOnly]):focus {
  /* Buttons */
 button.a22cb0c66246f5d3-button.a22cb0c66246f5d3-sm.a22cb0c66246f5d3-primary.a22cb0c66246f5d3-hasText,
 button.a22cb0c66246f5d3-button.a22cb0c66246f5d3-sm.a22cb0c66246f5d3-secondary,
-button._201d5e8a3c09670a-button._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand._201d5e8a3c09670a-sizeSmall._201d5e8a3c09670a-grow,
-button._201d5e8a3c09670a-button._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand._201d5e8a3c09670a-sizeMedium._201d5e8a3c09670a-grow {
+button._201d5e8a3c09670a-button._201d5e8a3c09670a-lookFilled._201d5e8a3c09670a-colorBrand {
 	background: var(--oPur-42);
 }
 
@@ -538,6 +537,10 @@ nav .f37cb1984c371ee5-header {
 }
 
  /* Selected Channel */
+.c69b6db0641110f6-containerDefault.c69b6db0641110f6-selected ._2ea32c412048f708-unread._2ea32c412048f708-unreadImportant {
+	background-color: var(--oPurple) !important;
+}
+
 ._2ea32c412048f708-modeSelected ._2ea32c412048f708-link {
 	background: var(--interactive-background-hover) !important;
 }
