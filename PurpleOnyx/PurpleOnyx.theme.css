@@ -428,7 +428,7 @@ div[class^="toolbar"] svg>path[d^="M 19.2,3 12,10.2"] {
 }
 
   /* ManaPageSwitcher Overrides */
- .container__3f123 {
+.container_b82a71 {
 	margin-bottom: unset !important;
 }
 
@@ -438,7 +438,7 @@ header.searchHeader_ae7890,
 }
 
 .pageControl_c15210 {
-	height: 48px !important;
+	height: var(--custom-app-panels-height) !important;
 }/*<Search>*/
 /*</Toolbar>*/
 
