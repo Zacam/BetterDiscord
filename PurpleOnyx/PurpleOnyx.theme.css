@@ -881,7 +881,7 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 }
 
  /* Chennel Mentioned */
-.message__5126c :is(.mention, .channelMention, .roleMention__75297) {
+:is(.mention, .channelMention, .roleMention__75297) {
 	background-color: unset !important;
 	&:hover {
 		background-color: unset;
