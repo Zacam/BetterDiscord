@@ -542,6 +542,11 @@ nav>#channels {
 	}
 }
 
+ /* Remove Side Border */
+.sidebarList__5e434 {
+	border-left: unset;
+}
+
  /* Unset Channel List fixed height */
 nav>#channels>ul.content_d125d2 {
 	height: unset !important;
