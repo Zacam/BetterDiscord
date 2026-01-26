@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx Lite
  * @author Zacam
- * @version 1.9.5
+ * @version 1.9.6
  * @description Purple Accented NewUI Onyx Compact | Lite (No Imports/Plugins)
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -522,7 +522,7 @@ nav .header_f37cb1 {
 }
 
  /* More Active Posts Popout */
-.layer__59d0d>div:not(.menu_c1e9c4)>div:not(.menu_c1e9c4) {
+.layer__59d0d>div.didRender_faf9c0>div:not(.menu_c1e9c4) {
 	border: 1px dashed var(--oPur-64);
 	>.title__76f04 {
 		--text-default: var(--oPurple);
@@ -615,6 +615,12 @@ section.panels__5e434 {
 	fill: var(--oPurple);
 }
 
+ /* Clean up Sub Menu Padding */
+.submenuPaddingContainer_ce8328 {
+	padding: unset;
+}
+
+ /* Stop Status Colors from Flickering when hovering */
 foreignObject[mask="url(#svg-mask-status-online)"]>div[class^="status"][style="background-color: currentcolor;"] {
 	background-color: rgb(67, 162, 90) !important;
 }
@@ -629,6 +635,15 @@ foreignObject[mask="url(#svg-mask-status-dnd)"]>div[class^="status"][style="back
 
 foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="background-color: currentcolor;"] {
 	background-color: rgb(130, 131, 139) !important;
+}
+
+ /* Remove Status Selection submenu */
+.menu_c1e9c4[id="set-status-submenu"] .submenuPaddingContainer_c1e9c4 {
+	display: none;
+}
+ /* and the Chevrons */
+.menu_c1e9c4[id="set-status-submenu"] svg.caret_c1e9c4 {
+	display: none;
 }
 
  /* Adds an @ to the username */
@@ -799,7 +814,7 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 }
 
  /* Chennel Mentioned */
-.message__5126c :is(.mention, .channelMention, .roleMention__75297) {
+:is(.mention, .channelMention, .roleMention__75297) {
 	background-color: unset !important;
 	&:hover {
 		background-color: unset;
@@ -884,7 +899,7 @@ h3.membersGroup_c8ffbb:nth-of-type(2) {
 }
 
 h3.membersGroup_c8ffbb {
-	padding: 6px 0px 0px 0px;
+	padding: 3px 0px 3px 0px;
 	text-align: center;
 	span {
 		text-decoration-line: underline;
