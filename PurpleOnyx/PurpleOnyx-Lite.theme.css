@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx Lite
  * @author Zacam
- * @version 1.9.6
+ * @version 1.9.7
  * @description Purple Accented NewUI Onyx Compact | Lite (No Imports/Plugins)
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -119,7 +119,7 @@ div[class*="checkbox"][class*="checked"] {
  /* Minimal Menu Size */
 div[role="menu"] div[role^="menuitem"],
 div[role="menu"] div[role^="group"] {
-	padding: 0px 0px 0px 4px;
+	padding: 1px 0px 0px 4px;
 }
 
 div[role="menu"] div[role="separator"] {
@@ -131,14 +131,14 @@ border-color: var(--oPur-42) !important;
 	min-height: unset;
 	min-width: fit-content;
 	background-color: rgb(11,11,11);
-	[class*="submenuPaddingContainer"] { /* Constrain the Padding to go with it */
-		padding: 0px !important;
+	&[class*="submenuPaddingContainer"] { /* Constrain the Padding to go with it */
+		padding: unset;
 	}
-	[class*="submenu"] { /* Prevent Scroll Collapsing Sub-Menu's */
-		max-height: unset !important;
+	&[class*="submenu"] { /* Prevent Scroll Collapsing Sub-Menu's */
+		max-height: unset;
 	}
 	[class*="scroller"] {
-		padding: 8px 4px !important;
+		padding: 4px !important;
 	}
 }
 
@@ -169,8 +169,15 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 	background-color: var(--oPur-64) !important;
 }
 
+.switchIndicator_a28278[style*="background-color: rgb(68, 82, 187)"] {
+	background-color: var(--oPur-42) !important;
+}
+
 .switchIndicator_a28278[style*="background-color: rgba(0, 0, 0, 0.12);"] {
 	background-color: #72767d !important;
+	&:hover {
+		background-color: var(--oPur-42) !important;
+	}
 }
 
  /* Text Hyperlinks */
@@ -246,14 +253,18 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	border-bottom: 2px groove var(--oPur-64) !important;
 }
 
-.toolbar_8227b0 .divider_348c72 {
-	background-color: var(--oPur-64);
+ /* Inbox Spacing */
+.trailing_c38106 {
+	gap: unset;
+	>.clickable_c99c29 {
+		margin: 0px !important;
+	}
 }
 
- /* Title/Toolbar Spacing */
-[class*="trailing"], .toolbar__9293f>.buttons_8227b0 {
+ /* Inbox Spacing */
+.trailing_c38106 {
 	gap: unset;
-	.clickable__9293f {
+	>.clickable_c99c29 {
 		margin: 0px !important;
 	}
 }
@@ -391,6 +402,7 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 
  /* Colorize Pronouns */
 .pronounsText__63ed3.userTag__63ed3 {
+	padding: 0px 6px;
 	/* Establishes Gradient, use of HEX color code is mandatory */
 	background: linear-gradient(to left, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
 	/* Clip the color to text only */
@@ -400,8 +412,8 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 
   /* Backdrop for improved visibility */
 span:has(.pronounsText__63ed3) {
-	background: rgba(01,01,01,0.11) !important;
-	border-radius: 12px;
+	background: rgba(19,20,22,0.84) !important;
+	border-radius: 8px;
 }
 
  /* Colorized Roles */
@@ -532,11 +544,13 @@ nav .header_f37cb1 {
 	}
 }
 
- /* Channel Nev Post Text */
-.channelInfo_c69b6d>div {
-	color: var(--oPurple) !important;
-	&._2b1f52e43a8f1c02-textBadge {
-		background-color: unset;
+ /* Channel New Post Text */
+.channelInfo_c69b6d {
+	div {
+		color: var(--oPurple) !important;
+	}
+	.textBadge__2b1f5 {
+		background-color: unset !important;
 	}
 }
 
@@ -615,11 +629,6 @@ section.panels__5e434 {
 	fill: var(--oPurple);
 }
 
- /* Clean up Sub Menu Padding */
-.submenuPaddingContainer_ce8328 {
-	padding: unset;
-}
-
  /* Stop Status Colors from Flickering when hovering */
 foreignObject[mask="url(#svg-mask-status-online)"]>div[class^="status"][style="background-color: currentcolor;"] {
 	background-color: rgb(67, 162, 90) !important;
@@ -641,9 +650,17 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 .menu_c1e9c4[id="set-status-submenu"] .submenuPaddingContainer_c1e9c4 {
 	display: none;
 }
- /* and the Chevrons */
-.menu_c1e9c4[id="set-status-submenu"] svg.caret_c1e9c4 {
+ /* and the ">" */
+.menu_c1e9c4[id="set-status-submenu"] .iconContainer_c1e9c4 {
 	display: none;
+}
+ /* Remove Status lower Description */
+.menu_c1e9c4[id="set-status-submenu"] .statusItem_ce8328 > .description_ce8328 {
+	display: none;
+}
+ /* Resize the Menu Width */
+.statusPickerModalMenu_ce8328 {
+	width: fit-content;
 }
 
  /* Adds an @ to the username */
@@ -806,6 +823,11 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 	border-color: var(--oPur-21) !important;
 }
 
+ /* Message Actions */
+.buttonsInner__5126c.popover_f84418.wrapper_f7ecac {
+	border: 1px solid var(--oPur-64);
+}
+
  /* Reactions Popup */
 .reactionTooltip_b49891 {
 	border: 1px solid var(--oPur-64);
@@ -864,9 +886,9 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 }
 
  /* Threaded View */
-.newBadge_faa96b {
-	background-color: var(--oPur-42) !important;
-	color: rgb(192,192,192);
+.newBadge_faa96b, .newBadge__4ed1a>div {
+	background-color: unset !important;
+	color: var(--oPurple);
 }
 
 .newMessageCount_faa96b {
