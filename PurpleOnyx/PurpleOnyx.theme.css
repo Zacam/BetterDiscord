@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx
  * @author Zacam
- * @version 1.9.7
+ * @version 1.9.8
  * @description Purple Accented NewUI Onyx Compact
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -262,8 +262,14 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 	margin-block: 21px 21px;
 }
 
+ /* Appearance Theme Prompt */
+.container_a1d343 {
+	display: none;
+}
+
  /* Tabs */
-[class*="tab"][class*="selected"][class*="brand"] {
+[class*="tab"] [class*="selected"][class*="brand"],
+[class*="settingsTabBar"] [class*="selected"][class*="brand"] {
 	color: var(--oPur-64) !important;
 	&::after {
 		background-color: var(--oPur-64) !important;
@@ -274,7 +280,8 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 	border-inline-start: 2px solid var(--oPur-64) !important;
 }
 
-[class*="tab"][class*="brand"]:hover {
+[class*="tab"] [class*="brand"]:hover,
+[class*="settingsTabBar"] [class*="brand"]:hover {
 	&::after {
 		background-color: var(--oPur-84) !important;
 	}
@@ -291,6 +298,15 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	border-bottom: 2px groove var(--oPur-64) !important;
 }
 
+ /* Title/Toolbar Spacing */
+[class*="trailing"], [class^="toolbar"]>.buttons_8227b0 {
+	gap: unset;
+	>.clickable_c99c29 {
+		margin: 0px;
+		width: 32px;
+	}
+}
+
 /* OldTitleBar Dividers */
 .toolbar_8227b0 .divider_348c72 {
 	background-color: var(--oPur-64);
@@ -304,14 +320,6 @@ div[class^="toolbar"] svg>path[d^="M 21,10.875658 V 3 L 18.354245,5.6442048"] {
  /* OldTitleBar Close Button */
 div[class^="toolbar"] svg>path[d^="M 19.2,3 12,10.2"] {
 	fill: #DA3E44;
-}
-
- /* Title/Toolbar Spacing */
-[class*="trailing"], [class^="toolbar"]>.buttons_8227b0 {
-	gap: unset;
-	:is(.clickable__9293f, .clickable_c99c29) {
-		margin: 0px !important;
-	}
 }
 
  /* New Group DM */
@@ -500,14 +508,11 @@ span:has(.pronounsText__63ed3) {
 }
 
  /* Timezones Plugin Customization */
-.timezone-badge {
-	background-color: rgba(11,11,11,.55);
-	color: var(--text-default);
-	font-weight: 600;
-	top: unset;
-	bottom: 8px;
-	left: unset;
-	right: 12px;
+.tz-banner {
+	top: inherit !important;
+	right: 8px !important;
+	bottom: 39px !important;
+	left: inherit !important;
 }/*</Profiles>*/
 
 /* Servers Panel                                                                                                */
@@ -741,9 +746,26 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 .menu_c1e9c4[id="set-status-submenu"] .label_c1e9c4 > .defaultColor__4bd52 {
 	display: none;
 }
- /* Resize the Menu Width */
+ /* Resize the Status Picker Menu Width */
 .statusPickerModalMenu_ce8328 {
 	width: fit-content;
+	.scroller_c1e9c4 {
+		padding-right: 13px !important;
+	}
+}
+ /* Fix Account Switcher Width */
+.menu_c1e9c4[id="switch-accounts-submenu"] {
+	min-width: unset !important;
+	width: fit-content;
+	padding-right: 4px;
+}
+ /* Fix SimpleUserMenu Divider Width */
+#account-panel > div > div.separator_c1e9c4 {
+	width: unset;
+}
+ /* Fix SimpleUserMenu Menu/Group alignment */
+#account-panel > div > div[role="group"] {
+	padding: unset;
 }
 
  /* Adds an @ to the username */

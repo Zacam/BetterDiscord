@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx Lite
  * @author Zacam
- * @version 1.9.7
+ * @version 1.9.8
  * @description Purple Accented NewUI Onyx Compact | Lite (No Imports/Plugins)
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -224,8 +224,14 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 	margin-block: 21px 21px;
 }
 
+ /* Appearance Theme Prompt */
+.container_a1d343 {
+	display: none;
+}
+
  /* Tabs */
-[class*="tab"][class*="selected"][class*="brand"] {
+[class*="tab"] [class*="selected"][class*="brand"],
+[class*="settingsTabBar"] [class*="selected"][class*="brand"] {
 	color: var(--oPur-64) !important;
 	&::after {
 		background-color: var(--oPur-64) !important;
@@ -236,7 +242,8 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 	border-inline-start: 2px solid var(--oPur-64) !important;
 }
 
-[class*="tab"][class*="brand"]:hover {
+[class*="tab"] [class*="brand"]:hover,
+[class*="settingsTabBar"] [class*="brand"]:hover {
 	&::after {
 		background-color: var(--oPur-84) !important;
 	}
@@ -253,19 +260,12 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	border-bottom: 2px groove var(--oPur-64) !important;
 }
 
- /* Inbox Spacing */
-.trailing_c38106 {
+ /* Title/Toolbar Spacing */
+[class*="trailing"] {
 	gap: unset;
 	>.clickable_c99c29 {
-		margin: 0px !important;
-	}
-}
-
- /* Inbox Spacing */
-.trailing_c38106 {
-	gap: unset;
-	>.clickable_c99c29 {
-		margin: 0px !important;
+		margin: 0px;
+		width: 32px;
 	}
 }
 
@@ -658,9 +658,18 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 .menu_c1e9c4[id="set-status-submenu"] .label_c1e9c4 > .defaultColor__4bd52 {
 	display: none;
 }
- /* Resize the Menu Width */
+ /* Resize the Status Picker Menu Width */
 .statusPickerModalMenu_ce8328 {
 	width: fit-content;
+	.scroller_c1e9c4 {
+		padding-right: 13px !important;
+	}
+}
+ /* Fix Account Switcher Width */
+.menu_c1e9c4[id="switch-accounts-submenu"] {
+	min-width: unset !important;
+	width: fit-content;
+	padding-right: 4px;
 }
 
  /* Adds an @ to the username */
