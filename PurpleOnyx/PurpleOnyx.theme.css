@@ -203,6 +203,10 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 }
 
  /* Switches */
+.container__3f21e.checked__3f21e {
+	background-color: var(--oPur-64) !important;
+}
+
 .switchIndicator_a28278[style*="background-color: rgb(88, 101, 242)"] {
 	background-color: var(--oPur-64) !important;
 }
@@ -299,10 +303,13 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 }
 
  /* Title/Toolbar Spacing */
-[class*="trailing"], [class^="toolbar"]>.buttons_8227b0 {
+.trailing_c38106, .toolbar__9293f {
 	gap: unset;
-	>.clickable_c99c29 {
+	.clickable_c99c29 {
 		margin: 0px;
+		width: 32px;
+	}
+	.buttons_8227b0>.clickable_c99c29 {
 		width: 32px;
 	}
 }
@@ -803,7 +810,7 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 	left: 1px;
 	margin-left: calc(var(--custom-guild-list-width) - var(--space-xs)*2);
 	width: calc(100% - var(--custom-guild-list-width) + 4px);
-	.e131a99484292a19-actionButtons button {
+	.actionButtons_e131a9 button {
 		padding: 0px;
 	}
 }

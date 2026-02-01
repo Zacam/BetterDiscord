@@ -165,6 +165,10 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 }
 
  /* Switches */
+.container__3f21e.checked__3f21e {
+	background-color: var(--oPur-64) !important;
+}
+
 .switchIndicator_a28278[style*="background-color: rgb(88, 101, 242)"] {
 	background-color: var(--oPur-64) !important;
 }
@@ -261,9 +265,9 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 }
 
  /* Title/Toolbar Spacing */
-[class*="trailing"] {
+.trailing_c38106 {
 	gap: unset;
-	>.clickable_c99c29 {
+	.clickable_c99c29 {
 		margin: 0px;
 		width: 32px;
 	}
@@ -704,10 +708,10 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
  /* Shrink up the size of the Wrapper */
 .visual-refresh section.panels__5e434 {
 	bottom: 1px;
-	left: 1px;
-	margin-left: calc(var(--custom-guild-list-width) - var(--space-xs)*2);
-	width: calc(100% - var(--custom-guild-list-width) + 4px);
-	.e131a99484292a19-actionButtons button {
+	/*left: 1px;*/
+	margin-left: calc(var(--custom-guild-list-width) + var(--space-xs));
+	width: calc(100% - var(--custom-guild-list-width) - (var(--space-xs)*4));
+	.actionButtons_e131a9 button {
 		padding: 0px;
 	}
 }
@@ -879,6 +883,11 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 	.closeButton_e876a8 > svg {
 		color: rgba(216, 58, 66, 0.8);
 	}
+}
+
+ /* Text Input Area */
+.textArea__74017.textAreaSlate__74017.slateContainer_ec4baf {
+	height: unset !important;
 }
 
 .container__5e434 {
