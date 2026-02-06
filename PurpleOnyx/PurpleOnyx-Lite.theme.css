@@ -978,6 +978,11 @@ nav[class*="privateChannels"]>div[class*="scroller"] {
 	padding-bottom: 0px;
 }
 
+ /* Unread Pill */
+.unreadPill__972a0 {
+	background-color: var(--oPur-84);
+}
+
  /* Selected Category */
 li.channel__972a0 .selected_bf202d {
 	background-color: var(--oPur-21);
