@@ -680,6 +680,11 @@ li.containerDefault_c69b6d:hover .linkTop__2ea32>.name__2ea32 {
 	color: var(--oPur-84);
 }
 
+ /* Remove VC 'Invite to Voice' Timer */
+.list_c3cd7d>.animation_f2170c:has(>.userSmall__07f91) {
+	display: none;
+}
+
  /* Collapsed VC Summary SVG Color */
 .voiceUserSummary__629e4 .icon__183c2 {
 	color: var(--text-feedback-positive);
@@ -781,13 +786,13 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 }
 
  /* Hide mute and deafen buttons */
-.panels__5e434 > .container__37e49 .buttons__37e49 > :not(:nth-last-child(2)) {
+.panels__5e434 > .container__37e49 .buttons__37e49 > :not(:last-child) {
 	opacity: 0%;
 	width: 0px;
 	transition: all 0.3s ease-in-out;
 }
  /* Reveal mute and Deafen buttons when settings button is hovered */
-.panels__5e434 > .container__37e49 .buttons__37e49:hover > :not(:nth-last-child(2)) {
+.panels__5e434 > .container__37e49 .buttons__37e49:hover > :not(:last-child) {
 	opacity: 100%;
 	width: 42px;
 }
@@ -947,6 +952,11 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 	padding: 8px;
 }
 
+ /* Sticker size constraint */
+.clickableSticker_abd7a8 {
+	width: fit-content;
+}
+
  /* Chennel Mentioned */
 :is(.mention, .channelMention, .roleMention__75297) {
 	background-color: unset !important;
@@ -1034,14 +1044,13 @@ h3.membersGroup_c8ffbb:nth-of-type(2) {
 
 h3.membersGroup_c8ffbb {
 	padding: 3px 0px 3px 0px;
-	text-align: center;
 	span {
 		text-decoration-line: underline;
 		text-decoration-color: inherit;
 		text-decoration-style: double;
 	}
 	.membersGroupHeader_c8ffbb {
-		display: inline;
+		justify-content: center;
 	}
 }/*</Members List>*/
 
