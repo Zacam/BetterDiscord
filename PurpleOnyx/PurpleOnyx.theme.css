@@ -943,9 +943,17 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 	background: unset;
 }
 
- /* Users Reaction to Post */ 
+ /* Post Reaction */
 .reaction__23977, .reactionMe__23977 {
+	animation: none !important;
+	background: var(--background-base-lower) !important;
 	border-color: var(--oPur-21) !important;
+}
+
+ /* De-Super Super Reactions */
+.burstGlow__23977, .effectsWrapper_a9ddb3,
+.effectsWrapper_a9ddb3 + img {
+	display: none;
 }
 
  /* Message Actions */
