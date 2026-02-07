@@ -473,7 +473,9 @@ svg.flowerStar__3e3b0>path {
 }
 
  /* Bring back the AT from Aurora (@riddim_glitch) */
-.tags__63ed3.pronouns__63ed3 .userTagUsername__63ed3::before {
+.tags__63ed3.pronouns__63ed3 .userTagUsername__63ed3::before,
+ /* Place the AT on Mod View Profile */
+.memberNameAndTagContainer__34940>div:not(.memberNameTextContainer__34940)::before {
 	content: "@";
 	color: var(--text-strong);
 	text-decoration: none;
@@ -512,6 +514,12 @@ span:has(.pronounsText__63ed3) {
 	background: inherit;
 	border-radius: 12px;
 	opacity: 0.32;
+}
+
+ /* Radial Status Mod View Fix */
+#app-mount .memberAvatar__34940 .wrapper__44b0c rect {
+	height: 48px !important;
+	width: 48px !important;
 }
 
  /* Timezones Plugin Customization */

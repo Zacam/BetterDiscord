@@ -398,7 +398,9 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 
 /* Profiles                                                                                                     */
  /* Bring back the AT from Aurora (@riddim_glitch) */
-.tags__63ed3.pronouns__63ed3 .userTagUsername__63ed3::before {
+.tags__63ed3.pronouns__63ed3 .userTagUsername__63ed3::before,
+ /* Place the AT on Mod View Profile */
+.memberNameAndTagContainer__34940>div:not(.memberNameTextContainer__34940)::before {
 	content: "@";
 	color: var(--text-strong);
 	text-decoration: none;
