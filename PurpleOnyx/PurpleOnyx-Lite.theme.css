@@ -615,6 +615,15 @@ li.containerDefault_c69b6d:hover .linkTop__2ea32>.name__2ea32 {
 	color: var(--oPur-64);
 }
 
+/* VC Border and Glow */
+.voiceChannelHighlightBorder_c69b6d {
+	background-color: unset;
+}
+
+.voiceChannelHighlightGlow_c69b6d {
+	background: unset;
+}
+
 /* Make Space for Resized Avatar Wrapper */
 nav.container__2637a {
 	padding-bottom: calc(var(--custom-app-panels-height) + 2px);
