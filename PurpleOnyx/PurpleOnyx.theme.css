@@ -41,6 +41,7 @@
 	--rs-streaming-color: #9147FF; /* Default: #643da7 / Colour for streaming status */
 	/* Note: this will only show for your own invisibility */
 	--rs-invisible-color: #82838B; /* Default: #747f8d / Colour for invisible status */
+	--rs-self-speaking-color: #A480E2; /* Colour for speaking ring in the bottom left while in a voice chat/call */
 	/* Colour of the ring and phone icon when a user is on their phone |  */
 	--rs-phone-color: #7289DA; /*var(--rs-online-color);*/
 	/* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
@@ -48,7 +49,7 @@
 }
 
 .theme-midnight {
- /* Purple Onyx NewUI  */
+ /* Purple Onyx NewUI */
 	--font-primary: "Spectral", serif, "Noto Color Emoji";
 	--font-display: "Spectral", serif, "Noto Color Emoji";
 	--font-code: "DejaVu Sans Mono", "Consolas", monospace;
@@ -1024,7 +1025,7 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 }
 
  /* Threaded View */
-.newBadge_faa96b, .newBadge__4ed1a>div {
+.brand_c2b88c, .newBadge_faa96b, .newBadge__4ed1a>div {
 	background-color: unset !important;
 	color: var(--oPurple);
 }
@@ -1079,6 +1080,10 @@ h3.membersGroup_c8ffbb {
   /* Add Friend */
 .addFriend__133bf {
 	background-color: var(--oPur-64) !important;
+}
+
+.addFriend__133bf[aria-selected="true"] {
+	--text-brand: #000;
 }/*</Friend List>*/
 
  /* Decorative Border */
