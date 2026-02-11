@@ -315,6 +315,13 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	}
 }
 
+ /* Update Button */
+.button__85643.smallButton__85643 svg {
+	padding: unset;
+	height: var(--chat-input-icon-size);
+	width: var(--chat-input-icon-size);
+}
+
 /* OldTitleBar Dividers */
 .toolbar_8227b0 .divider_348c72 {
 	background-color: var(--oPur-64);
@@ -712,7 +719,7 @@ li.containerDefault_c69b6d:hover .linkTop__2ea32>.name__2ea32 {
 
 .voiceChannelHighlightGlow_c69b6d {
 	background: unset;
- }
+}
 
 /* Make Space for Resized Avatar Wrapper */
 nav.container__2637a {
