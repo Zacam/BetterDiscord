@@ -22,6 +22,7 @@
 	--oPurple: rgb(164,128,226);
 	--brand-300: var(--oPur-64) !important;
 	--brand-500: var(--oPur-84) !important;
+	--text-link: var(--oPur-84) !important;
 	--custom-channel-textarea-text-area-height: 28px;
 	--background-modifier-selected: var(--oPur-32) !important;
 	--info-help-foreground: rgb(164,128,226) !important;
@@ -182,11 +183,6 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 	&:hover {
 		background-color: var(--oPur-42) !important;
 	}
-}
-
- /* Text Hyperlinks */
-.anchor_edefb8 {
-	color: var(--oPur-84);
 }
 
  /* APP Bot Tags */
@@ -401,6 +397,16 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 		color: rgb(250,250,250) !important;
 	}
 }/*<Search>*/
+
+ /* Pinned Messages */
+[id^="popout"] {
+	.messagesPopoutWrap_e8b59c {
+		background-color: var(--background-base-lowest) !important;
+	}
+	.header_e8b59c, .messagesPopout_e8b59c .messageGroupWrapper_e8b59c {
+		background-color: var(--background-base-lower) !important;
+	}
+}
 /*</Toolbar>*/
 
 /* Profiles                                                                                                     */
