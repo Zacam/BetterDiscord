@@ -1077,20 +1077,28 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 	border-left-color: var(--border-active);
 }
 
-h3.membersGroup_c8ffbb:nth-of-type(2) {
-	padding: 3px 0px 0px 0px;
-}
-
 h3.membersGroup_c8ffbb {
-	padding: 3px 0px 3px 0px;
-	span {
+	padding: 2px 0px 0px 0px;
+	span.membersGroupName_c8ffbb {
 		text-decoration-line: underline;
 		text-decoration-color: inherit;
 		text-decoration-style: double;
 	}
+	span:not(.membersGroupName_c8ffbb) {
+		display: none;
+	}
 	.membersGroupHeader_c8ffbb {
 		justify-content: center;
 	}
+}
+
+ /* MemberCounter Plugin */
+.memberCounterPanel {
+	position: sticky;
+	top: 0px;
+	z-index: 999;
+	background: var(--custom-channel-members-bg);
+	border-bottom: 1px solid var(--border-active);
 }/*</Members List>*/
 
 /* DMs                                                                                                          */
@@ -1107,6 +1115,11 @@ h3.membersGroup_c8ffbb {
 .addFriend__133bf[aria-selected="true"] {
 	--text-brand: #000;
 }/*</Friend List>*/
+
+ /* Top Gap */
+ul.content_d125d2 div[style="height: 8px;"] {
+	display: none;
+}
 
  /* Decorative Border */
 nav[class*="privateChannels"]>div[class*="scroller"] {
