@@ -297,7 +297,7 @@ img[class*="connectionIcon"][alt^="Steam"] {
 	background: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg");
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 32px;
+	background-size: 30px;
 	display: block;
 	box-sizing: border-box;
 	padding-left: 38px;
