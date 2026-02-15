@@ -289,9 +289,6 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
  /* Title/Toolbar Spacing */
 .trailing_c38106 {
 	gap: unset;
-	.clickable_c99c29 {
-		margin: 0px;
-	}
 	.buttons_8227b0 {
 		gap: unset;
 	}
