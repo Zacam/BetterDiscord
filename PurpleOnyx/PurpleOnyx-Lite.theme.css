@@ -315,7 +315,8 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 }
 
 .recentMentionsPopout__95796.messagesPopoutWrap_e8b59c,
-.recentMentionsPopout__95796 .scroller__2692d {
+.recentMentionsPopout__95796 .scroller__2692d,
+.recentMentionsPopout__95796 .container_d404a3 {
 	background-color: rgb(0,0,0);
 }
 
@@ -352,8 +353,14 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	}
 }
 
+  /* Mentiens Footer */
 .scrollingFooterWrap_e8b59c .container_d404a3 {
 	min-height: 160px;
+}
+
+  /* Unreads Footer */
+.container_fc561d .container_d404a3 {
+	min-height: 210px;
 }/*</Inbox>*/
 
  /* Search */
@@ -420,6 +427,9 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 [id^="popout"] {
 	.messagesPopoutWrap_e8b59c {
 		background-color: var(--background-base-lowest);
+		.footer_e8b59c {
+			display: none;
+		}
 	}
 	.header_e8b59c, .messagesPopout_e8b59c .messageGroupWrapper_e8b59c {
 		background-color: var(--background-base-lower);
@@ -492,7 +502,9 @@ span:has(.pronounsText__63ed3) {
 }
 
  /* New Messages Indicator */
-div[class*="pill"] > span {
+.pill__1f388 > span.item__58105,
+.pill_ed9a5f > span.item__58105,
+.pill_e5445c > span.item__58105 {
 	background-color: var(--oPur-84);
 }
 
