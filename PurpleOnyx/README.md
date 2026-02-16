@@ -17,6 +17,7 @@ User Avatars are hidden, and "Space Between" is set to Zero.</br>
 <ins>Featured Plugins</ins>:</br>
 <a href="https://github.com/LancersBucket/ChatButtonsBegone">ChatButtonBegone</a> by @LancersBucket</br>
 <a href="https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/OldTitleBar">OldTitlebar</a> by @DevilBro</br>
+<a href="https://github.com/SyndiShanX/Better-Discord-Plugins/tree/main/MemberCounter">MemberCounter</a> by @SyndiShanX</br>
 
 <ins>Compatible Plugins</ins>:</br>
 <a href="https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/CompleteTimestamps">CompleteTimestamps</a> by @DevilBro</br>
