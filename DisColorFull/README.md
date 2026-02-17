@@ -1,15 +1,15 @@
-### DisColorFull SVG
-Fills in Discords bland SVG's with Color/Colorized Versions.
-Inspired by @NYRI4's <a href="https://github.com/NYRI4/Discolored/">`Discolored'</a> Theme.
+# DisColorFull SVG
+Fills in Discords bland SVG's with Color/Colorized Versions.</br>
+Inspired by [NYRI4](https://github.com/NYRI4)'s [Discolored](https://github.com/NYRI4/Discolored) Theme.
 
 All linked replacement SVG's are natively available from within Discord.
 
 Theme Author's are free to import for use within their own works, but please give Credit.
 
-### To Do:
+## To Do:
 Maintain for Class Changes / Discord Updates
 
-### Screenshots
+## Screenshots
 
 General Chatting Toolbar:</br>
 ![](Chat.png)
