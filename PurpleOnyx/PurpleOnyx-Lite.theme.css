@@ -294,6 +294,10 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	}
 }
 
+.upperContainer__9293f>.children__9293f:after {
+	display: none;
+}
+
  /* New Group DM */
 .toolbar__9293f {
 	gap: unset;
@@ -424,9 +428,10 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 }/*<Search>*/
 
  /* Pinned Messages */
-[id^="popout"] {
+#popout_7450 {
 	.messagesPopoutWrap_e8b59c {
 		background-color: var(--background-base-lowest);
+		border: 1px solid var(--oPur-42);
 		.footer_e8b59c {
 			display: none;
 		}
@@ -434,8 +439,11 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	.header_e8b59c, .messagesPopout_e8b59c .messageGroupWrapper_e8b59c {
 		background-color: var(--background-base-lower);
 	}
-}
-/*</Toolbar>*/
+	.header_e8b59c {
+		border-bottom: 1px solid var(--border-active);
+		padding: 8px 16px;
+	}
+}/*</Toolbar>*/
 
 /* Profiles                                                                                                     */
  /* Bring back the AT from Aurora (@riddim_glitch) */

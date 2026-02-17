@@ -333,6 +333,10 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	}
 }
 
+.upperContainer__9293f>.children__9293f:after {
+	display: none;
+}
+
 /* OldTitleBar Dividers */
 .toolbar_8227b0 .divider_348c72 {
 	background-color: var(--oPur-64);
@@ -492,9 +496,10 @@ header.searchHeader_ae7890,
 }/*<Search>*/
 
  /* Pinned Messages */
-[id^="popout"] {
+#popout_7450 {
 	.messagesPopoutWrap_e8b59c {
 		background-color: var(--background-base-lowest);
+		border: 1px solid var(--oPur-42);
 		.footer_e8b59c {
 			display: none;
 		}
@@ -502,8 +507,11 @@ header.searchHeader_ae7890,
 	.header_e8b59c, .messagesPopout_e8b59c .messageGroupWrapper_e8b59c {
 		background-color: var(--background-base-lower);
 	}
-}
-/*</Toolbar>*/
+	.header_e8b59c {
+		border-bottom: 1px solid var(--border-active);
+		padding: 8px 16px;
+	}
+}/*</Toolbar>*/
 
 /* Profiles                                                                                                     */
  /* "Verified" Check on Connections */
@@ -1129,12 +1137,11 @@ h3.membersGroup_c8ffbb {
 }
 
  /* MemberCounter Plugin */
-.memberCounterPanel {
-	position: sticky;
-	top: 0px;
-	z-index: 999;
-	background: var(--custom-channel-members-bg);
-	border-bottom: 1px solid var(--border-active);
+.member_counter_wrapper {
+	padding: 2px 0px !important;
+	.member_counter_text {
+		padding: 2px 0px !important;
+	}
 }/*</Members List>*/
 
 /* DMs                                                                                                          */
