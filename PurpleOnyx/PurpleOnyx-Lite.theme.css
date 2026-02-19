@@ -487,6 +487,23 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 		border-bottom: 1px solid var(--border-active);
 		padding: 8px 16px;
 	}
+}
+
+ /* Threads */
+.browser_d98031.container_d9c882 {
+	min-height: fit-content;
+	.header_d9c882 {
+		background-color: var(--background-base-lower);
+	}
+	.list_c441f0 {
+		background-color: var(--background-base-lowest);
+		.container__1b24f {
+			min-height: 160px;
+		}
+		.content_d125d2>.container__6764b {
+			background-color: var(--background-base-lower);
+		}
+	}
 }/*</Toolbar>*/
 
 /* Profiles                                                                                                     */
