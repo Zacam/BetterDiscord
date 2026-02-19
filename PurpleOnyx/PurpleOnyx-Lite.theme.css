@@ -298,7 +298,6 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	display: none;
 }
 
-
  /* Update Button Fix */
 .buttons_8227b0>.button__85643.smallButton__85643 svg {
 	padding: unset;
@@ -432,6 +431,31 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	border-color: var(--border-active);
 	&:hover {
 		color: rgb(250,250,250);
+	}
+}
+
+  /* Search Filters */
+.container__8a031.size-md__8a031 {
+	background-color: var(--background-base-lowest);
+	padding-top: unset;
+	padding-bottom: unset;
+	.section__8a031.header__8a031 {
+		border-bottom: 1px solid var(--border-subtle);
+		padding: 12px 24px 8px;
+	}
+	.bodyInner__8a031.bodyInnerShouldScroll__8a031 {
+		background-color: var(--background-base-lower);
+	}
+	.bodyInner__8a031.bodyInnerShouldScroll__8a031 {
+		padding: 6px 8px 8px 12px;
+	}
+	.bodySpacerTop__8a031.bodySpacerTopBorder__8a031,
+	.bodySpacerBottom__8a031.bodySpacerBottomBorder__8a031 {
+		display: none;
+	}
+	.actionBar__8a031.section__8a031 {
+		border-top: 1px solid var(--border-subtle);
+		padding: 12px 24px 8px;
 	}
 }/*<Search>*/
 
