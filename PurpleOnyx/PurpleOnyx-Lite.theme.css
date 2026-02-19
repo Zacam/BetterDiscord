@@ -434,7 +434,19 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	}
 }
 
-  /* Search Filters */
+  /* Search Popout */
+#popout_369>.container__16eb0 {
+	background-color: var(--background-base-lower);
+	padding: 4px 8px;
+	.groupWrapper__971b5 {
+		gap: 2px;
+	}
+	.divider__971b5 {
+		margin: 4px 0px;
+	}
+}
+
+  /* Search Filters Modal */
 .container__8a031.size-md__8a031 {
 	background-color: var(--background-base-lowest);
 	padding-top: unset;
