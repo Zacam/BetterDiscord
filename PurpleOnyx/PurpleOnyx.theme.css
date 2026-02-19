@@ -503,7 +503,7 @@ header.searchHeader_ae7890,
 }
 
   /* Search Popout */
-#popout_369>.container__16eb0 {
+[id*="popout_"]>.container__16eb0 {
 	background-color: var(--background-base-lower);
 	padding: 4px 8px;
 	.groupWrapper__971b5 {
@@ -572,9 +572,7 @@ header.searchHeader_ae7890,
 			background-color: var(--background-base-lower);
 		}
 	}
-}
-
-/*</Toolbar>*/
+}/*</Toolbar>*/
 
 /* Profiles                                                                                                     */
  /* "Verified" Check on Connections */

@@ -435,7 +435,7 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 }
 
   /* Search Popout */
-#popout_369>.container__16eb0 {
+[id*="popout_"]>.container__16eb0 {
 	background-color: var(--background-base-lower);
 	padding: 4px 8px;
 	.groupWrapper__971b5 {
