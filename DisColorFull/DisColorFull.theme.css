@@ -70,8 +70,17 @@ svg>path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0"] {
 	transform: rotate(45deg);
 }
 
-.toolbar__9293f>.icon_d98031>svg>path {
+.toolbar__9293f>.icon_d98031>svg>path,
+.browser_d98031.container_d9c882 .header_d9c882 svg.threadIcon_d9c882>path {
 	display: none;
+}
+
+.browser_d98031.container_d9c882 .header_d9c882 svg.threadIcon_d9c882 {
+	background-image: url("https://discord.com/assets/5f5b447d1ae0cba4.svg");
+	background-size: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+	transform: rotate(45deg);
 }
 
  /* Notification Bell */
