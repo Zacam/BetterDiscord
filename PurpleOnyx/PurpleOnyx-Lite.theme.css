@@ -515,7 +515,7 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 }/*<Search>*/
 
  /* Pinned Messages */
-#popout_7450 {
+[id*="popout_"] {
 	.messagesPopoutWrap_e8b59c {
 		background-color: var(--background-base-lowest);
 		border: 1px solid var(--oPur-42);
