@@ -278,6 +278,9 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 	}
 	.react-datepicker__header {
 		background-color: var(--background-base-lower);
+		.react-datepicker__day-names {
+			margin-bottom: 0px;
+		}
 	}
 	.react-datepicker__current-month {
 		border-bottom: 1px solid var(--border-active);
