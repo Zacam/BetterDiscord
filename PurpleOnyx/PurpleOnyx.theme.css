@@ -337,6 +337,13 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	display: none;
 }
 
+ /* Update Button Fix */
+.buttons_8227b0>.button__85643.smallButton__85643 svg {
+	padding: unset;
+	height: var(--chat-input-icon-size);
+	width: var(--chat-input-icon-size);
+}
+
 /* OldTitleBar Dividers */
 .toolbar_8227b0 .divider_348c72 {
 	background-color: var(--oPur-64);
