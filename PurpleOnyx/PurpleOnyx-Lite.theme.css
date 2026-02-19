@@ -1056,6 +1056,29 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 
 .newMessageCount_faa96b {
 	color: var(--oPurple) !important;
+}
+
+ /* Emoji Picker */
+#emoji-picker-tab-panel.wrapper_c0e32c {
+	border: 1px solid var(--border-active);
+	.header_c0e32c {
+		background-color: var(--background-base-lowest);
+		border-bottom-color: var(--border-active);
+		gap: unset;
+		padding: 4px 8px 4px 8px;
+	}
+	.emojiPicker_c0e32c {
+		background-color: var(--background-base-lower);
+		.bodyWrapper_c0e32c {
+			border-left: 1px solid var(--border-active);
+		}
+	}
+	.inspector_aeaaeb.inspector_c0e32c, .unicodeShortcut_b9ee0c {
+		border-top-color: var(--border-active);
+	}
+	.wrapper__4e6ce.categoryList_c0e32c {
+		top: 50px;
+	}
 }/*</Chat Body>*/
 
 /* VC                                                                                                           */
