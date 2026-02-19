@@ -780,7 +780,7 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 	content: "@";
 }
 
- /* Hide mute and deafen buttons */
+ /* Hide mute and deafen buttons from @thecommieaxolotl */
 .panels__5e434 > .container__37e49 .buttons__37e49 > :not(:last-child) {
 	opacity: 0%;
 	width: 0px;
