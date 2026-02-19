@@ -375,7 +375,7 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 }/*</Inbox>*/
 
  /* Search */
-  /* Re-Iconify Search from Aurora (@riddim_glitch) */
+  /* Re-Iconify Search from Aurora (@GH0STP4WZ ) */
 .search__49676 {
 	order: -1;
 	margin-left: 0px;
@@ -478,7 +478,7 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 }/*</Toolbar>*/
 
 /* Profiles                                                                                                     */
- /* Bring back the AT from Aurora (@riddim_glitch) */
+ /* Bring back the AT from Aurora (@GH0STP4WZ ) */
 .tags__63ed3.pronouns__63ed3 .userTagUsername__63ed3::before,
  /* Place the AT on Mod View Profile */
 .memberNameAndTagContainer__34940>div:not(.memberNameTextContainer__34940)::before {
