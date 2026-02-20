@@ -325,6 +325,52 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 		border-bottom: 1px solid var(--border-active);
 		padding: 0px;
 	}
+}
+
+ /* Server Settings */
+.content_dbba93, .contentColumn__23e6b {
+	padding: 60px 40px 10px;
+}
+
+.leftColumn_dbba93, .container_f83afb, .container_a5fa1d {
+	gap: 20px;
+	.divider_dbba93, .divider_f83afb, .divider_a5fa1d {
+		background-color: var(--border-active);
+	}
+}
+
+.auditLog__43dab {
+	background-color: var(--background-base-lower);
+	.headerClickable__43dab {
+		padding-block: 5px;
+		svg.expand__43dab {
+			color: var(--oPur-64);
+		}
+	}
+}
+
+.contentColumn__23e6b {
+	min-height: unset;
+}
+
+.container__4b8d8 {
+	gap: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	.scrollerContainer__4b8d8 {
+		background-color: var(--background-base-lowest);
+		height: unset;
+	}
+}
+
+.container_c2b141 {
+	.closeButton_c2b141 {
+		color: rgba(216, 58, 66, 0.8);
+	}
+	.closeButton_c2b141:hover {
+		color: rgb(216, 58, 66);
+		background-color: unset;
+	}
 }/*</General Discord>*/
 
 /* Settings Panel                                                                                               */
@@ -968,16 +1014,13 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
  /* Reveal mute and Deafen buttons when settings button is hovered */
 .panels__5e434 > .container__37e49 .buttons__37e49:hover > :not(:last-child) {
 	opacity: 100%;
-	width: 42px;
-}
-
-.micButtonParent__37e49:has(button) {
-	width: 30px !important;;
+	width: 32px; /* 42 with chevrons */
 }
 
  /* Remove gap to the left of Gear/Settings Button */
 .panels__5e434 > .container__37e49 {
 	padding: 0px 0px 1px 8px;
+	gap: unset;
 	.buttons__37e49 {
 		gap: unset;
 	}
