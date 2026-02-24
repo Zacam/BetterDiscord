@@ -781,7 +781,7 @@ nav .header_f37cb1 {
 }
 
  /* Selected/Active Channel */
-.selectedChannel_c69b6d .linkTop__2ea32 {
+.modeSelected__2ea32 .linkTop__2ea32 {
 	>.iconContainer__2ea32>svg>path {
 		fill: var(--oPurple);
 	}
@@ -899,13 +899,13 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 }
 
  /* Hide mute and deafen buttons from @thecommieaxolotl */
-.panels__5e434 > .container__37e49 .buttons__37e49 > :not(:last-child) {
+.panels__5e434 > .container__37e49 .buttons__37e49 > .audioButtonParent__5e764 {
 	opacity: 0%;
 	width: 0px;
 	transition: all 0.3s ease-in-out;
 }
  /* Reveal mute and Deafen buttons when settings button is hovered */
-.panels__5e434 > .container__37e49 .buttons__37e49:hover > :not(:last-child) {
+.panels__5e434 > .container__37e49 .buttons__37e49:hover > .audioButtonParent__5e764 {
 	opacity: 100%;
 	width: 42px;
 }
