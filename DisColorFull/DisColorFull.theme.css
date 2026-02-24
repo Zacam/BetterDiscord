@@ -40,8 +40,8 @@ a[href="https://support.discord.com"] svg>path {
 }/*</Main Titlebar>*/
 
 /* Tiny + on Invites/Events etc */
-svg>path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0"] {
-	fill: #43A25A;
+svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"] {
+	fill: rgb(119, 178, 85);
 }
 
 /* Toolbar */
@@ -128,14 +128,14 @@ svg>path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0"] {
 	background-repeat: no-repeat;
 }
 
-.toolbar__9293f>.iconWrapper__9293f>svg:has(>path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5"]) {
+.toolbar__9293f>.iconWrapper__9293f>svg>path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5"] {
 	display: none;
 }
 
  /* Start Voice Call */
 .toolbar__9293f>.iconWrapper__9293f>svg>path[d^="M2 7.4A5.4 5.4 0 0 1 7.4 2c.36 0 .7.22.83.55l1.93 4.64a1"],
 .toolbar__9293f>.iconWrapper__9293f>svg>path[d="M13 7a1 1 0 0 1 1-1 4 4 0 0 1 4 4 1 1 0 1 1-2 0 2 2 0 0 0-2-2 1 1 0 0 1-1-1Z"] {
-	fill: #3AA55C;
+	fill: rgb(66, 162, 90);
 }
 
  /* Start Video Call */
@@ -169,7 +169,7 @@ svg>path[d^="M19 14a1 1 0 0 1 1 1v3h3a1 1 0"] {
 
 .inviteToolbar__133bf>.iconWrapper__9293f>svg>path[d^="M20.76 12.57c.4.3 1.23.13 1.24-.37V12a10"] {
 	display: none;
-}/**</Toolbar>/
+}/*</Toolbar>/
 
 /* Avatar Wrapper - VC */
   /* Krisp */
