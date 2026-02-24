@@ -118,8 +118,7 @@ div[class*="checkbox"][class*="checked"] {
 }
 
  /* Minimal Menu Size */
-div[role="menu"] div[role^="menuitem"],
-div[role="menu"] div[role^="group"] {
+div[role="menu"] div[role^="menuitem"] {
 	padding: 1px 0px 0px 4px;
 }
 
@@ -139,7 +138,7 @@ border-color: var(--oPur-42) !important;
 		max-height: unset;
 	}
 	[class*="scroller"] {
-		padding: 4px !important;
+		padding: 4px 2px 4px 4px !important;
 	}
 }
 
@@ -201,6 +200,10 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 
 [class*="colorDefault"] [class*="label"] {
 	color: unset;
+}
+
+[class*="botTagOP"] {
+	background-color: var(--oPur-84);
 }
 
  /* Square Embeds */
@@ -850,6 +853,15 @@ section.panels__5e434 {
 	fill: var(--oPurple);
 }
 
+.accountPopout__37e49 .body_ce8328 {
+	gap: 6px;
+	padding: 4px 0px 4px 8px;
+}
+
+.accountPopout__37e49 .menus_ce8328 {
+	gap: unset;
+}
+
  /* Stop Status Colors from Flickering when hovering */
 foreignObject[mask="url(#svg-mask-status-online)"]>div[class^="status"][style="background-color: currentcolor;"] {
 	background-color: rgb(67, 162, 90) !important;
@@ -890,7 +902,7 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 .menu_c1e9c4[id="switch-accounts-submenu"] {
 	min-width: unset !important;
 	width: fit-content;
-	padding-right: 4px;
+	padding-right: 6px;
 }
 
  /* Adds an @ to the username */
