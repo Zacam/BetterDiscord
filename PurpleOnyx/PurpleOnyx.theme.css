@@ -59,6 +59,7 @@
 	--oPur-64: rgba(164,128,226,0.64);
 	--oPur-84: rgba(164,128,226,0.84);
 	--oPurple: rgb(164,128,226);
+	--brand-10a: rgba(164,128,226,0.15) !important;
 	--brand-300: var(--oPur-64) !important;
 	--brand-500: var(--oPur-84) !important;
 	--text-link: var(--oPur-84) !important;
@@ -74,6 +75,7 @@
 	--input-border-hover: var(--oPur-42) !important;
 	--input-border-active: var(--oPur-64) !important;
 	--mention-foreground: rgb(164,128,226) !important;
+	--message-highlight-background-default: rgba(164,128,226,0.15) !important;
 	--message-mentioned-background-default: rgba(164,128,226,0.05) !important;
 	--message-mentioned-background-hover: rgba(164,128,226,0.05) !important;
 	--radio-background-selected-default: var(--oPur-64) !important;
@@ -1203,7 +1205,8 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 }
 
  /* Remove background highlighting on Scrolling Hover */
-.message__5126c.wrapper_c19a55.compact_c19a55.zalgo_c19a55:not(.mentioned__5126c):hover {
+.message__5126c.wrapper_c19a55.cozy_c19a55.zalgo_c19a55:not(.mentioned__5126c, .replying__5126c):hover,
+.message__5126c.wrapper_c19a55.compact_c19a55.zalgo_c19a55:not(.mentioned__5126c, .replying__5126c):hover {
 	background: unset;
 }
 
@@ -1333,12 +1336,31 @@ h3.membersGroup_c8ffbb {
 		text-decoration-color: inherit;
 		text-decoration-style: double;
 	}
-	span:not(.membersGroupName_c8ffbb) {
+	span:not(.membersGroupName_c8ffbb):last-of-type {
 		display: none;
 	}
 	.membersGroupHeader_c8ffbb {
 		justify-content: center;
 	}
+}
+
+ /* Role Gradients, Inspired by ClearVision */
+.membersGroupHeader_c8ffbb:before {
+	content: "";
+	height: 2px;
+	flex-grow: 1;
+	background: linear-gradient(to left, currentColor 50%, transparent);
+	margin-top: 8px;
+	margin-right: 4px;
+}
+
+.membersGroupHeader_c8ffbb:after {
+	content: "";
+	height: 2px;
+	flex-grow: 1;
+	background: linear-gradient(to right, currentColor 50%, transparent);
+	margin-top: 8px;
+	margin-left: 4px;
 }
 
  /* MemberCounter Plugin */
