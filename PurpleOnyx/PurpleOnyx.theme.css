@@ -699,6 +699,10 @@ header.searchHeader_ae7890,
 	}
 }
 
+.section_bf424d {
+	gap: unset;
+}
+
  /* Bring back the AT from Aurora (@GH0STP4WZ ) */
 .tags__63ed3.pronouns__63ed3 .userTagUsername__63ed3::before,
  /* Place the AT on Mod View Profile */
@@ -747,6 +751,9 @@ span:has(.pronounsText__63ed3) {
 svg.flowerStar__3e3b0>path {
 	fill: var(--oPur-64) !important;
 }
+.user-profile-popout .connectionsWrapper_c56430 {
+	padding-left: 14px;
+}
 
  /* Radial Status Mod View Fix */
 #app-mount .memberAvatar__34940 .wrapper__44b0c rect {
@@ -755,10 +762,9 @@ svg.flowerStar__3e3b0>path {
 }
 
  /* Timezones Plugin Customization */
-.tz-banner {
-	top: inherit !important;
-	right: 8px !important;
-	bottom: 39px !important;
+.user-profile-popout .tz-banner {
+	top: 50px !important;
+	right: 12px !important;
 	left: inherit !important;
 }/*</Profiles>*/
 
@@ -1399,6 +1405,25 @@ li.channel__972a0 .selected_bf202d {
  /* DMs User Profile that isn't Nitro/Custom Themed */
 aside .user-profile-sidebar {
 	border-left: 1px groove var(--oPur-64);
+	.body_b32ca4 {
+		gap: 6px;
+		margin: 0px 8px;
+	}
+	.overlay_c0bea0.overlay_b32ca4 {
+		padding: 6px;
+	}
+	.widgetPreviews__7f9c0 {
+		margin: 6px 8px 0px;
+	}
+	.wishlistBreadcrumb__7f9c0 {
+		margin: 6px 8px 0px;
+	}
+	.overlay_c0bea0.overlay__3b260 {
+		margin: 6px 8px;
+		.divider__23eb0.divider__3b260 {
+			background-color: var(--border-active);
+		}
+	}
 }
 
 aside .user-profile-sidebar:not(.custom-user-profile-theme) {
@@ -1411,4 +1436,16 @@ aside .user-profile-sidebar:not(.custom-user-profile-theme) {
 			background: rgba(164,128,226, 0.11);
 		}
 	}
+}
+
+ /* Timezones Plugin Customization */
+.user-profile-sidebar .tz-banner {
+	top: 48px !important;
+	right: 8px !important;
+	left: inherit !important;
+}
+
+ /* Show Connections */
+.user-profile-sidebar .connectionsWrapper_c56430 {
+	padding-left: 4px;
 }/*</DMs>*/
