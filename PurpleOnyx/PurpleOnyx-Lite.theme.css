@@ -806,6 +806,14 @@ nav .header_f37cb1 {
 	}
 }
 
+ /* Threads New Post Button */
+.newPostsButton_f369db {
+	border-color: var(--border-active);
+	>div[style="color: var(--text-brand);"] {
+		color: var(--oPur-84) !important;
+	}
+}
+
  /* Selected Channel */
 .unread__2ea32.unreadImportant__2ea32 {
 	background-color: var(--oPurple) !important;
