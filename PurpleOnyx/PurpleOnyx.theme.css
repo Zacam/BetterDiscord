@@ -48,7 +48,7 @@
 	--rs-phone-visible: block;
 }
 
-.theme-midnight {
+:root, .theme-midnight {
  /* Purple Onyx NewUI */
 	--font-primary: "Spectral", serif, "Noto Color Emoji";
 	--font-display: "Spectral", serif, "Noto Color Emoji";
@@ -374,6 +374,25 @@ svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
 		color: rgb(216, 58, 66);
 		background-color: unset;
 	}
+}
+
+ /* Ban/Timeout */
+.container__8a031 {
+	.bodySpacerTop__8a031 {
+		display: none;
+	}
+	.stack_dbd263 {
+		gap: 6px !important;
+		.headerTrailing__8a031 {
+			padding-top: 6px;
+		}
+		.auto_d125d2.scrollerBase_d125d2 {
+			background-color: var(--background-base-lower);
+		}
+	}
+	.actionBar__8a031.section__8a031 {
+		padding: 6px 12px 4px !important;
+	}
 }/*</General Discord>*/
 
 /* Settings Panel                                                                                               */
@@ -667,9 +686,17 @@ header.searchHeader_ae7890,
 }/*</Toolbar>*/
 
 /* Profiles                                                                                                     */
- /* "Verified" Check on Connections */
-svg.flowerStar__3e3b0>path {
-	fill: var(--oPur-64) !important;
+ /* Profile Popup Size */
+.user-profile-popout .inner_c0bea0 {
+	gap: 4px;
+	padding: 0px;
+	.body__5be3e {
+		gap: 6px;
+		padding: 4px 0px 4px 8px !important;
+	}
+	.footer__5be3e {
+		padding: 0px 8px 4px 8px;
+	}
 }
 
  /* Bring back the AT from Aurora (@GH0STP4WZ ) */
@@ -714,6 +741,11 @@ span:has(.pronounsText__63ed3) {
 	background: inherit;
 	border-radius: 12px;
 	opacity: 0.32;
+}
+
+ /* "Verified" Check on ShowConnections */
+svg.flowerStar__3e3b0>path {
+	fill: var(--oPur-64) !important;
 }
 
  /* Radial Status Mod View Fix */
@@ -803,7 +835,7 @@ nav :is(.bannerVisible_f37cb1, .container_f37cb1) .header_f37cb1 {
 
  /* Set Channel Header Background */
 nav .header_f37cb1 {
-	background-color: rgb(11,11,11);
+	background-color: var(--background-base-low);
 }
 
 [class$="headerGlass"], [class*="headerEllipse"] {
@@ -814,6 +846,11 @@ nav .header_f37cb1 {
 .sectionDivider__629e4 {
 	background-color: rgba(164,128,226,0.5) !important;
 	margin-top: 6px;
+}
+
+ /* Icon to Name Gap */
+.linkTop__2ea32 {
+	gap: 3px; /* var(--space-xs); 6px */
 }
 
  /* Make Followed Topics Names same size */
@@ -1204,7 +1241,7 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 
  /* Gradient and Spacer */
 .formWithLoadedChatInput_f75fb0::before,
-:is(.chatGradient__36d07, .chatTypingGradientNotAtBottom__36d07).chatGradientBase__36d07 {
+.chatGradientBase__36d07 {
 	display: none;
 }
 .scrollerSpacer__36d07 {
@@ -1212,6 +1249,9 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 }
 
  /* Who's Typing Indicator */
+:is(.memberInner__5d473, .interactive_bf202d) rect.pointerEvents__44b0c[x="14.5"] {
+	opacity: 0.32;
+}
 .typing_b88801 {
 	top: -20px !important;
 }
