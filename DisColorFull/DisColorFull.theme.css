@@ -1,7 +1,7 @@
 /**
 * @name DisColorFull SVG
 * @author Zacam
-* @version 1.4.1
+* @version 1.4.2
 * @description Fills in Discords bland SVG's with Color || Inspired by @NYRI4's `Discolored' Theme
 * @authorId 94933455258783744
 * @source https://github.com/Zacam/BetterDiscord/tree/main/DisColorFull
@@ -40,6 +40,7 @@ a[href="https://support.discord.com"] svg>path {
 }/*</Main Titlebar>*/
 
 /* Tiny + on Invites/Events etc */
+svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"],
 svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"] {
 	fill: rgb(119, 178, 85);
 }
