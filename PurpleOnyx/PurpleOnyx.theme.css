@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx
  * @author Zacam
- * @version 1.9.8
+ * @version 1.9.9
  * @description Purple Accented NewUI Onyx Compact
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -666,7 +666,7 @@ header.searchHeader_ae7890,
 	}
 	.header_e8b59c {
 		border-bottom: 1px solid var(--border-active);
-		padding: 8px 16px;
+		padding: 6px 12px 0px 12px;
 	}
 }
 
