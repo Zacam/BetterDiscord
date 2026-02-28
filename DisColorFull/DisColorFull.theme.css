@@ -1,7 +1,7 @@
 /**
 * @name DisColorFull SVG
 * @author Zacam
-* @version 1.4.2
+* @version 1.4.3
 * @description Fills in Discords bland SVG's with Color || Inspired by @NYRI4's `Discolored' Theme
 * @authorId 94933455258783744
 * @source https://github.com/Zacam/BetterDiscord/tree/main/DisColorFull
@@ -37,7 +37,23 @@ h1.inboxTitle_ab6641 {
  /* Help Button */
 a[href="https://support.discord.com"] svg>path {
 	fill: #7289DA !important;
-}/*</Main Titlebar>*/
+}
+
+ /* DevTools */
+.toolbar__9293f > .buttons_8227b0 > div > .button__85643 svg, /* Old Title Bar */
+.trailing_c38106 > div > .button__85643 svg {
+	background-image: url("https://discord.com/assets/73763de9b2924904.svg");
+	background-size: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.toolbar__9293f > .buttons_8227b0 > div > .button__85643 svg>path, /* Old Title Bar */
+.trailing_c38106 > div > .button__85643 svg>path,
+svg.inboxIcon_ab6641 {
+	display: none;
+}
+/*</Main Titlebar>*/
 
 /* Tiny + on Invites/Events etc */
 svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"],
