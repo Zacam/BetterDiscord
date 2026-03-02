@@ -1354,7 +1354,7 @@ aside .user-profile-sidebar:not(.custom-user-profile-theme) {
 }
 
  /* Group DM's Header/Member Count */
-h2.header__13cf1 {
+.members_c8ffbb h2.header__13cf1 {
 	color: var(--oPurple);
 	display: flex;
 	padding-top: 3px;
