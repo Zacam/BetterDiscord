@@ -20,6 +20,7 @@
 	--oPur-64: rgba(164,128,226,0.64);
 	--oPur-84: rgba(164,128,226,0.84);
 	--oPurple: rgb(164,128,226);
+	--brand-10a: rgba(164,128,226,0.15) !important;
 	--brand-300: var(--oPur-64) !important;
 	--brand-500: var(--oPur-84) !important;
 	--text-link: var(--oPur-84) !important;
@@ -1243,26 +1244,24 @@ h3.membersGroup_c8ffbb {
 	}
 	.membersGroupHeader_c8ffbb {
 		justify-content: center;
+		/* Role Gradients, Inspired by ClearVision */
+		&:before {
+			content: "";
+			height: 2px;
+			flex-grow: 1;
+			background: linear-gradient(to left, currentColor 50%, transparent);
+			margin-top: 8px;
+			margin-right: 4px;
+		}
+		&:after {
+			content: "";
+			height: 2px;
+			flex-grow: 1;
+			background: linear-gradient(to right, currentColor 50%, transparent);
+			margin-top: 8px;
+			margin-left: 4px;
+		}
 	}
-}
-
- /* Role Gradients, Inspired by ClearVision */
-.membersGroupHeader_c8ffbb:before {
-	content: "";
-	height: 2px;
-	flex-grow: 1;
-	background: linear-gradient(to left, currentColor 50%, transparent);
-	margin-top: 8px;
-	margin-right: 4px;
-}
-
-.membersGroupHeader_c8ffbb:after {
-	content: "";
-	height: 2px;
-	flex-grow: 1;
-	background: linear-gradient(to right, currentColor 50%, transparent);
-	margin-top: 8px;
-	margin-left: 4px;
 }/*</Members List>*/
 
 /* DMs                                                                                                          */
@@ -1351,5 +1350,29 @@ aside .user-profile-sidebar:not(.custom-user-profile-theme) {
 		.footerButton__7f9c0 {
 			background: rgba(164,128,226, 0.11);
 		}
+	}
+}
+
+ /* Group DM's Header/Member Count */
+h2.header__13cf1 {
+	color: var(--oPurple);
+	display: flex;
+	padding-top: 3px;
+	padding-bottom: 0px;
+	&:before {
+		content: "";
+		height: 2px;
+		flex-grow: 1;
+		background: linear-gradient(to left, currentColor 50%, transparent);
+		margin-top: 7px;
+		margin-right: 4px;
+	}
+	&:after {
+		content: "";
+		height: 2px;
+		flex-grow: 1;
+		background: linear-gradient(to right, currentColor 50%, transparent);
+		margin-top: 7px;
+		margin-left: 4px;
 	}
 }/*</DMs>*/
