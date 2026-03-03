@@ -119,7 +119,11 @@
 }
 
 .bd-switch input:checked:active+.bd-switch-body {
-	--switch-color: var(--switch-color);
+	--switch-color: var(--oPur-64);
+}
+
+.bd-radio-option.bd-radio-selected circle:first-of-type {
+	fill: var(--oPur-64) !important;
 }
 
 .bd-slider-track {
@@ -1257,8 +1261,7 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 }
 
  /* Gradient and Spacer */
-.formWithLoadedChatInput_f75fb0::before,
-.chatGradientBase__36d07 {
+.formWithLoadedChatInput_f75fb0::before {
 	display: none;
 }
 .scrollerSpacer__36d07 {
