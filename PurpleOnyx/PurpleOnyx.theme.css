@@ -113,6 +113,15 @@
 	color: #F0F0F0;
 }
 
+.bd-radio-icon {
+	stroke: var(--oPur-64);
+}
+
+.bd-radio-selected .bd-radio-icon {
+	fill: var(--oPur-64);
+	stroke: var(--oPur-84);
+}
+
 .bd-switch input:checked+.bd-switch-body,
 .bd-switch input:active+.bd-switch-body {
 	--switch-color: var(--oPur-64);
@@ -120,10 +129,6 @@
 
 .bd-switch input:checked:active+.bd-switch-body {
 	--switch-color: var(--oPur-64);
-}
-
-.bd-radio-option.bd-radio-selected circle:first-of-type {
-	fill: var(--oPur-64) !important;
 }
 
 .bd-slider-track {
@@ -155,6 +160,10 @@ footer._8a031a135bfcb9ba-actionBar button {
 }
 
  /* CHeck Boxes */
+.checkboxIndicator__714a9 {
+	border-color: var(--oPur-64) !important;
+}
+
 div[class*="checkbox"][class*="checked"] {
 	background-color: var(--oPur-64);
 	&:hover {
@@ -195,9 +204,9 @@ border-color: var(--oPur-42) !important;
 	--status-danger: rgba(164,128,226,0.5);
 }
 
- /* Radio Dots */
-svg[class*="radioIndicatorChecked"]>circle[class*="refreshIconFill"] {
-	fill: var(--oPur-64);
+ /* Radio Buttons */
+.outerRadioBase__64e61 {
+	stroke: var(--oPur-64);
 }
 
  /* Sliders */
@@ -933,7 +942,7 @@ nav .header_f37cb1 {
 
  /* Selected/Active Channel */
 .modeSelected__2ea32 .linkTop__2ea32 {
-	>.iconContainer__2ea32>svg>path {
+	>.iconContainer__2ea32>svg:not(.iconLive_c69b6d)>path {
 		fill: var(--oPurple);
 	}
 	>.name__2ea32 {
@@ -1101,6 +1110,9 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 	left: 1px;
 	margin-left: calc(var(--custom-guild-list-width) - var(--space-xs)*2);
 	width: calc(100% - var(--custom-guild-list-width) + 4px);
+	.container_e131a9 {
+		border-bottom-color: var(--border-active);
+	}
 	.actionButtons_e131a9 button {
 		padding: 0px;
 	}
@@ -1212,6 +1224,7 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 }
 
  /* Mentioned Messages */
+.bar__7aaec.mentionsBar__7aaec,
 .mentioned__5126c:before {
 	background: var(--oPur-42);
 }
@@ -1320,6 +1333,19 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 }/*</Chat Body>*/
 
 /* VC                                                                                                           */
+.videoControls_bfe55a .flex__7c0ba:last-of-type button {
+	svg.controlIcon_f1ceac {
+		color: var(--oPur-64);
+		&:hover {
+			color: var(--oPur-84);
+		}
+	}
+}
+
+.videoControls_bfe55a .flex__7c0ba .leftTrayIcon_cb9592 {
+	display: none;
+}
+
 .qualityIndicator__30845 {
 	color: rgb(28,28,28) !important;
 	background-color: var(--oPur-64);
