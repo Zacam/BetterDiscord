@@ -1,7 +1,7 @@
 /**
 * @name DisColorFull SVG
 * @author Zacam
-* @version 1.4.4
+* @version 1.4.5
 * @description Fills in Discords bland SVG's with Color || Inspired by @NYRI4's `Discolored' Theme
 * @authorId 94933455258783744
 * @source https://github.com/Zacam/BetterDiscord/tree/main/DisColorFull
@@ -51,7 +51,16 @@ a[href="https://support.discord.com"] svg>path {
 		display: none;
 	}
 }
-/*</Main Titlebar>*/
+
+ /* OldTitleBar Reload Button */
+div[class^="toolbar"] svg>path[d^="M 21,10.875658 V 3 L 18.354245,5.6442048"] {
+	fill: #A480E2;
+}
+
+ /* OldTitleBar Close Button */
+div[class^="toolbar"] svg>path[d^="M 19.2,3 12,10.2"] {
+	fill: #DA3E44;
+}/*</Main Titlebar>*/
 
 /* Tiny + on Invites/Events etc */
 svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 1 1 0 2h-3v3a1 1 0 1 1-2 0v-3h-3a1 1 0 1 1 0-2h3v-3a1 1 0 0 1 1-1Z"],
@@ -59,8 +68,45 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 	fill: rgb(119, 178, 85);
 }
 
+/* BD Plugins/Themes */
+svg.lucide-folder {
+	fill: #ffa500;
+}
+
+svg.lucide-check {
+	color: rgb(119, 178, 85) !important;
+}
+
+svg.lucide-x {
+	color: #DA3E44 !important;
+}
+
+/* BD THemes Palette SVG */
+.bd-addon-card svg.lucide-palette {
+	background-image: url("https://discord.com/assets/44a7ec4589980427.svg");
+	background-size: 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	>path {
+		display: none;
+	}
+}
+
+/* BD Plugins Plug SVG */
+.bd-addon-card svg.lucide-plug {
+	background-image: url("https://discord.com/assets/c1af0f0ecbe918ce.svg");
+	background-size: 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	>path {
+		display: none;
+	}
+}
+
 /* Toolbar */
  /* Search */
+.bd-search-wrapper>svg,
+.icon__0f084>svg:has(path[d="M15.62 17.03a9 9 0 1 1 1.41-1.41l4.68 4.67a1 1 0 0 1-1.42 1.42l-4.67-4.68ZM17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"]),
 .searchBar_c322aa svg.icon__0c4c4:not(.clear__0c4c4) {
 	background-image: url("https://discord.com/assets/74f0a67afb481b21.svg");
 	background-size: 16px;
@@ -231,8 +277,7 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 	display: none;
 }
 
-/*---------------------------------------------------------------------------------------------*/
-/* Server Dropdown */
+/* Server Dropdown ----------------------------------------------------------------------------*/
  /* Server Boost */
 #guild-header-popout-premium-subscribe svg path {
 	fill: #FE73F9;
@@ -317,8 +362,7 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 	}
 }
 
-/*---------------------------------------------------------------------------------------------*/
-/* Connections */
+/* Connections --------------------------------------------------------------------------------*/
  /* Steam */
 button[style*="/assets/1f7ec18f3695d4cf.svg"] {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg") !important;
