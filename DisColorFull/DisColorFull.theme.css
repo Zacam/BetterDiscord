@@ -1,7 +1,7 @@
 /**
 * @name DisColorFull SVG
 * @author Zacam
-* @version 1.4.3
+* @version 1.4.4
 * @description Fills in Discords bland SVG's with Color || Inspired by @NYRI4's `Discolored' Theme
 * @authorId 94933455258783744
 * @source https://github.com/Zacam/BetterDiscord/tree/main/DisColorFull
@@ -9,16 +9,17 @@
 
 /* Main Titlebar */
  /* Inbox */
-.toolbar__9293f > .buttons_8227b0 > .clickable_c99c29 svg, /* Old Title Bar */
+.toolbar__9293f .buttons_8227b0 > .clickable_c99c29 svg, /* Old Title Bar */
 .trailing_c38106 > .clickable_c99c29 svg {
 	background-image: url("https://discord.com/assets/a4c4a23d67f9f4cb.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
+	>path {
+		display: none;
+	}
 }
 
-.toolbar__9293f > .buttons_8227b0 > .clickable_c99c29 svg>path, /* Old Title Bar */
-.trailing_c38106 > .clickable_c99c29 svg>path,
 svg.inboxIcon_ab6641 {
 	display: none;
 }
@@ -40,18 +41,15 @@ a[href="https://support.discord.com"] svg>path {
 }
 
  /* DevTools */
-.toolbar__9293f > .buttons_8227b0 > div > .button__85643 svg, /* Old Title Bar */
+.toolbar__9293f .buttons_8227b0 > div > .button__85643 svg, /* Old Title Bar */
 .trailing_c38106 > div > .button__85643 svg {
 	background-image: url("https://discord.com/assets/73763de9b2924904.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
-}
-
-.toolbar__9293f > .buttons_8227b0 > div > .button__85643 svg>path, /* Old Title Bar */
-.trailing_c38106 > div > .button__85643 svg>path,
-svg.inboxIcon_ab6641 {
-	display: none;
+	>path {
+		display: none;
+	}
 }
 /*</Main Titlebar>*/
 
@@ -68,10 +66,9 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 	background-size: 16px;
 	background-position: center;
 	background-repeat: no-repeat;
-}
-
-.searchBar_c322aa svg.icon__0c4c4:not(.clear__0c4c4)>path {
-	display: none;
+	>path {
+		display: none;
+	}
 }
 
 .searchBar_c322aa svg.clear__0c4c4>path {
@@ -85,11 +82,9 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 	background-position: center;
 	background-repeat: no-repeat;
 	transform: rotate(45deg);
-}
-
-.toolbar__9293f>.icon_d98031>svg>path,
-.browser_d98031.container_d9c882 .header_d9c882 svg.threadIcon_d9c882>path {
-	display: none;
+	svg>path {
+		display: none;
+	}
 }
 
 .browser_d98031.container_d9c882 .header_d9c882 svg.threadIcon_d9c882 {
@@ -98,6 +93,9 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 	background-position: center;
 	background-repeat: no-repeat;
 	transform: rotate(45deg);
+	>path {
+		display: none;
+	}
 }
 
  /* Notification Bell */
@@ -121,8 +119,7 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 	background-repeat: no-repeat;
 }
 
-.toolbar__9293f>.iconWrapper__9293f>svg:has(path[d^="M19.38 11.38a3 3 0 0 0 4.24 0l.03-.03a.5.5 0 0 0 0-.7L13.35.35a.5.5"]),
-.messagesPopoutWrap_e8b59c>.header_e8b59c>.titleContainer_e8b59c>svg {
+.toolbar__9293f>.iconWrapper__9293f>svg:has(path[d^="M19.38 11.38a3 3 0 0 0 4.24 0l.03-.03a.5.5 0 0 0 0-.7L13.35.35a.5.5"]) {
 	display: none;
 }
 
@@ -131,6 +128,9 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 	background-size: 18px;
 	background-position: left;
 	background-repeat: no-repeat;
+	>svg {
+		display: none;
+	}
 }
 
 .messagesPopoutWrap_e8b59c>.header_e8b59c>.titleContainer_e8b59c>div {
@@ -182,10 +182,9 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
-}
-
-.inviteToolbar__133bf>.iconWrapper__9293f>svg>path[d^="M20.76 12.57c.4.3 1.23.13 1.24-.37V12a10"] {
-	display: none;
+	>svg>path[d^="M20.76 12.57c.4.3 1.23.13 1.24-.37V12a10"] {
+		display: none;
+	}
 }/*</Toolbar>/
 
 /* Avatar Wrapper - VC */
@@ -201,7 +200,12 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 
  /* Server Channel List - Voice User Indicators */
 .voiceUser__07f91 .iconGroup__07f91 svg {
-	color: var(--status-danger) !important;
+	color: var(--status-danger);
+}
+
+ /*Ping */
+.ping__06d62.largePing__06d62 path {
+	fill: var(--status-online);
 }/*</Avatar Wrapper - VC>*/
 
 /* BetterFriendList - Friend Since */
@@ -210,10 +214,9 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
-}
-
-.peopleListItem_cc6179 .actionButton_f8fa06>svg[name="Clock"]>path {
-	display: none;
+	>path {
+		display: none;
+	}
 }
 
 /* Friend List - "Message" */
@@ -238,10 +241,9 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
  /* Invite People */
 #guild-header-popout-invite-people svg {
 	background-image: url("https://discord.com/assets/5b12dce3a467ed97.svg");
-}
-
-#guild-header-popout-invite-people svg>path:first-of-type {
-	display: none;
+	>path:first-of-type {
+		display: none;
+	}
 }
 
  /* Create Channel */
@@ -252,19 +254,15 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
  /* Create Category */
 #guild-header-popout-create-category svg {
 	background-image: url("https://discord.com/assets/edd480d5e90bc7c6.svg");
-}
-
-#guild-header-popout-create-category svg>path {
-	display: none;
+	>path {
+		display: none;
+	}
 }
 
  /* Create Event */
 #guild-header-popout-create-event svg {
 	background-image: url("https://discord.com/assets/914d5f92720b2df3.svg");
-}
-
-#guild-header-popout-create-event {
-	svg>path:nth-of-type(2), svg>path:nth-of-type(3) {
+	>path:nth-of-type(2), >path:nth-of-type(3) {
 		display: none;
 	}
 }
@@ -276,10 +274,9 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 	background-position: center;
 	background-repeat: no-repeat;
 	transform: rotate(45deg);
-}
-
-#guild-header-popout-active-threads svg>path {
-	display: none;
+	>path {
+		display: none;
+	}
 }
 
  /* App Directory */
@@ -295,19 +292,17 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 	background-position: center;
 	background-repeat: no-repeat;
 	transform: scaleX(-1);
-}
-
-#guild-header-popout-notifications svg>path {
-	display: none;
+	>path {
+		display: none;
+	}
 }
 
  /* Privacy Settings */
 #guild-header-popout-privacy svg {
 	background-image: url("https://discord.com/assets/51cc7794c9a923de.svg");
-}
-
-#guild-header-popout-privacy svg>path {
-	display: none;
+	>path {
+		display: none;
+	}
 }
 
 /* Edit Server Profile */
@@ -317,10 +312,9 @@ svg>path[d="M19 14a1 1 0 0 1 1 1v3h3a1 1 0 0 1 0 2h-3v3a1 1 0 0 1-2 0v-3h-3a1 1 
 	background-position: center;
 	background-repeat: no-repeat;
 	transform: scaleX(-1);
-}
-
-#guild-header-popout-change-nickname svg>path {
-	display: none;
+	>path {
+		display: none;
+	}
 }
 
 /*---------------------------------------------------------------------------------------------*/
@@ -341,15 +335,14 @@ img[class*="connectionIcon"][alt^="Steam"] {
 }
 
  /* Playstation */
-div[id*="context-transfer-playstation"]>div[class$="-iconContainer"]:has(svg) {
-background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
+div[id*="context-transfer-playstation"] .iconContainer_c1e9c4 {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
 	background-size: 24px;
 	background-position: center;
 	background-repeat: no-repeat;
-}
-
-div[id*="context-transfer-playstation"]>div[class$="-iconContainer"] svg:has(path) {
-	display: none;
+	svg {
+		display: none;
+	}
 }
 
 button[style*="/assets/eed203a7ec517e23.svg"] {
