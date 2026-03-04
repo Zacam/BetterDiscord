@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx
  * @author Zacam
- * @version 1.9.9
+ * @version 2.0.0
  * @description Purple Accented NewUI Onyx Compact
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -210,8 +210,8 @@ border-color: var(--oPur-42) !important;
 }
 
  /* Sliders */
-.grabber_a562c8 {
-	background-color: var(--oPurple);
+.grabber_a562c8, .mediaBarGrabber_b26b79 {
+	background-color: var(--oPurple) !important;
 }
 
 .barFill_a562c8 {
@@ -415,9 +415,32 @@ border-color: var(--oPur-42) !important;
 	margin-block: 21px 21px;
 }
 
+.modalContent_e44912 {
+	.content_e9e3ed {
+		border-left: 1px solid var(--border-active);
+		.contentHeader_e9e3ed {
+			border-bottom: 1px solid var(--border-active);
+		}
+	}
+	.divider__1de9c {
+		border-top-color: var(--oPur-64);
+		margin: 12px !important;
+	}
+}
+
  /* Appearance Theme Prompt */
 .container_a1d343 {
 	display: none;
+}
+
+ /* Connections */
+.connectionList_c7f964 .connection_c7f964 {
+	background-color: var(--background-base-lower);
+	border: 1px solid var(--border-active);
+	gap: 10px;
+	.integrationWrapper_c7f964 {
+		background: var(--background-base-low);
+	}
 }
 
  /* Tabs */
@@ -438,6 +461,11 @@ border-color: var(--oPur-42) !important;
 	&::after {
 		background-color: var(--oPur-84) !important;
 	}
+}
+
+ /* BD Notifications Positions Box */
+.position-wrapper .bd-container {
+	margin: 12px auto;
 }
 
  /* BD Settings on Top */
@@ -473,16 +501,6 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 /* OldTitleBar Dividers */
 .toolbar_8227b0 .divider_348c72 {
 	background-color: var(--oPur-64);
-}
-
- /* OldTitleBar Reload Button */
-div[class^="toolbar"] svg>path[d^="M 21,10.875658 V 3 L 18.354245,5.6442048"] {
-	fill: #A480E2;
-}
-
- /* OldTitleBar Close Button */
-div[class^="toolbar"] svg>path[d^="M 19.2,3 12,10.2"] {
-	fill: #DA3E44;
 }
 
  /* New Group DM */
@@ -1356,6 +1374,7 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 	background-color: var(--oPur-64) !important;
 }
 
+.container__218f7:has(.activityVoiceChannel__2ef49),
 .participantsButton__211d1,
 .buttonSection__1405b {
 	border: 1px solid var(--border-active);
