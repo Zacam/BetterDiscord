@@ -16,12 +16,11 @@ User Avatars are hidden, and "Space Between" is set to Zero.</br>
 
 <ins>Featured Plugins</ins>:</br>
 [ChatButtonBegone](https://github.com/LancersBucket/ChatButtonsBegone) by [LancersBucket](https://github.com/LancersBucket)</br>
-[OldTitlebar](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/OldTitleBar) by [DevilBro](https://github.com/mwittrien)</br>
+[MoreRoleColors](https://github.com/DaddyBoard/BD-Plugins/tree/main/MoreRoleColors) by [DaddyBoard](https://github.com/DaddyBoard)</br>
 [MemberCounter](https://github.com/SyndiShanX/Better-Discord-Plugins/tree/main/MemberCounter) by [SyndiShanX](https://github.com/SyndiShanX)</br>
 
-<ins>Compatible Plugins</ins>:</br>
+<ins>Compatible/Recommended Plugins</ins>:</br>
 [CompleteTimestamps](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/CompleteTimestamps) by [DevilBro](https://github.com/mwittrien)</br>
-[MoreRoleColors](https://github.com/DaddyBoard/BD-Plugins/tree/main/MoreRoleColors) by [DaddyBoard](https://github.com/DaddyBoard)</br>
 [SimpleUserMenu](https://github.com/KingGamingYT/SimpleUserMenu) by [KingGamingYT](https://github.com/KingGamingYT)</br>
 
 ## PurpleOnyx Lite Theme</br>
