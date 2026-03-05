@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx
  * @author Zacam
- * @version 2.0.1
+ * @version 2.0.2
  * @description Purple Accented NewUI Onyx Compact
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -542,6 +542,10 @@ nav,
 	}
 	.clickable_c99c29 {
 		margin: 0px 4px;
+	}
+	.clickable__9293f { /* DevTools */
+		margin-right: 2px;
+		margin-left: -3px;
 	}
 }
 
