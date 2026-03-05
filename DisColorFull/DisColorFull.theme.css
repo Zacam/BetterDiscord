@@ -1,7 +1,7 @@
 /**
 * @name DisColorFull SVG
 * @author Zacam
-* @version 1.4.5
+* @version 1.4.6
 * @description Fills in Discords bland SVG's with Color || Inspired by @NYRI4's `Discolored' Theme
 * @authorId 94933455258783744
 * @source https://github.com/Zacam/BetterDiscord/tree/main/DisColorFull
@@ -122,13 +122,13 @@ svg.lucide-x {
 }
 
  /* Threads */
-.toolbar__9293f>.icon_d98031 {
+.toolbar__9293f>.icon_d98031 svg {
 	background-image: url("https://discord.com/assets/5f5b447d1ae0cba4.svg");
 	background-size: 16px;
 	background-position: center;
 	background-repeat: no-repeat;
 	transform: rotate(45deg);
-	svg>path {
+	>path {
 		display: none;
 	}
 }
@@ -145,16 +145,15 @@ svg.lucide-x {
 }
 
  /* Notification Bell */
-.toolbar__9293f>.iconWrapper__9293f:has(>svg>path[d^="M1.3 21.3a1 1 0 1 0 1.4 1.4l20-20a1"]) {
+.toolbar__9293f>.iconWrapper__9293f:has(svg>path[d^="M1.3 21.3a1 1 0 1 0 1.4 1.4l20-20a1"]) {
 	background-image: url("https://discord.com/assets/ca750a2b73e36154.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
 	transform: scaleX(-1);
-}
-
-.toolbar__9293f>.iconWrapper__9293f>svg:has(>path[d^="M1.3 21.3a1 1 0 1 0 1.4 1.4l20-20a1"]) {
-	display: none;
+	path {
+		display:none;
+	}
 }
 
  /* Pinned Message */
@@ -163,10 +162,9 @@ svg.lucide-x {
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
-}
-
-.toolbar__9293f>.iconWrapper__9293f>svg:has(path[d^="M19.38 11.38a3 3 0 0 0 4.24 0l.03-.03a.5.5 0 0 0 0-.7L13.35.35a.5.5"]) {
-	display: none;
+	path {
+		display: none;
+	}
 }
 
 .messagesPopoutWrap_e8b59c>.header_e8b59c>.titleContainer_e8b59c {
