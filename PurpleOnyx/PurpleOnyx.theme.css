@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx
  * @author Zacam
- * @version 2.0.2
+ * @version 2.0.3
  * @description Purple Accented NewUI Onyx Compact
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -862,9 +862,11 @@ svg.flowerStar__3e3b0>path {
 }
 
  /* Timezones Plugin Customization */
-.user-profile-popout .tz-banner {
-	top: 50px !important;
-	right: 12px !important;
+.tz-banner {
+	background: var(--control-overlay-secondary-background-default) !important;
+	color: var(--white) !important;
+	top: 48px !important;
+	right: 8px !important;
 	left: inherit !important;
 }/*</Profiles>*/
 
@@ -1608,13 +1610,6 @@ aside .user-profile-sidebar:not(.custom-user-profile-theme) {
 		margin-top: 7px;
 		margin-left: 4px;
 	}
-}
-
- /* Timezones Plugin Customization */
-.user-profile-sidebar .tz-banner {
-	top: 48px !important;
-	right: 8px !important;
-	left: inherit !important;
 }
 
  /* Show Connections */

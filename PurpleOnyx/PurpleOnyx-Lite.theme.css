@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx Lite
  * @author Zacam
- * @version 2.0.1
+ * @version 2.0.3
  * @description Purple Accented NewUI Onyx Compact | Lite (No Imports/Plugins)
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -1091,6 +1091,9 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 	bottom: 1px;
 	margin-left: calc(var(--custom-guild-list-width) + 2px);
 	width: calc(100% - var(--custom-guild-list-width) - 15px);
+	.container_e131a9 {
+		border-bottom-color: var(--border-active);
+	}
 	.actionButtons_e131a9 button {
 		padding: 0px;
 	}
