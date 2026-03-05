@@ -519,6 +519,9 @@ nav,
 .titleWrapper__9293f,
 .topic__6ec1a {
 	-webkit-app-region:no-drag;
+}
+.topic__6ec1a {
+	flex: none;
 }/*</Remove the Titlebar> */
 
 .winButton_c38106 svg {
