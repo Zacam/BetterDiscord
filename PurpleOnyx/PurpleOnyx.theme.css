@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx
  * @author Zacam
- * @version 2.0.0
+ * @version 2.0.1
  * @description Purple Accented NewUI Onyx Compact
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -496,33 +496,35 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	}
 }
 .bar_c38106 {
-  margin-top: 40px;
-  z-index: 900;
-  justify-content: right;
-  pointer-events: none;
+	margin-top: 40px;
+	z-index: 900;
+	justify-content: right;
+	pointer-events: none;
 }
 .bar_c38106 .leading_c38106, .bar_c38106 .title_edbb22 {
-  display: none !important;
+	display: none !important;
 }
 .bar_c38106 .trailing_c38106 {
-  pointer-events: all;
-  >a { display: none; }
+	pointer-events: all;
+	>a { display: none; }
 }
-
 .toolbar__9293f {
-  margin-right: calc(37px * var(--trailingCounter) - 3px);
+	margin-right: calc(32px * var(--trailingCounter) + 5px);
 }
-
 div:is(.sidebarOpen_cb9592, .threadSidebarOpen_f75fb0) .toolbar__9293f {
-  margin-right: 0;
+	margin-right: 0;
 }
-
 nav,
 .headerContent_f37cb1,
 .titleWrapper__9293f,
 .topic__6ec1a {
 	-webkit-app-region:no-drag;
 }/*</Remove the Titlebar> */
+
+.winButton_c38106 svg {
+	height: 18px;
+	width: 18px;
+}
 
  /* Border */
 .container__9293f {
@@ -532,8 +534,11 @@ nav,
  /* Toolbar Spacing */
 .trailing_c38106, .toolbar__9293f {
 	gap: unset;
-	.buttons_8227b0 {
+	.buttons_8227b0, .winButtons_c38106 {
 		gap: unset;
+	}
+	.clickable_c99c29 {
+		margin: 0px 4px;
 	}
 }
 
@@ -632,7 +637,7 @@ nav,
 .search__49676 {
 	order: -1;
 	margin-left: 0px;
-	margin-right: 10px;
+	margin-right: 6px;
 	.searchBar_c322aa {
 		/* Make the default state only show an icon that can be clicked. */
 		transition: all ease 0.3s;
