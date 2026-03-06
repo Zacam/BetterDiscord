@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx
  * @author Zacam
- * @version 2.0.3
+ * @version 2.0.4
  * @description Purple Accented NewUI Onyx Compact
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -84,6 +84,11 @@
 	--spoiler-hidden-background-hover: var(--oPur-32) !important;
 	--__current--spoiler-background-color: var(--oPur-32) !important;
 	--__spoiler-background-color--revealed: var(--oPur-21) !important;
+}
+
+@keyframes marquee {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
 }
 
 /* Better Discord overrides                                                                                     */
@@ -793,6 +798,18 @@ header.searchHeader_ae7890,
 	.body__5be3e {
 		gap: 6px;
 		padding: 4px 0px 4px 8px !important;
+	}
+	.details__39ec2 > div > div[class^="text-xs/normal"] {
+		width: fit-content;
+		&:hover > .overflow_b0dfc2 {
+			animation: 5s marquee 1s linear infinite alternate;
+		}
+	}
+	.container__9d597:has(.hasMultipleCards__9d597) {
+		padding-bottom: 0px;
+		.backgroundCardContainer__9d597 {
+			display: none;
+		}
 	}
 	.footer__5be3e {
 		padding: 0px 8px 4px 8px;

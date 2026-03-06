@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx Lite
  * @author Zacam
- * @version 2.0.3
+ * @version 2.0.4
  * @description Purple Accented NewUI Onyx Compact | Lite (No Imports/Plugins)
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -731,6 +731,18 @@ nav,
 	.body__5be3e {
 		gap: 6px;
 		padding: 4px 0px 4px 8px !important;
+	}
+	.details__39ec2 > div > div[class^="text-xs/normal"] {
+		width: fit-content;
+		&:hover > .overflow_b0dfc2 {
+			animation: 5s marquee 1s linear infinite alternate;
+		}
+	}
+	.container__9d597:has(.hasMultipleCards__9d597) {
+		padding-bottom: 0px;
+		.backgroundCardContainer__9d597 {
+			display: none;
+		}
 	}
 	.footer__5be3e {
 		padding: 0px 8px 4px 8px;
