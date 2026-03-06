@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx Lite
  * @author Zacam
- * @version 2.0.4
+ * @version 2.0.5
  * @description Purple Accented NewUI Onyx Compact | Lite (No Imports/Plugins)
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -353,10 +353,10 @@ border-color: var(--oPur-42) !important;
 	}
 }
 
- /* Ban/Timeout */
+ /* Ban/Timeout/Topic */
 .container__8a031 {
 	.bodySpacerTop__8a031 {
-		display: none;
+		padding-top: 8px;
 	}
 	.stack_dbd263 {
 		gap: 6px !important;
@@ -436,9 +436,9 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 }/*</Settings Panel>*/
 
 /* Toolbar                                                                                                      */
-/* Remove the Titlebar */ /* Thanks to GH0STP4WZ and Izy */
+/* Remove the Titlebar */ /* Thanks to GH0STP4WZ, dav,  and Izy */
 .base__5e434 {
-	margin-top: -35px;
+	margin-top: -32px;
 	--trailingCounter: 1;
 	&:has(.trailing_c38106 > :nth-child(2)) {
 		--trailingCounter: 2;
@@ -483,6 +483,9 @@ nav,
 }
 .topic__6ec1a {
 	flex: none;
+}
+.chat_f75fb0 .layerContainer__59d0d {
+	z-index: 2;
 }/*</Remove the Titlebar> */
 
 .winButton_c38106 svg {
