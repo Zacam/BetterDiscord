@@ -1,0 +1,266 @@
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
+@import url(https://discordstyles.github.io/RadialStatus/RadialStatus.css);
+@import url(https://davart154.github.io/Themes/Snippets/Mana%20Page%20Switcher/ManaPageSwitcherSource.css);
+
+:root {
+ /* Server Columns */
+	--columns: 1;		/* default:	3	(amount of servercolumns)							*/
+	--guildsize: 32;	/* default:	50	(serversize in pixel)								*/
+	--guildgap: 2;		/* default:	3	(top/bottom gap between servers in pixel)			*/
+	--badgescale: 1.7;	/* default: 1	(multiplier for badge size (mention/voice/stream)	*/
+	--aligndms: 1;		/* default:	0	(should DMs be aligned in columns: 0 = no, 1 = yes)	*/
+}
+
+:root {
+ /* Radial Status */
+	/* Gap between avatar and status | MUST end in px */
+	--rs-small-spacing: 2px;
+	--rs-medium-spacing: 2px; /* Default: 3px  */
+	--rs-large-spacing: 2px; /* Default: 4px */
+	/* Thickness of status border | MUST end in px */
+	--rs-small-width: 1px;
+	--rs-medium-width: 2px; /* Default: 3px */
+	--rs-large-width: 2px; /* Default: 4px */
+	/* 50% for round - 0% for square */
+	--rs-avatar-shape: 50%;
+	/* Colour */
+	--rs-online-color: #43A25A; /* Default: #43b581 / Colour for online status */
+	--rs-idle-color: #CA9E54; /* Default #faa61a / Colour for idle status */
+	--rs-dnd-color: #D83A42; /* Default: #f04747 / Colour for dnd status */
+	--rs-offline-color: #82838B; /* Default: #636b75 /* Colour for offline status */
+	--rs-streaming-color: #9147FF; /* Default: #643da7 / Colour for streaming status */
+	/* Note: this will only show for your own invisibility */
+	--rs-invisible-color: #82838B; /* Default: #747f8d / Colour for invisible status */
+	--rs-self-speaking-color: #A480E2; /* Colour for speaking ring in the bottom left while in a voice chat/call */
+	/* Colour of the ring and phone icon when a user is on their phone |  */
+	--rs-phone-color: #7289DA; /*var(--rs-online-color);*/
+	/* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+	--rs-phone-visible: block;
+}
+
+/* Toolbar                                                                                                      */
+ /* Toolbar Spacing */
+.trailing_c38106, .toolbar__9293f {
+	gap: unset;
+	.buttons_8227b0, .winButtons_c38106 {
+		gap: unset;
+	}
+	.clickable_c99c29 {
+		margin: 0px 4px;
+	}
+	.clickable__9293f { /* DevTools */
+		margin-right: 2px;
+		margin-left: -3px;
+	}
+}
+
+/* OldTitleBar Dividers */
+.toolbar_8227b0 .divider_348c72 {
+	background-color: var(--oPur-64);
+}
+
+  /* ManaPageSwitcher Overrides */
+.container_b82a71 {
+	margin-bottom: unset;
+}
+
+header.searchHeader_ae7890,
+.searchResultsWrap_a98f3b .container_b82a71 {
+	border: 2px groove var(--border-active);
+}
+
+.pageControl_c15210 {
+	height: var(--custom-app-panels-height);
+}/*</Toolbar>*/
+
+/* Profiles                                                                                                     */
+ /* Colorize Pronouns */
+.pronounsText__63ed3.userTag__63ed3, .userPronouns {
+	padding: 0px 6px;
+	/* Establishes Gradient, use of HEX color code is mandatory */
+	background: linear-gradient(to left, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+	/* Clip the color to text only */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+ /* "Verified" Check on ShowConnections */
+svg.flowerStar__3e3b0>path {
+	fill: var(--oPur-64) !important;
+}
+.user-profile-popout .connectionsWrapper_c56430 {
+	padding-left: 14px;
+}
+
+ /* Radial Status Mod View Fix */
+#app-mount .memberAvatar__34940 .wrapper__44b0c rect {
+	height: 48px !important;
+	width: 48px !important;
+}
+
+ /* NewOldProfiles */
+.outer_c0bea0.user-profile-modal-v2 {
+	border: 1px solid var(--border-active);
+	border-radius: 12px;
+}
+.topSectionPlaying {
+	.activityProfile.activity {
+		.headerText {
+			display: none;
+		}
+		&::before {
+			content: "NOW PLAYING";
+			color: var(--white);
+			font-family: var(--font-display);
+			font-size: 12px;
+			font-weight: 700;
+		}
+	}
+}
+div[class^="topSection"] {
+	background-color: transparent !important;
+	.displayName::before {
+		content: "@";
+	}
+	.nameTag {
+		display: none;
+	}
+	.profileButtons {
+		button:first-of-type:hover {
+			background: var(--oPur-64) !important;
+		}
+		:is(button, span>button>.buttonChildrenWrapper_a22cb0) {
+			background: var(--control-overlay-secondary-background-default) !important;
+			border-color: var(--border-subtle);
+			color: var(--white) !important;
+		}
+	}
+	.activityCardsContainer {
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+		border-color: var(--border-subtle);
+	}
+	.activity, .activityProfile.activity {
+		padding: 4px 20px;
+	}
+	.tabBarContainer {
+		border-top-color: var(--border-subtle) !important;
+		.tabBarItem[aria-selected="true"] {
+			border-bottom-color: var(--border-active);
+		}
+		.tabBarItem:not([aria-selected="true"]):hover {
+			border-bottom-color: var(--border-subtle);
+		}
+	}
+}
+#about-tab {
+	.userInfoSection {
+		border-top-color: var(--border-subtle) !important;
+	}
+	.connectedAccount {
+		background-color: var(--background-base-low);
+		border-color: var(--border-subtle);
+	}
+}
+
+ /* Timezones Plugin Customization */
+.tz-banner {
+	background: var(--control-overlay-secondary-background-default) !important;
+	color: var(--white) !important;
+	top: 48px !important;
+	right: 8px !important;
+	left: inherit !important;
+}/*</Profiles>*/
+
+/* Servers Panel                                                                                                */
+ /* New Messages Indicator */
+.wrapper_ef3116 .wrapper__58105 {
+	transform: scale(1, 0.70) !important;
+}/*</Servers Panel>*/
+
+
+/* Avatar Wrapper                                                                                               */
+ /* SimplifiedUserMenu Width Alignment */
+#account-panel {
+	width: 225px;
+}
+
+ /* Remove Status Selection submenu */
+.menu_c1e9c4[id="account-panel"] .submenuPaddingContainer_c1e9c4:has(>.menu_c1e9c4:not([aria-activedescendant*="switch-account"])) {
+	display: none;
+}
+
+ /* and the ">" */
+.menu_c1e9c4[id="account-panel"] .item_c1e9c4:not(#account-panel-switch-accounts) .iconContainer_c1e9c4 {
+	display: none;
+}
+
+ /* Remove Status lower Description */
+.menu_c1e9c4[id="account-panel"] .label_c1e9c4 > .defaultColor__4bd52 {
+	display: none;
+}
+
+ /* Resize the Status Picker Menu Width */
+.statusPickerModalMenu_ce8328 {
+	width: fit-content;
+	.scroller_c1e9c4 {
+		padding-right: 13px !important;
+	}
+}
+
+ /* Fix Account Switcher Width */
+.menu_c1e9c4[id="switch-accounts-submenu"] {
+	min-width: unset !important;
+	width: fit-content;
+	padding-right: 6px;
+}
+
+ /* Fix SimpleUserMenu Divider Width */
+#account-panel > div > div.separator_c1e9c4 {
+	width: unset;
+}
+ /* SimpleUserMenu Status Icon Fix */
+#account-panel {
+	.labelContainer_c1e9c4 {
+		min-height: 28px;
+	}
+	.item_c1e9c4:not(#account-panel-idle) .statusAccessory_c1e9c4 {
+		margin-top: 6px;
+	}
+}
+
+ /* Reveal mute and Deafen buttons when settings button is hovered */
+.panels__5e434 > .container__37e49 .buttons__37e49:hover > .audioButtonParent__5e764 {
+	opacity: 100%;
+	width: 32px; /* 42 with chevrons */
+}
+
+ /* Shrink up the size of the Wrapper */
+.visual-refresh section.panels__5e434 {
+	bottom: 1px;
+	left: 1px;
+	margin-left: calc(var(--custom-guild-list-width) - var(--space-xs)*2);
+	width: calc(100% - var(--custom-guild-list-width) + 4px);
+	.container_e131a9 {
+		border-bottom-color: var(--border-active);
+	}
+	.actionButtons_e131a9 button {
+		padding: 0px;
+	}
+}/*</Avatar Wrapper>*/
+
+
+/* Members List                                                                                                 */
+ /* MemberCounter Plugin */
+.member_counter_wrapper {
+	padding: 2px 0px !important;
+	.member_counter_text {
+		padding: 2px 0px !important;
+	}
+}/*</Members List>*/
+
+/* DMs                                                                                                          */
+ /* Show Connections */
+.user-profile-sidebar .connectionsWrapper_c56430 {
+	padding-left: 4px;
+}/*</DMs>*/
