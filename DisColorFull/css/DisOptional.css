@@ -1,0 +1,55 @@
+/* Connections --------------------------------------------------------------------------------*/
+ /* Steam */
+button[style*="/assets/1f7ec18f3695d4cf.svg"] {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg") !important;
+}
+
+img[class*="connectionIcon"][alt^="Steam"] {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 30px;
+	display: block;
+	box-sizing: border-box;
+	padding-left: 38px;
+}
+
+ /* Playstation */
+div[id*="context-transfer-playstation"] .iconContainer_c1e9c4 {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
+	background-size: 24px;
+	background-position: center;
+	background-repeat: no-repeat;
+	svg {
+		display: none;
+	}
+}
+
+button[style*="/assets/eed203a7ec517e23.svg"] {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg") !important;
+}
+
+img[src="/assets/eed203a7ec517e23.svg"] {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 32px;
+	display: block;
+	box-sizing: border-box;
+	padding-left: 38px;
+}
+
+ /* Twitter */
+button[style*="/assets/a61999ae9bfb9658.svg"] {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg") !important;
+}
+
+img[src="/assets/a61999ae9bfb9658.svg"] {
+	background: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 32px;
+	display: block;
+	box-sizing: border-box;
+	padding-left: 38px;
+}
