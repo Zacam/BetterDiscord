@@ -863,10 +863,16 @@ nav .header_f37cb1 {
 }
 
  /* Per-Server "New Unread/Mentions" Bar */
-.unread__3b95d, .mention__3b95d {
+.unread__3b95d {
 	background: #000;
 	border: 1px groove var(--oPur-64);
 	color: var(--oPurple);
+}
+
+.mention__3b95d {
+	--background-feedback-notification: #000;
+	border-color: var(--oPur-64);
+	--text-overlay-light: var(--oPurple);
 }
 
  /* See All  Topic Popout */
