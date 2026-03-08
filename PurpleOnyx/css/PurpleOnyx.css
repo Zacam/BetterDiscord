@@ -862,8 +862,8 @@ nav .header_f37cb1 {
 	padding-top: 4px;
 }
 
- /* Per-Server "New Unread" Bar */
-.bar__3b95d.unreadBar__629e4.unread__3b95d.active__3b95d /* Top */,
+ /* Per-Server "New Unread/Mentions" Bar */
+.bar__3b95d.unreadBar__629e4.active__3b95d /* Top */,
 .bar__7aaec:has(>svg.unreadIcon__7aaec)/* Bottom */ {
 	background: #000;
 	border: 1px groove var(--oPur-64);
