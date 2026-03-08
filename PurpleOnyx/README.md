@@ -4,6 +4,7 @@ With the advent of Onyx Theme to Desktop, Discord got close to satisfying what I
 This completes what I wanted that Discord still doesn't address.</br>
 </br>
 Features reduced padding/margins and more compact menu's; all with a light accent of various shades of Purple.</br>
+Uses a CSS Removal of the Titlebar, which -may- cause conflicts with some Plugins.</br>
 
 Initial Settings:</br>
 Onyx (Midnight) should be enabled. Theme was built based on "UI Density" and "Message Spacing" set to "Compact"</br>
@@ -21,6 +22,7 @@ User Avatars are hidden, and "Space Between" is set to Zero.</br>
 
 <ins>Compatible/Recommended Plugins</ins>:</br>
 [CompleteTimestamps](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/CompleteTimestamps) by [DevilBro](https://github.com/mwittrien)</br>
+[NewOldProfiles](https://github.com/KingGamingYT/NewOldProfiles) by [KingGamingYT](https://github.com/KingGamingYT)</br>
 [SimpleUserMenu](https://github.com/KingGamingYT/SimpleUserMenu) by [KingGamingYT](https://github.com/KingGamingYT)</br>
 
 ## PurpleOnyx Lite Theme</br>
