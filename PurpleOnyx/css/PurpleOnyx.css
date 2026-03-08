@@ -871,13 +871,13 @@ nav .header_f37cb1 {
 }
 
  /* See All  Topic Popout */
-.layerContainer__59d0d [class^="popover"]{
+.layer__59d0d [class^="popover"] {
 	border: 1px dashed var(--oPur-64);
 	.title__76f04 {
 		--text-muted: var(--oPurple);
 	}
 	.list__76f04>.row__76f04:last-of-type {
-		color: var(--oPur-84);
+		--text-default: var(--oPur-84);
 	}
 }
 
