@@ -841,6 +841,14 @@ nav .header_f37cb1 {
 	display: none;
 }
 
+ /* Server Event Popup */
+.content__49fc1.content_d0b769 {
+	background-color: var(--background-base-lowest);
+	border-radius: 12px;
+	padding-bottom: 8px !important;
+	padding-right: 6px !important;
+}
+
  /* Color Channel Sections Divider */
 .sectionDivider__629e4 {
 	background-color: rgba(164,128,226,0.5) !important;
