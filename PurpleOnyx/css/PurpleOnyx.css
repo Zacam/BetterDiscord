@@ -863,8 +863,9 @@ nav .header_f37cb1 {
 }
 
  /* Per-Server "New Unread/Mentions" Bar */
-.bar__3b95d.unreadBar__629e4.active__3b95d /* Top */,
-.bar__7aaec:has(>svg.unreadIcon__7aaec)/* Bottom */ {
+.bar__7aaec:has(>svg.unreadIcon__7aaec),/* Top */
+.bar__3b95d.unreadBar__629e4.unread__3b95d.active__3b95d /* Bottom */,
+.bar__3b95d.unreadBar__629e4.mention__3b95d.active__3b95d {
 	background: #000;
 	border: 1px groove var(--oPur-64);
 	color: var(--oPurple);
