@@ -69,6 +69,11 @@
 }/*</Better Discord overrides>*/
 
 /*General Discord                                                                                              */
+ /* Tooltips */
+.tooltip__4e35b {
+	background: var(--background-base-low);
+}
+
  /* Input Boxes */
 input:not([readOnly]):focus {
 	border-color: var(--border-active) !important;
