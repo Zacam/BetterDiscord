@@ -10,6 +10,12 @@ Initial Settings:</br>
 Onyx (Midnight) should be enabled. Theme was built based on "UI Density" and "Message Spacing" set to "Compact"</br>
 User Avatars are hidden, and "Space Between" is set to Zero.</br>
 
+<ins>Code Font Recommendation</ins>:</br>
+Install Nerd Font's version of DejaVu Sans Mono, or the Original</br>
+(recommended is the Nerd Font version "DejaVuSansMNerdFontPropo-Regular.ttf").</br>
+[DejaVuSansM Nerd Font Mono](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/DejaVuSansMono/Regular)</br>
+[DejaVu fonts 2.37](https://github.com/dejavu-fonts/dejavu-fonts/releases)</br>
+
 <ins>Featured/Configured Imports</ins>:</br>
 [RadialStatus](https://github.com/DiscordStyles/RadialStatus) by [Gibbu](https://github.com/Gibbu)</br>
 [ServerColumns](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/ServerColumns) by [DevilBro](https://github.com/mwittrien)</br>
