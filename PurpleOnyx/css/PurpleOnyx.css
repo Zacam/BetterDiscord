@@ -47,25 +47,9 @@
 .bd-slider-track {
 	background-image: linear-gradient(var(--oPur-32), var(--oPur-64));
 }
-/*
-#settings-menu button.bd-changelog-button {
-	color: var(--interactive-text-default);
-	justify-content: space-between;
-	margin: 2px 0px 2px 2px;
-	width: 179px;
-	.bd-button-content {
-		height: 24px;
-		margin-left: -8px;
-		&::after {
-			content: "Changelog";
-			padding-left: 10px;
-		}
-	}
-	&:hover {
-		background-color: var(--interactive-background-hover);
-		border-radius: 4px;
-		color: var(--text-strong) !important;
-	}
+
+#settings-menu button.bd-changelog-button:hover {
+	color: var(--text-strong);
 }/*</Better Discord overrides>*/
 
 /*General Discord                                                                                              */
