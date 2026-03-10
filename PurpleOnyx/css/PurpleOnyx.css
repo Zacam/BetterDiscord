@@ -1360,6 +1360,9 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 /* Members List                                                                                                 */
 .container_c8ffbb {
 	border-left-color: var(--border-active);
+	.members_c8ffbb .content_d125d2[style="height: 766px;"] {
+		height: auto !important;
+	}
 }
 
 h3.membersGroup_c8ffbb {
