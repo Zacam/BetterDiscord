@@ -687,7 +687,7 @@ nav,
 			min-height: 160px;
 			padding: 8px 32px;
 			[data-button-hoisted-classname-wrapper] {
-				margin-top: 6px;
+				display: none;
 			}
 		}
 		.content_d125d2>.container__6764b {
@@ -977,6 +977,11 @@ li.containerDefault_c69b6d:hover .linkTop__2ea32>.name__2ea32 {
 .row_b1f768>.activityIcon_b1f768, /* Server Popover Modal */
 .voiceUserSummary__629e4 .icon__183c2 {
 	color: var(--text-feedback-positive);
+}
+
+ /* Remove Collapsed spacer container */
+.list_c3cd7d.collapsed_c3cd7d.list__07f91.listCollapse__07f91 {
+	display: none;
 }
 
  /* "Show All" VC Button */
