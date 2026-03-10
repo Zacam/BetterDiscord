@@ -54,6 +54,7 @@
 	--radio-background-selected-default: var(--oPur-64);
 	--spoiler-hidden-background: rgba(164,128,226,0.11);
 	--spoiler-hidden-background-hover: var(--oPur-32);
+	--text-brand: var(--oPur-84);
 	--text-link: var(--oPur-84);
 	--__current--spoiler-background-color: var(--oPur-32);
 	--__spoiler-background-color--revealed: var(--oPur-21);
