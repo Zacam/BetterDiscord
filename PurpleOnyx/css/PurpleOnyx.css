@@ -47,7 +47,7 @@
 .bd-slider-track {
 	background-image: linear-gradient(var(--oPur-32), var(--oPur-64));
 }
-
+/*
 #settings-menu button.bd-changelog-button {
 	color: var(--interactive-text-default);
 	justify-content: space-between;
