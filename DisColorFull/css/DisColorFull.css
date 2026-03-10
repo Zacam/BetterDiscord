@@ -43,14 +43,25 @@ a[href="https://support.discord.com"] svg>path {
 	}
 }
 
+
+ /*  winButtons Close */
+.winButtonClose_c38106 {
+	& polygon {
+		fill: #DA3E44;
+	}
+	&:hover {
+		background-color: var(--interactive-background-hover);
+		& polygon {
+			fill: #FF0000;
+		}
+	}
+}
+
  /* OldTitleBar Reload Button */
 div[class^="toolbar"] svg>path[d^="M 21,10.875658 V 3 L 18.354245,5.6442048"] {
 	fill: #A480E2;
 }
 
-.winButtonClose_c38106 polygon {
-	fill: #DA3E44;
-}
  /* OldTitleBar Close Button */
 div[class^="toolbar"] svg>path[d^="M 19.2,3 12,10.2"] {
 	fill: #DA3E44;
@@ -101,7 +112,8 @@ svg.lucide-x {
  /* Search */
 .bd-search-wrapper>svg,
 .icon__0f084>svg:has(path[d="M15.62 17.03a9 9 0 1 1 1.41-1.41l4.68 4.67a1 1 0 0 1-1.42 1.42l-4.67-4.68ZM17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"]),
-.searchBar_c322aa svg.icon__0c4c4:not(.clear__0c4c4) {
+.searchBar_c322aa svg.icon__0c4c4:not(.clear__0c4c4),
+form svg.icon__0c4c4:not(.clear__0c4c4) {
 	background-image: url("https://discord.com/assets/74f0a67afb481b21.svg");
 	background-size: 16px;
 	background-position: center;
