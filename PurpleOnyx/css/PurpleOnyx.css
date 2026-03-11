@@ -83,7 +83,7 @@ footer._8a031a135bfcb9ba-actionBar button {
 
  /* CHeck Boxes */
 .checkboxIndicator__714a9 {
-	border-color: var(--oPur-64) !important;
+	border-color: var(--border-active) !important;
 }
 
 div[class*="checkbox"][class*="checked"] {
@@ -104,7 +104,7 @@ div[role="menu"] div[role="separator"] {
 }
 
 [class*="menu"] { /* allow Menu's to minify themselves */
-border-color: var(--oPur-42) !important;
+border-color: var(--border-normal) !important;
 	min-height: unset;
 	min-width: fit-content;
 	background-color: rgb(11,11,11);
@@ -217,7 +217,7 @@ border-color: var(--oPur-42) !important;
 
  /* Popout Container */
 #popout_16885 {
-	border: 2px groove var(--oPur-42) !important;
+	border: 2px groove var(--border-normal) !important;
 	border-radius: 12px;
 }
 
@@ -272,7 +272,7 @@ border-color: var(--oPur-42) !important;
 .leftColumn_dbba93, .container_f83afb, .container_a5fa1d {
 	gap: 20px;
 	.divider_dbba93, .divider_f83afb, .divider_a5fa1d {
-		background-color: var(--border-active);
+		background-color: var(--oPur-64);
 	}
 }
 
@@ -342,7 +342,7 @@ border-color: var(--oPur-42) !important;
 		}
 	}
 	.divider__1de9c {
-		border-top-color: var(--oPur-64);
+		border-top-color: var(--border-active);
 		margin: 12px !important;
 	}
 }
@@ -372,7 +372,7 @@ border-color: var(--oPur-42) !important;
 }
 
 [class*="tab"][class*="vertical"][class*="selected"][class*="brand"] {
-	border-inline-start: 2px solid var(--oPur-64) !important;
+	border-inline-start: 2px solid var(--border-active) !important;
 }
 
 [class*="tab"] [class*="brand"]:hover,
@@ -461,7 +461,7 @@ nav,
 
  /* Border */
 .container__9293f {
-	border-bottom: 2px groove var(--oPur-64) !important;
+	border-bottom: 2px groove var(--border-active) !important;
 }
 
 .upperContainer__9293f>.children__9293f:after {
@@ -501,7 +501,7 @@ nav,
 
  /* Inbox Popout */
 .container_fc561d.recentMentionsPopout__95796 {
-	border: 1px solid var(--oPur-42);
+	border: 1px solid var(--border-normal);
 }
 
 .recentMentionsPopout__95796.messagesPopoutWrap_e8b59c,
@@ -538,7 +538,7 @@ nav,
 		margin-bottom: 0.7rem;
 		margin-top: 0.5rem;
 		span.content__908e2 {
-			color: rgb(164,128,226);
+			color: var(--oPurple);
 		}
 	}
 }
@@ -654,7 +654,7 @@ nav,
 [id*="popout_"] {
 	.messagesPopoutWrap_e8b59c {
 		background-color: var(--background-base-lowest);
-		border: 1px solid var(--oPur-42);
+		border: 1px solid var(--border-normal);
 		.footer_e8b59c {
 			display: none;
 		}
@@ -885,7 +885,7 @@ nav .header_f37cb1 {
  /* Per-Server "New Unread/Mentions" Bar */
 .unread__3b95d, .mention__3b95d {
 	background: #000;
-	border: 1px groove var(--oPur-64);
+	border: 1px groove var(--border-active);
 	color: var(--oPurple);
 }
 
@@ -986,7 +986,7 @@ li.containerDefault_c69b6d:hover .linkTop__2ea32>.name__2ea32 {
 
  /* "Show All" VC Button */
 .refreshVoiceChannelsButton__29444>button {
-	border-color: var(--oPur-64);
+	border-color: var(--border-active);
 	color: var(--oPur-64);
 }
 
@@ -1006,7 +1006,7 @@ nav.container__2637a {
 
 /* Avatar Wrapper                                                                                               */
 section.panels__5e434 {
-	border: 1px solid var(--oPur-42);
+	border: 1px solid var(--border-normal);
 }
 
  /* Remove Invisible status active Warning indicator */
@@ -1247,12 +1247,12 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 }
 
 .buttonsInner__5126c.popover_f84418.wrapper_f7ecac {
-	border: 1px solid var(--oPur-64);
+	border: 1px solid var(--border-active);
 }
 
  /* Reactions Popup */
 .reactionTooltip_b49891 {
-	border: 1px solid var(--oPur-64);
+	border: 1px solid var(--border-active);
 	border-radius: 12px;
 	padding: 8px;
 }
@@ -1336,7 +1336,7 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 
  /* Image View */
 .topBar__6088c :is(.actionButtons_cc1819, .closeButton__6088c) {
-	border: 1px solid var(--oPur-64);
+	border: 1px solid var(--border-active);
 }
 
 .topBar__6088c .closeButton__6088c svg>path {
@@ -1453,7 +1453,7 @@ ul.content_d125d2 div[style="height: 8px;"] {
 
  /* Decorative Border */
 nav[class*="privateChannels"]>div[class*="scroller"] {
-	border-bottom: 1px groove var(--oPur-64);
+	border-bottom: 1px groove var(--border-active);
 	border-radius: 12px;
 	margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs));
 	padding-bottom: 0px;
@@ -1505,7 +1505,7 @@ li.channel__972a0 .selected_bf202d {
 
  /* DMs User Profile that isn't Nitro/Custom Themed */
 aside .user-profile-sidebar {
-	border-left: 1px groove var(--oPur-64);
+	border-left: 1px groove var(--border-active);
 	.body_b32ca4 {
 		gap: 6px;
 		margin: 0px 8px;
@@ -1522,7 +1522,7 @@ aside .user-profile-sidebar {
 	.overlay_c0bea0.overlay__3b260 {
 		margin: 6px 8px;
 		.divider__23eb0.divider__3b260 {
-			background-color: var(--border-active);
+			background-color: var(--oPur-64);
 		}
 	}
 }
@@ -1530,7 +1530,7 @@ aside .user-profile-sidebar {
 aside .user-profile-sidebar:not(.custom-user-profile-theme) {
 	background-color: #000;
 	.footer__7f9c0 {
-		border: 2px solid var(--oPur-32);
+		border: 2px solid var(--border-subtle);
 		margin: 0px 7px 1px 7px;
 		border-radius: 12px;
 		.footerButton__7f9c0 {

@@ -28,7 +28,7 @@
 	margin-left: calc(var(--custom-guild-list-width) + 2px);
 	width: calc(100% - var(--custom-guild-list-width) - 15px);
 	.container_e131a9 {
-		border-bottom-color: var(--border-active);
+		border-bottom-color: var(--border-normal);
 	}
 	.actionButtons_e131a9 button {
 		padding: 0px;

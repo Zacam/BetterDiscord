@@ -236,7 +236,7 @@ div[class^="topSection"] {
 	margin-left: calc(var(--custom-guild-list-width) - var(--space-xs)*2);
 	width: calc(100% - var(--custom-guild-list-width) + 4px);
 	.container_e131a9 {
-		border-bottom-color: var(--border-active);
+		border-bottom-color: var(--border-normal);
 	}
 	.actionButtons_e131a9 button {
 		padding: 0px;
