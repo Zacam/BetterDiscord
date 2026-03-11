@@ -1103,6 +1103,7 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
  /* Adjust Gap on VC */
 .panels__5e434 .container_e131a9 {
 	gap: 10px;
+	padding-bottom: 0px;
 }
 
  /* Shrink Padding when on VC with no Action Buttons */
