@@ -39,7 +39,7 @@
 	--checkbox-background-selected-default: var(--oPur-64);
 	--checkbox-background-selected-hover: var(--oPur-42);
 	--control-primary-background-hover: var(--oPur-64);
-	--custom-channel-textarea-text-area-height: 28px;
+	--custom-channel-textarea-text-area-height: 32px;
 	--info-help-foreground: rgb(164,128,226);
 	--input-border-default: var(--oPur-32);
 	--input-border-hover: var(--oPur-42);
