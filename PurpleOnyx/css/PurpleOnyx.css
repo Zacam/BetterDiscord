@@ -448,6 +448,10 @@ nav,
 	z-index: 2;
 }/*</Remove the Titlebar> */
 
+.winButton_c38106:hover {
+	border-radius: 8px;
+}
+
 .winButton_c38106 svg {
 	height: 18px;
 	width: 18px;
@@ -1098,6 +1102,17 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 	.buttons__37e49 {
 		gap: unset;
 	}
+}
+
+ /* Adjust Border Radii */
+.audioButtonParent__5e764 .audioButtonWithMenu__5e764 {
+	border-end-end-radius: 8px;
+	border-start-end-radius: 8px;
+}
+
+.audioButtonParent__5e764 .buttonChevron__5e764 {
+	border-end-start-radius: 8px;
+	border-start-start-radius: 8px;
 }
 
  /* Adjust Gap on VC */
