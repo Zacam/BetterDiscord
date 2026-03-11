@@ -21,14 +21,7 @@
 	-webkit-text-fill-color: transparent;
 }/*</Profiles>*/
 
-
 /* Avatar Wrapper                                                                                               */
- /* Reveal mute and Deafen buttons when settings button is hovered */
-.panels__5e434 > .container__37e49 .buttons__37e49:hover > .audioButtonParent__5e764 {
-	opacity: 100%;
-	width: 42px; /* 32 without chevrons */
-}
-
  /* Shrink up the size of the Wrapper */
 .visual-refresh section.panels__5e434 {
 	bottom: 1px;

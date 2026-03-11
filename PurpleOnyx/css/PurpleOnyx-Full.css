@@ -229,12 +229,6 @@ div[class^="topSection"] {
 	}
 }
 
- /* Reveal mute and Deafen buttons when settings button is hovered */
-.panels__5e434 > .container__37e49 .buttons__37e49:hover > .audioButtonParent__5e764 {
-	opacity: 100%;
-	width: 32px; /* 42 with chevrons */
-}
-
  /* Shrink up the size of the Wrapper */
 .visual-refresh section.panels__5e434 {
 	bottom: 1px;
@@ -248,7 +242,6 @@ div[class^="topSection"] {
 		padding: 0px;
 	}
 }/*</Avatar Wrapper>*/
-
 
 /* Members List                                                                                                 */
  /* MemberCounter Plugin */

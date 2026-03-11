@@ -469,7 +469,7 @@ nav,
 }
 
  /* Update Button Fix */
-.buttons_8227b0>.button__85643.smallButton__85643 svg {
+.button__85643 svg {
 	padding: unset;
 	height: var(--chat-input-icon-size);
 	width: var(--chat-input-icon-size);
@@ -1085,6 +1085,12 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 	transition: all 0.3s ease-in-out;
 }
 
+ /* Reveal mute and Deafen buttons when settings button is hovered */
+.panels__5e434 > .container__37e49 .buttons__37e49:hover > .audioButtonParent__5e764 {
+	opacity: 100%;
+	width: fit-content;
+}
+
  /* Remove gap to the left of Gear/Settings Button */
 .panels__5e434 > .container__37e49 {
 	padding: 0px 0px 1px 8px;
@@ -1094,7 +1100,17 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 	}
 }
 
-/* Shrink up the size of the Wrapper */
+ /* Adjust Gap on VC */
+.panels__5e434 .container_e131a9 {
+	gap: 10px;
+}
+
+ /* Shrink Padding when on VC with no Action Buttons */
+.panels__5e434 .actionButtons_e131a9 button {
+	margin-bottom: 10px;
+}
+
+ /* Shrink up the size of the Wrapper */
 nav.guilds__5e434 {
 	mask: unset;
 	margin-bottom: unset;
@@ -1102,11 +1118,6 @@ nav.guilds__5e434 {
   /* Hide the bar clipping into server list */
 .sidebar__5e434:after {
 	display: none;
-}
-
- /* Shrink Padding when on VC */
-.panels__5e434 .container_e131a9 {
-	padding-bottom: 0px;
 }/*</Avatar Wrapper>*/
 
 /* Chat Body                                                                                                    */
@@ -1288,7 +1299,22 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 
  /* Text input alignment */
 .textArea__74017 .slateTextArea_ec4baf {
+	line-height: normal;
+	margin-left: 3px;
 	padding: 4px 0px;
+}
+
+ /* Send Message Area */
+.buttons__74017 {
+	gap: 4px;
+}
+.separator_aa63ab {
+	background-color: var(--border-subtle);
+	height: var(--custom-channel-textarea-text-area-height);
+}
+.button_aa63ab {
+	min-height: 24px;
+	min-width: 24px;
 }
 
  /* Message Reply Mention Toggle */
@@ -1360,9 +1386,10 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 /* Members List                                                                                                 */
 .container_c8ffbb {
 	border-left-color: var(--border-active);
-	.members_c8ffbb .content_d125d2[style="height: 766px;"] {
-		height: auto !important;
-	}
+}
+
+.content_d125d2 {
+	height: auto !important;
 }
 
 h3.membersGroup_c8ffbb {
