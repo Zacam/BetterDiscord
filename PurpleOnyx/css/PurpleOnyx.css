@@ -1,3 +1,6 @@
+/* GitCord Markdown */
+@import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Markdown.css");
+
 /* Better Discord overrides                                                                                     */
 .bd-addon-list>div {
 	border: 2px groove var(--border-active);
