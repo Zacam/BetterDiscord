@@ -1193,7 +1193,6 @@ time, .timestamp_c19a55 {
 
  /* Code Pastes */
 code:not(.inline) {
-	line-height: normal !important;
 	text-wrap: nowrap !important;
 }
 
