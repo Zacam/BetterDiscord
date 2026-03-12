@@ -1097,10 +1097,10 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 
  /* Remove gap to the left of Gear/Settings Button */
 .panels__5e434 > .container__37e49 {
-	padding: 0px 0px 1px 8px;
+	padding: 0px 4px 0px 6px;
 	gap: unset;
 	.buttons__37e49 {
-		gap: 4px;
+		gap: 2px;
 	}
 }
 
