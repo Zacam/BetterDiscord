@@ -1100,7 +1100,7 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 	padding: 0px 0px 1px 8px;
 	gap: unset;
 	.buttons__37e49 {
-		gap: unset;
+		gap: 4px;
 	}
 }
 
