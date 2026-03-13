@@ -6,7 +6,7 @@
 
 code:not(.inline, .diff, .codeView__4d95d) {
 	/*background-color: var(--background-base-low) !important;*/
-	background-image: linear-gradient(var(--message-highlight-background-default) 50%,transparent 50%) !important;
+	background-image: linear-gradient(var(--message-mentioned-background-default) 50%,transparent 50%) !important;
 	background-origin: content-box! important;
 	background-position: 0 1.125rem !important;
 	background-size: 100% 2.25rem !important;
