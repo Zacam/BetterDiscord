@@ -39,26 +39,6 @@
 }
 
 /* Toolbar                                                                                                      */
- /* Toolbar Spacing */
-.trailing_c38106, .toolbar__9293f {
-	gap: unset;
-	.buttons_8227b0, .winButtons_c38106 {
-		gap: unset;
-	}
-	.clickable_c99c29 {
-		margin: 0px 4px;
-	}
-	.clickable__9293f { /* DevTools */
-		margin-right: 2px;
-		margin-left: -3px;
-	}
-}
-
-/* OldTitleBar Dividers */
-.toolbar_8227b0 .divider_348c72 {
-	background-color: var(--oPur-64);
-}
-
   /* ManaPageSwitcher Overrides */
 .container_b82a71 {
 	margin-bottom: unset;
@@ -177,7 +157,6 @@ div[class^="topSection"] {
 .wrapper_ef3116 .wrapper__58105 {
 	transform: scale(1, 0.70) !important;
 }/*</Servers Panel>*/
-
 
 /* Avatar Wrapper                                                                                               */
  /* SimplifiedUserMenu Width Alignment */

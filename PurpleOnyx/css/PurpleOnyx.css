@@ -399,21 +399,20 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 /* Remove the Titlebar */ /* Thanks to GH0STP4WZ, dav, and Izy */
 .base__5e434 {
 	margin-top: -32px;
-	--trailingCounter: 1;
 	&:has(.trailing_c38106 > :nth-child(2)) {
-		--trailingCounter: 2;
-	}
-	&:has(.trailing_c38106 > :nth-child(3)) {
 		--trailingCounter: 3;
 	}
-	&:has(.trailing_c38106 > :nth-child(4)) {
+	&:has(.trailing_c38106 > :nth-child(3)) {
 		--trailingCounter: 4;
 	}
-	&:has(.trailing_c38106 > :nth-child(5)) {
+	&:has(.trailing_c38106 > :nth-child(4)) {
 		--trailingCounter: 5;
 	}
-	&:has(.trailing_c38106 > :nth-child(6)) {
+	&:has(.trailing_c38106 > :nth-child(5)) {
 		--trailingCounter: 6;
+	}
+	&:has(.trailing_c38106 > :nth-child(6)) {
+		--trailingCounter: 7;
 	}
 }
 .bar_c38106 {
@@ -455,6 +454,17 @@ nav,
 [id^="popout"] {
 	top: 14px !important; /* Default: -22px */
 }/*</Remove the Titlebar> */
+
+ /* Toolbar Spacing */
+.trailing_c38106, .toolbar__9293f {
+	gap: unset;
+	.winButtons_c38106 {
+		gap: unset;
+	}
+	.clickable__81391 {
+		margin: 0px 4px;
+	}
+}
 
 .winButton_c38106:hover {
 	border-radius: 8px;

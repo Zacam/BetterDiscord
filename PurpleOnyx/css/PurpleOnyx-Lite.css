@@ -1,15 +1,3 @@
-/* Toolbar                                                                                                      */
- /* Toolbar Spacing */
-.trailing_c38106, .toolbar__9293f {
-	gap: unset;
-	.buttons_8227b0, .winButtons_c38106 {
-		gap: unset;
-	}
-	.clickable_c99c29 {
-		margin: 0px 4px;
-	}
-}
-
 /* Profiles                                                                                                     */
  /* Colorize Pronouns */
 .pronounsText__63ed3.userTag__63ed3 {
