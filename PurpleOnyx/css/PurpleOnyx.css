@@ -451,7 +451,7 @@ nav,
 }
 
  /* Reposition Popouts */
-[id^="popout"] {
+[id^="popout"][style*="top: -22px"] {
 	top: 14px !important; /* Default: -22px */
 }/*</Remove the Titlebar> */
 
