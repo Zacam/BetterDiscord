@@ -449,6 +449,11 @@ nav,
 }
 .chat_f75fb0 .layerContainer__59d0d {
 	z-index: 2;
+}
+
+ /* Reposition Popouts */
+[id^="popout"] {
+	top: 14px !important; /* Default: -22px */
 }/*</Remove the Titlebar> */
 
 .winButton_c38106:hover {
