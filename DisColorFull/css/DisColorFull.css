@@ -281,6 +281,40 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	display: none;
 }
 
+/* Registered Games */
+ /* Report Incorrect Detection */
+.game_cc46f0 .toggleIcon_cc46f0 svg:has(>path[d^="M3 1a1 1 0 0 1 1 1v.82l8.67-1.45A2 2 0 0 1 15 3.35v1.47l5.67-.95A2"]) {
+	background-image: url("https://discord.com/assets/e5333cf49e7d6d2b.svg");
+	background-size: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+	>path {
+		display: none;
+	}
+}
+
+ /* Toggle Detection */
+.game_cc46f0 .toggleIcon_cc46f0 svg:has(>path[d="M15.56 11.77c.2-.1.44.02.44.23a4 4 0 1 1-4-4c.21 0 .33.25.23.44a2.5 2.5 0 0 0 3.32 3.32Z"]) {
+	background-image: url("https://discord.com/assets/de6728ac385645a5.svg");
+	background-size: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+	>path {
+		display: none;
+	}
+}
+
+ /* Toggle Overlay */
+.game_cc46f0 .toggleIcon_cc46f0 svg:has(>path[d^="M5 2a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V5a3"]) {
+	background-image: url("https://discord.com/assets/85dcccc0e0a8812b.svg");
+	background-size: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+	>path {
+		display: none;
+	}
+}/*</Registered Games>*/
+
 /* Server Dropdown ----------------------------------------------------------------------------*/
  /* Server Boost */
 #guild-header-popout-premium-subscribe svg path {
