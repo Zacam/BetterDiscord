@@ -385,6 +385,13 @@ border-color: var(--border-normal) !important;
 	}
 }
 
+ /* Registered Games */
+.game_cc46f0 {
+	background-color: var(--background-base-lower);
+	border: 1px dashed var(--border-normal);
+	padding: 8px 16px;
+}
+
  /* BD Notifications Positions Box */
 .position-wrapper .bd-container {
 	margin: 12px auto;
