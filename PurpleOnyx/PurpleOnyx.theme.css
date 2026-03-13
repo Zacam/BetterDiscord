@@ -32,6 +32,7 @@
 	--background-modifier-selected: var(--oPur-32);
 	--border-active: var(--oPur-64);
 	--border-normal:  var(--oPur-42);
+	--border-strong: var(--oPur-84);
 	--border-subtle: var(--oPur-32);
 	--brand-10a: rgba(164,128,226,0.15);
 	--brand-300: var(--oPur-64);
