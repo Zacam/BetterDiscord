@@ -931,10 +931,11 @@ nav .header_f37cb1 {
  /* Channel New Post Text */
 .channelInfo_c69b6d {
 	div {
-		color: var(--oPurple) !important;
+		color: silver !important;
 	}
 	.textBadge__2b1f5 {
 		background-color: unset !important;
+		color: var(--oPurple) !important;
 	}
 }
 
