@@ -123,7 +123,7 @@ border-color: var(--border-normal) !important;
 }
 
  /* Number Badges */
-[class*="numberBadge"] {
+[class^="numberBadge"] {
 	--background-accent: rgba(164,128,226,0.5);
 	--background-feedback-notification: rgba(164,128,226,0.5);
 	--badge-notification-background: rgba(164,128,226,0.5);
@@ -643,7 +643,7 @@ nav,
 }
 
   /* Search Popout */
-[id*="popout_"]>.container__16eb0 {
+[id^="popout_"]>.container__16eb0 {
 	background-color: var(--background-base-lower);
 	padding: 4px 8px;
 	.groupWrapper__971b5 {
@@ -680,7 +680,7 @@ nav,
 }/*<Search>*/
 
  /* Pinned Messages */
-[id*="popout_"] {
+[id^="popout_"] {
 	.messagesPopoutWrap_e8b59c {
 		background-color: var(--background-base-lowest);
 		border: 1px solid var(--border-normal);
@@ -866,7 +866,7 @@ nav .header_f37cb1 {
 	background-color: var(--background-base-low);
 }
 
-[class$="headerGlass"], [class*="headerEllipse"] {
+[class$="headerGlass"], [class^="headerEllipse"] {
 	display: none;
 }
 
@@ -1050,7 +1050,7 @@ section.panels__5e434 {
 }
 
  /* UserMenu */
-[class*="userMenuItem"]>svg[class*="activeIcon"]>path {
+[class^="userMenuItem"]>svg[class^="activeIcon"]>path {
 	fill: var(--oPurple);
 }
 
@@ -1499,7 +1499,7 @@ ul.content_d125d2 div[style="height: 8px;"] {
 }
 
  /* Decorative Border */
-nav[class*="privateChannels"]>div[class*="scroller"] {
+nav[class^="privateChannels"]>div[class^="scroller"] {
 	border-bottom: 1px groove var(--border-active);
 	border-radius: 12px;
 	margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs));
