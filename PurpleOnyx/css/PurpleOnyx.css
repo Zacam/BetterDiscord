@@ -813,6 +813,11 @@ span:has(.pronounsText__63ed3) {
 	background-color: var(--oPur-42);
 }
 
+ /* Selected Server Indicator */
+.pill_e5445c > .item__58105[style*="height: 40px;"] {
+	height: 24px !important;
+}
+
  /* New Messages Indicator */
 .pill__1f388 > span.item__58105,
 .pill_ed9a5f > span.item__58105,
