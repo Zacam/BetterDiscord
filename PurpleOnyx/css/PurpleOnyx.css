@@ -130,6 +130,11 @@ border-color: var(--border-normal) !important;
 	--status-danger: rgba(164,128,226,0.5);
 }
 
+ /* Text Badges */
+[class^="newTextBadge"] {
+	--badge-notification-background: var(--oPur-84);
+}
+
  /* Radio Buttons */
 .outerRadioBase__64e61 {
 	stroke: var(--oPur-64);
@@ -141,6 +146,12 @@ border-color: var(--border-normal) !important;
 }
 .barFill_a562c8 {
 	background-color: var(--oPur-64) !important;
+}
+.slider_a562c8 .defaultValue_a562c8 .markValue_a562c8 {
+	color: var(--oPurple);
+	>.text-xs\/medium_cf4812 {
+		color: var(--oPurple) !important;
+	}
 }
 
  /* Switches */
@@ -350,21 +361,6 @@ border-color: var(--border-normal) !important;
 	}
 }
 
- /* Appearance Theme Prompt */
-.container_a1d343 {
-	display: none;
-}
-
- /* Connections */
-.connectionList__4109d .connection__4109d {
-	background-color: var(--background-base-lower);
-	border: 1px solid var(--border-active);
-	gap: 10px;
-	.integrationWrapper_c7f964 {
-		background: var(--background-base-low);
-	}
-}
-
  /* Tabs */
 [class*="tab"] [class*="selected"][class*="brand"],
 [class*="settingsTabBar"] [class*="selected"][class*="brand"] {
@@ -385,11 +381,72 @@ border-color: var(--border-normal) !important;
 	}
 }
 
+ /* Authorized Apps */
+[data-nav-anchor-key="authorized_apps_list_setting"] {
+	.headingCard__24605 {
+		margin-bottom: 10px;
+	}
+	.authedAppV2__24605 {
+		background-color: var(--background-base-lower);
+		border: 1px solid var(--border-normal);
+		margin-bottom: 8px;
+		.headerV2__24605 {
+			padding: 8px 16px;
+		}
+		.appDetailsContainer__24605 .appDetailsSection__24605 {
+			padding: 8px 0px;
+		}
+		.collapseable__217b7:not(:last-child) {
+			margin-bottom: 0px;
+		}
+		.footer__24605 {
+			margin: 8px 0px;
+		}
+	}
+}
+
+ /* Connections */
+.connectionList__4109d .connection__4109d {
+	background-color: var(--background-base-lower);
+	border: 1px solid var(--border-active);
+	gap: 10px;
+	.integrationWrapper_c7f964 {
+		background: var(--background-base-low);
+	}
+}
+
  /* Registered Games */
 .game_cc46f0 {
 	background-color: var(--background-base-lower);
 	border: 1px dashed var(--border-normal);
 	padding: 8px 16px;
+}
+
+ /* Appearance Theme Prompt */
+.container_a1d343 {
+	display: none;
+}
+
+ /* Keybinds */
+.keybindGroup__740f2 {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.marginBottom60_fd297e {
+	margin-bottom: 6px;
+	.ctaContainer__740f2, .systemServiceUpsell__740f2 {
+		margin-bottom: 12px;
+	}
+}
+
+.defaultKeybindGroup__740f2 {
+	background-color: var(--background-base-lower);
+	gap: 0px;
+	padding: 8px 0px;
+	.divider__1de9c {
+		width: auto;
+	}
 }
 
  /* BD Notifications Positions Box */
