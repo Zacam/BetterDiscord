@@ -121,6 +121,9 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	>path {
 		display: none;
 	}
+	>circle {
+		display: none;
+	}
 }
 
 .searchBar_c322aa svg.clear__0c4c4>path {
