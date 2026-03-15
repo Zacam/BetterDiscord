@@ -1561,6 +1561,15 @@ h3.membersGroup_c8ffbb {
 
 svg.dot__9293f {
 	color: var(--oPurple);
+	margin-right: 0px;
+}
+
+.title_f75fb0 div:has(>.avatar_f75fb0) {
+	margin-top: -6px;
+}
+
+.akaBadge__488b1 {
+	margin-top: 1px;
 }
 
   /* Selected "Tab" */
