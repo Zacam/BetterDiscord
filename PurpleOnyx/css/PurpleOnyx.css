@@ -123,7 +123,7 @@ border-color: var(--border-normal) !important;
 }
 
  /* Number Badges */
-[class^="numberBadge"] {
+[class*="numberBadge"] {
 	--background-accent: rgba(164,128,226,0.5);
 	--background-feedback-notification: rgba(164,128,226,0.5);
 	--badge-notification-background: rgba(164,128,226,0.5);
