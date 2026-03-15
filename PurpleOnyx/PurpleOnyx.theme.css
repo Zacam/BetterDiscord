@@ -52,6 +52,7 @@
 	--modal-horizontal-padding: 12px;
 	--modal-vertical-padding: 8px;
 	--modal-width-medium: fit-content;
+	--progressbar-indicator-background: var(--oPur-64);
 	--radio-background-selected-default: var(--oPur-64);
 	--spoiler-hidden-background: rgba(164,128,226,0.11);
 	--spoiler-hidden-background-hover: var(--oPur-32);

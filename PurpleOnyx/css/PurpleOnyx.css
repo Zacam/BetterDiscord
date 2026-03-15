@@ -1371,6 +1371,19 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 	width: fit-content;
 }
 
+ /* File Attachments */
+.fileWrapper__0ccae {
+	max-width: 84%;
+	.file__0ccae {
+		border-color: var(--border-normal);
+		padding: 8px 16px;
+	}
+}
+
+svg.downloadHoverButtonIcon__6c706 path {
+	fill: rgb(119, 178, 85) !important;
+}
+
  /* Chennel Mentioned */
 :is(.mention, .channelMention, .roleMention__75297) {
 	background-color: unset !important;
