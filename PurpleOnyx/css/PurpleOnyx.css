@@ -1372,11 +1372,19 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 }
 
  /* File Attachments */
+.nonVisualMediaItemContainer_f4758a {
+	margin-top: 4px;
+}
+
 .fileWrapper__0ccae {
 	max-width: 84%;
 	.file__0ccae {
 		border-color: var(--border-normal);
 		padding: 8px 16px;
+		img.icon__0ccae {
+			height: 32px;
+			width: 24px;
+		}
 	}
 }
 
