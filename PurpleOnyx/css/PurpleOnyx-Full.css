@@ -7,7 +7,7 @@
 	--columns: 1;		/* default:	3	(amount of servercolumns)							*/
 	--guildsize: 32;	/* default:	50	(serversize in pixel)								*/
 	--guildgap: 2;		/* default:	3	(top/bottom gap between servers in pixel)			*/
-	--badgescale: 1.7;	/* default: 1	(multiplier for badge size (mention/voice/stream)	*/
+	--badgescale: 1.6;	/* default: 1	(multiplier for badge size (mention/voice/stream)	*/
 	--aligndms: 1;		/* default:	0	(should DMs be aligned in columns: 0 = no, 1 = yes)	*/
 }
 
