@@ -1513,6 +1513,11 @@ svg.downloadHoverButtonIcon__6c706 path {
 	border: 1px solid var(--border-active);
 }/*</VC>*/
 
+/* Mod View Panel                                                                                               */
+.guildSidebar_f75fb0 {
+	margin-top: 42px;
+}/*<?Mod View Panel*/
+
 /* Members List                                                                                                 */
 .container_c8ffbb {
 	border-left-color: var(--border-active);
