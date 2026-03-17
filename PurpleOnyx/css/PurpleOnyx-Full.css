@@ -72,12 +72,6 @@ svg.flowerStar__3e3b0>path {
 	padding-left: 14px;
 }
 
- /* Radial Status Mod View Fix */
-#app-mount .memberAvatar__34940 .wrapper__44b0c rect {
-	height: 48px !important;
-	width: 48px !important;
-}
-
  /* NewOldProfiles */
 .outer_c0bea0.user-profile-modal-v2 {
 	border: 1px solid var(--border-active);
