@@ -1392,6 +1392,15 @@ svg.downloadHoverButtonIcon__6c706 path {
 	fill: rgb(119, 178, 85) !important;
 }
 
+ /* Info Modals */
+.isComponentsV2__5e208 {
+	max-width: min(470px,100%) !important;
+	.container__60fa3 {
+		gap: 4px;
+		padding: 8px 16px;
+	}
+}
+
  /* Chennel Mentioned */
 :is(.mention, .channelMention, .roleMention__75297) {
 	background-color: unset !important;
