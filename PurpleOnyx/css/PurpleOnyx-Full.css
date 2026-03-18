@@ -226,6 +226,14 @@ div[class^="topSection"] {
 	}
 }/*</Members List>*/
 
+/* BetterFriendsList */
+#favorized_friends-tab .peopleList__5ec2f {
+		overflow: hidden !important;
+	.content_d125d2 {
+		height: unset !important
+	}
+}
+
 /* DMs                                                                                                          */
  /* Show Connections */
 .user-profile-sidebar .connectionsWrapper_c56430 {
