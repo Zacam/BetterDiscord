@@ -695,6 +695,9 @@ nav,
 			scale: 1.2;
 			cursor: pointer;
 		}
+		.public-DraftEditorPlaceholder-inner {
+			display: none;
+		}
 	}
 	.search_c322aa.open_c322aa .searchBar_c322aa {
 		/* Expand the search bar when focused, and keep it expanded when text is entered. */
