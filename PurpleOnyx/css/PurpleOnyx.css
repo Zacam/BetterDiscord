@@ -331,7 +331,7 @@ border-color: var(--border-normal) !important;
 	}
 	.bodyControls__8a031 {
 		border-bottom: 1px solid var(--border-normal);
-		padding-bottom: 6px;
+		padding-bottom: 8px;
 		&:after {
 			display: none;
 		}
