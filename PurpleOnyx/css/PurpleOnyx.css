@@ -59,6 +59,7 @@
  /* Scrollbars */
 /*Mana Modal*/.bodyList__8a031:hover,
 /*Chat Body*/.messagesWrapper__36d07 .scroller__36d07:hover,
+/*Code*/.scrollbarGhostHairline__506b3.scrollbar__506b3,
 /*Threads*/.container_f369db>.list_f369db {
 	scrollbar-color: var(--oPur-21) rgba(0,0,0,0);
 }
