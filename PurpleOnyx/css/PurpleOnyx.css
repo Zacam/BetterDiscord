@@ -982,7 +982,10 @@ nav .header_f37cb1 {
 		justify-content: center;
 		background: #000;
 		border: 1px groove var(--border-active);
-		svg.unreadIcon__7aaec, .text-xs\/semibold_cf4812 {
+		svg.unreadIcon__7aaec {
+			display: none;
+		}
+		.text-xs\/semibold_cf4812 {
 			color: var(--oPurple) !important;
 		}
 	}
