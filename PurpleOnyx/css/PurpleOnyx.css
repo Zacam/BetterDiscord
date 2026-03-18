@@ -1033,17 +1033,18 @@ nav .header_f37cb1 {
 
  /* See All Topic Popout */
 .layer__59d0d [class^="popover"] {
+	background: var(--background-base-low);
 	border: 1px dashed var(--oPur-64);
 	.title__76f04 {
 		--text-muted: var(--oPurple);
 		padding-top: unset;
 	}
 	.list__76f04>.row__76f04:first-of-type {
-		border-top: 1px solid var(--border-subtle);
+		border-top: 1px solid var(--border-normal);
 	}
 	.list__76f04>.row__76f04:last-of-type {
 		--text-default: var(--oPur-84);
-		border-top: 1px solid var(--border-subtle);
+		border-top: 1px solid var(--border-normal);
 		padding-bottom: 4px;
 	}
 }
