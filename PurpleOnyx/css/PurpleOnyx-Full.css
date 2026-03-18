@@ -155,7 +155,8 @@ div[class^="topSection"] {
 /* Avatar Wrapper                                                                                               */
  /* SimplifiedUserMenu Width Alignment */
 #account-panel {
-	width: 225px;
+	margin-left: -4px;
+	padding-bottom: 4px;
 }
 
  /* Remove Status Selection submenu */
