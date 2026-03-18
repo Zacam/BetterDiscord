@@ -336,6 +336,9 @@ border-color: var(--border-normal) !important;
 			display: none;
 		}
 	}
+	.bodyList__8a031 {
+		padding: 4px 12px 4px 16px !important;
+	}
 	.stack_dbd263 {
 		gap: 6px !important;
 		.headerTrailing__8a031 {
