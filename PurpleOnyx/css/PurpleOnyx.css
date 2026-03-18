@@ -1050,9 +1050,6 @@ nav .header_f37cb1 {
 
  /* Channel New Post Text */
 .channelInfo_c69b6d {
-	div:not(.tabularNumbers__4bd52) {
-		color: silver !important;
-	}
 	.textBadge__2b1f5, >.text-xs\/semibold_cf4812 {
 		background-color: unset !important;
 		color: var(--oPurple) !important;
