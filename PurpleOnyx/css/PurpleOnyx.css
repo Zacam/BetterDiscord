@@ -891,10 +891,6 @@ nav.wrapper_ef3116.guilds__5e434 {
 nav>#channels {
 	border-bottom: 1px groove var(--border-active) !important;
 	border-radius: 12px !important;
-}
-
-nav>#channels {
-	padding-bottom: 0px;
 	&::-webkit-scrollbar-track {
 		margin-bottom: unset;
 	}
