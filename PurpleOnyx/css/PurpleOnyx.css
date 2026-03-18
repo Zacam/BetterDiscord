@@ -1058,6 +1058,11 @@ nav .header_f37cb1 {
 	}
 }
 
+ /* Threads Search */
+.collapsed_d9be46 .title_d9be46 {
+	overflow-x: hidden;
+}
+
  /* Threads New Post Button */
 .newPostsButton_f369db {
 	border-color: var(--border-active);
