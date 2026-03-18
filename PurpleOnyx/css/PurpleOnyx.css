@@ -57,20 +57,21 @@
 
 /*General Discord                                                                                              */
  /* Scrollbars */
-.scroller__6131a, .scroller__2692d,
-.peopleList__5ec2f.scrollerBase_d125d2,
-.refresh-active-now>.scrollerBase_d125d2,
-.messagesPopout_e8b59c,
-.container__2637a:hover>.scroller__629e4,
-.messagesWrapper__36d07 .scroller__36d07:hover,
-.membersWrap_c8ffbb:hover>.members_c8ffbb,
-.list_f369db.scrollerBase_d125d2,
-.privateChannels_e6b769:hover .scroller__99e7c,
-.searchResultsWrap_a98f3b>.scroller_a98f3b,
-.profile__9c3be:hover .profileBody__9c3be,
-.menu_c1e9c4>.scroller_c1e9c4,
-.sidebar__409aa:hover .navScroller__409aa,
-.container__8a031 .bodyList__8a031 {
+/*Mana Modal*/.bodyList__8a031:hover,
+/*Chat Body*/.messagesWrapper__36d07 .scroller__36d07:hover,
+/*Threads*/.container_f369db>.list_f369db {
+	scrollbar-color: var(--oPur-21) rgba(0,0,0,0);
+}
+
+/*Channel List*/.sidebarList__5e434 .scroller__629e4:hover,
+/*Member List*/.membersWrap_c8ffbb .members_c8ffbb:hover,
+/*DMs List*/.privateChannels_e6b769 .scroller__99e7c:hover,
+/*Profile*/.profile__9c3be .profileBody__9c3be:hover,
+/*Profile*/.tabBarPanel__37bfc .tabPanelScroller__37bfc:hover,
+/*Inbox*/.recentMentionsPopout__95796 .scroller__2692d,
+/*Pinned*/.messagesPopoutWrap_e8b59c .messagesPopout_e8b59c,
+/*Search*/.searchResultsWrap_a98f3b .scroller_a98f3b,
+/*Menus*/.menu_c1e9c4 .scroller_c1e9c4 {
 	scrollbar-color: var(--oPur-21) rgba(0,0,0,0);
 	scrollbar-width: thin;
 }
@@ -388,6 +389,14 @@ border-color: var(--border-normal) !important;
 	.divider__1de9c {
 		border-top-color: var(--border-active);
 		margin: 12px !important;
+	}
+	/* Scrollbars */
+	.navScroller__409aa:hover {
+		scrollbar-color: var(--oPur-21) rgba(0,0,0,0);
+		scrollbar-width: thin;
+	}
+	.scroller__6131a {
+		scrollbar-color: var(--oPur-21) rgba(0,0,0,0);
 	}
 }
 
