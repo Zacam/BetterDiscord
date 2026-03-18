@@ -56,6 +56,25 @@
 }/*</Better Discord overrides>*/
 
 /*General Discord                                                                                              */
+ /* Scrollbars */
+.scroller__6131a, .scroller__2692d,
+.peopleList__5ec2f.scrollerBase_d125d2,
+.refresh-active-now>.scrollerBase_d125d2,
+.messagesPopout_e8b59c,
+.container__2637a:hover>.scroller__629e4,
+.chatContent_f75fb0:hover>.messagesWrapper__36d07,
+.membersWrap_c8ffbb:hover>.members_c8ffbb,
+.list_f369db.scrollerBase_d125d2,
+.privateChannels_e6b769:hover .scroller__99e7c,
+.searchResultsWrap_a98f3b>.scroller_a98f3b,
+.profile__9c3be:hover .profileBody__9c3be,
+.menu_c1e9c4>.scroller_c1e9c4,
+.sidebar__409aa:hover .navScroller__409aa,
+.container__8a031 .bodyList__8a031 {
+	scrollbar-color: var(--oPur-21) rgba(0,0,0,0);
+	scrollbar-width: thin;
+}
+
  /* Tooltips */
 .tooltip__4e35b {
 	background: var(--background-base-low);
