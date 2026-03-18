@@ -329,8 +329,12 @@ border-color: var(--border-normal) !important;
 	.bodySpacerTop__8a031 {
 		padding-top: 8px;
 	}
-	.bodyControls__8a031:after {
-		background: linear-gradient(to bottom,var(--background-base-lower) 0,transparent 100%);
+	.bodyControls__8a031 {
+		border-bottom: 1px solid var(--border-normal);
+		padding-bottom: 6px;
+		&:after {
+			display: none;
+		}
 	}
 	.stack_dbd263 {
 		gap: 6px !important;
