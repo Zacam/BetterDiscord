@@ -1330,7 +1330,6 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
 }
 
  /* Mentioned Messages */
-.bar__7aaec.mentionsBar__7aaec,
 .mentioned__5126c:before {
 	background: var(--oPur-42);
 }
