@@ -1053,7 +1053,7 @@ nav .header_f37cb1 {
 	div:not(.tabularNumbers__4bd52) {
 		color: silver !important;
 	}
-	.textBadge__2b1f5, [class$="semibold_cf4812"] {
+	.textBadge__2b1f5, >.text-xs\/semibold_cf4812 {
 		background-color: unset !important;
 		color: var(--oPurple) !important;
 	}
