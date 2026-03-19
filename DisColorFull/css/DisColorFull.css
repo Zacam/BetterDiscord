@@ -1,7 +1,7 @@
 /* Main Titlebar */
  /* Inbox */
 .toolbar__9293f .buttons_8227b0 > .clickable__81391 svg, /* Old Title Bar */
-.trailing_c38106 > .clickable__81391 svg {
+.trailing_c38106 > .clickable__81391:first-of-type svg {
 	background-image: url("https://discord.com/assets/a4c4a23d67f9f4cb.svg");
 	background-size: 18px;
 	background-position: center;
