@@ -14,13 +14,13 @@
 :root {
  /* Radial Status */
 	/* Gap between avatar and status | MUST end in px */
-	--rs-small-spacing: 2px;
+	--rs-small-spacing: 1px;  /* Default: 2px  */
 	--rs-medium-spacing: 2px; /* Default: 3px  */
 	--rs-large-spacing: 2px; /* Default: 4px */
 	/* Thickness of status border | MUST end in px */
-	--rs-small-width: 1px;
-	--rs-medium-width: 2px; /* Default: 3px */
-	--rs-large-width: 2px; /* Default: 4px */
+	--rs-small-width: 2px;
+	--rs-medium-width: 4px; /* Default: 3px */
+	--rs-large-width: 4px; /* Default: 4px */
 	/* 50% for round - 0% for square */
 	--rs-avatar-shape: 50%;
 	/* Colour */
