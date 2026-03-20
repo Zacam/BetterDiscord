@@ -1566,6 +1566,11 @@ svg.downloadHoverButtonIcon__6c706 path {
 	padding: 4px 0px;
 }
 
+ /* Hide scroller buttons when not needed */
+.channelTextArea__5126c .scrollableContainer__74017 {
+	overflow-y: auto;
+}
+
  /* Send Message Area */
 .buttons__74017 {
 	gap: 4px;
