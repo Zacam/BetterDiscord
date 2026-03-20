@@ -64,7 +64,8 @@
 /*Friends*/.peopleColumn__133bf .peopleList__5ec2f,
 /*Mana Modal*/.container__8a031 .body__8a031
 /*ServerSettings*/.customContainer__23e6b .customScroller__23e6b,
-/*ServerSettings*/.contentRegion__23e6b .contentRegionScroller__23e6b {
+/*ServerSettings*/.contentRegion__23e6b .contentRegionScroller__23e6b,
+/*ServerSettings*/.contentRegion__23e6b .customScroller__23e6b {
 	scrollbar-color: var(--oPur-21) rgba(0,0,0,0);
 }
 
@@ -312,19 +313,22 @@ border-color: var(--border-normal) !important;
 
  /* Server Settings */
 div[data-layer="GUILD_SETTINGS"] {
-	.sidebar__23e6b {
-		padding-bottom: 0px;
-		padding-top: 20px;
-		.header_aa8da2:first-of-type .headerText_aa8da2 {
-			color: var(--oPurple);
-			font-size: 14px;
-		}
-		.headerText_aa8da2 {
-			color: var(--oPur-64);
-			overflow: hidden;
-		}
-		.separator_aa8da2 {
-			background-color: var(--border-normal);
+	.sidebarRegionScroller__23e6b {
+		overflow-y: auto !important;
+		.sidebar__23e6b {
+			padding-bottom: 0px;
+			padding-top: 20px;
+			.header_aa8da2:first-of-type .headerText_aa8da2 {
+				color: var(--oPurple);
+				font-size: 14px;
+			}
+			.headerText_aa8da2 {
+				color: var(--oPur-64);
+				overflow: hidden;
+			}
+			.separator_aa8da2 {
+				background-color: var(--border-normal);
+			}
 		}
 	}
 	.contentRegion__23e6b {
@@ -334,6 +338,7 @@ div[data-layer="GUILD_SETTINGS"] {
 			border-left: 2px groove var(--border-normal);
 			border-top: 2px groove var(--border-normal);
 			border-top-left-radius: 18px;
+			overflow-y: auto !important;
 			.contentColumn__23e6b:not(#roles-tab) {
 				padding: 10px 40px 10px;
 			}
@@ -407,6 +412,12 @@ div[data-layer="GUILD_SETTINGS"] {
 		}
 		.twoColumns__65a39 {
 			margin-top: 0px;
+		}
+	}
+	.customColumn__23e6b {
+		padding: 10px 40px 10px;
+		.settingsHorizontalScroller_fa2640[style="overflow: auto;"] {
+			overflow: hidden !important;
 		}
 	}
 }
