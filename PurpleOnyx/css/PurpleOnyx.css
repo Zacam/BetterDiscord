@@ -154,6 +154,11 @@ border-color: var(--border-normal) !important;
 	--status-danger: rgba(164,128,226,0.5);
 }
 
+/* Polls */
+.votedStyles_a1443c {
+	--custom-poll-style-vote-percentage: rgba(164,128,226,0.11);
+}
+
  /* Text Badges */
 [class^="newTextBadge"] {
 	--badge-notification-background: var(--oPur-84);
