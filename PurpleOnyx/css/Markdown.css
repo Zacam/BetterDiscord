@@ -13,6 +13,19 @@ code:not(.inline, .diff, .codeView__4d95d) {
 	line-height: 1.125rem !important;
 }
 
+/* Parsed Attachment Files */
+.newMosaicStyle__4d95d .textContainer__4d95d::before {
+	content: "Attachment";
+	background: var(--background-surface-high);
+	border-top-left-radius: 8px;
+	border-bottom: 1px solid var(--border-subtle);
+	color: #c4c4c4;
+	display: block flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Markdown */
 .theme-dark .markup__75297 .hljs[class~="bash" i]::before,
 .theme-dark .markup__75297 .hljs[class~="coffee" i]::before,
 .theme-dark .markup__75297 .hljs[class~="cpp" i]::before,
