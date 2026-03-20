@@ -313,6 +313,9 @@ border-color: var(--border-normal) !important;
 
  /* Server Settings */
 div[data-layer="GUILD_SETTINGS"] {
+	.sidebarRegion__23e6b {
+		flex: 1 0 0px;
+	}
 	.sidebarRegionScroller__23e6b {
 		overflow-y: auto !important;
 		.sidebar__23e6b {
