@@ -556,6 +556,11 @@ nav,
 .chat_f75fb0 .layerContainer__59d0d {
 	z-index: 2;
 }
+/* Mod View Panel */
+.guildSidebar_f75fb0 {
+	border-top: 2px groove var(--border-active);
+	margin-top: 45px !important;
+}
 
  /* Reposition Popouts */
 [id^="popout"][style*="top: -22px"] {
@@ -1580,11 +1585,6 @@ svg.downloadHoverButtonIcon__6c706 path {
 .buttonSection__1405b {
 	border: 1px solid var(--border-active);
 }/*</VC>*/
-
-/* Mod View Panel                                                                                               */
-.guildSidebar_f75fb0 {
-	margin-top: 42px;
-}/*<?Mod View Panel*/
 
 /* Members List                                                                                                 */
 .container_c8ffbb {
