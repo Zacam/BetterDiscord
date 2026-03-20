@@ -425,7 +425,7 @@ div[data-layer="GUILD_SETTINGS"] {
 			height: unset;
 		}
 		.settingsHorizontalScroller_fa2640[style="overflow: auto;"] {
-			overflow: unset !important;
+			overflow: hidden !important;
 		}
 	}
 }
