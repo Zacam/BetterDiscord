@@ -39,6 +39,7 @@
 	--brand-500: var(--oPur-84);
 	--checkbox-background-selected-default: var(--oPur-64);
 	--checkbox-background-selected-hover: var(--oPur-42);
+	--control-brand-foreground: var(--oPur-84);
 	--control-primary-background-hover: var(--oPur-64);
 	--custom-channel-textarea-text-area-height: 32px;
 	--info-help-foreground: rgb(164,128,226);
