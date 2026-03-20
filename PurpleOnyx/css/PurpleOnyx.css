@@ -559,7 +559,7 @@ nav,
 /* Mod View Panel */
 .guildSidebar_f75fb0 {
 	border-top: 2px groove var(--border-active);
-	margin-top: 45px !important;
+	margin-top: 45px;
 }
 
  /* Reposition Popouts */
