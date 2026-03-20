@@ -346,9 +346,6 @@ div[data-layer="GUILD_SETTINGS"] {
 				padding: 10px 40px 10px;
 			}
 			.contentColumn__23e6b {
-				.content_d125d2 > div[style="height: 60px;"] {
-					display: none;
-				}
 				.container__4b8d8 {
 					gap: 0px;
 					padding-top: 0px;
@@ -416,6 +413,9 @@ div[data-layer="GUILD_SETTINGS"] {
 		.twoColumns__65a39 {
 			margin-top: 0px;
 		}
+	}
+	.content_d125d2 > div[style="height: 60px;"] {
+		display: none;
 	}
 	.customColumn__23e6b {
 		padding: 10px 40px 10px;
