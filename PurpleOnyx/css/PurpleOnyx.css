@@ -417,7 +417,15 @@ div[data-layer="GUILD_SETTINGS"] {
 	.customColumn__23e6b {
 		padding: 10px 40px 10px;
 		.settingsHorizontalScroller_fa2640[style="overflow: auto;"] {
-			overflow: hidden !important;
+			overflow: unset !important;
+		}
+	}
+	.customContainer__23e6b {
+		.settingsVerticalScroller_fa2640 {
+			height: unset;
+		}
+		.settingsHorizontalScroller_fa2640[style="overflow: auto;"] {
+			overflow: unset !important;
 		}
 	}
 }
