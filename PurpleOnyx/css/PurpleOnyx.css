@@ -1025,6 +1025,9 @@ nav>#channels {
  /* Remove Side Border */
 .sidebarList__5e434 {
 	border-left: unset;
+	.scroller__629e4 {
+		overflow-y: auto !important;
+	}
 }
 
  /* Unset Channel List fixed height */
