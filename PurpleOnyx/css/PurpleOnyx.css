@@ -383,6 +383,12 @@ div[data-layer="GUILD_SETTINGS"] {
 			gap: 12px;
 			margin-bottom: 0px;
 			padding-bottom: 12px;
+			.table_e7d73e {
+				margin-bottom: 0px;
+				&:first-of-type {
+					margin-bottom: 15px;
+				}
+			}
 		}
 		.emojiRow_e7d73e.card_b846e5 {
 			background: var(--background-base-lower);
@@ -398,6 +404,9 @@ div[data-layer="GUILD_SETTINGS"] {
 					background-color: unset;
 				}
 			}
+		}
+		.twoColumns__65a39 {
+			margin-top: 0px;
 		}
 	}
 }
