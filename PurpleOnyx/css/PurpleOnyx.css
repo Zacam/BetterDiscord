@@ -349,6 +349,9 @@ div[data-layer="GUILD_SETTINGS"] {
 						background-color: var(--background-base-lowest);
 					}
 				}
+				.container_f83afb, .container_a5fa1d {
+					gap: 20px;
+				}
 			}
 		}
 		.content_dbba93 {
