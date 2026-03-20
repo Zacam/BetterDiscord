@@ -1408,6 +1408,11 @@ code[class*="txt"] {
 	padding: 0px !important;
 }
 
+/* Parsed Attachments */
+.newMosaicStyle__4d95d .textContainer__4d95d {
+	overflow-y: auto !important;
+}
+
  /* Dated Message Separator */
 .divider__5126c.hasContent__5126c {
 	border-top-color: var(--border-active);
