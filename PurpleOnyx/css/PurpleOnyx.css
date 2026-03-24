@@ -688,10 +688,9 @@ nav,
 }
 
  /* Update Button Fix */
-.button__85643 svg {
-	padding: unset;
-	height: var(--chat-input-icon-size);
-	width: var(--chat-input-icon-size);
+.trailing_c38106 > .clickable__81391:not(:first-of-type) > svg {
+	height: 24px;
+	width: 24px;
 }
 
  /* Divider */
