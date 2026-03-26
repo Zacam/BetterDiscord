@@ -1225,6 +1225,27 @@ li.containerDefault_c69b6d:hover .linkTop__2ea32>.name__2ea32 {
 	}
 }
 
+ /* Update "Voin Voice" Button */
+.callContainer_cb9592 {
+	.overlay-primary_a22cb0 {
+		--control-overlay-primary-background-default: var(--oPur-21);
+		--control-overlay-primary-border-default: var(--border-normal);
+		--control-overlay-primary-text-default: var(--oPurple);
+		&:hover {
+			--control-overlay-primary-background-hover: var(--oPur-32);
+			--control-overlay-primary-border-hover: var(--border-strong);
+			--control-overlay-primary-text-hover: white;
+		}
+	}
+}
+
+ /* Make Activze VC CHannel Icon "Active" */
+.videoControls_bfe55a {
+	.channelIcon__9293f > svg.icon__9293f {
+		--channel-icon: var(--text-feedback-positive);
+	}
+}
+
  /* Collapsed VC Summary SVG Color */
 .row_b1f768>.activityIcon_b1f768, /* Server Popover Modal */
 .voiceUserSummary__629e4 .icon__183c2 {
