@@ -641,10 +641,27 @@ nav,
 .chat_f75fb0 .layerContainer__59d0d {
 	z-index: 2;
 }
-/* Mod View Panel */
+ /* Mod View Panel */
 .guildSidebar_f75fb0 {
 	border-top: 2px groove var(--border-active);
 	margin-top: 45px;
+}
+ /* Notice Bar */
+.notice__6e2b9 {
+	position: absolute;
+	top: 4px;
+	right: var(--custom-guild-sidebar-width);
+}
+.colorWarning__6e2b9 {
+	width: fit-content;
+	.closeButton__6e2b9 {
+		margin-right: -5px;
+	}
+	.button__6e2b9 {
+		padding: 0px 5px;
+		margin-right: 15px;
+		--status-warning-text: var(--custom-notice-text);
+	}
 }
 
  /* Reposition Popouts */
