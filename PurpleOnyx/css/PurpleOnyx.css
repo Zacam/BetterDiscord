@@ -1217,6 +1217,14 @@ li.containerDefault_c69b6d:hover .linkTop__2ea32>.name__2ea32 {
 	display: none;
 }
 
+ /* Replace VC Background Pulsing Gradient with Static One */
+.pulseGradient__11664 {
+	background: linear-gradient(to top, var(--oPur-21) 42%, transparent);
+	canvas {
+		display: none;
+	}
+}
+
  /* Collapsed VC Summary SVG Color */
 .row_b1f768>.activityIcon_b1f768, /* Server Popover Modal */
 .voiceUserSummary__629e4 .icon__183c2 {
