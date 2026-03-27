@@ -1700,19 +1700,6 @@ svg.downloadHoverButtonIcon__6c706 path {
 }/*</Chat Body>*/
 
 /* VC                                                                                                           */
-.videoControls_bfe55a .flex__7c0ba:last-of-type button {
-	svg.controlIcon_f1ceac {
-		color: var(--oPur-64);
-		&:hover {
-			color: var(--oPur-84);
-		}
-	}
-}
-
-.videoControls_bfe55a .flex__7c0ba .leftTrayIcon_cb9592 {
-	display: none;
-}
-
 .liveQualityIndicator__30845 {
 	--primary-500: var(--oPur-64);
 }
@@ -1730,6 +1717,19 @@ svg.downloadHoverButtonIcon__6c706 path {
 .participantsButton__211d1,
 .buttonSection__1405b {
 	border: 1px solid var(--border-active);
+}
+
+.videoControls_bfe55a .bottomControls_bfe55a .edgeControls_bfe55a:first-of-type {
+	display: none;
+}
+
+.videoControls_bfe55a .edgeControls_bfe55a:last-of-type button {
+	svg.controlIcon_f1ceac {
+		color: var(--oPur-64);
+		&:hover {
+			color: var(--oPur-84);
+		}
+	}
 }/*</VC>*/
 
 /* Members List                                                                                                 */
