@@ -1713,14 +1713,17 @@ svg.downloadHoverButtonIcon__6c706 path {
 	display: none;
 }
 
+.liveQualityIndicator__30845 {
+	--primary-500: var(--oPur-64);
+}
+
 .qualityIndicator__30845 {
-	color: rgb(28,28,28) !important;
-	background-color: var(--oPur-64);
+	--white: rgb(208,208,208);
 }
 
 .live_a7acae {
-	color: rgb(208,208,208) !important;
-	background-color: var(--oPur-64) !important;
+	--white: rgb(208,208,208);
+	--red-400: var(--oPur-64);
 }
 
 .container__218f7:has(.activityVoiceChannel__2ef49),
