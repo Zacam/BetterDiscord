@@ -237,7 +237,6 @@ code:not(.inline, .diff, .codeView__4d95d) {
 	background: #2b748952;
 }
 
-
 .theme-dark .markup__75297 .hljs[class~="vb" i]::before,
 .theme-dark .markup__75297 .hljs[class~="visualbasic" i]::before {
 	content: "Visual Basic";
