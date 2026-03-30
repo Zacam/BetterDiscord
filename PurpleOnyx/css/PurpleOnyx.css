@@ -942,6 +942,9 @@ nav,
 	.inner_c0bea0 {
 		gap: 4px;
 		padding: 0px;
+		.banner__68edb {
+			border-radius: 12px 12px 0px 0px;
+		}
 		.body__5be3e {
 			gap: 6px;
 			padding: 4px 0px 4px 8px !important;
@@ -959,7 +962,11 @@ nav,
 			}
 		}
 		.footer__5be3e {
+			--form-input-height: 32px;
 			padding: 0px 8px 4px 8px;
+			.textArea__74017 {
+				height: 32px !important;
+			}
 		}
 	}
 }
