@@ -32,8 +32,8 @@ a[href="https://support.discord.com"] svg>path {
 }
 
  /* DevTools */
-.toolbar__9293f .buttons_8227b0 > div > .clickable__81391 svg:not(:has(path[fill="url(#uid_30)"])), /* Old Title Bar */
-.trailing_c38106 > div > .clickable__81391 svg:not(:has(path[fill="url(#uid_30)"])) {
+.toolbar__9293f .buttons_8227b0 > div > .clickable__81391 svg:not(:has(>path[fill^="url(#uid_"])), /* Old Title Bar */
+.trailing_c38106 > div > .clickable__81391 svg:not(:has(>path[fill^="url(#uid_"])) {
 	background-image: url("https://discord.com/assets/73763de9b2924904.svg");
 	background-size: 18px;
 	background-position: center;
