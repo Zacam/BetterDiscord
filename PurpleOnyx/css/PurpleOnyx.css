@@ -1720,6 +1720,11 @@ svg.downloadHoverButtonIcon__6c706 path {
 	}
 }
 
+ /* Set Channel Status */
+.headerGradient__8a031::before {
+	top: 0px;
+}
+
 .liveQualityIndicator__30845 {
 	--primary-500: var(--oPur-64);
 }
