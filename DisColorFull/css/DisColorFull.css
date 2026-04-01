@@ -251,7 +251,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 }
 
  /* Server Channel List - Voice User Indicators */
-.voiceUser__07f91 .iconGroup__07f91::first-of-type svg {
+.voiceUser__07f91 .iconGroup__07f91:first-of-type svg {
 	color: var(--status-danger);
 }
 
