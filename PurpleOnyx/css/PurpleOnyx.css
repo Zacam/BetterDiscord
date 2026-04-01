@@ -1154,6 +1154,10 @@ nav .header_f37cb1 {
 }
 
  /* See All Topic Popout */
+[id^="popout_"][style*="left: 295.797px;"] {
+	left: 286px !important;
+}
+
 .layer__59d0d [class^="popover"] {
 	background: var(--background-base-low);
 	border: 1px dashed var(--oPur-64);
@@ -1241,15 +1245,16 @@ li.containerDefault_c69b6d:hover .linkTop__2ea32>.name__2ea32 {
 	display: none;
 }
 
- /* Replace VC Background Pulsing Gradient with Static One */
-.pulseGradient__11664 {
-	background: linear-gradient(to top, var(--oPur-21) 42%, transparent);
-	canvas {
-		display: none;
-	}
+ /* Status Hovering VC users */
+[class^="popover_"] {
+	padding: 8px;
 }
 
- /* Update "Voin Voice" Button */
+#hang-status-picker > div {
+	padding: 0px;
+}
+
+ /* Update "Join Voice" Button */
 .callContainer_cb9592 {
 	.overlay-primary_a22cb0 {
 		--control-overlay-primary-background-default: var(--oPur-21);
@@ -1260,13 +1265,6 @@ li.containerDefault_c69b6d:hover .linkTop__2ea32>.name__2ea32 {
 			--control-overlay-primary-border-hover: var(--border-strong);
 			--control-overlay-primary-text-hover: white;
 		}
-	}
-}
-
- /* Make Activze VC CHannel Icon "Active" */
-.videoControls_bfe55a {
-	.channelIcon__9293f > svg.icon__9293f {
-		--channel-icon: var(--text-feedback-positive);
 	}
 }
 
@@ -1707,6 +1705,21 @@ svg.downloadHoverButtonIcon__6c706 path {
 }/*</Chat Body>*/
 
 /* VC                                                                                                           */
+ /* Replace VC Background Pulsing Gradient with Static One */
+.pulseGradient__11664 {
+	background: linear-gradient(to top, var(--oPur-21) 42%, transparent);
+	canvas {
+		display: none;
+	}
+}
+
+ /* Make Active VC Channel Icon "Active" */
+.videoControls_bfe55a {
+	.channelIcon__9293f > svg.icon__9293f {
+		--channel-icon: var(--text-feedback-positive);
+	}
+}
+
 .liveQualityIndicator__30845 {
 	--primary-500: var(--oPur-64);
 }
