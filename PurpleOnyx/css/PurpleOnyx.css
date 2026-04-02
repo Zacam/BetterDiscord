@@ -1368,6 +1368,11 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 	padding-right: 6px;
 }
 
+ /* Remove Hover BG change */
+.accountPopoutButtonWrapper__37e49:hover {
+	--background-mod-normal: transparent;
+}
+
  /* Adds an @ to the username */
 .hoverRoll__0263c .hovered__0263c::before{
 	content: "@";
