@@ -1481,6 +1481,14 @@ time, .timestamp_c19a55 {
 	border-radius: 12px;
 }
 
+ /* Message Padding */
+.compact_c19a55.wrapper_c19a55 {
+	padding-left: 146px;
+}
+.message__5126c {
+	--space-xl: 0px;
+}
+
  /* Make _Scroll Indicator Fit */
 .align-chat-input .scroller__36d07::-webkit-scrollbar-track /* Default: 40px */,
 .scroller__36d07::-webkit-scrollbar-track /* Default: 8px */ {
@@ -1539,6 +1547,10 @@ main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
  /* Remove background highlighting on Scrolling Hover */
 .message__5126c.wrapper_c19a55.cozy_c19a55.zalgo_c19a55:not(.mentioned__5126c, .replying__5126c):hover,
 .message__5126c.wrapper_c19a55.compact_c19a55.zalgo_c19a55:not(.mentioned__5126c, .replying__5126c):hover {
+	background: unset;
+}
+
+.theme-dark .message__5126c.selected__5126c {
 	background: unset;
 }
 
