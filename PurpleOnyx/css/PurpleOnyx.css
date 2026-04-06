@@ -1529,12 +1529,12 @@ code[class*="txt"] {
 }
 
  /* Message Separator */
-main ol[data-list-id="chat-messages"] li:has(.groupStart__5126c):before {
+.chatContent_f75fb0 ol[data-list-id="chat-messages"] li[data-message-group-start="true"]:before {
 	content: "";
 	position: absolute;
 	height: 2px;
 	left: 16px;
-	right: 14px;
+	right: 2px;
 	background: #2f2f2f;
 	opacity: .64;
 }
