@@ -1413,13 +1413,21 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 
  /* Adjust Gap on VC */
 .panels__5e434 .container_e131a9 {
-	gap: 10px;
+	gap: 6px;
 	padding-bottom: 0px;
+}
+.container_e131a9 {
+	padding: calc(var(--custom-guild-list-padding) - var(--custom-panels-spacing));
 }
 
  /* Shrink Padding when on VC with no Action Buttons */
 .panels__5e434 .actionButtons_e131a9 button {
-	margin-bottom: 10px;
+	margin-bottom: 6px;
+}
+
+ /* Unset Height */
+.container__37e49 {
+	height: unset;
 }
 
  /* Shrink up the size of the Wrapper */
