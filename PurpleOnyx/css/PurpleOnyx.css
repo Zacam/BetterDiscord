@@ -334,6 +334,12 @@ div[data-layer="GUILD_SETTINGS"] {
 			}
 		}
 	}
+	#roles-tab {
+		.contentWidth_c6bf1b .header_c6bf1b {
+			padding-top: 15px;
+			top: 2px;
+		}
+	}
 	.contentRegion__23e6b {
 		margin-top: 45px;
 		.contentRegionScroller__23e6b {
