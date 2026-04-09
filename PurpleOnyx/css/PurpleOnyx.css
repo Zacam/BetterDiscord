@@ -335,6 +335,9 @@ div[data-layer="GUILD_SETTINGS"] {
 		}
 	}
 	#roles-tab {
+		.titleContainer_e29cd7 {
+			padding: 15px 8px 16px;
+		}
 		.contentWidth_c6bf1b .header_c6bf1b {
 			padding-top: 15px;
 			top: 2px;
