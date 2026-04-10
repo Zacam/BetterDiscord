@@ -125,11 +125,6 @@ div[class*="checkbox"][class*="checked"] {
 }
 
  /* Minimal Menu Size */
-div[role="menu"] div[role^="menuitem"] {
-	padding: 1px 0px 0px 6px;
-	margin-left: 2px;
-}
-
 div[role="menu"] div[role="separator"] {
 	margin: 2px 0px 2px 4px;
 }
@@ -1066,6 +1061,14 @@ span:has(.pronounsText__63ed3) {
 nav.wrapper_ef3116.guilds__5e434 {
 	border-right: 1px groove var(--border-active) !important;
 	border-radius: 12px !important;
+}
+
+ /* Guild Context Menu */
+.menu_c1e9c4#guild-context {
+	padding-right: 6px;
+	.scroller_c1e9c4 {
+		overflow-y: hidden !important;
+	}
 }/*</Servers Panel>*/
 
 /* Server Channels List                                                                                         */
@@ -1115,7 +1118,15 @@ nav .header_f37cb1 {
 
  /* Server Menu */
 .menu_c1e9c4#guild-header-popout {
-	padding-right: 8px;
+	padding-right: 6px;
+	.scroller_c1e9c4 {
+		overflow-y: hidden !important;
+	}
+}
+
+ /* Channel Context Menu */
+.menu_c1e9c4#channel-context {
+	padding-right: 6px;
 	.scroller_c1e9c4 {
 		overflow-y: hidden !important;
 	}
@@ -1608,7 +1619,7 @@ code[class*="txt"] {
 
  /* Message Actions */
 #message {
-	padding-right: 8px;
+	padding-right: 6px;
 	.scroller_c1e9c4 {
 		overflow-y: hidden !important;
 	}
@@ -1624,6 +1635,14 @@ code[class*="txt"] {
 
 .buttonsInner__5126c.popover_f84418.wrapper_f7ecac {
 	border: 1px solid var(--border-active);
+}
+
+ /* User Context Menu */
+.menu_c1e9c4#user-context {
+	padding-right: 6px;
+	.scroller_c1e9c4 {
+		overflow-y: hidden !important;
+	}
 }
 
  /* Reactions Popup */
@@ -1884,6 +1903,14 @@ svg.dot__9293f {
 .addFriend__133bf[aria-selected="true"] {
 	--text-brand: #000;
 }/*</Friend List>*/
+
+ /* DM''s Context Menu */
+.menu_c1e9c4#gdm-context {
+	padding-right: 6px;
+	.scroller_c1e9c4 {
+		overflow-y: hidden !important;
+	}
+}
 
  /* Top Gap */
 ul.content_d125d2 div[style="height: 8px;"] {
