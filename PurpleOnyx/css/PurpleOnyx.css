@@ -129,6 +129,10 @@ div[role="menu"] div[role="separator"] {
 	margin: 2px 0px 2px 4px;
 }
 
+.submenu_c1e9c4 > .scroller_c1e9c4 {
+	overflow: hidden !important;
+}
+
 [class*="menu"] { /* allow Menu's to minify themselves */
 border-color: var(--border-normal) !important;
 	min-height: unset;
