@@ -297,6 +297,9 @@ border-color: var(--border-normal) !important;
 	.wrapper__4e6ce.categoryList_c0e32c {
 		top: 50px;
 	}
+	#emoji-picker-grid .scroller_affa7e {
+		scrollbar-color: var(--oPur-42) rgba(0,0,0,0);
+	}
 }
 
  /* Calendar */
