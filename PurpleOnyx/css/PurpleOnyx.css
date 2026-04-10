@@ -1600,6 +1600,10 @@ code[class*="txt"] {
 
  /* Message Actions */
 #message {
+	padding-right: 8px;
+	.scroller_c1e9c4 {
+		overflow-y: hidden !important;
+	}
 	.wrapper_f563df {
 		gap: unset;
 		padding: 0px;
