@@ -1587,6 +1587,9 @@ code[class*="txt"] {
 }
 
  /* "New" Unread Divider */
+ .divider__5126c {
+	margin-inline: 16px 0px;
+}
 .isUnread__908e2 {
 	--divider-color: rgba(164,128,226,0.50);
 	span {
