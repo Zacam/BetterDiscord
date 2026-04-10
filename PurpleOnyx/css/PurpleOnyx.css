@@ -273,7 +273,7 @@ border-color: var(--border-normal) !important;
  /* Emoji Picker */
 #emoji-picker-tab-panel.wrapper_c0e32c {
 	transform: scale(75%);
-	border: 1px solid var(--border-strong);
+	border: 2px solid var(--border-strong);
 	.input__0f084,
 	.header__14245,
 	.textWrapper_aeaaeb > div {
