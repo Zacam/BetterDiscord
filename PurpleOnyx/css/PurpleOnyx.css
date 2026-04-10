@@ -1619,7 +1619,7 @@ code[class*="txt"] {
 
  /* Message Actions */
 #message {
-	padding-right: 6px;
+	padding-right: 4px;
 	.scroller_c1e9c4 {
 		overflow-y: hidden !important;
 	}
