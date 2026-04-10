@@ -126,7 +126,7 @@ div[class*="checkbox"][class*="checked"] {
 
  /* Minimal Menu Size */
 div[role="menu"] div[role="separator"] {
-	margin: 2px 0px 2px 4px;
+	margin: 2px 4px;
 }
 
 .submenu_c1e9c4 {
@@ -1072,9 +1072,9 @@ nav.wrapper_ef3116.guilds__5e434 {
 
  /* Guild Context Menu */
 .menu_c1e9c4#guild-context {
-	padding-right: 6px;
+	padding-right: 2px;
 	.scroller_c1e9c4 {
-		overflow-y: hidden !important;
+		overflow: hidden !important;
 	}
 }/*</Servers Panel>*/
 
@@ -1125,17 +1125,17 @@ nav .header_f37cb1 {
 
  /* Server Menu */
 .menu_c1e9c4#guild-header-popout {
-	padding-right: 6px;
+	padding-right: 2px;
 	.scroller_c1e9c4 {
-		overflow-y: hidden !important;
+		overflow: hidden !important;
 	}
 }
 
  /* Channel Context Menu */
 .menu_c1e9c4#channel-context {
-	padding-right: 6px;
+	padding-right: 2px;
 	.scroller_c1e9c4 {
-		overflow-y: hidden !important;
+		overflow: hidden !important;
 	}
 }
 
@@ -1646,9 +1646,9 @@ code[class*="txt"] {
 
  /* User Context Menu */
 .menu_c1e9c4#user-context {
-	padding-right: 6px;
+	padding-right: 2px;
 	.scroller_c1e9c4 {
-		overflow-y: hidden !important;
+		overflow: hidden !important;
 	}
 }
 
@@ -1913,9 +1913,9 @@ svg.dot__9293f {
 
  /* DM''s Context Menu */
 .menu_c1e9c4#gdm-context {
-	padding-right: 6px;
+	padding-right: 2px;
 	.scroller_c1e9c4 {
-		overflow-y: hidden !important;
+		overflow: hidden !important;
 	}
 }
 
