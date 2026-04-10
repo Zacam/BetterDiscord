@@ -1797,6 +1797,14 @@ svg.downloadHoverButtonIcon__6c706 path {
 
 .newMessageCount_faa96b {
 	color: var(--oPurple) !important;
+}
+
+ /* Threads Context Menu */
+.menu_c1e9c4#thread-context {
+	padding-right: 2px;
+	.scroller_c1e9c4 {
+		overflow: hidden !important;
+	}
 }/*</Chat Body>*/
 
 /* VC                                                                                                           */
