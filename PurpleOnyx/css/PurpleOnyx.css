@@ -1601,9 +1601,9 @@ code[class*="txt"] {
 }
 
  /* Reply Messages */
-li.messageListItem__5126c:has(div[id^="message-reply-context-"]) {
+li.messageListItem__5126c[data-message-is-reply="true"] {
 	background: rgba(164,128,226,0.11);
-	border-left: 2px solid var(--oPur-42);
+	border-left: 2px solid var(--border-strong);
 }
 
  /* Remove background highlighting on Scrolling Hover */
