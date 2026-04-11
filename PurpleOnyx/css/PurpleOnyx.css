@@ -1593,8 +1593,11 @@ code[class*="txt"] {
 }
 
  /* Mentioned Messages */
-.mentioned__5126c:before {
-	background: var(--oPur-42);
+.mentioned__5126c {
+	margin-left: 2px;
+	&::before {
+		background: var(--oPur-42);
+	}
 }
 
  /* Remove background highlighting on Scrolling Hover */
