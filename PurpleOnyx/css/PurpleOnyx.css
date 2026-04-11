@@ -1610,6 +1610,9 @@ li.messageListItem__5126c[data-message-is-reply="true"]:not(:has(>.mentioned__51
 .compact_c19a55 .repliedMessage_c19a55 {
 	margin-inline-start: unset;
 	padding-inline-start: unset;
+	.replyBadge_c19a55 {
+		z-index: 1;
+	}
 }
 
  /* Remove background highlighting on Scrolling Hover */
