@@ -1600,6 +1600,12 @@ code[class*="txt"] {
 	}
 }
 
+ /* Reply Messages */
+li.messageListItem__5126c:has(div[id^="message-reply-context-"]) {
+	background: rgba(164,128,226,0.11);
+	border-left: 2px solid var(--oPur-42);
+}
+
  /* Remove background highlighting on Scrolling Hover */
 .message__5126c.wrapper_c19a55.cozy_c19a55.zalgo_c19a55:not(.mentioned__5126c, .replying__5126c):hover,
 .message__5126c.wrapper_c19a55.compact_c19a55.zalgo_c19a55:not(.mentioned__5126c, .replying__5126c):hover {
