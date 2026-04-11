@@ -240,7 +240,7 @@ border-color: var(--border-normal) !important;
 [class*="mosaic"], [class*="Mosaic"],
 [class*="spoiler"],
 [class*="visualMediaItemContainer"],
-[class*="embed"], [class*="embed"] img, [class*="embed"] video, video,
+[class*="embed"], [class*="embed"]:not(.embedSuppressButton__623de) img, [class*="embed"] video, video,
 [class*="oneByOneGrid"],
 [class^="imageWrapper"] {
 	border-radius: 0px !important;
