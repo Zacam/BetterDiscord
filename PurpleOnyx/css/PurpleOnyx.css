@@ -1595,9 +1595,9 @@ code[class*="txt"] {
  /* Mentioned Messages */
 .mentioned__5126c {
 	margin-left: 2px;
-	&::before {
+	/*&::before {
 		background: var(--oPur-42);
-	}
+	}*/
 }
 
  /* Reply Messages */
