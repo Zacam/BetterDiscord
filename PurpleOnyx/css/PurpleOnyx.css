@@ -1598,13 +1598,17 @@ code[class*="txt"] {
 	padding-left: 144px !important;
 }
 
- /* Reply Messages */
+ /* Repied Messages */
 li.messageListItem__5126c[data-message-is-reply="true"] {
 	background: rgba(164,128,226,0.11);
 	border-left: 2px solid var(--border-strong);
 	>.message__5126c {
 		padding-left: 142px;
 	}
+}
+.compact_c19a55 .repliedMessage_c19a55 {
+	margin-inline-start: unset;
+	padding-inline-start: unset;
 }
 
  /* Remove background highlighting on Scrolling Hover */
