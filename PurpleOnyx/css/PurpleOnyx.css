@@ -1593,7 +1593,7 @@ code[class*="txt"] {
 }
 
  /* Mentioned Messages */
-.mentioned__5126c:not(:has(>.repliedMessage_c19a55)) {
+.mentioned__5126c:not(:is(.repliedMessage_c19a55)) {
 	margin-left: 2px;
 	padding-left: 144px !important;
 }
