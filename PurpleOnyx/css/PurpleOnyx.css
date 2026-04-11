@@ -1595,15 +1595,16 @@ code[class*="txt"] {
  /* Mentioned Messages */
 .mentioned__5126c {
 	margin-left: 2px;
-	/*&::before {
-		background: var(--oPur-42);
-	}*/
+	padding-left: 144px !important;
 }
 
  /* Reply Messages */
 li.messageListItem__5126c[data-message-is-reply="true"] {
 	background: rgba(164,128,226,0.11);
 	border-left: 2px solid var(--border-strong);
+	>.message__5126c {
+		padding-left: 142px;
+	}
 }
 
  /* Remove background highlighting on Scrolling Hover */
