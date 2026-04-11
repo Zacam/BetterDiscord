@@ -112,7 +112,7 @@ footer._8a031a135bfcb9ba-actionBar button {
 	--text-brand: var(--oPur-84);
 }
 
- /* CHeck Boxes */
+ /* Check Boxes */
 .checkboxIndicator__714a9 {
 	border-color: var(--border-active) !important;
 }
@@ -129,7 +129,15 @@ div[role="menu"] div[role="separator"] {
 	margin: 2px 4px;
 }
 
-.submenu_c1e9c4 {
+ /* Guild Context Menu */ .menu_c1e9c4#guild-context,
+ /* Server Menu */ .menu_c1e9c4#guild-header-popout,
+ /* Channel Context Menu */ .menu_c1e9c4#channel-context,
+ /* User Context Menu */ .menu_c1e9c4#user-context,
+ /* Image Context Menu */ .menu_c1e9c4#image-context,
+ /* Threads Context Menu */ .menu_c1e9c4#thread-context,
+ /* Friends More Menu */ .menu_c1e9c4#friend-row,
+ /* DM's Context Menu */ .menu_c1e9c4#gdm-context,
+/* Sub-Menu */.submenu_c1e9c4 {
 	padding-right: 2px;
 	.scroller_c1e9c4 {
 		overflow: hidden !important;
@@ -1077,14 +1085,6 @@ span:has(.pronounsText__63ed3) {
 nav.wrapper_ef3116.guilds__5e434 {
 	border-right: 1px groove var(--border-active) !important;
 	border-radius: 12px !important;
-}
-
- /* Guild Context Menu */
-.menu_c1e9c4#guild-context {
-	padding-right: 2px;
-	.scroller_c1e9c4 {
-		overflow: hidden !important;
-	}
 }/*</Servers Panel>*/
 
 /* Server Channels List                                                                                         */
@@ -1130,22 +1130,6 @@ nav .header_f37cb1 {
 
 [class$="headerGlass"], [class^="headerEllipse"] {
 	display: none;
-}
-
- /* Server Menu */
-.menu_c1e9c4#guild-header-popout {
-	padding-right: 2px;
-	.scroller_c1e9c4 {
-		overflow: hidden !important;
-	}
-}
-
- /* Channel Context Menu */
-.menu_c1e9c4#channel-context {
-	padding-right: 2px;
-	.scroller_c1e9c4 {
-		overflow: hidden !important;
-	}
 }
 
  /* Server Event Popup */
@@ -1656,14 +1640,6 @@ code[class*="txt"] {
 	border: 1px solid var(--border-active);
 }
 
- /* User Context Menu */
-.menu_c1e9c4#user-context {
-	padding-right: 2px;
-	.scroller_c1e9c4 {
-		overflow: hidden !important;
-	}
-}
-
  /* Reactions Popup */
 .reactionTooltip_b49891 {
 	border: 1px solid var(--border-active);
@@ -1800,14 +1776,6 @@ svg.downloadHoverButtonIcon__6c706 path {
 
 .newMessageCount_faa96b {
 	color: var(--oPurple) !important;
-}
-
- /* Threads Context Menu */
-.menu_c1e9c4#thread-context {
-	padding-right: 2px;
-	.scroller_c1e9c4 {
-		overflow: hidden !important;
-	}
 }/*</Chat Body>*/
 
 /* VC                                                                                                           */
@@ -1930,14 +1898,6 @@ svg.dot__9293f {
 .addFriend__133bf[aria-selected="true"] {
 	--text-brand: #000;
 }/*</Friend List>*/
-
- /* DM''s Context Menu */
-.menu_c1e9c4#gdm-context {
-	padding-right: 2px;
-	.scroller_c1e9c4 {
-		overflow: hidden !important;
-	}
-}
 
  /* Top Gap */
 ul.content_d125d2 div[style="height: 8px;"] {
