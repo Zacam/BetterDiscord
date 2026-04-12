@@ -19,6 +19,7 @@ Install Nerd Font's version of DejaVu Sans Mono, or the Original</br>
 <ins>Featured/Configured Imports</ins>:</br>
 [RadialStatus](https://github.com/DiscordStyles/RadialStatus) by [Gibbu](https://github.com/Gibbu)</br>
 [ServerColumns](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/ServerColumns) by [DevilBro](https://github.com/mwittrien)</br>
+[Colored Mentions](https://github.com/davart154/Themes/tree/main/Snippets/Colored%20Mentions) by [davert154](https://github.com/davart154)</br>
 [Mana Page Switcher](https://github.com/davart154/Themes/tree/main/Snippets/Mana%20Page%20Switcher) by [davert154](https://github.com/davart154)</br>
 
 <ins>Featured Plugins</ins>:</br>
