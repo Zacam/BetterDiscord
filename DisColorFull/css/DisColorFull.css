@@ -195,6 +195,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	}
 }
 
+  /* Pinned Popou */
 .messagesPopoutWrap_e8b59c>.header_e8b59c>.titleContainer_e8b59c {
 	background-image: url("https://discord.com/assets/c7ba45651998dd2c.svg");
 	background-size: 18px;
@@ -207,6 +208,17 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 
 .messagesPopoutWrap_e8b59c>.header_e8b59c>.titleContainer_e8b59c>div {
 	margin-left: 28px;
+}
+
+  /* Pinned Indicator */
+.container__235ca.compact__235ca>.iconContainer__235ca:has(>svg path[d^="M19.38 11.38a3 3 0 0 0 4.24 0l.03-.03a.5.5 0 0 0 0-.7L13.35.35a.5.5"]) {
+	background-image: url("https://discord.com/assets/c7ba45651998dd2c.svg");
+	background-size: 14px;
+	background-position: center;
+	background-repeat: no-repeat;
+	path {
+		display: none;
+	}
 }
 
  /* Show/Hide Member List */
