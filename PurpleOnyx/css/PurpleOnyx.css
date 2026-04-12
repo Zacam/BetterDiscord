@@ -833,6 +833,18 @@ nav,
   /* Unreads Footer */
 .container_fc561d .container_d404a3 {
 	min-height: 210px;
+}
+
+  /* Smaller Headers */
+.container__95796 {
+	margin-bottom: 8px;
+	> .channelHeader__35a7e {
+		height: 48px;
+		margin-right: -8px;
+		padding-bottom: 6px;
+		padding-top: 6px;
+		padding-inline-start: 8px;
+	}
 }/*</Inbox>*/
 
  /* Search */
