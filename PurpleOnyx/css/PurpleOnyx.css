@@ -75,7 +75,7 @@
 /*Profile*/.profile__9c3be .profileBody__9c3be:hover,
 /*Profile*/.tabBarPanel__37bfc .tabPanelScroller__37bfc:hover,
 /*Activity*/.container__7d20c .scroller__7d20c,
-/*Inbox*/.recentMentionsPopout__95796 .scroller__95796,
+/*Inbox*/.recentMentionsPopout__95796 .scroller__2692d,
 /*Pinned*/.messagesPopoutWrap_e8b59c .messagesPopout_e8b59c,
 /*Search*/.searchResultsWrap_a98f3b .scroller_a98f3b,
 /*Menus*/.menu_c1e9c4 .scroller_c1e9c4,
@@ -835,15 +835,27 @@ nav,
 	min-height: 210px;
 }
 
-  /* Smaller Headers */
 .container__95796 {
 	margin-bottom: 8px;
+	padding-inline-end: 4px;
 	> .channelHeader__35a7e {
 		height: 48px;
-		margin-right: -8px;
-		padding-bottom: 6px;
-		padding-top: 6px;
-		padding-inline-start: 8px;
+		margin-right: 0px;
+	}
+	.messageContainer__95796 {
+		padding: 8px 0px 8px 0px;
+	}
+}
+
+.channel__427f0 {
+	margin-bottom: 8px;
+	padding-bottom: 0px;
+	> .channelHeader__35a7e {
+		height: 48px;
+		margin-left: -14px;
+	}
+	.messages__1ccd1 {
+		padding: 8px 0px 8px 0px;
 	}
 }/*</Inbox>*/
 
