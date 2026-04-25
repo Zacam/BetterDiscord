@@ -2057,12 +2057,14 @@ aside .user-profile-sidebar {
 
 aside .user-profile-sidebar:not(.custom-user-profile-theme) {
 	background-color: #000;
-	.footer__7f9c0 {
+	.footer__272c7 {
 		border: 2px solid var(--border-subtle);
 		margin: 0px 7px 1px 7px;
 		border-radius: 12px;
-		.footerButton__7f9c0 {
+		.footerButton__272c7 {
 			background: rgba(164,128,226, 0.11);
+			height: 32px;
+			border-radius: 8px;
 		}
 	}
 }
