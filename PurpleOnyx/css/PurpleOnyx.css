@@ -1012,6 +1012,7 @@ nav,
 	border: 1px solid var(--border-active);
 	border-radius: 12px;
 	.inner_c0bea0 {
+		border-radius: 12px;
 		gap: 4px;
 		padding: 0px;
 		.banner__68edb {
@@ -1020,6 +1021,11 @@ nav,
 		.body__5be3e {
 			gap: 6px;
 			padding: 4px 0px 4px 8px !important;
+			.banner__24928 {
+				background-color: var(--background-base-lower);
+				border: 1px dotted var(--border-normal);
+				border-radius: 12px;
+			}
 		}
 		.details__39ec2 > div > div[class^="text-xs/normal"] {
 			width: fit-content;
