@@ -1106,6 +1106,7 @@ span:has(.pronouns__26b1f) {
 	}
 	.unavailableBadge__650eb {
 		background-color: unset;
+		border: 1px solid rgb(217, 62, 68);
 		svg.icon__2b1f5 {
 			color: rgb(217, 62, 68);
 		}
