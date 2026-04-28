@@ -1100,12 +1100,15 @@ span:has(.pronouns__26b1f) {
 .upperBadge_cc5dd2 {
 	.iconBadge__650eb {
 		background-color: unset;
-	}
-	svg.icon__2b1f5 {
-		color: rgb(67, 162, 90);
+		svg.icon__2b1f5 {
+			color: rgb(67, 162, 90);
+		}
 	}
 	.unavailableBadge__650eb {
 		background-color: unset;
+		svg.icon__2b1f5 {
+			color: rgb(217, 62, 68);
+		}
 	}
 }
 
