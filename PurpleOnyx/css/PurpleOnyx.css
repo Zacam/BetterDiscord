@@ -1104,6 +1104,9 @@ span:has(.pronouns__26b1f) {
 	svg.icon__2b1f5 {
 		color: rgb(67, 162, 90);
 	}
+	.unavailableBadge__650eb {
+		background-color: unset;
+	}
 }
 
 .iconBadge__650eb.isCurrentUserConnected__650eb {
