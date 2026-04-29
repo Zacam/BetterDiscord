@@ -1124,14 +1124,12 @@ span:has(.pronouns__26b1f) {
 }
 
  /* Selected Server Indicator */
-.pill_e5445c > .item__58105[style*="height: 40px;"] {
+.wrapper__58105.overlay__58105 > .item__58105[style*="height: 40px;"] {
 	height: 24px !important;
 }
 
  /* New Messages Indicator */
-.pill__1f388 > span.item__58105,
-.pill_ed9a5f > span.item__58105,
-.pill_e5445c > span.item__58105 {
+.wrapper__58105.overlay__58105 > span.item__58105 {
 	background-color: var(--oPur-84);
 }
 
