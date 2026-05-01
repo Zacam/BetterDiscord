@@ -29,6 +29,10 @@
 	color: #F0F0F0;
 }
 
+.bd-modal-root.bd-modal-medium.bd-addon-modal, .bd-modal-footer {
+	background-color: var(--background-base-low);
+}
+
 .bd-radio-icon {
 	stroke: var(--oPur-64);
 }
@@ -65,10 +69,12 @@
 /*Mana Modal*/.container__8a031 .body__8a031
 /*ServerSettings*/.customContainer__23e6b .customScroller__23e6b,
 /*ServerSettings*/.contentRegion__23e6b .contentRegionScroller__23e6b,
-/*ServerSettings*/.contentRegion__23e6b .customScroller__23e6b {
+/*ServerSettings*/.contentRegion__23e6b .customScroller__23e6b,
+/*Modals*/.listBox__2e223.scrollable__2e223 {
 	scrollbar-color: var(--oPur-21) rgba(0,0,0,0);
 }
 
+/*BD Modals*/ .bd-scroller-base.bd-scroller-thin,
 /*Channel List*/.sidebarList__5e434 .scroller__629e4:hover,
 /*Member List*/.membersWrap_c8ffbb .members_c8ffbb:hover,
 /*DMs List*/.privateChannels_e6b769 .scroller__99e7c:hover,
@@ -509,6 +515,11 @@ div[data-layer="GUILD_SETTINGS"] {
 		gap: 0px;
 		padding: 6px 12px 4px !important;
 	}
+}
+
+/* Modals */
+.listBox__2e223.scrollable__2e223 {
+	background-color: var(--background-base-lower);
 }/*</General Discord>*/
 
 /* Settings Panel                                                                                               */
