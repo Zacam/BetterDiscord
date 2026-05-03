@@ -70,7 +70,8 @@
 /*ServerSettings*/.customContainer__23e6b .customScroller__23e6b,
 /*ServerSettings*/.contentRegion__23e6b .contentRegionScroller__23e6b,
 /*ServerSettings*/.contentRegion__23e6b .customScroller__23e6b,
-/*Modals*/.listBox__2e223.scrollable__2e223 {
+/*Modals*/.listBox__2e223.scrollable__2e223,
+.browser__41ed7.auto_d125d2.scrollerBase_d125d2 {
 	scrollbar-color: var(--oPur-21) rgba(0,0,0,0);
 }
 
@@ -1169,7 +1170,8 @@ nav>#channels {
 
  /* Unset Channel List fixed height */
 nav>#channels>ul.content_d125d2 {
-	height: unset !important;
+	height: auto !important;
+	padding-bottom: 56px;
 }
 
  /* Change "Has Banner" Container height to match border alignment */
@@ -1241,7 +1243,11 @@ nav .header_f37cb1 {
 	border: 1px groove var(--border-active);
 	color: var(--oPurple);
 }
+.bottom__7aaec {
+	padding-top: 0px;
+}
 .containerPadding__7aaec {
+	padding-bottom: 0px;
 	width: 93%;
 	.bar__7aaec {
 		justify-content: center;
