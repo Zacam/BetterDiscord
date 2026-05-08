@@ -92,6 +92,15 @@
 	scrollbar-width: thin;
 }
 
+ /* Private Channels SVG's/Glow */
+.friendsButtonContainer_e6b769 svg,
+.channel__972a0:nth-of-type(1) svg,
+[href^="/shop"] svg {
+	filter: drop-shadow(0 0 4px rgba(164,128,226,1)) drop-shadow(0 0 10px rgba(164,128,226,0.32));
+	--icon-muted: var(--oPur-42);
+	--icon-strong: var(--oPurple);
+}
+
  /* Tooltips */
 .tooltip__4e35b {
 	background: var(--background-base-low);
