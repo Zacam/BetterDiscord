@@ -132,6 +132,7 @@ div[class^="topSection"] {
  /* Timezones Plugin Customization */
 .tz-banner {
 	background: var(--control-overlay-secondary-background-default) !important;
+	border: 1px solid var(--opacity-white-8);
 	color: var(--white) !important;
 	top: 48px !important;
 	right: 8px !important;
