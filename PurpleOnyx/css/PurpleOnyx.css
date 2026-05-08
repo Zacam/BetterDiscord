@@ -101,8 +101,11 @@
 }
 .guildTooltipWrapper_b1f768 {
 	max-width: 100%;
-	.rowIcon_b1f768 {
-		margin-top: 0px;
+	.rowGuildName_b1f768 {
+		align-items: center;
+		.rowIcon_b1f768 {
+			margin-top: 0px;
+		}
 	}
 }
 
