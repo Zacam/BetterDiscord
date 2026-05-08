@@ -95,8 +95,15 @@
  /* Tooltips */
 .tooltip__4e35b {
 	background: var(--background-base-low);
+	max-width: unset;
 	padding: 4px 6px;
 	text-align: start;
+}
+.guildTooltipWrapper_b1f768 {
+	max-width: 100%;
+	.rowIcon_b1f768 {
+		margin-top: 0px;
+	}
 }
 
  /* Input Boxes */
