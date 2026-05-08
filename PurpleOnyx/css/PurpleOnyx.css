@@ -95,6 +95,8 @@
  /* Tooltips */
 .tooltip__4e35b {
 	background: var(--background-base-low);
+	padding: 4px 6px;
+	text-align: start;
 }
 
  /* Input Boxes */
@@ -174,6 +176,12 @@ border-color: var(--border-normal) !important;
 	--background-feedback-notification: rgba(164,128,226,0.5);
 	--badge-notification-background: rgba(164,128,226,0.5);
 	--status-danger: rgba(164,128,226,0.5);
+}
+
+ /* Text "New" Badge */
+.titleBadge_e4503a, .newBadge__0b563, .newBadge__5d7c9 {
+	--brand-260: var(--brand-300);
+	color: var(--text-default);
 }
 
 /* Polls */
@@ -1881,7 +1889,7 @@ svg.downloadHoverButtonIcon__6c706 path {
 }
 
  /* Threaded View */
-.brand_c2b88c, .newBadge_faa96b, .newBadge__0b563, .newBadge__4ed1a>div {
+.brand_c2b88c, .newBadge_faa96b, .newBadge__4ed1a>div {
 	background-color: unset !important;
 	color: var(--oPurple);
 }
