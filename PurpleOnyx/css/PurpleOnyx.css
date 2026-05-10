@@ -711,7 +711,8 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 .toolbar__9293f {
 	margin-right: calc(32px * var(--trailingCounter) + 2px);
 }
-div:is(.sidebarOpen_cb9592, .threadSidebarOpen_f75fb0) .toolbar__9293f {
+.sidebarOpen_cb9592 .toolbar__9293f,
+.threadSidebarOpen_f75fb0 .toolbar__9293f {
 	margin-right: 0;
 }
 nav,
@@ -1205,7 +1206,8 @@ nav .bannerVisible_f37cb1 .header_f37cb1 {
 }
 
  /* Add Border to Server Header Container */
-nav :is(.bannerVisible_f37cb1, .container_f37cb1) .header_f37cb1 {
+nav .bannerVisible_f37cb1 .header_f37cb1,
+nav .container_f37cb1 .header_f37cb1 {
 	border-bottom: 2px groove var(--border-active);
 	&:hover {
 		border-bottom: 2px groove var(--border-active);
@@ -1434,7 +1436,8 @@ li.containerDefault_c69b6d:hover .linkTop__2ea32>.name__2ea32 {
 }
 
  /* VC "Set a Channel Name" */
-.selectedChannel_c69b6d:is(.modeSelected__2ea32, .modeConnected__2ea32) a>.linkBottom__2ea32 {
+.selectedChannel_c69b6d.modeSelected__2ea32 a>.linkBottom__2ea32,
+.selectedChannel_c69b6d.modeConnected__2ea32 a>.linkBottom__2ea32 {
 	display: none;
 }
 
@@ -1820,7 +1823,7 @@ svg.downloadHoverButtonIcon__6c706 path {
 }
 
  /* Chennel Mentioned */
-:is(.mention, .channelMention, .roleMention__75297) {
+.mention, .channelMention, .roleMention__75297 {
 	background-color: unset !important;
 	&:hover {
 		background-color: unset;
@@ -1836,7 +1839,8 @@ svg.downloadHoverButtonIcon__6c706 path {
 }
 
  /* Who's Typing Indicator */
-:is(.memberInner__5d473, .interactive_bf202d) rect.pointerEvents__44b0c[x="14.5"] {
+.memberInner__5d473 rect.pointerEvents__44b0c[x="14.5"],
+.interactive_bf202d) rect.pointerEvents__44b0c[x="14.5"] {
 	opacity: 0.32;
 }
 .typing_b88801 {
@@ -1897,7 +1901,8 @@ svg.downloadHoverButtonIcon__6c706 path {
 }
 
  /* Image View */
-.topBar__6088c :is(.actionButtons_cc1819, .closeButton__6088c) {
+.topBar__6088c .actionButtons_cc1819,
+.topBar__6088c .closeButton__6088c {
 	border: 1px solid var(--border-active);
 }
 
