@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx
  * @author Zacam
- * @version 2.0.8
+ * @version 2.0.9
  * @description Purple Accented NewUI Onyx Compact
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -29,9 +29,11 @@
 	--oPur-84: rgba(164,128,226,0.84);
 	--oPurple: rgb(164,128,226);
 	--app-frame-border: var(--oPur-42);
+	--background-brand: var(--oPur-64);
 	--background-modifier-selected: var(--oPur-32);
+	--badge-background-brand: var(--oPur-64);
 	--border-active: var(--oPur-64);
-	--border-normal:  var(--oPur-42);
+	--border-normal: var(--oPur-42);
 	--border-strong: var(--oPur-84);
 	--border-subtle: var(--oPur-32);
 	--brand-10a: rgba(164,128,226,0.15);
@@ -40,6 +42,12 @@
 	--checkbox-background-selected-default: var(--oPur-64);
 	--checkbox-background-selected-hover: var(--oPur-42);
 	--control-brand-foreground: var(--oPur-84);
+	--control-overlay-primary-background-default: var(--oPur-32);
+	--control-overlay-primary-background-hover: var(--oPur-42);
+	--control-overlay-primary-border-default: var(--border-normal);
+	--control-overlay-primary-border-hover: var(--border-active);
+	--control-overlay-primary-text-default: var(--text-default);
+	--control-overlay-primary-text-hover: var(--text-default);
 	--control-primary-background-hover: var(--oPur-64);
 	--custom-channel-textarea-text-area-height: 32px;
 	--info-help-foreground: rgb(164,128,226);
