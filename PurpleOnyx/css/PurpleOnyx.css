@@ -211,6 +211,17 @@ border-color: var(--border-normal) !important;
 	--badge-notification-background: var(--oPur-84);
 }
 
+ /* Activity Badge */
+.badgeLabel__635ed {
+	overflow-x: unset;
+}
+
+ /* Profile Activity with Multiple Activities */
+ul.cardsList__9d597.hasMultipleCards__9d597
+li.backgroundCardContainer__9d597 {
+	display: none;
+}
+
  /* Radio Buttons */
 .outerRadioBase__64e61 {
 	stroke: var(--oPur-64);
