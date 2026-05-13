@@ -1095,6 +1095,10 @@ nav,
 				height: 32px !important;
 			}
 		}
+		/* Remove "Edit Profile" from Self Profile Card */
+		.outer_c0bea0[data-is-self="true"] .footer__5be3e>button {
+			display: none;
+		}
 	}
 }
 
@@ -1548,6 +1552,20 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
  /* Adds an @ to the username */
 .hoverRoll__0263c .hovered__0263c::before{
 	content: "@";
+}
+
+ /* Colorize and Glow Settings Button */
+.panels__5e434 .buttons__37e49>.button__67645 {
+	filter: drop-shadow(0 0 3px rgba(164,128,226,1)) drop-shadow(0 0 6px rgba(164,128,226,0.32));
+	svg {
+		--__lottieIconColor: var(--oPur-42);
+		&:hover {
+			--__lottieIconColor: var(--oPurple);
+		}
+	}
+	&:hover {
+		filter: unset;
+	}
 }
 
  /* Hide mute and deafen buttons from @thecommieaxolotl */
