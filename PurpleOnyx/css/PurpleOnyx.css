@@ -1095,15 +1095,15 @@ nav,
 				height: 32px !important;
 			}
 		}
-		/* Remove "Edit Profile" from Self Profile Card */
-		.outer_c0bea0[data-is-self="true"] .footer__5be3e>button {
-			display: none;
-		}
 	}
 }
-
 .section_bf424d {
 	gap: unset;
+}
+
+ /* Remove "Edit Profile" from Self Profile Card */
+.outer_c0bea0[data-is-self="true"] .footer__5be3e>button {
+	display: none;
 }
 
  /* Bring back the AT from Aurora (@GH0STP4WZ ) */
