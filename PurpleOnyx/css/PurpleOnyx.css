@@ -1671,6 +1671,12 @@ time, .timestamp_c19a55 {
 	padding-right: 4px;
 }
 
+ /* Reduce Timestamp and Name gap */
+.compact_c19a55 .timestamp_c19a55,
+.compact_c19a55 .headerText_c19a55 {
+	margin-inline-end: .125rem;
+}
+
  /* Adjust and pull up the reading Body */
 .chatContent_f75fb0>.messagesWrapper__36d07>.scroller__36d07 {
 	min-height: 0%;
