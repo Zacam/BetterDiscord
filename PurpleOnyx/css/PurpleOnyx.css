@@ -1674,7 +1674,7 @@ time, .timestamp_c19a55 {
  /* Adjust and pull up the reading Body */
 .chatContent_f75fb0>.messagesWrapper__36d07>.scroller__36d07 {
 	min-height: 0%;
-	height: 95.7%;
+	height: calc(100% - var(--custom-channel-textarea-text-area-height));
 	border-bottom: 2px groove var(--border-active);
 	border-radius: 12px;
 }
