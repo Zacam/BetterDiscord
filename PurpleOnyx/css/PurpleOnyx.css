@@ -2063,6 +2063,11 @@ svg.dot__9293f {
 	margin-top: 1px;
 }
 
+.peopleListItem_cc6179 {
+	height: 49px !important;
+	padding: 4px 0px 0px 10px;
+}
+
   /* Selected "Tab" */
 .tabBar__133bf .selected_aa8da2 {
 	--background-mod-strong: var(--oPur-32);
@@ -2110,6 +2115,9 @@ li.channel__972a0 .selected_bf202d {
 	.item_f391e3.selected_aa8da2 {
 		background-color: var(--oPur-42) !important;
 	}
+}
+.messageRequestItem_abb9ad {
+	padding: 4px 0px 4px 0px;
 }
   /* Requests */
 [data-list-id="message-requests-list"] {
