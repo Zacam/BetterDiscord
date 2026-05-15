@@ -1143,16 +1143,18 @@ span:has(.pronouns__26b1f) {
 	.roleCircle__4f569 {
 		--role-bgtrans: .32;
 		--role-radius: 12px;
-		&::before {
+		&::before, &::after {
 			content: '';
 			position: absolute;
 			top: 0;
 			left: 0;
 			width: 100%;
 			height: 100%;
-			box-sizing: border-box;
 			background: inherit;
 			border-radius: var(--role-radius);
+		}
+		&::before {
+			box-sizing: border-box;
 			border: 1px solid transparent;
 			-webkit-mask:
 				linear-gradient(#000 0 0) padding-box,
@@ -1160,15 +1162,7 @@ span:has(.pronouns__26b1f) {
 			-webkit-mask-composite: xor;
 		}
 		&::after {
-			content: '';
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
 			z-index: -1;
-			background: inherit;
-			border-radius: var(--role-radius);
 			opacity: var(--role-bgtrans);
 		}
 	}
@@ -2053,20 +2047,18 @@ h3.membersGroup_c8ffbb {
 			display: none;
 		}
 		/* Role Decorations, Inspired by ClearVision */
-		&:before {
+		&::before, &:after {
 			content: "";
 			height: 2px;
 			flex-grow: 1;
-			background: linear-gradient(to left, currentColor 50%, transparent);
 			margin-top: 8px;
+		}
+		&::before {
+			background: linear-gradient(to left, currentColor 50%, transparent);
 			margin-right: 4px;
 		}
-		&:after {
-			content: "";
-			height: 2px;
-			flex-grow: 1;
+		&::after {
 			background: linear-gradient(to right, currentColor 50%, transparent);
-			margin-top: 8px;
 			margin-left: 4px;
 		}
 	}
@@ -2217,20 +2209,18 @@ aside .user-profile-sidebar:not(.custom-user-profile-theme) {
 	display: flex;
 	padding-top: 4px;
 	padding-bottom: 0px;
-	&:before {
+	&::before, &::after {
 		content: "";
 		height: 2px;
 		flex-grow: 1;
-		background: linear-gradient(to left, currentColor 50%, transparent);
 		margin-top: 7px;
+	}
+	&::before {
+		background: linear-gradient(to left, currentColor 50%, transparent);
 		margin-right: 4px;
 	}
-	&:after {
-		content: "";
-		height: 2px;
-		flex-grow: 1;
+	&::after {
 		background: linear-gradient(to right, currentColor 50%, transparent);
-		margin-top: 7px;
 		margin-left: 4px;
 	}
 }/*</DMs>*/
