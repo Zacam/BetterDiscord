@@ -97,6 +97,10 @@ svg.lucide-folder {
 	fill: #ffa500;
 }
 
+svg.lucide-arrow-down-to-line {
+	color: rgb(119, 178, 85) !important;
+}
+
 svg.lucide-check {
 	color: rgb(119, 178, 85) !important;
 }
