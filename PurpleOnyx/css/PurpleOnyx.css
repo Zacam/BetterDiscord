@@ -1821,6 +1821,19 @@ li.messageListItem__5126c[data-message-is-reply="true"]:not(:has(>.mentioned__51
 	display: none;
 }
 
+ /* Reaction Hover */
+.reactionTooltip_bbcccb {
+	border: 1px solid var(--border-normal);
+	border-radius: 12px;
+	padding: 8px;
+	.reactionTooltipInner_bbcccb img {
+		background: var(--background-base-lower);
+		border: 2px dashed var(--border-active);
+		border-radius: 8px;
+		padding: 2px;
+	}
+}
+
  /* Message Actions */
 #message {
 	padding-right: 4px;
