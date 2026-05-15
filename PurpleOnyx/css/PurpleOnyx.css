@@ -1106,6 +1106,11 @@ nav,
 	display: none;
 }
 
+ /* Remove "Send message" or Padding Gap if removed by CBB */
+.footer__5be3e:has(.channelTextArea__74017) {
+	display: none;
+}
+
  /* Bring back the AT from Aurora (@GH0STP4WZ ) */
 .userTagUsername__26b1f::before,
  /* Place the AT on Mod View Profile */
@@ -1131,23 +1136,42 @@ span:has(.pronouns__26b1f) {
 	border-radius: 8px;
 }
 
- /* Colorized Roles */
+ /* Colorized Roles w/Borders */
+ /* Snippet by carrot, and thanks to Seraphina */
 .role_af3987 {
 	transform: translate(0);
-	border: unset;
-}
-
-.role_af3987 .roleCircle__4f569:before {
-	content: '';
-	top: 0;
-	left: 0;
-	z-index: -1;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	background: inherit;
-	border-radius: 12px;
-	opacity: 0.32;
+	.roleCircle__4f569 {
+		--role-bgtrans: .32;
+		--role-radius: 12px;
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			box-sizing: border-box;
+			background: inherit;
+			border-radius: var(--role-radius);
+			border: 1px solid transparent;
+			-webkit-mask:
+				linear-gradient(#000 0 0) padding-box,
+				linear-gradient(#000 0 0);
+			-webkit-mask-composite: xor;
+		}
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+			background: inherit;
+			border-radius: var(--role-radius);
+			opacity: var(--role-bgtrans);
+		}
+	}
 }/*</Profiles>*/
 
 /* Servers Panel                                                                                                */
