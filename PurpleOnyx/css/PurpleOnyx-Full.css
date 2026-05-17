@@ -135,6 +135,7 @@ div[class^="topSection"] {
 	/* Clip the color to text only */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	width: fit-content;
 }
 
  /* Timezones Plugin Customization */
