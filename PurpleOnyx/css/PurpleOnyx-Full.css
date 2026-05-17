@@ -221,6 +221,11 @@ div[class^="topSection"] {
 }/*</Avatar Wrapper>*/
 
 /* Chat Body                                                                                                    */
+.mentioned__5126c .interactive:is(.roleMention__75297, .mention) {
+  &:before, &:after {
+    background-color: silver;
+  }
+}
  /* Remove background highlighting on Scrolling Hover */
 .mentioned__5126c:has(.contents_c19a55 .interactive:is(.roleMention__75297, .mention)) {
 	&:hover, &.selected__5126c {
