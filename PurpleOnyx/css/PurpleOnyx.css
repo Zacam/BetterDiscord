@@ -1795,7 +1795,7 @@ code[class*="txt"] {
 }
 
  /* Repied Messages */
-li.messageListItem__5126c[data-message-is-reply="true"]:not(.groupStart__5126c) {
+li.messageListItem__5126c[data-message-is-reply="true"] :not(.groupStart__5126c) {
 	border-left: 2px solid var(--border-strong);
 	margin-left: 2px;
 	>.message__5126c {
