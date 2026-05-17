@@ -293,14 +293,14 @@ li.backgroundCardContainer__9d597 {
  /* Wrap the Embed Border */
 .embedFull__623de {
 	overflow: hidden;
-	&:before {
+	&::before {
 		content: "";
 		position: absolute;
 		border: inherit;
 		border-left-width: 100vw;
 		height: 100%;
 	}
-	&:after {
+	&::after {
 		content: "";
 		position: absolute;
 		top: 4px;
@@ -808,7 +808,7 @@ nav,
 }
 
  /* Divider */
-.trailing_c38106 .winButtonsWithDivider_c38106:before {
+.trailing_c38106 .winButtonsWithDivider_c38106::before {
 	background-color: var(--oPur-64);
 }
 
@@ -1779,7 +1779,7 @@ code[class*="txt"] {
 }
 
  /* Message Separator */
-.chatContent_f75fb0 ol li .groupStart__5126c:before {
+.chatContent_f75fb0 ol li .groupStart__5126c::before {
 	content: "";
 	position: absolute;
 	height: 2px;
@@ -1801,7 +1801,7 @@ li.messageListItem__5126c[data-message-is-reply="true"] {
 	>.message__5126c {
 		padding-left: 142px;
 	}
-	&:has(>.mentioned__5126c:not(.groupStart__5126c)) {
+	&:has(>.mentioned__5126c) {
 		--icon-feedback-warning: transparent;
 		background: rgba(164,128,226,0.11);
 	}
@@ -1815,8 +1815,8 @@ li.messageListItem__5126c[data-message-is-reply="true"] {
 }
 
  /* Remove background highlighting on Scrolling Hover */
-.message__5126c.wrapper_c19a55.cozy_c19a55.zalgo_c19a55:not(.mentioned__5126c, .replying__5126c):hover,
-.message__5126c.wrapper_c19a55.compact_c19a55.zalgo_c19a55:not(.mentioned__5126c, .replying__5126c):hover {
+.message__5126c.wrapper_c19a55.cozy_c19a55.zalgo_c19a55:hover,
+.message__5126c.wrapper_c19a55.compact_c19a55.zalgo_c19a55:hover {
 	background: unset;
 }
 
@@ -2080,7 +2080,7 @@ h3.membersGroup_c8ffbb {
 			display: none;
 		}
 		/* Role Decorations, Inspired by ClearVision */
-		&::before, &:after {
+		&::before, &::after {
 			content: "";
 			height: 2px;
 			flex-grow: 1;
