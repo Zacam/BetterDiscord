@@ -1821,6 +1821,7 @@ li.messageListItem__5126c[data-message-is-reply="true"] {
 }
 
  /* Remove background highlighting on Scrolling Hover */
+.message__5126c:not(.mentioned__5126c ):hover,
 .theme-dark .message__5126c.selected__5126c {
 	background: unset;
 }
