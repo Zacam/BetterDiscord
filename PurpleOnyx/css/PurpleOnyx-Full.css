@@ -220,6 +220,16 @@ div[class^="topSection"] {
 	}
 }/*</Avatar Wrapper>*/
 
+/* Chat Body                                                                                                    */
+ /* Remove background highlighting on Scrolling Hover */
+.mentioned__5126c:has(.contents_c19a55 .interactive:is(.roleMention__75297, .mention)) {
+	&:hover, &.selected__5126c {
+		.mention:after, .roleMention__75297:after {
+			opacity: 8% !important;
+		}
+	}
+}
+
 /* Members List                                                                                                 */
  /* MemberCounter Plugin */
 .member_counter_wrapper {
