@@ -2127,7 +2127,8 @@ svg.dot__9293f {
 	padding: 4px 0px 4px 10px;
 }
 
-span.infoSpacing_f4bc97.discriminator__0a06e::before {
+span.infoSpacing_f4bc97.discriminator__0a06e::before,
+.applicationSublabel_e1ecd3>div::before {
 	content: "@";
 }
 
