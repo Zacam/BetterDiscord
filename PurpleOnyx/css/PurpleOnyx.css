@@ -2127,6 +2127,10 @@ svg.dot__9293f {
 	padding: 4px 0px 4px 10px;
 }
 
+span.infoSpacing_f4bc97.discriminator__0a06e::before {
+	content: "@";
+}
+
   /* Selected "Tab" */
 .tabBar__133bf .selected_aa8da2 {
 	--background-mod-strong: var(--oPur-32);
@@ -2177,6 +2181,9 @@ li.channel__972a0 .selected_bf202d {
 }
 .messageRequestItem_abb9ad {
 	padding: 4px 0px 4px 0px;
+}
+span.infoSpacing_f4bc97.globalName_b8dbac::before {
+	content: '@';
 }
   /* Requests */
 [data-list-id="message-requests-list"] {
