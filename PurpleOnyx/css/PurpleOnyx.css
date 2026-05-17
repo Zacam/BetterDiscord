@@ -1803,6 +1803,7 @@ li.messageListItem__5126c[data-message-is-reply="true"] {
 		padding-left: 142px;
 	}
 	&:has(>.mentioned__5126c) {
+		--icon-feedback-warning: var(--oPur-42);
 		background: rgba(164,128,226,0.11);
 	}
 }
