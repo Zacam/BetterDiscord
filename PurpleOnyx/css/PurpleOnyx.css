@@ -1660,6 +1660,19 @@ nav.guilds__5e434 {
 	border-color: var(--border-active) !important;
 }
 
+ /* Announcement "Follow" Text */
+.formWithLoadedChatInput_f75fb0 .title__44df5 {
+	color: var(--oPurple);
+}
+
+ /* Locked Topic Header */
+.chatHeaderBar_a5700d {
+	background-color: var(--background-base-low);
+	.chatHeaderBarText_a5700d {
+		--text-default: var(--oPurple);
+	}
+}
+
  /* "New" Posts Banner */
 .newMessagesBar__0f481 {
 	background-color: rgba(0,0,0,0.84);
