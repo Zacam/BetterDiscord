@@ -87,7 +87,8 @@
 /*Pinned*/.messagesPopoutWrap_e8b59c .messagesPopout_e8b59c,
 /*Search*/.searchResultsWrap_a98f3b .scroller_a98f3b,
 /*Menus*/.menu_c1e9c4 .scroller_c1e9c4,
-/*ServerSettings*/.sidebarRegion__23e6b .sidebarRegionScroller__23e6b {
+/*ServerSettings*/.sidebarRegion__23e6b .sidebarRegionScroller__23e6b,
+/*Roles*/.roleScroller__75297 {
 	scrollbar-color: var(--oPur-21) rgba(0,0,0,0);
 	scrollbar-width: thin;
 }
@@ -201,9 +202,14 @@ border-color: var(--border-normal) !important;
 	color: var(--text-default);
 }
 
-/* Polls */
+ /* Polls */
 .votedStyles_a1443c {
 	--custom-poll-style-vote-percentage: rgba(164,128,226,0.11);
+}
+
+ /* Role Popout */
+.rolePopout__75297 {
+	background: var(--background-base-low);
 }
 
  /* Text Badges */
@@ -1815,12 +1821,6 @@ li.messageListItem__5126c[data-message-is-reply="true"] {
 }
 
  /* Remove background highlighting on Scrolling Hover */
-.mentioned__5126c:has(.contents_c19a55 .interactive:is(.roleMention__75297, .mention)) {
-	&:hover, &.selected__5126c {
-		background: unset !important;
-	}
-}
-
 .theme-dark .message__5126c.selected__5126c {
 	background: unset;
 }
