@@ -1110,6 +1110,25 @@ nav,
 	gap: unset;
 }
 
+ /* Private Profiles */
+.isPrivate_c0bea0 {
+	.banner__43147 {
+		background: repeating-linear-gradient(45deg, rgba(255,255,0,.21), rgba(255,255,0,.21) 10px, rgba(0,0,0,.42) 10px, rgba(0,0,0,.42) 20px);
+	}
+	.wrapper_da5890 {
+		--custom-user-profile-banner-top: 32px;
+	}
+	.header__5be3e {
+		top: 4px;
+		.banner__68edb {
+			border-radius: 0px;
+		}
+	}
+	.body__5be3e {
+		margin-bottom: 8px;
+	}
+}
+
  /* Remove "Edit Profile" from Self Profile Card */
 .outer_c0bea0[data-is-self="true"] .footer__5be3e>button {
 	display: none;
