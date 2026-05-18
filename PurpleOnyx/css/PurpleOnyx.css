@@ -1692,9 +1692,6 @@ nav.guilds__5e434 {
 .messageListItem__5126c::selection {
 	background: var(--oPur-32);
 }
-.timestamp_c19a55 .hiddenVisually_b18fe2 {
-	user-select: text;
-}
 
  /* Show Time a message edit happened */
 [id^="message-content"]>[class^="timestamp"] [class^="hiddenVisually"] {
@@ -1712,8 +1709,15 @@ nav.guilds__5e434 {
 	display: none;
 }
 time, .timestamp_c19a55 {
+	align-items: center;
 	font-size: 12px !important;
-	line-height: 24px;
+	line-height: normal;
+	.hiddenVisually_b18fe2 {
+		user-select: none;
+	}
+	.separator_c19a55 {
+		display: none;
+	}
 }
 .latin12CompactTimeStamp_c19a55 {
 	padding-right: 4px;
