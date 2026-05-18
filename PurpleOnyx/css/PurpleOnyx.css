@@ -211,6 +211,9 @@ border-color: var(--border-normal) !important;
 .rolePopout__75297 {
 	background: var(--background-base-low);
 }
+.roleScroller__75297 {
+	overflow: hidden auto !important;
+}
 
  /* Text Badges */
 [class^="newTextBadge"] {
