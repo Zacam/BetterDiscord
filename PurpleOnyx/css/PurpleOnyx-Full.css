@@ -113,7 +113,7 @@ div[class^="topSection"] {
 	.activityCardsContainer {
 		border-top: 1px solid;
 		border-bottom: 1px solid;
-		border-color: var(--border-subtle);
+		border-color: var(--border-normal);
 	}
 	.activity, .activityProfile.activity {
 		padding: 4px 20px;
@@ -130,6 +130,7 @@ div[class^="topSection"] {
 }
 #about-tab {
 	background-color: transparent !important;
+	border-top: 1px solid var(--border-normal);
 	border-radius: 12px;
 	.userInfoSection {
 		border-top-color: var(--border-subtle) !important;
