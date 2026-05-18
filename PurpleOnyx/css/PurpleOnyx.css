@@ -1082,7 +1082,7 @@ nav,
 			.banner__24928 {
 				background-color: var(--background-base-lower);
 				border: 1px dotted var(--border-normal);
-				border-radius: 12px;
+				border-radius: 8px;
 			}
 		}
 		.details__39ec2 > div > div[class^="text-xs/normal"] {
