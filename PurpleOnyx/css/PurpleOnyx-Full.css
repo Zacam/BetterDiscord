@@ -64,6 +64,10 @@ svg.flowerStar__3e3b0>path {
 }
 
  /* NewOldProfiles */
+.infoScroller.scrollerBase {
+	scrollbar-color: var(--oPur-21) rgba(0,0,0,0);
+	scrollbar-width: thin;
+}
 .outer_c0bea0.user-profile-modal-v2 {
 	border: 1px solid var(--border-active);
 	border-radius: 12px;
