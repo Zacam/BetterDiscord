@@ -84,6 +84,12 @@ svg.flowerStar__3e3b0>path {
 }
 div[class^="topSection"] {
 	background-color: transparent !important;
+	.userBanner {
+		mask-image: none;
+	}
+	.headerFill {
+		background-color: rgba(0, 0, 0, .5) !important;
+	}
 	.displayName::before {
 		content: "@";
 	}
@@ -91,6 +97,10 @@ div[class^="topSection"] {
 		display: none;
 	}
 	.profileButtons {
+		position: absolute;
+		top: 4px;
+		right: 4px;
+		gap: 4px;
 		button:first-of-type:hover {
 			background: var(--oPur-64) !important;
 		}
