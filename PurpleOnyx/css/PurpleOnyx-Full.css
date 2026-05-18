@@ -135,7 +135,7 @@ div[class^="topSection"] {
 		border-top-color: var(--border-subtle) !important;
 	}
 	.connectedAccount {
-		background-color: var(--background-mod-normal)
+		background-color: var(--background-mod-normal);
 		border-color: var(--border-normal);
 	}
 }
