@@ -273,7 +273,18 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	>svg>path[d^="M20.76 12.57c.4.3 1.23.13 1.24-.37V12a10"] {
 		display: none;
 	}
-}/*</Toolbar>/
+}/*</Toolbar>*/
+
+/* Private Profile */
+.isPrivate_c0bea0 .banner__43147 svg {
+	background-image: url("https://discord.com/assets/e7232f244dcb65f3.svg");
+	background-size: 14px;
+	background-position: center;
+	background-repeat: no-repeat;
+	>path {
+		display: none;
+	}
+}
 
 /* Avatar Wrapper - VC */
   /* Krisp */
