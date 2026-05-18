@@ -1735,6 +1735,7 @@ time, .timestamp_c19a55 {
 	height: calc(100% - var(--custom-channel-textarea-text-area-height));
 	border-bottom: 2px groove var(--border-active);
 	border-radius: 12px;
+	padding-bottom: 2px;
 }
 
  /* Message Padding */
