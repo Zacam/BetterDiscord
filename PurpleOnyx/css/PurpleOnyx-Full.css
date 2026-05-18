@@ -129,13 +129,14 @@ div[class^="topSection"] {
 	}
 }
 #about-tab {
+	background-color: transparent !important;
 	border-radius: 12px;
 	.userInfoSection {
 		border-top-color: var(--border-subtle) !important;
 	}
 	.connectedAccount {
-		background-color: var(--background-base-low);
-		border-color: var(--border-subtle);
+		background-color: var(--background-mod-normal)
+		border-color: var(--border-normal);
 	}
 }
  /* Colorize Pronouns */
