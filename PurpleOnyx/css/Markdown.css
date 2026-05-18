@@ -14,6 +14,13 @@
 	z-index: 1;
 }
 
+ /* Code Window Size */
+.markup__75297 blockquote,
+.markup__75297 pre {
+	min-width: fit-content;
+	max-width: calc-size(max-content, size + .5%);
+}
+
  /* Code Lined Background */
 code:not(.inline, .diff, .codeView__4d95d) {
 	/*background-color: var(--background-base-low) !important;*/
