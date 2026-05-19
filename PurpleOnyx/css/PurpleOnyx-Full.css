@@ -29,7 +29,7 @@
 	--rs-idle-color: #FFC04E; /* Default #faa61a / Colour for idle status */
 	--rs-dnd-color: #DA3E44; /* Default: #f04747 / Colour for dnd status */
 	--rs-offline-color: #84858D; /* Default: #636b75 /* Colour for offline status */
-	--rs-streaming-color: #9147FF; /* Default: #643da7 / Colour for streaming status */
+	--rs-streaming-color: #6441a5; /* Default: #643da7 / Colour for streaming status */
 	/* Note: this will only show for your own invisibility */
 	--rs-invisible-color: #84858D; /* Default: #747f8d / Colour for invisible status */
 	--rs-self-speaking-color: #A480E2; /* Colour for speaking ring in the bottom left while in a voice chat/call */
