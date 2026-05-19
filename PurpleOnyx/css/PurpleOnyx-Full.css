@@ -25,13 +25,13 @@
 	/* 50% for round - 0% for square */
 	--rs-avatar-shape: 50%;
 	/* Colour */
-	--rs-online-color: #43A25A; /* Default: #43b581 / Colour for online status */
-	--rs-idle-color: #CA9E54; /* Default #faa61a / Colour for idle status */
-	--rs-dnd-color: #D83A42; /* Default: #f04747 / Colour for dnd status */
-	--rs-offline-color: #82838B; /* Default: #636b75 /* Colour for offline status */
+	--rs-online-color: #45A366; /* Default: #43b581 / Colour for online status */
+	--rs-idle-color: #FFC04E; /* Default #faa61a / Colour for idle status */
+	--rs-dnd-color: #DA3E44; /* Default: #f04747 / Colour for dnd status */
+	--rs-offline-color: #84858D; /* Default: #636b75 /* Colour for offline status */
 	--rs-streaming-color: #9147FF; /* Default: #643da7 / Colour for streaming status */
 	/* Note: this will only show for your own invisibility */
-	--rs-invisible-color: #82838B; /* Default: #747f8d / Colour for invisible status */
+	--rs-invisible-color: #84858D; /* Default: #747f8d / Colour for invisible status */
 	--rs-self-speaking-color: #A480E2; /* Colour for speaking ring in the bottom left while in a voice chat/call */
 	/* Colour of the ring and phone icon when a user is on their phone |  */
 	--rs-phone-color: #7289DA; /*var(--rs-online-color);*/
