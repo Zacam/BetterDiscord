@@ -1555,16 +1555,16 @@ section.panels__5e434 {
 
  /* Stop Status Colors from Flickering when hovering */
 foreignObject[mask="url(#svg-mask-status-online)"]>div[class^="status"][style="background-color: currentcolor;"] {
-	background-color: rgb(67, 162, 90) !important;
+	background-color: rgb(69, 163, 102) !important;
 }
 foreignObject[mask="url(#svg-mask-status-idle)"]>div[class^="status"][style="background-color: currentcolor;"] {
 	background-color: rgb(255, 192, 78) !important;
 }
 foreignObject[mask="url(#svg-mask-status-dnd)"]>div[class^="status"][style="background-color: currentcolor;"] {
-	background-color: rgb(216, 58, 66) !important;
+	background-color: rgb(218, 62, 68) !important;
 }
 foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="background-color: currentcolor;"] {
-	background-color: rgb(130, 131, 139) !important;
+	background-color: rgb(132, 133, 141) !important;
 }
 
  /* Remove Status Selection submenu */
