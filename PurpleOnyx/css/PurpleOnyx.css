@@ -1071,6 +1071,9 @@ nav,
 	border-radius: 12px;
 	[class*="menu"] {
 		background-color: transparent;
+		.menuItemInner_ce8328:hover {
+			background-color: var(--user-profile-overlay-background);
+		}
 	}
 	.inner_c0bea0 {
 		border-radius: 12px;
@@ -1086,6 +1089,13 @@ nav,
 				background-color: var(--background-base-lower);
 				border: 1px dotted var(--border-normal);
 				border-radius: 8px;
+			}
+		}
+		.body_ce8328 {
+			.overlay_c0bea0.menuOverlay_ce8328:nth-of-type(1) {
+				li.menuItem_ce8328:nth-of-type(1) {
+					display: none;
+				}
 			}
 		}
 		.details__39ec2 > div > div[class^="text-xs/normal"] {
