@@ -1219,14 +1219,14 @@ span:has(.pronouns__26b1f) {
 	.iconBadge__650eb {
 		background-color: unset;
 		svg.icon__2b1f5 {
-			color: rgb(67, 162, 90);
+			color: rgb(69, 163, 102);
 		}
 	}
 	.unavailableBadge__650eb {
 		background-color: unset;
 		border: 1px solid rgb(217, 62, 68);
 		svg.icon__2b1f5 {
-			color: rgb(217, 62, 68);
+			color: rgb(218, 62, 68);
 		}
 	}
 }
@@ -1939,7 +1939,7 @@ li.messageListItem__5126c[data-message-is-reply="true"] {
 }
 
 svg.downloadHoverButtonIcon__6c706 path {
-	fill: rgb(119, 178, 85) !important;
+	fill: rgb(69, 163, 102) !important;
 }
 
  /* Info Modals */
@@ -2025,7 +2025,7 @@ svg.downloadHoverButtonIcon__6c706 path {
 	}
 	/* And the Close Button as well */
 	.closeButton_e876a8 > svg {
-		color: rgba(216, 58, 66, 0.8);
+		color: rgba(218, 62, 68, 0.8);
 	}
 }
 
@@ -2041,7 +2041,7 @@ svg.downloadHoverButtonIcon__6c706 path {
 }
 
 .topBar__6088c .closeButton__6088c svg>path {
-	fill: rgb(216, 58, 66);
+	fill: rgb(218, 62, 68);
 }
 
  /* Threaded View */
