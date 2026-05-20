@@ -101,6 +101,9 @@ svg.lucide-arrow-down-to-line {
 	color: rgb(69, 163, 109) !important;
 }
 
+.bd-filled-checkmark {
+	background: none;
+}
 svg.lucide-check {
 	color: rgb(69, 163, 109) !important;
 }
