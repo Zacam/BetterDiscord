@@ -616,69 +616,71 @@ div[data-layer="GUILD_SETTINGS"] {
 
  /* Authorized Apps */
 [data-nav-anchor-key="authorized_apps_list_setting"] {
-	.headingCard__24605 {
+	.headingCard__92059 {
 		margin-bottom: 10px;
 	}
-	.authedAppV2__24605 {
+	.authedAppV2__92059 {
 		background-color: var(--background-base-lower);
 		border: 1px solid var(--border-normal);
 		margin-bottom: 8px;
-		.headerV2__24605 {
+		.headerV2__92059 {
 			padding: 8px 16px;
 		}
-		.appDetailsContainer__24605 .appDetailsSection__24605 {
+		.appDetailsContainer__92059 .appDetailsSection__92059 {
 			padding: 8px 0px;
 		}
 		.collapseable__217b7:not(:last-child) {
 			margin-bottom: 0px;
 		}
-		.footer__24605 {
+		.footer__92059 {
 			margin: 8px 0px;
 		}
 	}
 }
 
  /* Connections */
-.connectionList__4109d .connection__4109d {
+.connectionList__41de9 .connection__41de9 {
 	background-color: var(--background-base-lower);
 	border: 1px solid var(--border-active);
 	gap: 10px;
-	.integrationWrapper_c7f964 {
+	.integrationWrapper__41de9 {
 		background: var(--background-base-low);
 	}
 }
 
  /* Registered Games */
-.game_cc46f0 {
-	background-color: var(--background-base-lower);
-	border: 1px dashed var(--border-normal);
-	padding: 8px 16px;
+[data-nav-anchor-key="registered_games_added_games_category"] {
+	.game_b53c4e {
+		background-color: var(--background-base-lower);
+		border: 1px dashed var(--border-normal);
+		padding: 8px 16px;
+	}
 }
 
  /* Appearance Theme Prompt */
-.container_a1d343 {
+[data-nav-anchor-key="appearance_custom_themes_upsell"] {
 	display: none;
 }
 
  /* Keybinds */
-.keybindGroup__740f2 {
-	padding-bottom: 10px;
-	padding-top: 10px;
-}
-
-.marginBottom60_fd297e {
-	margin-bottom: 6px;
-	.ctaContainer__740f2, .systemServiceUpsell__740f2 {
-		margin-bottom: 12px;
+[data-nav-anchor-key="keybinds_category"] {
+	.keybindGroup_f82450 {
+		padding-bottom: 10px;
+		padding-top: 10px;
 	}
-}
-
-.defaultKeybindGroup__740f2 {
-	background-color: var(--background-base-lower);
-	gap: 0px;
-	padding: 8px 0px;
-	.divider__1de9c {
-		width: auto;
+	.marginBottom60_fd297e {
+		margin-bottom: 6px;
+		.ctaContainer_f82450, .systemServiceUpsell_f82450 {
+			margin-bottom: 12px;
+		}
+	}
+	.defaultKeybindGroup_f82450 {
+		background-color: var(--background-base-lower);
+		gap: 0px;
+		padding: 8px 0px;
+		.divider__1de9c {
+			width: auto;
+		}
 	}
 }
 
@@ -739,7 +741,7 @@ nav,
 .headerContent_f37cb1,
 .titleWrapper__9293f,
 .topic__6ec1a {
-	-webkit-app-region:no-drag;
+	-webkit-app-region: no-drag;
 }
 .topic__6ec1a {
 	flex: none;
