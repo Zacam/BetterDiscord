@@ -731,7 +731,7 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	>a { display: none; }
 }
 .toolbar__9293f {
-	margin-right: calc(32px * var(--trailingCounter) + 2px);
+	margin-right: calc(32px * var(--trailingCounter) + 3px);
 }
 .sidebarOpen_cb9592 .toolbar__9293f,
 .threadSidebarOpen_f75fb0 .toolbar__9293f {
@@ -785,6 +785,7 @@ nav,
 	}
 	.clickable__81391 {
 		margin: 0px 4px;
+		width: 28px;
 	}
 }
 
@@ -925,11 +926,11 @@ nav,
 .search__49676 {
 	order: -1;
 	margin-left: 0px;
-	margin-right: 6px;
+	margin-right: 5px;
 	.searchBar_c322aa {
 		/* Make the default state only show an icon that can be clicked. */
 		transition: all ease 0.3s;
-		width: 25px;
+		width: 28px;
 		border: none;
 		padding: 0;
 		.icon_c322aa {
