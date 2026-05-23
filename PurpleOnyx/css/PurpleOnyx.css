@@ -291,7 +291,7 @@ li.backgroundCardContainer__9d597 {
 
  /* Square Embeds */
 [class*="mosaic"], [class*="Mosaic"],
-[class*="spoiler"],
+[class*="spoilerContent"],
 [class*="visualMediaItemContainer"],
 [class*="embed"], [class*="embed"] img, [class*="embed"] video, video,
 [class*="oneByOneGrid"],
@@ -731,7 +731,7 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	>a { display: none; }
 }
 .toolbar__9293f {
-	margin-right: calc(32px * var(--trailingCounter) + 3px);
+	margin-right: calc(32px * var(--trailingCounter) + 2px);
 }
 .sidebarOpen_cb9592 .toolbar__9293f,
 .threadSidebarOpen_f75fb0 .toolbar__9293f {
@@ -784,7 +784,7 @@ nav,
 		gap: unset;
 	}
 	.clickable__81391 {
-		margin: 0px 4px;
+		margin: 0px 3px;
 		width: 28px;
 	}
 }
