@@ -276,7 +276,7 @@ li.backgroundCardContainer__9d597 {
 	display: none;
 }
 
-[class*="botTag"]:not([class*="botTagOP"]):after {
+[class*="botTag"]:not([class*="botTagOP"])::after {
 	content: "BOT";
 	font-weight: var(--font-weight-bold);
 }
@@ -541,7 +541,7 @@ div[data-layer="GUILD_SETTINGS"] {
 	.bodyControls__8a031 {
 		border-bottom: 1px solid var(--border-normal);
 		padding-bottom: 8px;
-		&:after {
+		&::after {
 			display: none;
 		}
 	}
@@ -811,7 +811,7 @@ nav,
 	border-bottom: 2px groove var(--border-active) !important;
 }
 
-.upperContainer__9293f>.children__9293f:after {
+.upperContainer__9293f>.children__9293f::after {
 	display: none;
 }
 
@@ -1690,7 +1690,7 @@ nav.guilds__5e434 {
 	margin-bottom: unset;
 }
   /* Hide the bar clipping into server list */
-.sidebar__5e434:after {
+.sidebar__5e434::after {
 	display: none;
 }/*</Avatar Wrapper>*/
 
@@ -1732,6 +1732,7 @@ nav.guilds__5e434 {
 
  /* Show Time a message edit happened */
 [id^="message-content"]>[class^="timestamp"] [class^="hiddenVisually"] {
+	clip: unset;
 	clip-path: unset;
 	position: inherit;
 	font-size: inherit;
