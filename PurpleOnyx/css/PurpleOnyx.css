@@ -937,11 +937,12 @@ nav,
 	max-width: unset;
 	min-width: unset;
 	.searchBar_c322aa {
+		background: transparent;
 		/* Make the default state only show an icon that can be clicked. */
 		transition: all ease 0.3s;
 		width: 28px;
 		border: none;
-		padding: 0;
+		padding: 0px;
 		.icon_c322aa {
 			scale: 1.2;
 			cursor: pointer;
