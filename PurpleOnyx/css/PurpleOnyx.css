@@ -2084,6 +2084,15 @@ svg.downloadHoverButtonIcon__6c706 path {
 	}
 }
 
+ /* Stream Volume Control */
+.volumeButton__2d263 svg path[d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM15.18"] {
+	--interactive-icon-default: var(--status-online);
+}
+
+.volumeButton__2d263 svg path[d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM22.7"] {
+	--interactive-icon-default: var(--status-danger);
+}
+
  /* Set Channel Status */
 .headerGradient__8a031::before {
 	top: 0px;
