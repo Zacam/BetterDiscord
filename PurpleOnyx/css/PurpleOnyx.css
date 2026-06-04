@@ -202,9 +202,14 @@ border-color: var(--border-normal) !important;
 }
 
  /* Text "New" Badge */
-.titleBadge_e4503a, .newBadge__0b563, .newBadge__5d7c9 {
+.titleBadge_e4503a, .newBadge__0b563, .newBadge__5d7c9, .badge_c2b88c {
 	--brand-260: var(--brand-300);
 	color: var(--text-default);
+}
+
+.badge_c2b88c {
+	background-color: transparent;
+	color: var(--oPurple);
 }
 
  /* Polls */
