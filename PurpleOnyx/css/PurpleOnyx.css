@@ -1172,6 +1172,8 @@ nav,
 
  /* Bring back the AT from Aurora (@r3dgh0stp4wz) */
 .userTagUsername__26b1f::before,
+ /* DMs Start */
+.description__00de6 > h3::before,
  /* Place the AT on Mod View Profile */
 .memberNameAndTagContainer__34940>div:not(.memberNameTextContainer__34940)::before {
 	content: "@";
