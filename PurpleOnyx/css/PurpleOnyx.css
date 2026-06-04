@@ -741,7 +741,7 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	>a { display: none; }
 }
 .toolbar__9293f {
-	margin-right: calc(32px * var(--trailingCounter) + 1px);
+	margin-right: calc(28px * var(--trailingCounter));
 }
 .sidebarOpen_cb9592 .toolbar__9293f,
 .threadSidebarOpen_f75fb0 .toolbar__9293f {
@@ -799,6 +799,16 @@ nav,
 	.iconWrapper__9293f {
 		width: 28px;
 	}
+}
+
+.winButton_c38106 {
+	width: 26px;
+}
+
+.winButtons_c38106::before {
+	margin-inline: unset;
+	margin-left: 4px;
+	margin-right: 5px;
 }
 
 .winButton_c38106:hover {
