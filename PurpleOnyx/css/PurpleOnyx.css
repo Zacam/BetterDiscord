@@ -940,7 +940,7 @@ nav,
 	margin-left: 0px;
 	margin-right: 5px;
 	max-width: unset;
-	min-width: unset;
+	width: unset;
 	.searchBar_c322aa {
 		background: transparent;
 		/* Make the default state only show an icon that can be clicked. */
