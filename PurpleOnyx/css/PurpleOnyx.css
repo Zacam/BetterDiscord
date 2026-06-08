@@ -864,6 +864,9 @@ nav,
 .unread__6fddf, .badge__81391 {
 	background-color: var(--oPurple);
 }
+.iconBadge_ab6641.circleBadge__2b1f5 {
+	--background-feedback-notification: var(--oPurple);
+}
 
  /* Inbox Popout */
 .container_fc561d.recentMentionsPopout__95796 {
