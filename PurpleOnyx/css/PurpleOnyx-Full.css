@@ -41,12 +41,12 @@
 
 /* Toolbar                                                                                                      */
   /* ManaPageSwitcher Overrides */
-.container_b82a71 {
+.paginationDock_a98f3b {
 	margin-bottom: unset;
 }
 
 header.searchHeader_ae7890,
-.searchResultsWrap_a98f3b .container_b82a71 {
+.searchResultsWrap_a98f3b .paginationDock_a98f3b {
 	border: 2px groove var(--border-active);
 }
 
@@ -238,9 +238,9 @@ div[class^="topSection"] {
 
 /* Chat Body                                                                                                    */
 .mentioned__5126c .interactive:is(.roleMention__75297, .mention) {
-  &:before, &:after {
-    background-color: silver;
-  }
+	&:before, &:after {
+		background-color: silver;
+	}
 }
  /* Remove background highlighting on Scrolling Hover */
 .mentioned__5126c:has(.contents_c19a55 .interactive:is(.roleMention__75297, .mention)) {
