@@ -3,17 +3,28 @@
 button[style*="/assets/c4f09fda61827e19.svg"] {
 	background-color: #0e7a0d;
 	clip-path: circle(31%);
+	&:hover {
+		background-color: #0e7a0d;
+		clip-path: circle(31%);
+	}
 }
 .wrapper__02fc8:has(button[style*="/assets/c4f09fda61827e19.svg"]) {
-	background-color: var(--control-secondary-background-default);
-	border: 1px solid var(--control-secondary-border-default);
+	background-color: var(--background-base-lower);
+	border: 1px solid transparent;
 	border-radius: var(--radius-sm);
 	height: 44px;
+	&:hover {
+		background-color: #99aab54d;
+	}
 }
 
-.connectionIcon_c56430[alt="Xbox Logo"] {
+.connectionIcon_c56430[alt="Xbox Logo"]:not([src="/assets/0133fed7d4dc775c.svg"]) {
 	background-color: #0e7a0d;
 	clip-path: circle(46%);
+	&:hover {
+		background-color: #0e7a0d;
+		clip-path: circle(46%);
+	}
 }
 
  /* Steam */
