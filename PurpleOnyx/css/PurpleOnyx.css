@@ -1737,6 +1737,19 @@ nav.guilds__5e434 {
 	border-color: var(--border-active) !important;
 }
 
+ /* Handler Gap Resizing*/
+.channelChatWrapper_cb9592 	 div[style="min-width: 458px;"] {
+	min-width: 454px !important;
+}
+
+.page__5e434 div[style="min-width: 586px;"] {
+	min-width: 582px !important;
+}
+
+.resizeHandle__01ae2 {
+	width: 2px;
+}
+
  /* Announcement "Follow" Text */
 .formWithLoadedChatInput_f75fb0 .title__44df5 {
 	color: var(--oPurple);
