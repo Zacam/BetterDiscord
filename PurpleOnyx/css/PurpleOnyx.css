@@ -170,7 +170,7 @@ div[role="menu"] div[role="separator"] {
  /* Threads Context Menu */ .menu_c1e9c4#thread-context,
  /* Friends More Menu */ .menu_c1e9c4#friend-row,
  /* DM's Context Menu */ .menu_c1e9c4#gdm-context,
-/* Sub-Menu */.submenu_c1e9c4 {
+ /* Sub-Menu */ .submenu_c1e9c4:not([aria-activedescendant^="settings-menu-experiments_sidebar_item"]) {
 	padding-right: 2px;
 	.scroller_c1e9c4 {
 		overflow: hidden !important;
