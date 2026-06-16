@@ -980,6 +980,9 @@ nav,
 			margin-inline-end: 2px;
 			scale: 1.2;
 		}
+		.DraftEditor-root:not(:has(>.public-DraftEditorPlaceholder-hasFocus)) {
+			cursor: pointer;
+		}
 		.public-DraftEditorPlaceholder-inner {
 			display: none;
 		}
