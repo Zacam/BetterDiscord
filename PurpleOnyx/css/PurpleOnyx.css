@@ -949,16 +949,16 @@ nav,
  /* Search */
  /* Search Animation Sizing from Eight-P "CompactChannelSearch" */
 .title_f75fb0 .toolbar__9293f {
-  flex-shrink: 0;
-  max-width: calc(100% - (28px * var(--trailingCounter)));
+	flex-shrink: 0;
+	max-width: calc(100% - (28px * var(--trailingCounter)));
 }
 @keyframes expandSearchWidth {
-  from {
-    min-width: 28px;
-  }
-  to {
-    min-width: 244px;
-  }
+	from {
+		min-width: 28px;
+	}
+	to {
+		min-width: 244px;
+	}
 }
   /* Re-Iconify Search from Aurora (@r3dgh0stp4wz ) */
 .search__49676 {
