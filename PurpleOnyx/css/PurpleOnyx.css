@@ -947,17 +947,31 @@ nav,
 }/*</Inbox>*/
 
  /* Search */
+ /* Search Animation Sizing from Eight-P "CompactChannelSearch" */
+.title_f75fb0 .toolbar__9293f {
+  flex-shrink: 0;
+  max-width: calc(100% - (28px * var(--trailingCounter)));
+}
+@keyframes expandSearchWidth {
+  from {
+    min-width: 28px;
+  }
+  to {
+    min-width: 244px;
+  }
+}
   /* Re-Iconify Search from Aurora (@r3dgh0stp4wz ) */
 .search__49676 {
-	order: -1;
+	flex-basis: auto;
 	margin-left: 0px;
 	margin-right: 5px;
 	max-width: unset;
-	width: unset;
+	min-width: 26px;
+	width: auto;
+	order: -1;
 	.searchBar_c322aa {
 		background: transparent;
 		/* Make the default state only show an icon that can be clicked. */
-		transition: all ease 0.3s;
 		width: 28px;
 		border: none;
 		padding: 0px;
@@ -972,7 +986,8 @@ nav,
 	}
 	.search_c322aa.open_c322aa .searchBar_c322aa {
 		/* Expand the search bar when focused, and keep it expanded when text is entered. */
-		width: 225px;
+		animation: 0.12s ease-out normal forwards expandSearchWidth;
+		width: auto;
 		box-sizing: border-box;
 		cursor: text;
 		background: var(--input-background-default);
