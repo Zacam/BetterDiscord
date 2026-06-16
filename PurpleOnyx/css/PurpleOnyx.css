@@ -741,7 +741,7 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	>a { display: none; }
 }
 .toolbar__9293f {
-	margin-right: calc(28px * var(--trailingCounter));
+	margin-right: calc(28px * var(--trailingCounter) + 2px);
 }
 .sidebarOpen_cb9592 .toolbar__9293f,
 .threadSidebarOpen_f75fb0 .toolbar__9293f {
@@ -1325,7 +1325,6 @@ nav>#channels {
  /* Unset Channel List fixed height */
 nav>#channels>ul.content_d125d2 {
 	height: auto !important;
-	padding-bottom: 56px;
 }
 
  /* Change "Has Banner" Container height to match border alignment */
