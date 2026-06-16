@@ -1754,6 +1754,17 @@ nav.guilds__5e434 {
 	border-color: var(--border-active) !important;
 }
 
+ /* Channel Topic Header */
+.title_f75fb0 .upperContainer__9293f .children__9293f {
+	.titleWrapper__9293f {
+		margin-inline: 0 4px;
+	}
+	.topic__6ec1a.topic__6ec1a {
+		flex: 0 1 auto;
+		margin-inline: 4px 0;
+	}
+}
+
  /* Handler Gap Resizing*/
 .channelChatWrapper_cb9592 	 div[style="min-width: 458px;"] {
 	min-width: 454px !important;
@@ -2230,17 +2241,25 @@ h3.membersGroup_c8ffbb {
 	padding: 0px 6px;
 }
 
-svg.dot__9293f {
-	color: var(--oPurple);
-	margin-right: 0px;
+.container__9293f .upperContainer__9293f .children__9293f {
+	.titleWrapper__9293f {
+		margin-inline: 0 4px;
+	}
+	svg.dot__9293f {
+		color: var(--oPurple);
+		margin-right: 0px;
+	}
+	.akaBadge__488b1 {
+		margin-inline-start: 4px;
+		margin-top: 1px;
+	}
+	.nicknames__488b1 {
+		margin-inline: 4px 0;
+	}
 }
 
 .title_f75fb0 div:has(>.avatar_f75fb0) {
 	margin-top: -6px;
-}
-
-.akaBadge__488b1 {
-	margin-top: 1px;
 }
 
 .peopleListItem_cc6179 {
