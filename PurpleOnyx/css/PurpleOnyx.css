@@ -709,16 +709,16 @@ nav.nav__409aa ul.sublist__409aa li.section__409aa:has([data-settings-sidebar-it
 .base__5e434 {
 	margin-top: -32px;
 	&:has(.trailing_c38106 > :nth-child(3)) {
-		--trailingCounter: 112px; /* Inbox Only */
+		--trailingCounter: 110px; /* Inbox Only */
 	}
 	&:has(.trailing_c38106 > :nth-child(4)) {
-		--trailingCounter: 139px; /* Inbox + 1 */
+		--trailingCounter: 142px; /* Inbox + 1 */
 	}
 	&:has(.trailing_c38106 > :nth-child(5)) {
-		--trailingCounter: 167px; /* Inbox + 2 */
+		--trailingCounter: 172px; /* Inbox + 2 */
 	}
 	&:has(.trailing_c38106 > :nth-child(6)) {
-		--trailingCounter: 192px; /* Inbox + 3 */
+		--trailingCounter: 199px; /* Inbox + 3 */
 	}
 }
 .bar_c38106 {
