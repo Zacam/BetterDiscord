@@ -708,20 +708,17 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 /* Remove the Titlebar */ /* Thanks to GH0STP4WZ, dav, and Izy */
 .base__5e434 {
 	margin-top: -32px;
-	&.trailing_c38106:has( > :is(.clickable__81391, .winButtons_c38106):nth-child(2)) {
-		--trailingCounter: 3;
+	&:has(.trailing_c38106 > :nth-child(3)) {
+		--trailingCounter: 112px; /* Inbox Only */
 	}
-	&:has(.trailing_c38106 > :is(.clickable__81391, .winButtons_c38106):nth-child(3)) {
-		--trailingCounter: 4;
+	&:has(.trailing_c38106 > :nth-child(4)) {
+		--trailingCounter: 139px; /* Inbox + 1 */
 	}
-	&:has(.trailing_c38106 > :is(.clickable__81391, .winButtons_c38106):nth-child(4)) {
-		--trailingCounter: 5;
+	&:has(.trailing_c38106 > :nth-child(5)) {
+		--trailingCounter: 167px; /* Inbox + 2 */
 	}
-	&:has(.trailing_c38106 > :is(.clickable__81391, .winButtons_c38106):nth-child(5)) {
-		--trailingCounter: 6;
-	}
-	&:has(.trailing_c38106 > :is(.clickable__81391, .winButtons_c38106):nth-child(6)) {
-		--trailingCounter: 7;
+	&:has(.trailing_c38106 > :nth-child(6)) {
+		--trailingCounter: 192px; /* Inbox + 3 */
 	}
 }
 .bar_c38106 {
@@ -741,7 +738,7 @@ nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
 	>a { display: none; }
 }
 .toolbar__9293f {
-	margin-right: calc(28px * var(--trailingCounter) + 2px);
+	margin-right: var(--trailingCounter);
 }
 .sidebarOpen_cb9592 .toolbar__9293f,
 .threadSidebarOpen_f75fb0 .toolbar__9293f {
@@ -950,7 +947,7 @@ nav,
  /* Search Animation Sizing from Eight-P "CompactChannelSearch" */
 .title_f75fb0 .toolbar__9293f {
 	flex-shrink: 0;
-	max-width: calc(100% - (28px * var(--trailingCounter)));
+	max-width: calc(100% - var(--trailingCounter));
 }
 @keyframes expandSearchWidth {
 	from {
