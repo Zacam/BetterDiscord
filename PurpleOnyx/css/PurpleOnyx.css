@@ -700,7 +700,7 @@ div[data-layer="GUILD_SETTINGS"] {
 }
 
  /* BD Settings on Top */
-nav > ul:has([data-settings-sidebar-item="betterdiscord_settings_panel"]) {
+nav.nav__409aa ul.sublist__409aa li.section__409aa:nth-of-type(5) {
 	order: -1;
 }/*</Settings Panel>*/
 
