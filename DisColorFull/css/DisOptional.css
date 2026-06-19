@@ -28,56 +28,75 @@ button[style*="/assets/c4f09fda61827e19.svg"] {
 }
 
  /* Steam */
-button[style*="/assets/1f7ec18f3695d4cf.svg"] {
+ /* Settings > Connections > Add Connection */
+.accountBtnInner__750de[style*="/assets/1f7ec18f3695d4cf.svg"] {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg") !important;
 }
 
-img[class*="connectionIcon"][alt^="Steam"] {
-	background: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 30px;
-	display: block;
-	box-sizing: border-box;
-	padding-left: 38px;
+ /* Settings > Connections List */
+.connectionIcon__41de9[alt="Steam"] {
+	content: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg");
 }
 
- /* Playstation */
-div[id*="context-transfer-playstation"] .iconContainer_c1e9c4 {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
-	background-size: 24px;
-	background-position: center;
-	background-repeat: no-repeat;
-	svg {
-		display: none;
-	}
+ /* Profile View: "ShowConnections" Plugin */
+.connectionIcon_c56430[alt="Steam Logo"] {
+	content: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg");
 }
 
-button[style*="/assets/eed203a7ec517e23.svg"] {
+ /* Profile View: "NewOldProfiles" Plugin */
+.connectedAccount_e6abe8 .connectedAccountIcon_e6abe8[alt="Steam Logo"] {
+	content: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg");
+}
+
+ /* Profile View: "NewOldProfiles" Plugin > "Get on Steam"*/
+.activityProfile .actionsProfile button svg:has(path[d^="M4.5 3.92A11.03 11.03 0 0 1 11.99 1v.02a11.06 11.06 0 0 1 9.87 6.09 10.96 10.96 0 0 1-5.9 15.15A10.99 10.99 0 0 1 1.4 15l4.22 1.74a3.12 3.12 0 0 0 6.17-.62v-.14l3.75-2.67h.08a4.16 4.16"]) {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg") !important;
+}
+.activityProfile .actionsProfile button svg path[d^="M4.5 3.92A11.03 11.03 0 0 1 11.99 1v.02a11.06 11.06 0 0 1 9.87 6.09 10.96 10.96 0 0 1-5.9 15.15A10.99 10.99 0 0 1 1.4 15l4.22 1.74a3.12 3.12 0 0 0 6.17-.62v-.14l3.75-2.67h.08a4.16 4.16"] {
+	display: none;
+}
+
+/* Playstation */
+ /* Settings > Connections> Add Connection */
+.accountBtnInner__750de[style*="/assets/eed203a7ec517e23.svg"]{
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg") !important;
 }
+ /* Setting- > Connecitons > Connection List */
+.connectionIcon__41de9[alt="PlayStation Network"] {
+	content: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
+}
 
-img[src="/assets/eed203a7ec517e23.svg"] {
-	background: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 32px;
-	display: block;
-	box-sizing: border-box;
-	padding-left: 38px;
+ /*Profile: "ShowConnections" Plugin */
+.connectionIcon_c56430[alt="PlayStation Network Logo"] {
+	content: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
+}
+
+ /* Profile: "NewOldProfiles" Plugin */
+.connectedAccount_e6abe8 .connectedAccountIcon_e6abe8[alt="PlayStation Network Logo"] {
+	content: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
+}
+
+ /* VC "Tranfer to PlayStation" Menu */
+div[id*="context-transfer-playstation"] .iconContainer_c1e9c4 {
+	content: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
 }
 
  /* Twitter */
-button[style*="/assets/a61999ae9bfb9658.svg"] {
+ /* Settings > Connections> Add Connection */
+.accountBtnInner__750de[style*="/assets/a61999ae9bfb9658.svg"]{
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg") !important;
 }
+ /* Setting- > Connecitons > Connection List */
+.connectionIcon__41de9[alt="X"] {
+	content: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg");
+}
 
-img[src="/assets/a61999ae9bfb9658.svg"] {
-	background: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 32px;
-	display: block;
-	box-sizing: border-box;
-	padding-left: 38px;
+ /*Profile: "ShowConnections" Plugin */
+.connectionIcon_c56430[alt="X Logo"] {
+	content: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg");
+}
+
+ /* Profile: "NewOldProfiles" Plugin */
+.connectedAccount_e6abe8 .connectedAccountIcon_e6abe8[alt="X Logo"] {
+	content: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg");
 }
