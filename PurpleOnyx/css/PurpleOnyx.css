@@ -106,6 +106,9 @@
 	max-width: unset;
 	padding: 4px 6px;
 	text-align: start;
+	.caretIcon__4e35b .caretFill__4e35b {
+		fill: var(--background-base-low);
+	}
 }
 .guildTooltipWrapper_b1f768 {
 	max-width: 100%;
