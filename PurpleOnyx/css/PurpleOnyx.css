@@ -794,7 +794,12 @@ nav,
 		margin: 0px 3px;
 	}
 	.iconWrapper__9293f {
+		border-radius: var(--custom-app-top-bar-item-radius);
+		height: 28px;
 		width: 28px;
+		&:hover {
+			background-color: var(--background-mod-normal);
+		}
 	}
 }
 
@@ -959,6 +964,7 @@ nav,
 }
   /* Re-Iconify Search from Aurora (@r3dgh0stp4wz ) */
 .search__49676 {
+	border-radius: var(--custom-app-top-bar-item-radius);
 	flex-basis: auto;
 	margin-left: 0px;
 	margin-right: 5px;
@@ -966,6 +972,9 @@ nav,
 	min-width: 26px;
 	width: auto;
 	order: -1;
+	&:hover {
+		background-color: var(--background-mod-normal);
+	}
 	.searchBar_c322aa {
 		background: transparent;
 		/* Make the default state only show an icon that can be clicked. */
