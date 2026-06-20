@@ -1336,7 +1336,7 @@ nav>#channels {
 
  /* Unset Channel List fixed height */
 nav>#channels>ul.content_d125d2 {
-	height: auto !important;
+	height: calc-size(auto, size + 8px) !important;
 }
 
  /* Change "Has Banner" Container height to match border alignment */
@@ -2209,7 +2209,7 @@ svg.downloadHoverButtonIcon__6c706 path {
 }
 
 aside.membersWrap_c8ffbb .content_d125d2 {
-	height: auto !important;
+	height: calc-size(auto, size + 10px) !important;
 }
 
 h3.membersGroup_c8ffbb {
