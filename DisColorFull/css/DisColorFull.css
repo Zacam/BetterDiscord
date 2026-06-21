@@ -93,20 +93,26 @@ svg path[d="M19.3 20.7a1 1 0 0 0 1.4-1.4L13.42 12l7.3-7.3a1 1 0 0 0-1.42-1.4L12 
 }
 
 /* BD Custom CSS Window */
-svg.lucide.lucide-rotate-cw {
-	stroke: #3E82E5;
-}
+.bd-editor-controls {
+	svg.lucide.lucide-rotate-cw {
+		stroke: #3E82E5;
+	}
 
-svg.lucide.lucide-save {
-	background-image: url("https://discord.com//assets/9175359b37e71ac6.svg");
-	transform: scaleY(-1);
-	>path {display: none;}
-}
+	svg.lucide.lucide-save {
+		background-image: url("https://discord.com//assets/9175359b37e71ac6.svg");
+		transform: scaleY(-1);
+		>path {
+			display: none;
+		}
+	}
 
-svg.lucide.lucide-pencil {
-	background-image: url("https://discord.com/assets/fe96ae6b8d6103d2.svg");
-	transform: scaleX(-1);
-	>path {display: none;}
+	svg.lucide.lucide-pencil {
+		background-image: url("https://discord.com/assets/fe96ae6b8d6103d2.svg");
+		transform: scaleX(-1);
+		>path {
+			display: none;
+		}
+	}
 }
 
 /* BD Plugins/Themes */
