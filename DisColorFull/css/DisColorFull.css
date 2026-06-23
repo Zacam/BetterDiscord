@@ -93,7 +93,7 @@ svg path[d="M19.3 20.7a1 1 0 0 0 1.4-1.4L13.42 12l7.3-7.3a1 1 0 0 0-1.42-1.4L12 
 }
 
 /* BD Custom CSS Window */
-.bd-editor-controls {
+#bd-editor-controls {
 	svg.lucide.lucide-rotate-cw {
 		stroke: #3E82E5;
 	}
