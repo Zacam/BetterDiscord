@@ -49,6 +49,7 @@ code:not(.inline, .diff, .codeView__4d95d) {
 .theme-dark .markup__75297 .hljs[class~="cpp" i]::before,
 .theme-dark .markup__75297 .hljs[class~="csharp" i]::before,
 .theme-dark .markup__75297 .hljs[class~="css" i]::before,
+.theme-dark .markup__75297 .hljs[class~="language-css" i]::before,
 .theme-dark .markup__75297 .hljs[class~="diff" i]::before,
 .theme-dark .markup__75297 .hljs[class~="go" i]::before,
 .theme-dark .markup__75297 .hljs[class~="html" i]::before,
