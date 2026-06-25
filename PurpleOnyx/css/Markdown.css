@@ -96,6 +96,7 @@ code:not(.inline, .diff, .codeView__4d95d) {
 .theme-dark .markup__75297 .hljs[class~="cpp" i],
 .theme-dark .markup__75297 .hljs[class~="csharp" i],
 .theme-dark .markup__75297 .hljs[class~="css" i],
+.theme-dark .markup__75297 .hljs[class~="language-css" i],
 .theme-dark .markup__75297 .hljs[class~="diff" i],
 .theme-dark .markup__75297 .hljs[class~="go" i],
 .theme-dark .markup__75297 .hljs[class~="html" i],
@@ -147,7 +148,8 @@ code:not(.inline, .diff, .codeView__4d95d) {
 	background: #17860052;
 }
 
-.theme-dark .markup__75297 .hljs[class~="css" i]::before {
+.theme-dark .markup__75297 .hljs[class~="css" i]::before,
+.theme-dark .markup__75297 .hljs[class~="language-css" i]::before {
 	content: "Cascading Style Sheet";
 	background: #66339952;
 }
