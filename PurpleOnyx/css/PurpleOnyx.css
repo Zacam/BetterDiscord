@@ -55,6 +55,21 @@
 	background-image: linear-gradient(var(--oPur-32), var(--oPur-64));
 }
 
+.bd-notification.bd-notification-info {
+	border-color: var(--border-strong);
+	margin-bottom: 0px;
+	.bd-notification-close {
+		color: #DA3E44;
+		opacity: 1;
+	}
+}
+
+.bd-notification-footer .bd-button {
+	background-color: var(--background-base-low);
+	border: 1px solid var(--border-normal);
+	color: var(--oPurple);
+}
+
 #settings-menu button.bd-changelog-button:hover {
 	color: var(--text-strong);
 }/*</Better Discord overrides>*/
