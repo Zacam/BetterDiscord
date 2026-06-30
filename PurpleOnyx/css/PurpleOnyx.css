@@ -1531,7 +1531,7 @@ li.containerDefault_c69b6d:hover .linkTop__2ea32>.name__2ea32 {
 }
 
  /* Remove VC 'Invite to Voice' Timer */
-.list_c3cd7d>.animation_f2170c:has(>.userSmall__07f91) {
+.list_c3cd7d>.animation_f2170c:has(>.clickable_f2170c) {
 	display: none;
 }
 
