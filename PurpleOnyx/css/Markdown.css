@@ -56,7 +56,7 @@ code:not(.inline, .diff, .codeView__4d95d) {
 .theme-dark .markup__75297 .hljs[class$="ini" i]::before,
 .theme-dark .markup__75297 .hljs[class$="java" i]::before,
 .theme-dark .markup__75297 .hljs[class$="javascript" i]:before,
-.theme-dark .markup__75297 .hljs[class$="js" i]::before,
+.theme-dark .markup__75297 .hljs[class$="language-js" i]::before,
 .theme-dark .markup__75297 .hljs[class$="json" i]::before,
 .theme-dark .markup__75297 .hljs[class$="less" i]::before,
 .theme-dark .markup__75297 .hljs[class$="lua" i]::before,
@@ -103,7 +103,7 @@ code:not(.inline, .diff, .codeView__4d95d) {
 .theme-dark .markup__75297 .hljs[class$="ini" i],
 .theme-dark .markup__75297 .hljs[class$="java" i],
 .theme-dark .markup__75297 .hljs[class$="javascript" i],
-.theme-dark .markup__75297 .hljs[class$="js" i],
+.theme-dark .markup__75297 .hljs[class$="language-js" i],
 .theme-dark .markup__75297 .hljs[class$="json" i],
 .theme-dark .markup__75297 .hljs[class$="less" i]
 .theme-dark .markup__75297 .hljs[class$="lua" i],
@@ -185,7 +185,7 @@ code:not(.inline, .diff, .codeView__4d95d) {
 }
 
 .theme-dark .markup__75297 .hljs[class$="javascript" i]::before,
-.theme-dark .markup__75297 .hljs[class$="js" i]::before {
+.theme-dark .markup__75297 .hljs[class$="language-js" i]::before {
 	content: "Javascript";
 	background: #f1e05a52;
 }
