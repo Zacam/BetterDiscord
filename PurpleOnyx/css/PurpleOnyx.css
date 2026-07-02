@@ -76,6 +76,8 @@
 
 /*General Discord                                                                                              */
  /* Scrollbars */
+/*Nitro Home*/.applicationStore_f07d62 .mainPageScroller__80907,
+/*Shop*/.shopScroll__1feb0,
 /*Mana Modal*/.bodyList__8a031:hover,
 /*Chat Body*/.messagesWrapper__36d07 .scroller__36d07:hover,
 /*Code*/.scrollbarGhostHairline__506b3.scrollbar__506b3,
@@ -91,6 +93,9 @@
 }
 
 /*BD Modals*/ .bd-scroller-base.bd-scroller-thin,
+/*Shop*/.shopScroll__08415,
+/*Shop Filter*/.filterBar__1feb0,
+/*Quests*/.scroller__23746.thin_d125d2.scrollerBase_d125d2,
 /*Channel List*/.sidebarList__5e434 .scroller__629e4:hover,
 /*Member List*/.membersWrap_c8ffbb .members_c8ffbb:hover,
 /*DMs List*/.privateChannels_e6b769 .scroller__99e7c:hover,
@@ -642,6 +647,34 @@ div[data-layer="GUILD_SETTINGS"] {
 	}
 }
 
+/* Shop Tabs */
+.tabs__354ec.top_aa8da2 {
+	.tab__354ec[aria-selected=true] {
+		border-color: var(--oPur-64);
+		color: var(--oPur-84) !important;
+	}
+	.tab__354ec {
+		color: var(--oPur-42);
+		&:hover {
+			color: var(--oPur-64);
+		}
+	}
+}
+
+/* Quests Tabs */
+.tabs__26669 {
+	.tabWrapper__26669[aria-selected=true] h1 {
+		border-color: var(--oPur-64) !important;
+		color: var(--oPur-84) !important;
+	}
+	.tabWrapper__26669 h1 {
+		color: var(--oPur-42);
+		&:hover {
+			color: var(--oPur-64);
+		}
+	}
+}
+
  /* Authorized Apps */
 [data-nav-anchor-key="authorized_apps_list_setting"] {
 	.headingCard__92059 {
@@ -773,6 +806,25 @@ nav,
 }
 .chat_f75fb0 .layerContainer__59d0d {
 	z-index: 2;
+}
+.page__5e434 {
+	/* Nitro Home */
+	> .applicationStore_f07d62,
+	/* Quests */
+	:has(> .container__955a3) {
+		margin-top: 40px;
+		.toolbar__9293f {
+			margin-right: unset;
+		}
+	}
+	/* Shop Store */
+	.shop__6db1d {
+		height: unset;
+		margin-top: 40px;
+		.toolbar__9293f {
+			margin-right: unset;
+		}
+	}
 }
  /* Mod View Panel */
 .guildSidebar_f75fb0 {
