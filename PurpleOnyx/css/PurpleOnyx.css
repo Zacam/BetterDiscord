@@ -691,7 +691,7 @@ div[data-layer="GUILD_SETTINGS"] {
 }
 
  /* Keybinds */
-[data-nav-anchor-key="keybinds_category"] {
+[data-nav-anchor-key="system_default_keybinds_category"] {
 	.keybindGroup_f82450 {
 		padding-bottom: 10px;
 		padding-top: 10px;
@@ -2369,40 +2369,27 @@ span.infoSpacing_f4bc97.globalName_b8dbac::before {
 	}
 }
 
- /* DMs User Profile that isn't Nitro/Custom Themed */
-aside .user-profile-sidebar {
+ /* DM's Profile View */
+.aside_f58343 {
 	border-left: 1px groove var(--border-active);
-	.body_b32ca4 {
+}
+
+ /* DMs User Profile Area */
+aside .user-profile-sidebar {
+	.body_b32ca4, .info_b32ca4 {
 		gap: 6px;
-		margin: 0px 8px;
-	}
-	.overlay_c0bea0.overlay_b32ca4 {
-		padding: 6px;
-	}
-	.widgetPreviews__7f9c0 {
-		margin: 6px 8px 0px;
-	}
-	.wishlistBreadcrumb__7f9c0 {
-		margin: 6px 8px 0px;
-	}
-	.overlay_c0bea0.overlay__3b260 {
-		margin: 6px 8px;
-		.divider__23eb0.divider__3b260 {
-			background-color: var(--oPur-64);
-		}
 	}
 }
 
+ /* DMs User Profile that isn't Nitro/Custom Themed */
 aside .user-profile-sidebar:not(.custom-user-profile-theme) {
-	background-color: #000;
-	.footer__272c7 {
+	border: 1px groove var(--border-active);
+	.redesignFooter__272c7 .button_a22cb0 {
 		border: 2px solid var(--border-subtle);
-		margin: 0px 7px 1px 7px;
-		border-radius: 12px;
-		.footerButton__272c7 {
-			background: rgba(164,128,226, 0.11);
-			height: 32px;
-			border-radius: 8px;
+		background: rgba(164,128,226, 0.11);
+		&:hover {
+			background: rgba(164,128,226, 0.42);
+			border-color: var(--border-normal);
 		}
 	}
 }
