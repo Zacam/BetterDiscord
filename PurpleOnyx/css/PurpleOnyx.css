@@ -810,15 +810,10 @@ nav,
 .page__5e434 {
 	/* Nitro Home */
 	> .applicationStore_f07d62,
-	/* Quests */
-	:has(> .container__955a3) {
-		margin-top: 40px;
-		.toolbar__9293f {
-			margin-right: unset;
-		}
-	}
 	/* Shop Store */
-	.shop__6db1d {
+	> .shop__6db1d,
+	/* Quests */
+	> .container__955a3 {
 		height: unset;
 		margin-top: 40px;
 		.toolbar__9293f {
