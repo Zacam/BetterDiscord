@@ -1736,7 +1736,7 @@ foreignObject[mask="url(#svg-mask-status-offline)"]>div[class^="status"][style="
 }
 
  /* Adds an @ to the username */
-.panels__5e434 .hoverRoll__0263c .hovered__0263c::before{
+.panels__5e434 :not(.rtcConnectionStatusLabel__06d62).hoverRoll__0263c .hovered__0263c::before{
 	content: "@";
 }
 
