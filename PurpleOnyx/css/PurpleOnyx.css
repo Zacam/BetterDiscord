@@ -2116,9 +2116,25 @@ svg.downloadHoverButtonIcon__6c706 path {
 	height: unset;
 }
 
+ /* Avatar Indicator Dots */
+.avatar__20a53 div:has(.dots__1ce5d.dots__5ad89) {
+	background-color: transparent !important;
+}
+.avatar__44b0c:before {
+	background-color: unset;
+}
+.dots__5ad89 {
+	color: var(--oPurple) !important;
+}
+ /* MemberList Dots */
+#app-mount .wrapper__44b0c .pointerEvents__44b0c[x="14.5"] {
+	fill: transparent !important;
+}
+
  /* Who's Typing Indicator */
 .memberInner__5d473 rect.pointerEvents__44b0c[x="14.5"],
 .interactive_f88cfd rect.pointerEvents__44b0c[x="14.5"] {
+	color: var(--oPurple) !important;
 	opacity: 0.32;
 }
 .typing_b88801 {
