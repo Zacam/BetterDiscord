@@ -104,7 +104,7 @@
 /*Activity*/.container__7d20c .scroller__7d20c,
 /*Inbox*/.recentMentionsPopout__95796 .scroller__95796,
 /*Unreads*/.recentMentionsPopout__95796 .scroller__2692d,
-/*Pinned*/.messagesPopoutWrap_e8b59c .messagesPopout_e8b59c,
+/*Pinned*/.messagesPopoutWrap__432f4 .messagesPopout__432f4,
 /*Search*/.searchResultsWrap_a98f3b .scroller_a98f3b,
 /*Menus*/.menu_c1e9c4 .scroller_c1e9c4,
 /*ServerSettings*/.sidebarRegion__23e6b .sidebarRegionScroller__23e6b,
@@ -930,80 +930,40 @@ nav,
 }
 
  /* Inbox Popout */
-.container_fc561d.recentMentionsPopout__95796 {
-	border: 1px solid var(--border-normal);
-}
-
-.recentMentionsPopout__95796.messagesPopoutWrap_e8b59c,
-.recentMentionsPopout__95796 .scroller__2692d,
-.recentMentionsPopout__95796 .container_d404a3 {
-	background-color: rgb(0,0,0);
-}
-
-  /* Inbox "Jump to Post" Button */
-.jumpButton_ed0c8c {
-	background-color: rgb(0,0,0);
-	border: 1px groove var(--border-active);
-	&:hover
-	{
-		border: 1px groove var(--oPurple);
-		>.text_ed0c8c {
-			color: var(--oPurple);
+div[id^="popout"]:has(.container__9497c) {
+	.container__9497c {
+		border: 2px solid var(--border-active);
+	}
+	.tabBar_ab6641.top_aa8da2 {
+		margin-top: 8px;
+		.tab_ab6641 {
+			padding-bottom: 8px;
 		}
 	}
-}
-
-  /* Post Background */
-.header_ab6641.header_e8b59c,
-.container__0f711, .messageContainer__95796,
-.channel__427f0 .messages__1ccd1 {
-	background-color: var(--background-base-lower);
-}
-
-  /* Unreads */
-[data-list-id="unreads"] {
-	background-color: var(--background-base-lower);
-	.messages__1ccd1>.divider__1ccd1 {
-		border-top-color: var(--border-active);
-		margin-bottom: 0.7rem;
-		margin-top: 0.5rem;
-		span.content__908e2 {
-			color: var(--oPurple);
+	.scroller__95796 { /* Mentions Tab */
+		background: var(--background-base-lowest);
+		.box_a86e6c {
+			background: var(--background-base-lower);
+			.channelHeader__996b5 {
+				background: var(--background-base-low);
+				padding: 4px 12px;
+			}
 		}
 	}
-}
-
-  /* Mentiens Footer */
-.scrollingFooterWrap_e8b59c .container_d404a3 {
-	min-height: fit-content;
-}
-
-  /* Unreads Footer */
-.container_fc561d .container_d404a3 {
-	min-height: 210px;
-}
-
-.container__95796 {
-	margin-bottom: 8px;
-	padding-inline-end: 4px;
-	> .channelHeader__35a7e {
-		height: 48px;
-		margin-right: 0px;
+	.scroller__2692d { /* Unreads Tab */
+		background: var(--background-base-lowest);
+		.box_a86e6c {
+			background: var(--background-base-lower);
+			.channelHeader__996b5 {
+				background: var(--background-base-low);
+				padding: 4px 12px;
+			}
+		}
 	}
-	.messageContainer__95796 {
-		padding: 8px 0px 8px 0px;
-	}
-}
-
-.channel__427f0 {
-	margin-bottom: 8px;
-	padding-bottom: 0px;
-	> .channelHeader__35a7e {
-		height: 48px;
-		margin-left: -14px;
-	}
-	.messages__1ccd1 {
-		padding: 8px 0px 8px 0px;
+	.container_d404a3 { /* All Caught Up Footer */
+		background: var(--background-base-lowest);
+		min-height: fit-content;
+		padding: 12px 6px;
 	}
 }/*</Inbox>*/
 
@@ -1134,21 +1094,21 @@ nav,
 }/*<Search>*/
 
  /* Pinned Messages */
-[id^="popout_"] {
-	.messagesPopoutWrap_e8b59c {
+[id^="popout"]:has(.messagesPopoutWrap__432f4) {
+	.messagesPopoutWrap__432f4 {
 		background-color: var(--background-base-lowest);
 		border: 1px solid var(--border-normal);
-		.footer_e8b59c {
+		.footer__432f4 {
 			display: none;
 		}
 	}
-	.emptyPlaceholder_e8b59c {
+	.emptyPlaceholder__432f4 {
 		margin-bottom: 8px;
 	}
-	.header_e8b59c, .messagesPopout_e8b59c .messageGroupWrapper_e8b59c {
+	.header__432f4, .messagesPopout__432f4 .messageGroupWrapper__432f4 {
 		background-color: var(--background-base-lower);
 	}
-	.header_e8b59c {
+	.header__432f4 {
 		border-bottom: 1px solid var(--border-active);
 		padding: 6px 12px 0px 12px;
 	}
