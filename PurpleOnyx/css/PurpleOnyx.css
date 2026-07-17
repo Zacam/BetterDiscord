@@ -593,6 +593,17 @@ div[data-layer="GUILD_SETTINGS"] {
 /* Modals */
 .listBox__2e223.scrollable__2e223 {
 	background-color: var(--background-base-lower);
+}
+
+/* Experiments Embed */
+.messageContent_c19a55 .root__5c1cf {
+	background-color: var(--background-base-low);
+	svg path {
+		fill: var(--oPur-84) !important;
+	}
+	.experimentOverride__5c1cf .selectDropdown__0edde {
+		background-color: var(--background-base-low);
+	}
 }/*</General Discord>*/
 
 /* Settings Panel                                                                                               */
