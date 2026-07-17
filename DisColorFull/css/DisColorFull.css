@@ -229,7 +229,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 }
 
   /* Pinned Popou */
-.messagesPopoutWrap_e8b59c>.header_e8b59c>.titleContainer_e8b59c {
+.messagesPopoutWrap__432f4>.header__432f4>.titleContainer__432f4 {
 	background-image: url("https://discord.com/assets/c7ba45651998dd2c.svg");
 	background-size: 18px;
 	background-position: left;
@@ -239,7 +239,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	}
 }
 
-.messagesPopoutWrap_e8b59c>.header_e8b59c>.titleContainer_e8b59c>div {
+.messagesPopoutWrap__432f4>.header__432f4>.titleContainer__432f4>div {
 	margin-left: 28px;
 }
 
