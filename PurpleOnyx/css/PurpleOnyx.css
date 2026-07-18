@@ -121,12 +121,12 @@
 }
 
  /* Tooltips */
-.tooltip__4e35b {
+.tooltip_fa450d {
 	background: var(--background-base-low);
 	max-width: unset;
 	padding: 4px 6px;
 	text-align: start;
-	.caretIcon__4e35b .caretFill__4e35b {
+	.caretIcon_fa450d .caretFill_fa450d {
 		fill: var(--background-base-low);
 	}
 }
