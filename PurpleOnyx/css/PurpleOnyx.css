@@ -122,12 +122,13 @@
 
  /* Tooltips */
 .tooltip_fa450d {
-	background: var(--background-base-low);
+	background: #000000a9;
+	backdrop-filter: blur(3px);
 	max-width: unset;
 	padding: 4px 6px;
 	text-align: start;
 	.caretIcon_fa450d .caretFill_fa450d {
-		fill: var(--background-base-low);
+		fill: #000000a9;
 	}
 }
 .guildTooltipWrapper_b1f768 {
@@ -138,6 +139,12 @@
 			margin-top: 0px;
 		}
 	}
+}
+ /* Tooltip - Text */
+.tooltipContent_fa450d .defaultColor__4bd52 /* Regular Tooltips */,
+.guildTooltipWrapper_b1f768 /* Server Folders Tooltips */,
+.guildNameText_b1f768 /* Server Name Tooltips */ {
+	color: var(--oPurple) !important;
 }
 
  /* Supress Avatar Status reaction */
@@ -152,7 +159,7 @@ input:not([readOnly]):focus {
 
  /* Buttons */
 button.button_a22cb0.primary_a22cb0.hasText_a22cb0,
-button.button_a22cb0.sm_a22cb0.secondary_a22cb0,
+button.button_a22cb0.secondary_a22cb0.hasText_a22cb0,
 button.button__201d5.lookFilled__201d5.colorBrand__201d5 {
 	background: var(--oPur-42);
 }
@@ -612,6 +619,16 @@ div[data-layer="GUILD_SETTINGS"] {
 }
 
 .modalContent_e44912 {
+	.sidebar__409aa {
+		padding-block: unset;
+		.fixedContent__409aa {
+			border-bottom: 2px solid var(--border-normal);
+			margin-bottom: 4px;
+			.searchBarContainer_fffcb4 {
+				margin-bottom: 4px;
+			}
+		}
+	}
 	.content_e9e3ed {
 		border-left: 1px solid var(--border-active);
 		.contentHeader_e9e3ed {
