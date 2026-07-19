@@ -164,6 +164,18 @@ button.button__201d5.lookFilled__201d5.colorBrand__201d5 {
 	background: var(--oPur-42);
 }
 
+button.button_a22cb0.secondary_a22cb0:not(.hasText_a22cb0),
+.friendRequestsButton__523aa {
+	background-color: transparent;
+	border-color: var(--border-normal);
+	color: var(--oPurple);
+	&:hover {
+		background-color: var(--background-base-low);
+		border-color: var(--border-active);
+		color: var(--oPurple);
+	}
+}
+
 footer._8a031a135bfcb9ba-actionBar button {
 	background: var(--oPur-64);
 	&:hover {
