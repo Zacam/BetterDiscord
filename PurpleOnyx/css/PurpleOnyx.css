@@ -970,37 +970,27 @@ nav,
 }
 
  /* Inbox Popout */
-div[id^="popout"]:has(.container__9497c) {
-	.container__9497c {
+div[id^="popout"]:has(.container__8cb2e) {
+	.container__8cb2e {
 		border: 2px solid var(--border-active);
 	}
-	.tabBar_ab6641.top_aa8da2 {
+	.tabBar__06f80.top_aa8da2 {
 		margin-top: 8px;
-		.tab_ab6641 {
+		.tab__06f80 {
 			padding-bottom: 8px;
 		}
 	}
-	.scroller__95796 { /* Mentions Tab */
+	.scroller__376cb {
 		background: var(--background-base-lowest);
-		.box_a86e6c {
+		.box__376cb {
 			background: var(--background-base-lower);
-			.channelHeader__996b5 {
+			.channelHeader__5d903 {
 				background: var(--background-base-low);
 				padding: 4px 12px;
 			}
 		}
 	}
-	.scroller__2692d { /* Unreads Tab */
-		background: var(--background-base-lowest);
-		.box_a86e6c {
-			background: var(--background-base-lower);
-			.channelHeader__996b5 {
-				background: var(--background-base-low);
-				padding: 4px 12px;
-			}
-		}
-	}
-	.container_d404a3 { /* All Caught Up Footer */
+	.container__319e1 { /* All Caught Up Footer */
 		background: var(--background-base-lowest);
 		min-height: fit-content;
 		padding: 12px 6px;
