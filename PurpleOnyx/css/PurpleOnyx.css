@@ -102,8 +102,7 @@
 /*Profile*/.profile__9c3be .profileBody__9c3be:hover,
 /*Profile*/.tabBarPanel__37bfc .tabPanelScroller__37bfc:hover,
 /*Activity*/.container__7d20c .scroller__7d20c,
-/*Inbox*/.recentMentionsPopout__95796 .scroller__95796,
-/*Unreads*/.recentMentionsPopout__95796 .scroller__2692d,
+/*Inbox*/.container__8cb2e.widerInbox__8cb2e .scroller__376cb,
 /*Pinned*/.messagesPopoutWrap__432f4 .messagesPopout__432f4,
 /*Search*/.searchResultsWrap_a98f3b .scroller_a98f3b,
 /*Menus*/.menu_c1e9c4 .scroller_c1e9c4,
@@ -165,7 +164,7 @@ button.button__201d5.lookFilled__201d5.colorBrand__201d5 {
 }
 
 button.button_a22cb0.secondary_a22cb0:not(.hasText_a22cb0),
-.friendRequestsButton__523aa {
+.friendRequestsButton_c7a32c {
 	background-color: transparent;
 	border-color: var(--border-normal);
 	color: var(--oPurple);
