@@ -17,7 +17,6 @@
  /* Code Window Size */
 .markup__75297 blockquote,
 .markup__75297 pre {
-	min-width: fit-content;
 	max-width: calc-size(max-content, size + .5%);
 }
 
