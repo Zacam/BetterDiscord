@@ -973,10 +973,18 @@ div[id^="popout"]:has(.container__8cb2e) {
 	.container__8cb2e {
 		border: 2px solid var(--border-active);
 	}
+	.headerTabs__06f80 {
+		margin-top: 4px;
+	}
 	.tabBar__06f80.top_aa8da2 {
-		margin-top: 8px;
+		background-color: var(--background-base-low);
+		margin-top: 0px;
 		.tab__06f80 {
-			padding-bottom: 8px;
+			margin-bottom: unset;
+			padding: 4px 0px;
+			&:hover {
+				color: var(--oPurple) !important;
+			}
 		}
 	}
 	.scroller__376cb {
