@@ -343,7 +343,6 @@ border-color: var(--border-normal) !important;
 [class^="imageWrapper"] {
 	border-radius: 0px !important;
 }
-
  /* Wrap the Embed Border */
 .embedFull__623de {
 	overflow: hidden;
@@ -374,6 +373,12 @@ border-color: var(--border-normal) !important;
 		inset-inline-end: 0px;
 		top: -1px;
 	}
+}
+
+ /* Message Focus Ringss */
+.focus-rings-ring {
+	--focus-primary: var(--oPur-64);
+	border-radius: 8px;
 }
 
  /* Popout Container */
