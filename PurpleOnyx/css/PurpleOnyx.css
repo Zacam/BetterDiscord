@@ -381,6 +381,11 @@ border-color: var(--border-normal) !important;
 	border-radius: 8px;
 }
 
+ /* Keyboard Navigation Focus */
+.keyboard-mode .focusStroke_cc5dd2 {
+	stroke: var(--oPur-64);
+}
+
  /* Popout Container */
 #popout_16885 {
 	border: 2px groove var(--border-normal) !important;
@@ -1705,6 +1710,15 @@ section.panels__5e434 {
 
 .accountPopout__37e49 .menus_ce8328 {
 	gap: unset;
+}
+
+ /* Status Icon Alignment */
+.accountPopout__37e49 .menuItemIcon_ce8328 {
+	margin-top: -3px;
+}
+
+#set-status-submenu .statusAccessory_c1e9c4 {
+	margin-top: -3px;
 }
 
  /* Stop Status Colors from Flickering when hovering */
