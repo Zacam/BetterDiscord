@@ -260,8 +260,8 @@ div[class^="topSection"] {
 	.labelContainer_c1e9c4 {
 		min-height: 28px;
 	}
-	.item_c1e9c4:not(#account-panel-idle) .statusAccessory_c1e9c4 {
-		margin-top: unset;
+	.statusAccessory_c1e9c4 {
+		margin-top: -1px;
 	}
 }
 
