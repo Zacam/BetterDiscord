@@ -1478,8 +1478,8 @@ nav .header_f37cb1 {
 }
 
  /* Make Followed Topics Names same size */
-.link__2ea32>.linkTop__2ea32>.name__2ea32.overflow_b0dfc2 {
-	font-size: inherit !important; /* Default: 14px */
+.link__2ea32[data-list-item-id^="channels"] .text-sm\/medium_cf4812 {
+	font-size: inherit; /* Default: 14px */
 }
 
  /* Channel Groups Headers */
