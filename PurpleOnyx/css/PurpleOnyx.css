@@ -649,6 +649,9 @@ div[data-layer="GUILD_SETTINGS"] {
 				margin-bottom: 4px;
 			}
 		}
+		.withShadow__409aa::after {
+			display: none;
+		}
 	}
 	.content_e9e3ed {
 		border-left: 1px solid var(--border-active);
