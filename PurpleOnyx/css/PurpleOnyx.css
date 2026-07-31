@@ -1388,9 +1388,14 @@ span:has(.pronouns__26b1f) {
 	background-color: var(--oPur-42);
 }
 
- /* Selected Server Indicator */
-.wrapper__58105.overlay__58105 > .item__58105[style*="height: 40px;"] {
-	height: 24px !important;
+ /* Server Indicator */
+.wrapper__58105.overlay__58105 {
+	.item__58105.hovered__58105 {
+		height: 16px;
+	}
+	.item__58105.selected__58105 {
+		height: 24px;
+	}
 }
 
  /* New Messages Indicator */
