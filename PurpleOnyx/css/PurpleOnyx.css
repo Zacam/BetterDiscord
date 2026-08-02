@@ -1190,6 +1190,13 @@ div[id^="popout"]:has(.container__8cb2e) {
 }/*</Toolbar>*/
 
 /* Profiles                                                                                                     */
+ /* Remove Profile Banner Cutout */
+.fill_b83360.banner__68edb {
+	--custom-cutout-radius: 0px !important; /* 46px*/
+	--custom-cutout-x: unset !important; /* 54px*/
+	--custom-cutout-y: unset !important; /* calc(100% - 6px) */
+}
+
  /* Fullsize Profile View */
 .profileContentInner__9c3be {
 	.top_aa8da2 .selected_aa8da2 {
