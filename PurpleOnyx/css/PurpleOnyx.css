@@ -1193,8 +1193,8 @@ div[id^="popout"]:has(.container__8cb2e) {
  /* Remove Profile Banner Cutout */
 .fill_b83360.banner__68edb {
 	--custom-cutout-radius: 0px !important; /* 46px*/
-	--custom-cutout-x: unset !important; /* 54px*/
-	--custom-cutout-y: unset !important; /* calc(100% - 6px) */
+	--custom-cutout-x: unset !important; /* 56px*/
+	--custom-cutout-y: unset !important; /* calc(100% - 8px) */
 }
 
  /* Fullsize Profile View */
