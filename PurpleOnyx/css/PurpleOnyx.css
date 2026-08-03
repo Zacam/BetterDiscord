@@ -1197,6 +1197,10 @@ div[id^="popout"]:has(.container__8cb2e) {
 	--custom-cutout-y: unset !important; /* calc(100% - 8px) */
 }
 
+#app-mount .wrapper__44b0c {
+	background-color: #000;
+}
+
  /* Fullsize Profile View */
 .profileContentInner__9c3be {
 	.top_aa8da2 .selected_aa8da2 {
