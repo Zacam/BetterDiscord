@@ -1198,7 +1198,7 @@ div[id^="popout"]:has(.container__8cb2e) {
 }
 
 #app-mount .wrapper__44b0c {
-	background-color: #000;
+	background: var(--background-base-low);
 }
 
  /* Fullsize Profile View */
