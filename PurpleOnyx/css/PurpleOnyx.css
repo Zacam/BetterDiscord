@@ -1492,11 +1492,11 @@ nav .header_f37cb1 {
 		margin-top: 7px;
 	}
 	&::before {
-		background: linear-gradient(to left, var(--oPurple) 50%, transparent);
+		background: linear-gradient(to left, var(--oPur-64) 50%, transparent);
 		margin-right: 4px;
 	}
 	&::after {
-		background: linear-gradient(to right, var(--oPurple) 50%, transparent);
+		background: linear-gradient(to right, var(--oPur-64) 50%, transparent);
 		margin-left: 4px;
 	}
 }
