@@ -2335,6 +2335,7 @@ aside.membersWrap_c8ffbb .content_d125d2 {
 	height: calc-size(auto, size + 10px) !important;
 }
 
+ /* Role Headers */
 h3.membersGroup_c8ffbb {
 	padding: 2px 0px 0px 0px;
 	.membersGroupHeader_c8ffbb {
@@ -2360,6 +2361,26 @@ h3.membersGroup_c8ffbb {
 	}
 	.membersGroupHeader_c8ffbb:not([style^="color:"]) {
 		color: var(--oPurple);
+	}
+}
+h2.membersGroup_c8ffbb {
+	color: var(--oPurple);
+	display: flex;
+	padding-top: 4px;
+	padding-bottom: 0px;
+	&::before, &::after {
+		content: "";
+		height: 2px;
+		flex-grow: 1;
+		margin-top: 7px;
+	}
+	&::before {
+		background: linear-gradient(to left, currentColor 50%, transparent);
+		margin-right: 4px;
+	}
+	&::after {
+		background: linear-gradient(to right, currentColor 50%, transparent);
+		margin-left: 4px;
 	}
 }/*</Members List>*/
 
