@@ -313,15 +313,15 @@ border-color: var(--border-normal) !important;
 }
 
  /* APP Bot Tags */
-[class*="botTag"] {
+[class*="botTag"]:not([class*="botTagNotStaffWarning"]) {
 	color: rgb(8,8,8) !important;
 }
 
-[class*="botTag"]:not([class*="botTagOP"])>[class*="botText"] {
+[class*="botTag"]:not([class*="botTagOP"],[class*="botTagNotStaffWarning"])>[class*="botText"] {
 	display: none;
 }
 
-[class*="botTag"]:not([class*="botTagOP"])::after {
+[class*="botTag"]:not([class*="botTagOP"], [class*="botTagNotStaffWarning"])::after {
 	content: "BOT";
 	font-weight: var(--font-weight-bold);
 }
