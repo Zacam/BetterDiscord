@@ -2406,24 +2406,17 @@ h2.membersGroup_c8ffbb {
 .container__9293f .upperContainer__9293f .children__9293f {
 	.avatar_f75fb0 {
 		margin-inline-start: 1px;
+		margin-inline-end: 12px;
 	}
-	.titleWrapper__9293f {
-		margin-inline: 0px 4px;
-		margin-top: 5px;
+	h1.title__9293f.titleClickable__9293f span {
+		margin-top: 6px;
 	}
 	.dmHeaderActivityStatus_f75fb0 {
+		margin-inline-start: 0px;
 		margin-top: 8px;
 	}
 	svg.dot__9293f {
 		color: var(--oPurple);
-		margin-right: 0px;
-	}
-	.akaBadge__488b1 {
-		margin-inline-start: 4px;
-		margin-top: 1px;
-	}
-	.nicknames__488b1 {
-		margin-inline: 4px 0;
 	}
 }
 
