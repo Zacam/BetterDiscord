@@ -1555,9 +1555,10 @@ nav .header_f37cb1 {
 	padding-bottom: 0px;
 	width: 93%;
 	.bar__7aaec {
-		justify-content: center;
 		background: #000;
 		border: 1px groove var(--border-active);
+		justify-content: center;
+		margin-bottom: 17px;
 		svg.unreadIcon__7aaec {
 			display: none;
 		}
