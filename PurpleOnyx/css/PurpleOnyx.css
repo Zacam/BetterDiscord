@@ -1477,6 +1477,30 @@ nav .header_f37cb1 {
 	display: none;
 }
 
+ /* Channels List */
+.wrapperCommon__29444 .mainContent__29444 .name__29444 {
+	flex: 1;
+}
+.containerDefault__29444 h3.name__29444 {
+	display: flex;
+	padding-top: 4px;
+	padding-bottom: 0px;
+	&::before, &::after {
+		content: "";
+		height: 2px;
+		flex-grow: 1;
+		margin-top: 7px;
+	}
+	&::before {
+		background: linear-gradient(to left, var(--oPurple) 50%, transparent);
+		margin-right: 4px;
+	}
+	&::after {
+		background: linear-gradient(to right, var(--oPurple) 50%, transparent);
+		margin-left: 4px;
+	}
+}
+
  /* Server Event Popup */
 .content__49fc1.content_d0b769 {
 	background-color: var(--background-base-lowest);
