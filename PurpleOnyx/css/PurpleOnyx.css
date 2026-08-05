@@ -317,13 +317,25 @@ border-color: var(--border-normal) !important;
 	color: rgb(8,8,8) !important;
 }
 
-[class*="botTag"]:not([class*="botTagOP"],[class*="botTagNotStaffWarning"])>[class*="botText"] {
+[class*="botTag"]:not([class*="botTagOP"], [class*="botTagNotStaffWarning"])>[class*="botText"] {
 	display: none;
 }
 
 [class*="botTag"]:not([class*="botTagOP"], [class*="botTagNotStaffWarning"])::after {
 	content: "BOT";
 	font-weight: var(--font-weight-bold);
+}
+
+.botTagNotStaffWarning__82f07 {
+	margin-top: 5px;
+	.botText__82f07 {
+		vertical-align: baseline;
+	}
+}
+
+.botTagNotStaffWarning__82f07, .botTagNotStaffWarning__82f07 .botText__82f07 {
+	display: initial !important;
+	color: var(--oPurple) !important;
 }
 
 [class*="colorDefault"] [class*="label"] {
