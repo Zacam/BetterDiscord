@@ -76,6 +76,10 @@
 
 /*General Discord                                                                                              */
  /* Scrollbars */
+.scrollbarGutterStable_d125d2 {
+	scrollbar-gutter: auto;
+}
+
 /*Nitro Home*/.applicationStore_f07d62 .mainPageScroller__80907,
 /*Shop*/.shopScroll__1feb0,
 /*Mana Modal*/.bodyList__8a031:hover,
