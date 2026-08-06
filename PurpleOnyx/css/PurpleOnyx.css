@@ -461,9 +461,13 @@ border-color: var(--border-normal) !important;
 }
 
  /* Server Settings */
+.standardSidebarView__23e6b * {
+	box-sizing: unset;
+}
+
 div[data-layer="GUILD_SETTINGS"] {
 	.sidebarRegion__23e6b {
-		flex: 1 0 0px;
+		flex: 1 1 auto;
 	}
 	.sidebarRegionScroller__23e6b {
 		overflow-y: auto !important;
@@ -507,12 +511,14 @@ div[data-layer="GUILD_SETTINGS"] {
 	}
 	.contentRegion__23e6b {
 		margin-top: 45px;
-		.contentRegionScroller__23e6b {
+		> .contentRegionScroller__23e6b {
+			border: 2px groove var(--border-normal);
+			border-radius: 18px;
+			flex: 0 1 auto;
 			margin-top: 0px;
-			border-left: 2px groove var(--border-normal);
-			border-top: 2px groove var(--border-normal);
-			border-top-left-radius: 18px;
-			overflow-y: auto !important;
+			.contentRegionScroller__23e6b {
+				border: none;
+			}
 			.contentColumn__23e6b:not(#roles-tab) {
 				padding: 10px 40px 10px;
 			}
