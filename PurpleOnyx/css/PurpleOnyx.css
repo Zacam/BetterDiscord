@@ -2295,6 +2295,13 @@ svg.downloadHoverButtonIcon__6c706 path {
 	fill: rgb(218, 62, 68);
 }
 
+.nav_b2eddf .buttonInner_aec7ab {
+	border-color: var(--oPur-64);
+	svg path {
+		fill: var(--oPurple) !important;
+	}
+}
+
  /* Threaded View */
 .brand_c2b88c, .newBadge_faa96b, .newBadge__4ed1a>div {
 	background-color: unset !important;
