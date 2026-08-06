@@ -2236,6 +2236,12 @@ svg.downloadHoverButtonIcon__6c706 path {
 	margin-left: 4px;
 }
 
+ /* Slow Mode */
+.cooldownWrapper_b21699 .cooldownText_b21699 {
+	color: rgba(255, 192, 78, .64) !important;
+	font-family: var(--font-code);
+}
+
  /* Attach Button Padding */
 .attachWrapper__0923f {
 	padding: unset;
