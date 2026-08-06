@@ -2334,13 +2334,29 @@ svg.downloadHoverButtonIcon__6c706 path {
 	}
 }
 
- /* Stream Volume Control */
-.volumeButton__2d263 svg path[d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM15.18"] {
-	--interactive-icon-default: var(--status-online);
+ /* VM Container */
+.ripple_a8e786 {
+	background-color: unset;
 }
 
-.volumeButton__2d263 svg path[d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM22.7"] {
+ /* VM Play Button */
+.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
+	background: linear-gradient(151.11deg, var(--oPur-42) 16.55%, var(--oPur-64) 104.36%)
+}
+.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover {
+	background: linear-gradient(151.11deg, var(--oPur-64) 16.55%, var(--oPur-84) 104.36%)
+}
+
+ /* Stream/VM Volume Control */
+.volumeButton__2d263 svg.volumeButtonIcon_a8e786 path[d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM15.1"],
+.volumeButton__2d263 svg.volumeButtonIcon_a8e786 path[d="M15.16 16.51c-.57.28-1.16-.2-1.16-.83v-.14c0-.43.28-.8.63-1.02a3 3 0 0 0 0-5.04c-.35-.23-.63-.6-.63-1.02v-.14c0-.63.59-1.1 1.16-.83a5 5 0 0 1 0 9.02Z"] {
+	--interactive-icon-default: var(--status-online);
+	fill: var(--status-online);
+}
+
+.volumeButton__2d263 svg.volumeButtonIcon_a8e786 path[d^="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM22.7"] {
 	--interactive-icon-default: var(--status-danger);
+	fill: var(--status-danger);
 }
 
  /* Set Channel Status */
@@ -2361,14 +2377,14 @@ svg.downloadHoverButtonIcon__6c706 path {
 	--red-400: var(--oPur-64);
 }
 
+.bottomControls_bfe55a {
+	display: inline;
+}
+
 .container__218f7:has(.activityVoiceChannel__2ef49),
 .participantsButton__211d1,
 .buttonSection__1405b {
 	border: 1px solid var(--border-active);
-}
-
-.videoControls_bfe55a .bottomControls_bfe55a .edgeControls_bfe55a:first-of-type {
-	display: none;
 }
 
 .videoControls_bfe55a .edgeControls_bfe55a:last-of-type button {
