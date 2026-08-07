@@ -717,7 +717,7 @@ div[data-layer="GUILD_SETTINGS"] {
 
 /* Shop Tabs */
 .tabs__354ec.top_aa8da2 {
-	.tab__354ec[aria-selected=true] {
+	.tab__354ec[aria-selected="true"] {
 		border-color: var(--oPur-64);
 		color: var(--oPur-84) !important;
 	}
@@ -731,7 +731,7 @@ div[data-layer="GUILD_SETTINGS"] {
 
 /* Quests Tabs */
 .tabs__26669 {
-	.tabWrapper__26669[aria-selected=true] h1 {
+	.tabWrapper__26669[aria-selected="true"] h1 {
 		border-color: var(--oPur-64) !important;
 		color: var(--oPur-84) !important;
 	}
