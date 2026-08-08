@@ -238,6 +238,14 @@ border-color: var(--border-normal) !important;
 	}
 }
 
+ /* Remove "Mute Channel" chevron and sub-menu */
+#channel-context-mute-channel .iconContainer_c1e9c4 {
+	display: none;
+}
+.submenuPaddingContainer_c1e9c4:has(> [aria-activedescendant="channel-context-mute-channel"]) {
+	display: none;
+}
+
  /* Number Badges */
 [class*="numberBadge"] {
 	--background-accent: rgba(164,128,226,0.5);
