@@ -255,14 +255,24 @@ border-color: var(--border-normal) !important;
 }
 
  /* Text "New" Badge */
-.titleBadge_e4503a, .newBadge__0b563, .newBadge__5d7c9, .badge_c2b88c {
-	--brand-260: var(--brand-300);
+.newBadge__1811e {
+	--badge-notification-background: var(--oPur-64);
+}
+
+.theme-dark .productCardBadge_b8a6bd {
+	background-color: var(--oPur-64);
 	color: var(--text-default);
 }
 
 .badge_c2b88c {
 	background-color: transparent;
 	color: var(--oPurple);
+}
+
+ /* Reward Badge */
+.pill__5b393 {
+	--badge-expressive-text-default: var(--text-default);
+	background-color: var(--oPur-64);
 }
 
  /* Polls */
@@ -651,6 +661,14 @@ div[data-layer="GUILD_SETTINGS"] {
 /* Modals */
 .listBox__2e223.scrollable__2e223 {
 	background-color: var(--background-base-lower);
+}
+
+.footerContentWrapper__5b393 .container__2ecd5 {
+	background-color: var(--background-base-low);
+	border: 1px solid var(--border-normal);
+	.divider__2ecd5 {
+		background: var(--border-normal);
+	}
 }
 
 /* Experiments Embed */
@@ -1713,9 +1731,14 @@ li.containerDefault_c69b6d:hover .linkTop__2ea32>.name__2ea32 {
 }
 
  /* "Show All" VC Button */
-.refreshVoiceChannelsButton__29444>button {
-	border-color: var(--border-active);
-	color: var(--oPur-64);
+.refreshVoiceChannelsButton__29444 {
+	> button {
+		border-color: var(--border-active);
+	}
+	.md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0 {
+		min-height: unset;
+		padding: 4px 0px;
+	}
 }
 
 /* VC Border and Glow */
