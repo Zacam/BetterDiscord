@@ -163,7 +163,7 @@ svg.lucide-x {
 /* Toolbar */
  /* Search */
 .bd-search-wrapper>svg,
-.icon__0f084>svg:has(path[d="M15.62 17.03a9 9 0 1 1 1.41-1.41l4.68 4.67a1 1 0 0 1-1.42 1.42l-4.67-4.68ZM17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"]),
+.searchBarContainer_fffcb4 .icon__75098 svg,
 .searchBar_c322aa svg.icon__0c4c4:not(.clear__0c4c4),
 form svg.icon__0c4c4:not(.clear__0c4c4) {
 	background-image: url("https://discord.com/assets/74f0a67afb481b21.svg");
