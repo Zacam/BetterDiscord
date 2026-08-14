@@ -164,6 +164,7 @@ svg.lucide-x {
 /* Toolbar */
  /* Search */
 .bd-search-wrapper>svg,
+.searchBar__5ec2f .icon__75098, /* Friends List */
 .searchBarContainer_fffcb4 .icon__75098 svg,
 .searchBar_c322aa svg.icon__0c4c4:not(.clear__0c4c4),
 form svg.icon__0c4c4:not(.clear__0c4c4) {
