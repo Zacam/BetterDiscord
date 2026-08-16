@@ -164,8 +164,7 @@ svg.lucide-x {
 /* Toolbar */
  /* Search */
 .bd-search-wrapper>svg,
-.searchBar__5ec2f .icon__75098, /* Friends List */
-.searchBarContainer_fffcb4 .icon__75098 svg,
+.icon__75098 svg,
 .searchBar_c322aa svg.icon__0c4c4:not(.clear__0c4c4),
 form svg.icon__0c4c4:not(.clear__0c4c4) {
 	background-image: url("https://discord.com/assets/74f0a67afb481b21.svg");
@@ -230,7 +229,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	}
 }
 
-  /* Pinned Popou */
+  /* Pinned Popout */
 .messagesPopoutWrap__432f4>.header__432f4>.titleContainer__432f4 {
 	background-image: url("https://discord.com/assets/c7ba45651998dd2c.svg");
 	background-size: 18px;
@@ -333,7 +332,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	color: var(--status-danger);
 }
 
- /*Ping */
+ /* Ping */
 .ping__06d62.largePing__06d62 path {
 	fill: var(--status-online);
 }/*</Avatar Wrapper - VC>*/
@@ -448,7 +447,18 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	filter: hue-rotate(90deg);
 }
 
-/* Notifications */
+ /* Show All Channels */
+#guild-header-popout-opt-in .iconContainerLeft_c1e9c4 svg {
+	background-image: url("https://discord.com/assets/de6728ac385645a5.svg");
+	background-size: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+	>path {
+		display: none;
+	}
+}
+
+ /* Notifications */
 #guild-header-popout-notifications svg {
 	background-image: url("https://discord.com/assets/ca750a2b73e36154.svg");
 	background-size: 18px;
@@ -468,13 +478,24 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	}
 }
 
-/* Edit Server Profile */
+ /* Edit Per-server Profile */
 #guild-header-popout-change-nickname svg {
 	background-image: url("https://discord.com/assets/fe96ae6b8d6103d2.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
 	transform: scaleX(-1);
+	>path {
+		display: none;
+	}
+}
+
+ /* Hide Muted Channels */
+#guild-header-popout-hide-muted-channels .iconContainerLeft_c1e9c4 svg {
+	background-image: url("https://discord.com/assets/6c4edbf76bb07c39.svg");
+	background-size: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
 	>path {
 		display: none;
 	}
