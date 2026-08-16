@@ -508,25 +508,43 @@ div[data-layer="GUILD_SETTINGS"] {
 		}
 	}
 	#roles-tab {
+		width: 670px;
 		.sidebar_e29cd7 {
-			height: 100%;
-		}
-		.container_e29cd7 {
-			max-height: 100%;
+			.titleContainer_e29cd7 {
+				margin-block: 4px 0px;
+				margin-inline: 0px;
+				padding: 8px 16px;
+			}
 			.list_e29cd7 {
-				overflow: hidden !important;
-				padding-block: 0px;
-				div[aria-hidden="true"] {
-					display: none;
-				}
+				padding-block: 0px 16px;
+				padding-inline: 16px 0px;
 			}
 		}
-		.titleContainer_e29cd7 {
-			padding: 13px 8px 0px;
-		}
-		.contentWidth_c6bf1b .header_c6bf1b {
-			padding-top: 15px;
-			top: 2px;
+		.contentContainer__91dc3 {
+			/*box-sizing: content-box;*/
+			height: 100vh;
+			.scroller__16663 {
+				padding-bottom: 0px;
+			}
+			.contentWidth_c6bf1b {
+				margin-right: 20px;
+				.stickyHeader_c6bf1b {
+					margin-bottom: 0px;
+				}
+				.header_c6bf1b {
+					padding-top: 16px;
+				}
+				.titleContainer__81b3e {
+					margin-bottom: 0px;
+				}
+				.permissionsWrapper__16663 {
+					gap: unset;
+					padding-bottom: 0px;
+					.permissionsForm__16663 {
+						margin-top: 16px;
+					}
+				}
+			}
 		}
 	}
 	.contentRegion__23e6b {
@@ -2523,6 +2541,10 @@ h2.membersGroup_c8ffbb {
 
 .title_f75fb0 div:has(>.avatar_f75fb0) {
 	margin-top: -6px;
+}
+
+.peopleList__5ec2f .content_d125d2 {
+	height: auto !important;
 }
 
 .peopleListItem_cc6179 {
