@@ -1266,8 +1266,8 @@ div[id^="popout"]:has(.container__8cb2e) {
 /* Profiles                                                                                                     */
  /* Remove Profile Banner Cutout */
 .fill_f7e69e.banner__68edb.banner__7f9c0 {
-	--custom-cutout-radius: 0px !important; /* 46px*/
-	--custom-cutout-x: unset !important; /* 56px*/
+	--custom-cutout-radius: 0px !important; /* 46px */
+	--custom-cutout-x: unset !important; /* 56px */
 	--custom-cutout-y: unset !important; /* calc(100% - 8px) */
 }
 
