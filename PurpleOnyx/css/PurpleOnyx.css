@@ -709,6 +709,21 @@ div[data-layer="GUILD_SETTINGS"] {
 	margin-block: 21px 21px;
 }
 
+[data-list-id="settings-sidebar"] {
+	.itemContainer_caf372 .item_caf372.active_caf372,
+	.subnav_e4d939 .item_e4d939.active_e4d939 {
+		background-color: var(--background-base-low);
+		color: var(--oPur-64);
+	}
+	.itemContainer_caf372 .item_caf372:hover,
+	.subnav_e4d939 .item_e4d939:hover {
+		color: var(--oPurple);
+	}
+	.thumb_e4d939 {
+		background-color: var(--oPur-84);
+	}
+}
+
 .modalContent_e44912 {
 	.sidebar__409aa {
 		padding-block: unset;
