@@ -218,6 +218,18 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	}
 }
 
+ /* Topic Notification Bell */
+.toolbar__9293f>.iconWrapper__9293f:has(svg>path[d^="M9.7 2.89c.18-.07.32-.24.37-.43a2"]) {
+	background-image: url("https://discord.com/assets/5a9bb1889bc6b8dc.svg");
+	background-size: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+	transform: scaleX(-1);
+	path {
+		display:none;
+	}
+}
+
  /* Pinned Message */
 .toolbar__9293f>.iconWrapper__9293f:has(>svg path[d^="M19.38 11.38a3 3 0 0 0 4.24 0l.03-.03a.5.5 0 0 0 0-.7L13.35.35a.5.5"]) {
 	background-image: url("https://discord.com/assets/c7ba45651998dd2c.svg");
