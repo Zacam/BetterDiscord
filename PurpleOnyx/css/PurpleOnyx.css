@@ -382,7 +382,7 @@ border-color: var(--border-normal) !important;
 }
  /* Wrap the Embed Border */
 .embedFull__623de {
-	font-size: 12px;
+	font-size: .75rem;
 	overflow: hidden;
 	&::before {
 		content: "";
@@ -413,7 +413,7 @@ border-color: var(--border-normal) !important;
 	}
 	/* Fix Font Scale */
 	.embedAuthorName__623de, .embedTitle__623de, .embedDescription__623de {
-		font-size: 14px;
+		font-size: .875rem;
 		line-height: 1.25;
 	}
 }
