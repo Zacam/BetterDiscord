@@ -2650,8 +2650,11 @@ span.infoSpacing_f4bc97.globalName_b8dbac::before {
 [data-list-id="message-requests-spam-list"] {
 	.content_d125d2 {
 		height: fit-content !important;
-		div[style="height: 24px;"], h2.sectionTitle_dcc822 {
+		div[style="height: 24px;"] {
 			display: none;
+		}
+		h2.sectionTitle_dcc822 {
+			margin: 8px 10px;
 		}
 	}
 }
