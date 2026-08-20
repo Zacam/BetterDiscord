@@ -2595,7 +2595,7 @@ span.infoSpacing_f4bc97.discriminator__0a06e::before,
 
  /* Top Gap */
 ul.content_d125d2 div[style="height: 8px;"] {
-	display: none;
+	height: 6px !important;
 }
 
  /* Decorative Border */
