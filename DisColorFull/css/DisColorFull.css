@@ -1,4 +1,4 @@
-/* 2026-08-19 15:30 PT */
+/* 2026-08-22 16:15 PT */
 /* Main Titlebar */
  /* Inbox */
 .toolbar__9293f .buttons_8227b0 > .clickable__81391 svg:has(>path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3"]), /* Old Title Bar */
@@ -405,6 +405,41 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 		display: none;
 	}
 }/*</Registered Games>*/
+
+/* Roles */
+ /* View */
+.roleRow__5f97b svg.icon_a22cb0:has(>path[d="M15.56 11.77c.2-.1.44.02.44.23a4 4 0 1 1-4-4c.21 0 .33.25.23.44a2.5 2.5 0 0 0 3.32 3.32Z"]) {
+	background-image: url("https://discord.com/assets/de6728ac385645a5.svg");
+	background-size: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+	>path {
+		display: none;
+	}
+}
+
+ /* Edit */
+.roleRow__5f97b svg.icon_a22cb0:has(>path[d^="m13.96 5.46 4.58 4.58a1 1 0 0 0 1.42 0l1.38-1.38a2"]) {
+	background-image: url("https://discord.com/assets/fe96ae6b8d6103d2.svg");
+	background-size: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+	transform: scaleX(-1);
+	>path {
+		display: none;
+	}
+}
+
+ /* Members */
+.memberCountContainer__5f97b svg.person__5f97b {
+	background-image: url("https://discord.com/assets/5b12dce3a467ed97.svg");
+	background-size: 18px;
+	background-position: center;
+	background-repeat: no-repeat;
+	>path {
+		display: none;
+	}
+}
 
 /* Server Dropdown ----------------------------------------------------------------------------*/
  /* Server Boost */
