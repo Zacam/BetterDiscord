@@ -1,4 +1,4 @@
-/* 2026-08-24 19:30 PT */
+/* 2026-08-27 22:45 PT */
 /* GitCord Markdown */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Markdown.css");
 
@@ -897,16 +897,16 @@ nav.nav__409aa ul.sublist__409aa li.section__409aa:has([data-settings-sidebar-it
 .base__5e434 {
 	margin-top: -32px;
 	&:has(.trailing_c38106 > :nth-child(3)) {
-		--trailingCounter: 112px; /* Inbox Only */
+		--trailingCounter: 113px; /* Inbox Only */
 	}
 	&:has(.trailing_c38106 > :nth-child(4)) {
-		--trailingCounter: 142px; /* Inbox + 1 */
+		--trailingCounter: 143px; /* Inbox + 1 */
 	}
 	&:has(.trailing_c38106 > :nth-child(5)) {
-		--trailingCounter: 172px; /* Inbox + 2 */
+		--trailingCounter: 173px; /* Inbox + 2 */
 	}
 	&:has(.trailing_c38106 > :nth-child(6)) {
-		--trailingCounter: 199px; /* Inbox + 3 */
+		--trailingCounter: 200px; /* Inbox + 3 */
 	}
 }
 .bar_c38106 {
@@ -995,6 +995,9 @@ nav,
 	.clickable__81391 {
 		margin: 0px 3px;
 	}
+	.iconWrapper__468db {
+		left: 2px;
+	}
 	.iconWrapper__9293f {
 		border-radius: var(--custom-app-top-bar-item-radius);
 		height: 28px;
@@ -1005,30 +1008,27 @@ nav,
 	}
 }
 
-.winButton_c38106 {
-	width: 26px;
-}
-
-.winButtons_c38106::before {
-	margin-inline: unset;
-	margin-left: 4px;
-	margin-right: 5px;
-}
-
-.winButton_c38106:hover {
-	border-radius: 8px;
-}
-
-.winButton_c38106 svg {
-	height: 18px;
-	width: 18px;
-}
-.winButtonMinMax_c38106:first-of-type {
-	align-items: end;
-	svg {
-		margin-bottom: 1px;
+ /* Min/Max/Close */
+.winButtons_c38106 {
+	margin-right: 4px;
+	.winButton_c38106 {
+		width: 26px;
+	}
+	.winButton_c38106:hover {
+		border-radius: 8px;
+	}
+	.winButton_c38106 svg {
+		height: 18px;
+		width: 18px;
+	}
+	.winButtonMinMax_c38106:first-of-type {
+		align-items: end;
+		svg {
+			margin-bottom: 1px;
+		}
 	}
 }
+
 
  /* Border */
 .container__9293f {
