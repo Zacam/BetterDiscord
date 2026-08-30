@@ -215,6 +215,7 @@ div[role="menu"] div[role="separator"] {
  /* User Context Menu */ .menu_c1e9c4#user-context,
  /* Image Context Menu */ .menu_c1e9c4#image-context,
  /* Threads Context Menu */ .menu_c1e9c4#thread-context,
+ /* Download Menu */.menu_c1e9c4#plaintext-preview-overflow-menu,
  /* Friends More Menu */ .menu_c1e9c4#friend-row,
  /* DM's Context Menu */ .menu_c1e9c4#gdm-context,
  /* Sub-Menu */ .submenu_c1e9c4:not([aria-activedescendant^="settings-menu-experiments_sidebar_item"]) {
