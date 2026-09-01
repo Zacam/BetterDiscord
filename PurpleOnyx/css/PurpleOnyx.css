@@ -2540,6 +2540,26 @@ h2.membersGroup_c8ffbb {
 }/*</Members List>*/
 
 /* DMs                                                                                                          */
+ /* Active Now */
+.nowPlayingColumn__133bf aside.refresh-active-now {
+	.scroller__7d20c {
+		overflow: hidden auto !important;
+		padding: 0px 4px;
+		h2.header__7d20c {
+			color: var(--oPur-64);
+			display: block flex;
+			justify-content: center;
+			margin: 8px 0px;
+		}
+		.itemCard__7e549 {
+			margin-top: 6px;
+			.header__00943, .section__00943 {
+				padding: 8px;
+			}
+		}
+	}
+}
+
  /* Friend List */
 .tabBar__133bf.topPill_aa8da2 .item__133bf {
 	margin: 0px 4px;
