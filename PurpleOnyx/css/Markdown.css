@@ -197,7 +197,7 @@ code:not(.inline, .diff, .codeView__4d95d) {
 	background: #b0721952;
 }
 
-.theme-dark .markup__75297 .hljs[class$="cjs" i]::before
+.theme-dark .markup__75297 .hljs[class$="cjs" i]::before,
 .theme-dark .markup__75297 .hljs[class$="javascript" i]::before,
 .theme-dark .markup__75297 .hljs[class~="js" i]::before,
 .theme-dark .markup__75297 .hljs[class$="-js" i]::before,
