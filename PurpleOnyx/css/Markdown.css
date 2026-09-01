@@ -50,6 +50,7 @@ code:not(.inline, .diff, .codeView__4d95d) {
 
 /* Markdown */
 .theme-dark .markup__75297 .hljs[class$="bash" i]::before,
+.theme-dark .markup__75297 .hljs[class$="cjs" i]::before,
 .theme-dark .markup__75297 .hljs[class$="coffee" i]::before,
 .theme-dark .markup__75297 .hljs[class$="cpp" i]::before,
 .theme-dark .markup__75297 .hljs[class$="csharp" i]::before,
@@ -63,12 +64,14 @@ code:not(.inline, .diff, .codeView__4d95d) {
 .theme-dark .markup__75297 .hljs[class$="javascript" i]:before,
 .theme-dark .markup__75297 .hljs[class$="-js" i]::before,
 .theme-dark .markup__75297 .hljs[class~="js" i]::before,
+.theme-dark .markup__75297 .hljs[class$="jsx" i]::before,
 .theme-dark .markup__75297 .hljs[class$="json" i]::before,
 .theme-dark .markup__75297 .hljs[class$="less" i]::before,
 .theme-dark .markup__75297 .hljs[class$="lua" i]::before,
 .theme-dark .markup__75297 .hljs[class$="makefile" i]::before,
 .theme-dark .markup__75297 .hljs[class$="markdown" i]::before,
 .theme-dark .markup__75297 .hljs[class$="md" i]::before,
+.theme-dark .markup__75297 .hljs[class$="mjs" i]::before,
 .theme-dark .markup__75297 .hljs[class$="php" i]::before,
 .theme-dark .markup__75297 .hljs[class$="prolog" i]::before,
 .theme-dark .markup__75297 .hljs[class$="py" i]::before,
@@ -98,6 +101,7 @@ code:not(.inline, .diff, .codeView__4d95d) {
 }
 
 .theme-dark .markup__75297 .hljs[class$="bash" i],
+.theme-dark .markup__75297 .hljs[class$="cjs" i],
 .theme-dark .markup__75297 .hljs[class$="coffee" i],
 .theme-dark .markup__75297 .hljs[class$="cpp" i],
 .theme-dark .markup__75297 .hljs[class$="csharp" i],
@@ -111,12 +115,14 @@ code:not(.inline, .diff, .codeView__4d95d) {
 .theme-dark .markup__75297 .hljs[class$="javascript" i],
 .theme-dark .markup__75297 .hljs[class$="-js" i],
 .theme-dark .markup__75297 .hljs[class~="js" i],
+.theme-dark .markup__75297 .hljs[class$="jsx" i],
 .theme-dark .markup__75297 .hljs[class$="json" i],
 .theme-dark .markup__75297 .hljs[class$="less" i]
 .theme-dark .markup__75297 .hljs[class$="lua" i],
 .theme-dark .markup__75297 .hljs[class$="makefile" i],
 .theme-dark .markup__75297 .hljs[class$="markdown" i],
 .theme-dark .markup__75297 .hljs[class$="md" i],
+.theme-dark .markup__75297 .hljs[class$="mjs" i],
 .theme-dark .markup__75297 .hljs[class$="php" i],
 .theme-dark .markup__75297 .hljs[class$="prolog" i],
 .theme-dark .markup__75297 .hljs[class$="py" i],
@@ -191,9 +197,12 @@ code:not(.inline, .diff, .codeView__4d95d) {
 	background: #b0721952;
 }
 
+.theme-dark .markup__75297 .hljs[class$="cjs" i]::before
 .theme-dark .markup__75297 .hljs[class$="javascript" i]::before,
 .theme-dark .markup__75297 .hljs[class~="js" i]::before,
-.theme-dark .markup__75297 .hljs[class$="-js" i]::before {
+.theme-dark .markup__75297 .hljs[class$="-js" i]::before,
+.theme-dark .markup__75297 .hljs[class$="jsx" i]::before,
+.theme-dark .markup__75297 .hljs[class$="mjs" i]::before {
 	content: "Javascript";
 	background: #f1e05a52;
 }
