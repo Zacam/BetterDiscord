@@ -1,4 +1,4 @@
-/* 2026-09-02 09:00 PT */
+/* 2026-09-02 23:00 PT */
 /* GitCord Markdown */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Markdown.css");
 
@@ -293,7 +293,7 @@ border-color: var(--border-normal) !important;
 }
 
  /* Text Badges */
-[class^="newTextBadge"] {
+.newBadge__4962e.textBadge__463b7 {
 	--badge-notification-background: var(--oPur-84);
 }
 
