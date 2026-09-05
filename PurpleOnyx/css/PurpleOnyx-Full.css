@@ -219,6 +219,19 @@ div[class^="topSection"] {
 #account-panel {
 	margin-left: -4px;
 	padding-bottom: 4px !important;
+	width: 201px;
+	> .scroller_c1e9c4 {
+		max-width: 201px;
+	}
+	> div > div[role="group"] {
+		max-width: 183px;
+	}
+	.item_c1e9c4 {
+		max-width: 183px;
+	}
+	div > div.separator_c1e9c4 {
+		width: 175px;
+	}
 }
 
  /* Remove Status Selection submenu */
@@ -249,11 +262,6 @@ div[class^="topSection"] {
 	min-width: unset !important;
 	width: fit-content;
 	padding-right: 6px;
-}
-
- /* Fix SimpleUserMenu Divider Width */
-#account-panel > div > div.separator_c1e9c4 {
-	width: unset;
 }
 
  /* SimpleUserMenu Status Icon Fix */
