@@ -209,6 +209,7 @@ div[role="menu"] div[role="separator"] {
 	margin: 2px 4px;
 }
 
+ /* Settings Context Menu */ .menu_c1e9c4#settings-menu,
  /* Guild Context Menu */ .menu_c1e9c4#guild-context,
  /* Server Menu */ .menu_c1e9c4#guild-header-popout,
  /* Channel Context Menu */ .menu_c1e9c4#channel-context,
@@ -218,10 +219,10 @@ div[role="menu"] div[role="separator"] {
  /* Download Menu */.menu_c1e9c4#plaintext-preview-overflow-menu,
  /* Friends More Menu */ .menu_c1e9c4#friend-row,
  /* DM's Context Menu */ .menu_c1e9c4#gdm-context,
- /* Sub-Menu */ .submenu_c1e9c4:not([aria-activedescendant^="settings-menu-experiments_sidebar_item"]) {
-	padding-right: 2px;
+ /* Sub-Menu */ .submenu_c1e9c4 {
+	/*padding-right: 2px;*/
 	.scroller_c1e9c4 {
-		overflow: hidden !important;
+		overflow: hidden auto !important;
 	}
 }
 
@@ -1561,6 +1562,18 @@ nav .header_f37cb1 {
 	display: none;
 }
 
+ /* Edit Channel */
+div[data-layer="CHANNEL_SETTINGS"] {
+	.contentRegion__23e6b {
+		.footerPlaceholder__98b95 {
+			padding-bottom: unset;
+			.footerImage__98b95 {
+				display: none;
+			}
+		}
+	}
+}
+
  /* Channels List */
 .wrapperCommon__29444 .mainContent__29444 .name__29444 {
 	flex: 1;
@@ -2689,6 +2702,12 @@ span.infoSpacing_f4bc97.globalName_b8dbac::before {
 aside .user-profile-sidebar {
 	.body_b32ca4, .info_b32ca4 {
 		gap: 6px;
+	}
+	.firstCardContainer__9d597 {
+		.clickableContainer__39ec2 {
+			border: 1px solid var(--border-normal);
+			border-radius: 8px;
+		}
 	}
 }
 
