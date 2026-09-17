@@ -2036,8 +2036,15 @@ nav.guilds__5e434 {
 }
 
  /* Announcement "Follow" Text */
-.formWithLoadedChatInput_f75fb0 .title__44df5 {
-	color: var(--oPurple);
+.formWithLoadedChatInput_f75fb0 {
+	.wrapper__44df5 {
+		justify-content: center;
+		margin-bottom: 1px;
+		padding: 0px;
+	}
+	.title__44df5 {
+		color: var(--oPurple);
+	}
 }
 
  /* Locked Topic Header */
