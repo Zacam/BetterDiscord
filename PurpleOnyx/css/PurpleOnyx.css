@@ -1541,7 +1541,7 @@ nav>#channels>ul.content_d125d2 {
 
  /* Change "Has Banner" Container height to match border alignment */
 nav .bannerVisible_f37cb1 .header_f37cb1 {
-	height: 47px !important;
+	height: 50px !important;
 }
 
  /* Add Border to Server Header Container */
