@@ -1109,8 +1109,10 @@ div[id^="popout"]:has(.container__8cb2e) {
 	}
 	.scroller__376cb {
 		background: var(--background-base-lowest);
+		padding: 8px;
 		.box__376cb {
 			background: var(--background-base-lower);
+			margin-bottom: 8px;
 			.channelHeader__5d903 {
 				background: var(--background-base-low);
 				padding: 4px 12px;
