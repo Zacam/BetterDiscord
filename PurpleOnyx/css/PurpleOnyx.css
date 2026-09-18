@@ -1009,6 +1009,16 @@ nav,
 		}
 	}
 }
+.subtitleContainer_f75fb0 {
+	max-height: 40px;
+	.title_f75fb0  {
+		height: 40px;
+	}
+}
+.trailing_c38106 {
+	margin-top: -8px;
+}
+
 
  /* Min/Max/Close */
 .winButtons_c38106 {
@@ -1472,6 +1482,9 @@ span:has(.pronouns__26b1f) {
 
 /* Servers Panel                                                                                                */
  /* Separator */
+.tutorialContainer__1f388 {
+	height: 37px;
+}
 .guildSeparator__252b6 {
 	background-color: var(--oPur-64) !important;
 }
@@ -1539,9 +1552,12 @@ nav>#channels>ul.content_d125d2 {
 	height: calc-size(auto, size + 8px) !important;
 }
 
- /* Change "Has Banner" Container height to match border alignment */
+ /* Change Server Banner Container height to match border alignment */
 nav .bannerVisible_f37cb1 .header_f37cb1 {
-	height: 50px !important;
+	height: 41px !important;
+}
+nav .container_f37cb1 .header_f37cb1 {
+	height: 40px;
 }
 
  /* Add Border to Server Header Container */
