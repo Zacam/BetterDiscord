@@ -1,4 +1,4 @@
-/* 2026-09-18 13:50 PT */
+/* 2026-09-19 02:30 PT */
 /* GitCord Markdown */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Markdown.css");
 
@@ -2203,10 +2203,10 @@ li.messageListItem__5126c .message__5126c {
 }
 
  /* Repied Messages */
-li.messageListItem__5126c[data-message-is-reply="true"] {
+li.messageListItem__5126c .hasReply_c19a55:not(.mentioned__5126c ) {
 	border-left: 2px solid var(--border-strong);
 	margin-left: 1px;
-	>.message__5126c {
+	h3.header_c19a55 {
 		margin-left: -2px;
 	}
 }
