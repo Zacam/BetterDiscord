@@ -113,7 +113,8 @@
 /*Search*/.searchResultsWrap_a98f3b .scroller_a98f3b,
 /*Menus*/.menu_c1e9c4 .scroller_c1e9c4,
 /*ServerSettings*/.sidebarRegion__23e6b .sidebarRegionScroller__23e6b,
-/*Roles*/.roleScroller__75297 {
+/*Roles*/.roleScroller__75297
+/*Attachements*/.textContainer__4d95d.scrollerBase_d125d2 {
 	scrollbar-color: var(--oPur-21) rgba(0,0,0,0);
 	scrollbar-width: thin;
 }
