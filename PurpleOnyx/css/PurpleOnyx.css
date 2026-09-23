@@ -305,8 +305,22 @@ border-color: var(--border-normal) !important;
 }
 
  /* Radio Buttons */
-.outerRadioBase__64e61 {
-	stroke: var(--oPur-64);
+.radioGroupOption__64e61:not([data-disabled]) {
+	.outerRadioBase__64e61 {
+		stroke: var(--oPur-64);
+	}
+	&:hover .outerRadioBase__64e61 {
+		stroke: var(--oPur-84);
+	}
+}
+
+.radioGroupOption__64e61[data-selected]:not([data-disabled]) {
+	.outerRadioFill__64e61 {
+		fill: var(--oPur-64);
+	}
+	&:hover .outerRadioFill__64e61 {
+		fill: var(--oPur-84);
+	}
 }
 
  /* Sliders */
