@@ -1,4 +1,4 @@
-/* 2026-09-23 03:30 PT */
+/* 2026-09-26 07:00 PT */
 /* GitCord Markdown */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Markdown.css");
 
@@ -426,12 +426,21 @@ border-color: var(--border-normal) !important;
 	.embedSuppressButton__623de {
 		opacity: 1;
 		inset-inline-end: 0px;
-		top: -1px;
+		top: 4px;
+		right: 4px;
 	}
 	/* Fix Font Scale */
 	.embedAuthorName__623de, .embedTitle__623de, .embedDescription__623de {
 		font-size: .875rem;
 		line-height: 1.25;
+	}
+	.embedProvider__623de, .embedProvider__623de .embedLink__623de {
+		font-size: larger;
+		font-weight: 600;
+	}
+	/* Remove href underlines */
+	a {
+		text-decoration: none;
 	}
 }
 
@@ -2098,6 +2107,11 @@ nav.guilds__5e434 {
 	.span__0f481, .barButtonAlt__0f481 {
 		text-shadow: 0px 0px rgb(164,164,164);
 	}
+}
+
+ /* Fix "Jump to Present" getting clipped by Square Embeds */
+.jumpToPresentBar__0f481 {
+	z-index: 4;
 }
 
  /* Message Highlight */
