@@ -1,4 +1,7 @@
-/* 2026-09-26 07:00 PT */
+/* 2026-09-26 20:30 PT */
+
+/* Colorized Embeds */
+@import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
 /* GitCord Markdown */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Markdown.css");
 
@@ -386,62 +389,6 @@ border-color: var(--border-normal) !important;
 
 [class*="botTagOP"] {
 	background-color: var(--oPur-84);
-}
-
- /* Square Embeds */
-[class*="mosaic"], [class*="Mosaic"],
-[class*="spoilerContent"],
-[class*="visualMediaItemContainer"],
-[class*="embed"], [class*="embed"] img, [class*="embed"] video, video,
-[class*="oneByOneGrid"],
-[class^="imageWrapper"] {
-	border-radius: 0px !important;
-}
- /* Wrap the Embed Border */
-.embedFull__623de {
-	font-size: .75rem;
-	overflow: hidden;
-	&::before {
-		content: "";
-		position: absolute;
-		border: inherit;
-		border-left-width: 100vw;
-		height: 100%;
-	}
-	&::after {
-		content: "";
-		position: absolute;
-		top: 4px;
-		right: 4px;
-		bottom: 4px;
-		left: 4px;
-		margin-left: -4px;
-		background: rgba(18, 18, 18, 0.95) !important;
-	}
-	.gridContainer__623de {
-		position: relative;
-		z-index: 3;
-	}
-	/* Fix the "Remove Embed" Button */
-	.embedSuppressButton__623de {
-		opacity: 1;
-		inset-inline-end: 0px;
-		top: 4px;
-		right: 4px;
-	}
-	/* Fix Font Scale */
-	.embedAuthorName__623de, .embedTitle__623de, .embedDescription__623de {
-		font-size: .875rem;
-		line-height: 1.25;
-	}
-	.embedProvider__623de, .embedProvider__623de .embedLink__623de {
-		font-size: larger;
-		font-weight: 600;
-	}
-	/* Remove href underlines */
-	a {
-		text-decoration: none;
-	}
 }
 
  /* Message Focus Ringss */
@@ -1046,7 +993,6 @@ nav,
 	height: 40px;
 }
 
-
  /* Min/Max/Close */
 .winButtons_c38106 {
 	margin-right: 4px;
@@ -1067,7 +1013,6 @@ nav,
 		}
 	}
 }
-
 
  /* Border */
 .container__9293f {
@@ -2107,11 +2052,6 @@ nav.guilds__5e434 {
 	.span__0f481, .barButtonAlt__0f481 {
 		text-shadow: 0px 0px rgb(164,164,164);
 	}
-}
-
- /* Fix "Jump to Present" getting clipped by Square Embeds */
-.jumpToPresentBar__0f481 {
-	z-index: 4;
 }
 
  /* Message Highlight */

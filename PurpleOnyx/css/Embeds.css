@@ -1,0 +1,129 @@
+/* 2026-09-26 20:30 PT */
+ /* Square Embeds */
+[class*="mosaic"], [class*="Mosaic"],
+[class*="spoilerContent"],
+[class*="visualMediaItemContainer"],
+[class*="embed"], [class*="embed"] img, [class*="embed"] video, video,
+[class*="oneByOneGrid"],
+[class^="imageWrapper"] {
+	border-radius: 0px !important;
+}
+ /* Wrap the Embed Border */
+.embedFull__623de {
+	font-size: .75rem;
+	overflow: hidden;
+	&::before {
+		content: "";
+		position: absolute;
+		border: inherit;
+		border-left-width: 100vw;
+		height: 100%;
+	}
+	&::after {
+		content: "";
+		position: absolute;
+		top: 4px;
+		right: 4px;
+		bottom: 4px;
+		left: 4px;
+		margin-left: -4px;
+		background: rgba(18, 18, 18, 0.95) !important;
+	}
+	.gridContainer__623de {
+		position: relative;
+		z-index: 1;
+	}
+	/* Fix the "Remove Embed" Button */
+	.embedSuppressButton__623de {
+		opacity: 1;
+		inset-inline-end: 0px;
+		top: 4px;
+		right: 4px;
+	}
+	/* Fix Font Scale */
+	.embedAuthorName__623de, .embedTitle__623de, .embedDescription__623de {
+		font-size: .875rem;
+		line-height: 1.25;
+	}
+	.embedProvider__623de, .embedProvider__623de .embedLink__623de {
+		font-size: larger;
+		font-weight: 600;
+	}
+	/* Remove href underlines */
+	a {
+		text-decoration: none;
+	}
+}
+
+ /* Platfor Border Colors */
+.embedFull__623de:has(.embedAuthor__623de a[href*="bsky.app"]) {
+	border-color: #1185FE !important;
+	.embedAuthor__623de .embedLink__623de {
+		color: #1185FE;
+	}
+}
+
+.embedFull__623de:has(.embedAuthor__623de a[href*="github"]) {
+	border-color: #242929 !important;
+}
+
+.embedFull__623de:has(a[href*="netflix"]) {
+	border-image: linear-gradient(90deg, #831010 0%, #DB0000 60%) 1;
+	.embedTitle__623de {
+		color: #DB0000;
+		font-size: larger;
+		font-weight: 600;
+	}
+}
+
+.embedFull__623de:has(a[href*="reddit.com"], a[href*="redd.it"]) {
+	border-color: #FF5700 !important;
+	.embedAuthor__623de .embedLink__623de, .embedProvider__623de {
+		color: #FF5700;
+	}
+}
+
+.embedFull__623de:has(a[href*="spotify"]) {
+	border-color: #1DB954 !important;
+}
+
+.embedFull__623de:has(a[href*="steam"]) {
+	border-image: linear-gradient(90deg, #292E37 0%, #0061C4 100%) 1;
+	:is(.embedProvider__623de, .embedTitle__623de) .embedLink__623de {
+		color: #66C0F4;
+	}
+}
+
+.embedFull__623de:has(a[href*="tiktok"]) {
+	border-image: linear-gradient(90deg, #00F2EA 0%, #F0F0F0 15%, #F0F0F0 70%, #FF0050 100%) 1;
+	.embedProvider__623de {
+		background: linear-gradient(90deg, #00F2EA 0%, #F0F0F0 4%, #FF0050 90%);
+		background-clip: text;
+		color: transparent;
+	}
+}
+
+.embedFull__623de:has(a[href*="youtube"]) {
+	border-color: #F00 !important;
+	.embedProvider__623de .embedLink__623de {
+		color: #FF0000;
+	}
+}
+
+.embedFull__623de:has(a[href*="tumblr"]) {
+	border-color: #022F5C !important;
+}
+
+.embedFull__623de:has(a[href*="twitch"]) {
+	border-color: #9146FF !important;
+	.embedProvider__623de {
+		color: #9146FF;
+	}
+}
+
+.embedFull__623de:has(a[href*="\/x.com"], a[href*="twitter.com"]) {
+	border-color: #1DA1F2 !important;
+	.embedAuthor__623de .embedLink__623de, .embedTitle__623de {
+		color: #1DA1F2;
+	}
+}
