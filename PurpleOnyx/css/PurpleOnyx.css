@@ -1,4 +1,4 @@
-/* 2026-09-26 20:30 PT */
+/* 2026-09-28 07:30 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -2496,6 +2496,7 @@ svg.downloadHoverButtonIcon__6c706 path {
 	border-left-color: var(--border-active);
 }
 
+ /* Unset Member List fixed height */
 aside.membersWrap_c8ffbb .content_d125d2 {
 	height: calc-size(auto, size + 10px) !important;
 }
