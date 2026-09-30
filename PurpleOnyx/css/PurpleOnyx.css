@@ -1,4 +1,4 @@
-/* 2026-09-28 20:30 PT */
+/* 2026-09-30 00:30 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -171,6 +171,9 @@ button.button_a22cb0.primary_a22cb0.hasText_a22cb0,
 button.button_a22cb0.secondary_a22cb0.hasText_a22cb0,
 button.button__201d5.lookFilled__201d5.colorBrand__201d5 {
 	background: var(--oPur-42);
+	&:hover {
+		background: var(--oPur-64);
+	}
 }
 
 button.button_a22cb0.secondary_a22cb0:not(.hasText_a22cb0),
