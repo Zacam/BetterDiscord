@@ -1367,6 +1367,22 @@ div[id^="popout"]:has(.container__8cb2e) {
 	gap: unset;
 }
 
+ /* Profile Friend Request Notice */
+.user-profile-sidebar, .user-profile-popout {
+	.overlay_c0bea0 {
+		background: var(--background-base-lower);
+		width: fit-content;
+		.container__43a4b {
+			border: 1px solid var(--oPur-64);
+			gap: 4px;
+			padding: 6px;
+			.buttonContainer__43a4b {
+				justify-content: center;
+			}
+		}
+	}
+}
+
  /* Private Profiles */
 .isPrivate_c0bea0 {
 	.banner__43147 {
