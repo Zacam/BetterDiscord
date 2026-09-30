@@ -1,6 +1,6 @@
-/* 2026-08-19 15:30 PT */
-/* Connections --------------------------------------------------------------------------------*/
- /* XBox */
+/* 2026-09-30 02:30 PT */
+
+/* XBox */
 button[style*="/assets/c4f09fda61827e19.svg"] {
 	background-color: #0e7a0d;
 	clip-path: circle(31%);
@@ -28,7 +28,7 @@ button[style*="/assets/c4f09fda61827e19.svg"] {
 	}
 }
 
- /* Steam */
+/* Steam */
  /* Settings > Connections > Add Connection */
 .accountBtnInner__750de[style*="/assets/1f7ec18f3695d4cf.svg"] {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg") !important;
@@ -94,19 +94,19 @@ div[id*="context-transfer-playstation"] .iconContainer_c1e9c4 {
 	content: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
 }
 
- /* Twitter */
+/* Twitter */
  /* Settings > Connections> Add Connection */
 .accountBtnInner__750de[style*="/assets/a61999ae9bfb9658.svg"]{
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg") !important;
+	background-image: url("https://discord.com/assets/0815e2c86f2e0e37.svg") !important;
 }
  /* Setting- > Connecitons > Connection List */
 .connectionIcon__41de9[alt="X"] {
-	content: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg");
+	content: url("https://discord.com/assets/0815e2c86f2e0e37.svg");
 }
 
  /*Profile: "ShowConnections" Plugin */
 .connectionIcon_c56430[alt="X Logo"] {
-	background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg");
+	background-image: url("https://discord.com/assets/0815e2c86f2e0e37.svg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 30px;
@@ -117,5 +117,5 @@ div[id*="context-transfer-playstation"] .iconContainer_c1e9c4 {
 
  /* Profile: "NewOldProfiles" Plugin */
 .connectedAccount_e6abe8 .connectedAccountIcon_e6abe8[alt="X Logo"] {
-	content: url("https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg");
+	content: url("https://discord.com/assets/0815e2c86f2e0e37.svg");
 }
