@@ -1,4 +1,4 @@
-/* 2026-09-28 07:30 PT */
+/* 2026-09-30 00:30 PT */
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 @import url(https://discordstyles.github.io/RadialStatus/RadialStatus.css);
@@ -118,6 +118,9 @@ div[class^="topSection"] {
 			background: var(--control-overlay-secondary-background-default) !important;
 			border-color: var(--border-subtle);
 			color: var(--white) !important;
+			&:hover {
+				background: var(--oPur-64) !important;
+			}
 		}
 		.bannerButton_fb7f94 {
 			color: var(--oPur-84) !important;
