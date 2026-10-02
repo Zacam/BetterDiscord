@@ -1,4 +1,4 @@
-/* 2026-10-02 07:45 PT */
+/* 2026-10-02 12:30 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -57,6 +57,21 @@
 
 .bd-slider-track {
 	background-image: linear-gradient(var(--oPur-32), var(--oPur-64));
+}
+
+#bd-notices {
+	margin: 0px auto;
+	width: fit-content;
+	.bd-notice {
+		border-radius: 8px;
+		&.bd-notice-error .bd-notice-button {
+			padding: 0px;
+			margin-right: 5px;
+		}
+		&:first-child {
+			border-radius: 8px;
+		}
+	}
 }
 
 .bd-notification.bd-notification-info {
