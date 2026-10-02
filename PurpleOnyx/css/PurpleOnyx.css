@@ -1,4 +1,4 @@
-/* 2026-09-30 08:40 PT */
+/* 2026-10-02 07:45 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -72,6 +72,11 @@
 	background-color: var(--background-base-low);
 	border: 1px solid var(--border-normal);
 	color: var(--oPurple);
+}
+
+.bd-changelog-modal .bd-scroller-base {
+	overflow: hidden auto;
+	padding: 0px 8px;
 }
 
 #settings-menu button.bd-changelog-button:hover {
