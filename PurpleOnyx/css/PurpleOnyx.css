@@ -1,4 +1,4 @@
-/* 2026-10-02 12:30 PT */
+/* 2026-10-03 02:00 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -896,7 +896,7 @@ nav.nav__409aa ul.sublist__409aa li.section__409aa:has([data-settings-sidebar-it
 		--trailingCounter: 113px; /* Inbox Only */
 	}
 	&:has(.trailing_c38106 > :nth-child(4)) {
-		--trailingCounter: 143px; /* Inbox + 1 */
+		--trailingCounter: 141px; /* Inbox + 1 */
 	}
 	&:has(.trailing_c38106 > :nth-child(5)) {
 		--trailingCounter: 173px; /* Inbox + 2 */
@@ -993,14 +993,11 @@ nav,
  /* Toolbar Spacing */
 .trailing_c38106, .toolbar__9293f {
 	gap: unset;
-	.winButtons_c38106 {
-		gap: unset;
+	.iconWrapper__468db>.pulse__468db>.clickable__81391 { /* Inbox */
+		margin: 0px 3px 0px 0px;
 	}
-	.clickable__81391 {
-		margin: 0px 3px;
-	}
-	.iconWrapper__468db {
-		left: 2px;
+	div:not(.pulse__468db)>.clickable__81391 { /* DevTools */
+		margin: 0px 3px 0px 1px;
 	}
 	.iconWrapper__9293f {
 		border-radius: var(--custom-app-top-bar-item-radius);
@@ -1009,6 +1006,9 @@ nav,
 		&:hover {
 			background-color: var(--background-mod-normal);
 		}
+	}
+	.winButtons_c38106 {
+		gap: unset;
 	}
 }
 .subtitleContainer_f75fb0 {
