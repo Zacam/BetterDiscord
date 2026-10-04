@@ -2268,7 +2268,6 @@ li.messageListItem__5126c .hasReply_c19a55:not(.mentioned__5126c ) {
 
  /* Message Actions */
 #message {
-	padding-right: 4px;
 	.scroller_c1e9c4 {
 		overflow-y: hidden !important;
 	}
