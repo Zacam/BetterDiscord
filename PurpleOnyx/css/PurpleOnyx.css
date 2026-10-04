@@ -1,4 +1,4 @@
-/* 2026-10-03 02:00 PT */
+/* 2026-10-03 21:30 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -265,7 +265,7 @@ border-color: var(--border-normal) !important;
 		max-height: unset;
 	}
 	[class*="scroller"] {
-		padding: 4px 2px 4px 4px !important;
+		padding: 2px 4px 2px 4px !important;
 	}
 }
 
