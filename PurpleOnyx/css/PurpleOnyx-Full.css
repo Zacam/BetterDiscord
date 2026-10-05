@@ -1,4 +1,4 @@
-/* 2026-10-05 02:15 PT */
+/* 2026-10-05 02:30 PT */
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 @import url(https://discordstyles.github.io/RadialStatus/RadialStatus.css);
@@ -201,6 +201,12 @@ div[class^="topSection"] {
 			padding: 2px 4px;
 			width: 210px;
 		}
+	}
+}
+#servers-tab, #friends-tab {
+	.listScroller.scrollerBase {
+		border-top: 1px solid var(--border-normal);
+		border-radius: 12px;
 	}
 }
  /* Colorize Pronouns */
