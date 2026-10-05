@@ -1,4 +1,4 @@
-/* 2026-10-03 21:30 PT */
+/* 2026-10-05 01:45 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -1397,6 +1397,9 @@ div[id^="popout"]:has(.container__8cb2e) {
 
  /* Profile Friend Request Notice */
 .user-profile-sidebar, .user-profile-popout {
+	.wrapper_da5890 {
+		gap: unset;
+	}
 	.overlay_c0bea0 {
 		background: var(--background-base-lower);
 		width: fit-content;
