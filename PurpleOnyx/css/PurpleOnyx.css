@@ -961,8 +961,8 @@ nav,
 }
  /* Notice Bar */
 .notice__6e2b9 {
+	justify-self: center;
 	position: absolute;
-	right: var(--custom-guild-sidebar-width);
 	top: 4px;
 }
 .colorWarning__6e2b9, .colorDanger__6e2b9 {
