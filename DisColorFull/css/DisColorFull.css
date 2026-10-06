@@ -1,4 +1,4 @@
-/* 2026-08-22 16:15 PT */
+/* 2026-10-06 05:30 PT */
 /* Main Titlebar */
  /* Inbox */
 .toolbar__9293f .buttons_8227b0 > .clickable__81391 svg:has(>path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3"]), /* Old Title Bar */
@@ -304,6 +304,17 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 
 .toolbar__9293f>.iconWrapper__9293f.selected__9293f>svg path[d="M24 19a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"] {
 	fill: #A48BE2;
+}
+
+ /* Show/Hide Chat */
+.toolbar__9293f .chatIcon__233f8 {
+	background-image: url("https://discord.com/assets/e121c79c0d9d21e5.svg");
+	background-size: 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	svg {
+		display:none;
+	}
 }
 
  /* Friends List : New Group DM */
