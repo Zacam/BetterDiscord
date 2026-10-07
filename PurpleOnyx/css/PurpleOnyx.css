@@ -1,4 +1,4 @@
-/* 2026-10-07 05:00 PT */
+/* 2026-10-07 07:45 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -2364,6 +2364,12 @@ svg.downloadHoverButtonIcon__6c706 path {
 	&:hover {
 		background-color: unset;
 	}
+}
+
+ /* Friend Link, Message Container */
+.container_b7e1cb .wrapper_d5f3cd {
+	padding: 4px 8px;
+	width: fit-content;
 }
 
  /* Gradient and Spacer */
