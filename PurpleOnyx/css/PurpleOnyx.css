@@ -1,9 +1,14 @@
-/* 2026-10-06 05:30 PT */
+/* 2026-10-07 04:30 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
 /* GitCord Markdown */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Markdown.css");
+
+.theme-midnight {
+	--background-base-low: rgb(12,12,14);
+	--background-base-lower: rgb(7,7,9);
+}
 
 /* Better Discord overrides                                                                                     */
 .bd-addon-list>div {
