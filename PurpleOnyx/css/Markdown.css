@@ -68,753 +68,757 @@ code:not(.inline, .diff, .codeView__4d95d) {
 
 /* Markup Label and Colors */
  /*  */
-.hljs:is([class$="1c" i], [class$="bsl" i], [class$="os" i])::before {
+.hljs:is(.language-1c, .language-bsl, .language-os)::before {
 	content: "1C Enterprise";
 	background: #814CCC52;
 }
 
  /* A */
-.hljs[class$="abnf" i]::before {
+.hljs.language-abnf::before {
 	content: "ABNF";
 	background: #5D617452;
 }
 
-.hljs[class$="accesslog" i]::before {
+.hljs.language-accesslog::before {
 	content: "Apache Access Log";
 	background: #4E5D6C52;
 }
 
-.hljs:is([class$="actionscript" i], [class$="as" i])::before {
+.hljs:is(.language-actionscript, .language-as)::before {
 	content: "ActionScript";
 	background: #882B0F52;
 }
 
-.hljs:is([class$="ada" i], [class$="adb" i], [class$="ads" i])::before {
+.hljs:is(.language-ada, .language-adb, .language-ads)::before {
 	content: "Ada";
 	background: #02F88C52;
 }
 
-.hljs:is([class$="angelscript" i], [class$="asc" i])::before {
+.hljs:is(.language-angelscript, .language-asc)::before {
 	content: "AngelScript";
 	background: #C7D7DC52;
 }
 
-.hljs[class$="ansi" i]::before {
+.hljs.language-ansi::before {
 	content: " ANSI ";
 	background: #333;
 }
 
-.hljs:is([class$="aconf" i], [class$="apache" i], [class$="apacheconf" i])::before {
+.hljs:is(.language-aconf, .language-apache, .language-apacheconf)::before {
 	content: "Apache Config";
 	background: #D1212752;
 }
 
-.hljs:is([class$="applescript" i], [class$="osascript" i])::before {
+.hljs:is(.language-applescript, .language-osascript)::before {
 	content: "AppleScript";
 	background: #101F1F52;
 }
 
-.hljs[class$="arcade" i]::before {
+.hljs.language-arcade::before {
 	content: " ArcGIS Arcade ";
 	background: #2f8e91;
 	}
 
-.hljs:is([class$="arduino" i], [class$="ino" i])::before {
+.hljs:is(.language-arduino, .language-ino)::before {
 	content: " Arduino ";
 	background: #bd791e;
 }
 
-.hljs:is([class$="armasm" i], [class$="arm" i])::before {
+.hljs:is(.language-armasm, .language-arm)::before {
 	content: " ARM Assembly ";
 	background: #5f3d82;
 }
 
-.hljs:is([class$="asciidoc" i], [class$="adoc" i])::before {
+.hljs:is(.language-asciidoc, .language-adoc)::before {
 	content: "AsciiDoc";
 	background: #73A0C552;
 }
 
-.hljs[class$="aspectj" i]::before {
+.hljs.language-aspectj::before {
 	content: "AspectJ";
 	background: #A957B052;
 }
 
-.hljs:is([class$="autohotkey" i], [class$="ahk" i])::before {
+.hljs:is(.language-autohotkey, .language-ahk)::before {
 	content: "AutoHotKey";
 	background: #6594B952;
 }
 
-.hljs[class$="autoit" i]::before {
+.hljs.language-autoit::before {
 	content: "AutoIt";
 	background: #1C355252;
 }
 
-.hljs[class$="avrasm" i]::before {
+.hljs.language-avrasm::before {
 	content: " AVR Assembly ";
 	background: #7c22a3;
 }
 
-.hljs[class$="awk" i]::before {
+.hljs.language-awk::before {
 	content: "Awk";
 	background: #C30E9B52;
 }
 
  /* B */
-.hljs:is([class$="bash" i], [class$="sh" i], [class$="zsh" i])::before {
+.hljs:is(.language-bash, .language-sh, .language-zsh)::before {
 	content: "Bash";
 	background: #89E05152;
 }
 
-.hljs[class$="basic" i]::before {
+.hljs.language-basic::before {
 	content: "BASIC";
 	background: #FF000052;
 }
 
-.hljs:is([class$="bat" i], [class$="cmd" i], [class$="dos" i])::before {
+.hljs:is(.language-bat, .language-cmd, .language-dos)::before {
 	content: "Batch/CMD File";
 	background: #C1F12E52;
 }
 
-.hljs[class$="bnf" i]::before {
+.hljs.language-bnf::before {
 	content: " BNF ";
 	background: #4a5c69;
 }
 
-.hljs:is([class$="brainfuck" i], [class$="bf" i])::before {
+.hljs:is(.language-brainfuck, .language-bf)::before {
 	content: "Brainfuck";
 	background: #2F253052;
 }
 
  /* C */
-.hljs:is([class~="c" i], [class~="h" i])::before {
+.hljs:is(.language-c, .language-h)::before {
 	content: "C";
 	background: #17860052;
 }
 
-.hljs:is([class~="cc" i], [class$="cpp" i], [class$="cxx" i], [class~="hh" i], [class$="hpp" i], [class$="hxx" i])::before {
+.hljs:is(.language-cc, .language-cpp, .language-cxx, .language-hh, .language-hpp, .language-hxx)::before {
 	content: "C++";
 	background: #F34B7D52;
 }
 
-.hljs:is([class~="cs" i], [class$="csharp" i])::before {
+.hljs:is(.language-cs, .language-csharp)::before {
 	content: "C#";
 	background: #17860052;
 }
 
-.hljs[class$="cal" i]::before { content: " C/AL"; background: #1e5989; }
+.hljs.language-cal::before { content: " C/AL"; background: #1e5989; }
 
-.hljs:is([class$="capnproto" i], [class$="capnp" i])::before {
+.hljs:is(.language-capnproto, .language-capnp)::before {
 	content: "Cap’n Proto";
 	background: #C4272752;
 }
 
-.hljs[class$="ceylon" i]::before {
+.hljs.language-ceylon::before {
 	content: "Ceylon";
 	background: #DFA53552;
 }
 
-.hljs:is([class$="clean" i], [class$="icl" i], [class$="dcl" i])::before {
+.hljs:is(.language-clean, .language-icl, .language-dcl)::before {
 	content: "Clean";
 	background: #3F85AF52;
 }
 
-.hljs:is([class$="clojure" i], [class$="clj" i], [class$="hic" i])::before {
+.hljs:is(.language-clojure, .language-clj, .language-hic)::before {
 	content: "Clojure";
 	background: #DB585552;
 }
 
-.hljs[class$="clojure-repl" i]::before { content: " Clojure REPL"; background: #3b5c2a; }
+.hljs.language-clojure-repl::before { content: " Clojure REPL"; background: #3b5c2a; }
 
-.hljs:is([class$="cmake" i], [class$="cmake\\.in" i])::before {
+.hljs:is(.language-cmake, .language-cmake\\.in)::before {
 	content: "CMake";
 	background: #DA343452;
 }
 
-.hljs:is([class$="coffee" i], [class$="coffeescript" i], [class$="cson" i], [class$="iced" i])::before {
+.hljs:is(.language-coffee, .language-coffeescript, .language-cson, .language-iced)::before {
 	content: "Coffee (Javascript)";
 	background: #24477652;
 }
 
-.hljs[class$="coq" i]::before { content: " Coq"; background: #7b1fa2; }
+.hljs.language-coq::before { content: " Coq"; background: #7b1fa2; }
 
-.hljs:is([class$="cos" i], [class$="cls" i])::before { content: " Caché Object Script"; background: #1565c0; }
+.hljs:is(.language-cos, .language-cls)::before { content: " Caché Object Script"; background: #1565c0; }
 
-.hljs:is([class$="crmsh" i], [class$="crm" i], [class$="pcmk" i])::before { content: " crmsh"; background: #2b3a42; }
+.hljs:is(.language-crmsh, .language-crm, .language-pcmk)::before { content: " crmsh"; background: #2b3a42; }
 
-.hljs:is([class~="cr" i], [class$="crystal" i])::before {
+.hljs:is(.language-cr, .language-crystal)::before {
 	content: "Crystal";
 	background: #00010052;
 }
 
-.hljs[class$="csp" i]::before { content: " CSP"; background: #546e7a; }
+.hljs.language-csp::before { content: " CSP"; background: #546e7a; }
 
-.hljs:is([class$="css" i], [class$="scss" i])::before {
+.hljs:is(.language-css, .language-scss)::before {
 	content: "Style Sheet";
 	background: #66339952;
 }
 
  /* D */
-.hljs[class~="d" i]::before {
+.hljs.language-d::before {
 	content: "D";
 	background: #BA595E52;
 }
 
-.hljs[class$="dart" i]::before {
+.hljs.language-dart::before {
 	content: "Dart";
 	background: #00B4AB52;
 }
 
-.hljs:is([class$="delphi" i], [class$="dpr" i], [class$="dfm" i])::before {
+.hljs:is(.language-delphi, .language-dpr, .language-dfm)::before {
 	content: "Delphi";
 	background: #B0CE4E52;
 }
 
-.hljs:is([class$="diff" i], [class$="patch" i])::before {
+.hljs:is(.language-diff, .language-patch)::before {
 	content: "Diff Compare";
 	background: #88dddd52;
 }
 
-.hljs:is([class$="django" i], [class$="jinja" i])::before {
+.hljs:is(.language-django, .language-jinja)::before {
 	content: "Django";
 	background: #A52A2252;
 }
 
-.hljs:is([class$="dns" i], [class$="bind" i], [class$="zone" i])::before { content: " DNS Zone "; background: #37474f; }
+.hljs:is(.language-dns, .language-bind, .language-zone)::before { content: " DNS Zone "; background: #37474f; }
 
-.hljs:is([class$="docker" i], [class$="dockerfile" i])::before {
+.hljs:is(.language-docker, .language-dockerfile)::before {
 	content: "Dockerfile";
 	background: #384D5452;
 }
 
-.hljs[class$="dsconfig" i]::before { content: " dsconfig"; background: #2c3e50; }
+.hljs.language-dsconfig::before { content: " dsconfig"; background: #2c3e50; }
 
-.hljs[class$="dts" i]::before { content: " Device Tree"; background: #424242; }
+.hljs.language-dts::before { content: " Device Tree"; background: #424242; }
 
-.hljs:is([class$="dust" i], [class$="dst" i])::before { content: " Dust"; background: #9c27b0; }
+.hljs:is(.language-dust, .language-dst)::before { content: " Dust"; background: #9c27b0; }
 
  /* E */
-.hljs[class$="ebnf" i]::before { content: " EBNF "; background: #60b5cc; }
+.hljs.language-ebnf::before { content: " EBNF "; background: #60b5cc; }
 
-.hljs:has([class$="elixir" i], [class$="ex" i], [class$="exs" i])::before {
+.hljs:has(.language-elixir, .language-ex, .language-exs)::before {
 	content: "Elixir";
 	background: #6E4A7E52;
 }
 
-.hljs[class$="elm" i]::before {
+.hljs.language-elm::before {
 	content: "Elm";
 	background: #60B5CC52;
 }
 
-.hljs[class$="erb" i]::before { content: " eRuby"; background: #701516; }
+.hljs.language-erb::before { content: " eRuby"; background: #701516; }
 
-.hljs:has([class$="erlang" i], [class$="erl" i])::before {
+.hljs:has(.language-erlang, .language-erl)::before {
 	content: "Erlang";
 	background: #B8399852;
 }
 
-.hljs[class$="erlang-repl" i]::before { content: " Erlang REPL"; background: #501011; }
+.hljs.language-erlang-repl::before { content: " Erlang REPL"; background: #501011; }
 
-.hljs:([class$="excel" i], [class$="xlsx" i], [class$="xls" i])::before {
+.hljs:(.language-excel, .language-xlsx, .language-xls)::before {
 	content: "Excel formulae";
 	background: #107C41;
 }
 
  /* F */
-.hljs:is([class$="fsharp" i], [class$="fs" i], [class$="f\\#" i])::before {
+.hljs:is(.language-fsharp, .language-fs, .language-f\\#)::before {
 	content: "F#";
 	background: #B845FC52;
 }
 
-.hljs[class$="fix" i]::before { content: " FIX"; background: #3f51b5; }
+.hljs.language-fix::before { content: " FIX"; background: #3f51b5; }
 
-.hljs[class$="flix" i]::before {
+.hljs.language-flix::before {
 	content: "Flix";
 	background: #D44A4552;
 }
 
-.hljs:is([class$="fortran" i], [class$="f90" i], [class$="f95" i])::before {
+.hljs:is(.language-fortran, .language-f90, .language-f95)::before {
 	content: "Fortran";
 	background: #4d41b1;
 }
 
  /* G */
-.hljs:is([class$="gams" i], [class$="gms" i])::before {
+.hljs:is(.language-gams, .language-gms)::before {
 	content: "GAMS";
 	background: #F49O2252;
 }
 
-.hljs:is([class$="gauss" i], [class$="gss" i])::before { content: " GAUSS"; background: #00796b; }
+.hljs:is(.language-gauss, .language-gss)::before { content: " GAUSS"; background: #00796b; }
 
-.hljs:is([class$="gcode" i], [class$="nc" i])::before {
+.hljs:is(.language-gcode, .language-nc)::before {
 	content: "G-code (ISO 6983)";
 	background: #D08CF252;
 }
 
-.hljs:is([class$="gherkin" i], [class$="feature" i])::before {
+.hljs:is(.language-gherkin, .language-feature)::before {
 	content: "Gherkin";
 	background: #5B206352;
 }
 
-.hljs[class$="gml" i]::before {
+.hljs.language-gml::before {
 	content: "GML";
 	background: #71B41752;
 }
 
-.hljs[class~="go" i]::before {
+.hljs.language-go::before {
 	content: "Go";
 	background: #00ADD852;
 }
 
-.hljs[class$="golo" i]::before {
+.hljs.language-golo::before {
 	content: " Golo";
 	background: #88562A52;
 }
 
-.hljs[class$="gradle" i]::before {
+.hljs.language-gradle::before {
 	content: "Gradle";
 	background: #02303A52;
 }
 
-.hljs:is([class$="graphql" i], [class$="gql" i])::before {
+.hljs:is(.language-graphql, .language-gql)::before {
 	content: "GraphQL";
 	background: #E1009852;
 }
 
-.hljs[class$="groovy" i]::before {
+.hljs.language-groovy::before {
 	content: "Groovy";
 	background: #4298B852;
 }
 
  /* H */
-.hljs:is([class$="html" i], [class$="xhtml" i])::before {
+.hljs:is(.language-html, .language-xhtml)::before {
 	content: "HTML";
 	background: #e44b2352;
 }
 
-.hljs[class$="haml" i]::before {
+.hljs.language-haml::before {
 	content: "HAML";
 	background: #E34C2652;
 	color: #000;
 }
 
-.hljs:is([class$="handlebars" i], [class$="hbs" i], [class$="htmlbars" i])::before {
+.hljs:is(.language-handlebars, .language-hbs, .language-htmlbars)::before {
 	content: "Handlebars";
 	background:	#F7931E52;
 }
 
-.hljs:is([class$="haskell" i], [class$="hs" i])::before {
+.hljs:is(.language-haskell, .language-hs)::before {
 	content: "Haskell";
 	background: #5E508652;
 }
 
-.hljs:is([class$="haxe" i], [class$="hx" i])::before {
+.hljs:is(.language-haxe, .language-hx)::before {
 	content: "Haxe";
 	background: #df7900;
 }
 
-.hljs[class$="hlsl" i]::before {
+.hljs.language-hlsl::before {
 	content: "High-Level Shading";
 	background: #AACE6052;
 }
 
-.hljs[class$="hsp" i]::before { content: " HSP"; background: #00838f; }
+.hljs.language-hsp::before { content: " HSP"; background: #00838f; }
 
-.hljs[class$="http" i]::before {
+.hljs.language-http::before {
 	content: "HTTP";
 	background: #005C9C52;
 }
 
-.hljsis:([class~="hy" i], [class$="hylang" i])::before {
+.hljsis:(.language-hy, .language-hylang)::before {
 	content: "Hy";
 	background: #7790B252;
 }
 
  /* I */
-.hljs:is([class$="inform7" i], [class$="i7" i])::before {
+.hljs:is(.language-inform7, .language-i7)::before {
 	content: "Inform 7";
 	background: #3f51b5;
 }
 
-.hljs[class$="ini" i]::before {
+.hljs.language-ini::before {
 	content: "ini";
 	background: #D1DBE052;
 }
 
-.hljs[class$="irpf90" i]::before { content: " IRPF90"; background: #ad1457; }
+.hljs.language-irpf90::before { content: " IRPF90"; background: #ad1457; }
 
-.hljs[class$="isbl" i]::before { content: " ISBL"; background: #283593; }
+.hljs.language-isbl::before { content: " ISBL"; background: #283593; }
 
  /* J */
-.hljs:is([class$="java" i], [class$="jsp" i])::before {
+.hljs:is(.language-java, .language-jsp)::before {
 	content: "Java";
 	background: #B0721952;
 }
 
-.hljs:is([class$="javascript" i], [class~="js" i], [class$="jsx" i], [class$="cjs" i], [class$="mjs" i])::before {
+.hljs:is(.language-javascript, .language-js, .language-jsx, .language-cjs, .language-mjs)::before {
 	content: "Javascript";
 	background: #F1E05A52;
 }
 
-.hljs:is([class$="jboss-cli" i], [class$="wildfly-cli" i])::before { content: " JBoss CLI"; background: #00838f; }
+.hljs:is(.language-jboss-cli, .language-wildfly-cli)::before { content: " JBoss CLI"; background: #00838f; }
 
-.hljs:is([class$="json" i], [class$="jsonc" i])::before {
+.hljs:is(.language-json, .language-jsonc)::before {
 	content: "Json";
 	background: #29292952;
 }
 
-.hljs:is([class$="julia" i], [class$="jldoctest" i])::before {
+.hljs:is(.language-julia, .language-jldoctest)::before {
 	content: "Julia";
 	background: #A270BA52;
 }
 
-.hljs[class$="julia-repl" i]::before {
+.hljs.language-julia-repl::before {
 	content: "Julia REPL";
 	background: #A270BA52;
 }
 
  /* K */
-.hljs:is([class$="kotlin" i], [class~="kt" i], [class$="kts" i])::before {
+.hljs:is(.language-kotlin, .language-kt, .language-kts)::before {
 	content: "Kotlin";
 	background: #A97BFF52;
 }
 
  /* L */
-.hljs:is([class$="lasso" i], [class~="ls" i], [class$="lassoscript" i])::before {
+.hljs:is(.language-lasso, .language-ls, .language-lassoscript)::before {
 	content: "Lasso";
 	background: #99999952; }
 
-.hljs:is([class$="latex" i], [class$="tex" i])::before {
+.hljs:is(.language-latex, .language-tex)::before {
 	content: "LaTeX";
 	background: #3D611752;
 }
 
-.hljs[class$="ldif" i]::before { content: " LDIF"; background: #37474f; }
+.hljs.language-ldif::before { content: " LDIF"; background: #37474f; }
 
-.hljs[class$="leaf" i]::before { content: " Leaf"; background: #2e7d32; }
+.hljs.language-leaf::before { content: " Leaf"; background: #2e7d32; }
 
-.hljs[class$="less" i]::before {
+.hljs.language-less::before {
 	content: "Less";
 	background: #1D365D52;
 }
 
-.hljs[class$="lisp" i]::before {
+.hljs.language-lisp::before {
 	content: "Lisp";
 	background: #87AED752;
 }
 
-.hljs[class$="livecodeserver" i]::before { content: " LiveCode"; background: #009688; }
+.hljs.language-livecodeserver::before { content: " LiveCode"; background: #009688; }
 
-.hljs[class$="livescript" i]::before {
+.hljs.language-livescript::before {
 	content: "LiveScript";
 	background: #49988652;
 }
 
-.hljs[class$="llvm" i]::before {
+.hljs.language-llvm::before {
 	content: "LLVM";
 	background: #18561952;
 }
 
-.hljs[class$="lsl" i]::before {
+.hljs.language-lsl::before {
 	content: "LSL";
 	background: #3D997052;
 }
 
-.hljs[class$="lua" i]::before {
+.hljs.language-lua::before {
 	content: "Lua";
 	background: #00008052;
 }
 
  /* M */
-.hljs:is([class$="makefile" i], [class$="mak" i], [class$="make" i], [class~="mk" i])::before {
+.hljs:is(.language-makefile, .language-mak, .language-make, .language-mk)::before {
 	content: "Makefile";
 	background: #42781952;
 }
 
-.hljs:is([class$="markdown" i], [class~="md" i], [class$="mkd" i], [class$="mkdown" i])::before {
+.hljs:is(.language-markdown, .language-md, .language-mkd, .language-mkdown)::before {
 	content: "Markdown";
 	background: #083fA152;
 }
 
-.hljs:is([class$="mathematica" i], [class$="mma" i], [class~="wl" i])::before {
+.hljs:is(.language-mathematica, .language-mma, .language-wl)::before {
 	content: "Mathematica";
 	background: #DD110052;
 }
 
-.hljs[class$="matlab" i]::before {
+.hljs.language-matlab::before {
 	content: "Matlab";
 	background: #E1673752;
 }
 
-.hljs[class$="maxima" i]::before { content: " Maxima"; background: #00838f; }
+.hljs.language-maxima::before { content: " Maxima"; background: #00838f; }
 
-.hljs[class$="mel" i]::before { content: " MEL"; background: #ad1457; }
+.hljs.language-mel::before { content: " MEL"; background: #ad1457; }
 
-.hljs:is([class$="mercury" i], [class~="m" i], [class$="moo" i])::before {
+.hljs:is(.language-mercury, .language-m, .language-moo)::before {
 	content: "Mercury";
 	background: #FF2B2B52;
 }
 
-.hljs:is([class$="mipsasm" i], [class$="mips" i])::before { content: " MIPS Assembly"; background: #3f51b5; }
+.hljs:is(.language-mipsasm, .language-mips)::before { content: " MIPS Assembly"; background: #3f51b5; }
 
-.hljs[class$="mizar" i]::before { content: " Mizar"; background: #455a64; }
+.hljs.language-mizar::before { content: " Mizar"; background: #455a64; }
 
-.hljs[class$="mojolicious" i]::before { content: " Mojolicious"; background: #1976d2; }
+.hljs.language-mojolicious::before { content: " Mojolicious"; background: #1976d2; }
 
-.hljs:is([class$="monkey" i], [class$="mc" i])::before {
+.hljs:is(.language-monkey, .language-mc)::before {
 	content: "Monkey";
 	background: #8D674752;
 }
 
-.hljs:is([class$="moonscript" i], [class$="moon" i])::before {
+.hljs:is(.language-moonscript, .language-moon)::before {
 	content: "MoonScript";
 	background: #FF458552;
 }
 
  /* N */
-.hljs[class$="n1ql" i]::before { content: " N1QL"; background: #e53935; }
+.hljs.language-n1ql::before { content: " N1QL"; background: #e53935; }
 
-.hljs:is([class$="nestedtext" i], [class$="nt" i])::before { content: " Nested Text"; background: #558b2f; }
+.hljs:is(.language-nestedtext, .language-nt)::before { content: " Nested Text"; background: #558b2f; }
 
-.hljs:is([class$="nginx" i], [class$="nginxconf" i])::before {
+.hljs:is(.language-nginx, .language-nginxconf)::before {
 	content: "Nginx Config";
 	background: #00963952;
 }
 
-.hljs[class$="nim" i]::before {
+.hljs.language-nim::before {
 	content: "Nim";
 	background: #FFC20052;
 }
 
-.hljs:is([class$="nix" i], [class$="nixos" i])::before {
+.hljs:is(.language-nix, .language-nixos)::before {
 	content: "Nix";
 	background: #7E7EFF;
 }
 
-.hljs[class$="node-repl" i]::before { content: " Node REPL"; background: #2e7d32; }
+.hljs.language-node-repl::before { content: " Node REPL"; background: #2e7d32; }
 
-.hljs[class$="nsis" i]::before {
+.hljs.language-nsis::before {
 	content: " NSIS";
 	background: #4e5d6c52;
 }
 
  /* O */
-.hljs:is([class$="objectivec" i], [class$="mm" i], [class$="objc" i], [class$="obj-c" i])::before {
+.hljs:is(.language-objectivec, .language-mm, .language-objc, .language-obj-c)::before {
 	content: "Objective-C";
 	background: #438EFF52;
 }
 
-.hljs:is([class$="ocaml" i], [class$="ml" i])::before {
+.hljs:is(.language-ocaml, .language-ml)::before {
 	content: "OCaml";
 	background: #EF7A0852;
 }
 
-.hljs:is([class$="openscad" i], [class$="scad" i])::before {
+.hljs:is(.language-openscad, .language-scad)::before {
 	content: "OpenSCAD";
 	background: #E5CD4552;
 }
 
-.hljs[class$="glsl" i]::before {
+.hljs.language-glsl::before {
 	content: "OpenGL Shading";
 	background: #5686A552;
 }
 
-.hljs[class$="oxygene" i]::before {
+.hljs.language-oxygene::before {
 	content: "Oxygene";
 	background: #CDD0E352;
 }
 
  /* P */
-.hljs:has([class$="pas" i], [class$="pascal" i])::before {
+.hljs:has(.language-pas, .language-pascal)::before {
 	content: "Pascal";
 	background: #E3F17152;
 }
 
-.hljs[class$="parser3" i]::before { content: " Parser3"; background: #283593; }
+.hljs.language-parser3::before { content: " Parser3"; background: #283593; }
 
-.hljs:is([class$="perl" i], [class~="pl" i], [class~="pm" i])::before {
+.hljs:is(.language-perl, .language-pl, .language-pm)::before {
 	content: "Perl";
 	background: #0298C352;
 }
 
-.hljs[class~="pf" i]::before { content: " Packet Filter config"; background: #37474f; }
+.hljs.language-pf::before { content: " Packet Filter config"; background: #37474f; }
 
-.hljs:is([class$="pgsql" i], [class$="postgres" i], [class$="postgresql" i])::before {
+.hljs:is(.language-pgsql, .language-postgres, .language-postgresql)::before {
 	content: "PostgreSQL";
 	background: #33679052;
 }
 
-.hljs[class$="php" i]::before {
+.hljs.language-php::before {
 	content: "Php";
 	background: #4F5D9552;
 }
 
-.hljs[class$="php-template" i]::before { content: " PHP template"; background: #4f5d84; }
-.markup__75297 .hljs:is([class$="plaintext" i], [class$="text" i], [class$="txt" i], [class$="hljs"])::before { content: " Plain Text"; background: #616161; }
+.hljs.language-php-template::before { content: " PHP template"; background: #4f5d84; }
 
-.hljs[class$="pony" i]::before {
+[class$="hljs" i]::before {
+	content: " Plain Text";
+	background: #616161;
+}
+
+.hljs.language-pony::before {
 	content: "Pony";
 	background: #1976d252;
 }
 
-.hljs:is([class$="powershell" i], [class$="pwsh" i], [class$="ps" i], [class$="ps1" i])::before {
+.hljs:is(.language-powershell, .language-pwsh, .language-ps, .language-ps1)::before {
 	content: "PowerShell";
 	background: #01245652;
 }
 
-.hljs:is([class$="processing" i], [class$="pde" i])::before {
+.hljs:is(.language-processing, .language-pde)::before {
 	content: "Processing";
 	background: #0096D852;
 }
 
-.hljs[class$="prolog" i]::before {
+.hljs.language-prolog::before {
 	content: "Prolog";
 	background: #74283c52;
 }
 
-.hljs[class$="properties" i]::before {
+.hljs.language-properties::before {
 	content: ".properties";
 	background: #2A627752;
 }
 
-.hljs:is([class$="protobuf" i], [class$="proto" i])::before {
+.hljs:is(.language-protobuf, .language-proto)::before {
 	content: "Protocol Buffers";
 	background: #1565c052;
 }
 
-.hljs:is([class$="puppet" i], [class~="pp" i])::before {
+.hljs:is(.language-puppet, .language-pp)::before {
 	content: "Puppet";
 	background: #302B6D52;
 }
 
-.hljs:is([class$="purebasic" i], [class~="pb" i], [class$="pbi" i])::before {
+.hljs:is(.language-purebasic, .language-pb, .language-pbi)::before {
 	content: "PureBASIC";
 	background: #5A698652;
 }
 
-.hljs[class$="pycon" i]::before {
+.hljs.language-pycon::before {
 	content: "Pycon";
 	background: #3572A552;
 }
 
-.hljs:is([class~="py" i], [class$="python" i])::before {
+.hljs:is(.language-py, .language-python)::before {
 	content: "Python";
 	background: #3572A552;
 }
 
-.hljs[class$="python-repl" i]::before { content: " Python REPL"; background: #0e1670; }
-.hljs[class$="profile" i]::before { content: " Python profiler"; background: #2e7d32; }
+.hljs.language-python-repl::before { content: " Python REPL"; background: #0e1670; }
+.hljs.language-profile::before { content: " Python profiler"; background: #2e7d32; }
 
  /* Q */
-.hljs:is([class~="q" i], [class~="k" i], [class$="kdb" i])::before { content: " Q"; background: #00bcd4; }
+.hljs:is(.language-q, .language-k, .language-kdb)::before { content: " Q"; background: #00bcd4; }
 
-.hljs:is([class$="qml" i], [class$="qt" i])::before {
+.hljs:is(.language-qml, .language-qt)::before {
 	content: "QML";
 	background: #44A51C52;
 }
 
  /* R */
-.hljs[class$="rss" i]::before {
+.hljs.language-rss::before {
 	content: "RSS";
 	background: #0060AC52;
 }
 
-.hljs[class$="ruby" i]::before {
+.hljs.language-ruby::before {
 	content: "Ruby";
 	background: #70151652;
 }
 
-.hljs[class$="rust" i]::before {
+.hljs.language-rust::before {
 	content: "Rust";
 	background: #dea58452;
 }
 
  /* S */
-.hljs[class$="sas" i]::before {
+.hljs.language-sas::before {
 	content: "SAS";
 	background: #B3493652;
 }
 
-.hljs[class$="scala" i]::before {
+.hljs.language-scala::before {
 	content: "Scala";
 	background: #C22D4052;
 }
 
-.hljs:is([class$="scheme" i], [class$="scm" i])::before {
+.hljs:is(.language-scheme, .language-scm)::before {
 	content: "Scheme";
 	background: #1E4AEC52;
 }
 
-.hljs:is([class$="scilab" i], [class$="sci" i])::before {
+.hljs:is(.language-scilab, .language-sci)::before {
 	content: "Scilab";
 	background: #CA0F2152;
 }
 
-.hljs[class$="scss" i]::before {
+.hljs.language-scss::before {
 	content: "SCSS";
 	background: #C6538C52;
 }
 
-.hljs:is([class$="shell" i], [class$="console" i], [class$="shellsession" i])::before {
+.hljs:is(.language-shell, .language-console, .language-shellsession)::before {
 	content: "Shell Session";
 	background: #89E05152;
 }
 
-.hljs[class$="smali" i]::before {
+.hljs.language-smali::before {
 	content: "Smali";
 	background: #558b2f;
 }
 
-.hljs:is([class$="smalltalk" i], [class$="st" i])::before {
+.hljs:is(.language-smalltalk, .language-st)::before {
 	content: "Smalltalk";
 	background: #59670652;
 }
 
-.hljs[class$="sml" i]::before {
+.hljs.language-sml::before {
 	content: "SML";
 	background: #DC566D52;
 }
 
-.hljs[class$="sqf" i]::before {
+.hljs.language-sqf::before {
 	content: "SQF";
 	background: #3F3F3F52;
 }
 
-.hljs[class$="sql" i]::before {
+.hljs.language-sql::before {
 	content: "SQL";
 	background: #E38C0052;
 }
 
-.hljs:is([class$="stan" i], [class$="stanfuncs" i])::before {
+.hljs:is(.language-stan, .language-stanfuncs)::before {
 	content: "Stan";
 	background: #B2011D52;
 }
 
-.hljs:is([class$="stata" i], [class$="do" i], [class$="ado" i])::before {
+.hljs:is(.language-stata, .language-do, .language-ado)::before {
 	content: "Stata";
 	background: #1A5F9152;
 }
 
-.hljs:is([class$="step21" i], [class$="p21" i], [class$="step" i], [class$="stp" i])::before { content: " STEP Part 21"; background: #37474f; }
+.hljs:is(.language-step21, .language-p21, .language-step, .language-stp)::before { content: " STEP Part 21"; background: #37474f; }
 
-.hljs:is([class$="stylus" i], [class$="styl" i])::before {
+.hljs:is(.language-stylus, .language-styl)::before {
 	content: "Stylus";
 	background: #FF634752;
 }
 
-.hljs[class$="subunit" i]::before { content: " SubUnit"; background: #455a64; }
+.hljs.language-subunit::before { content: " SubUnit"; background: #455a64; }
 
-.hljs[class$="svg" i]::before {
+.hljs.language-svg::before {
 	content: "SVG";
 	background: #FF990052;
 }
 
-.hljs[class$="swift" i]::before {
+.hljs.language-swift::before {
 	content: "Swift";
 	background: #FFAC4552;
 }
 
  /* T */
-.hljs:is([class~="ts" i], [class$="typescript" i])::before {
+.hljs:is(.language-ts, .language-typescript)::before {
 	content: "TypeScript";
 	background: #2b748952;
 }
@@ -822,78 +826,78 @@ code:not(.inline, .diff, .codeView__4d95d) {
  /* U */
 
  /* V */
-.hljs[class$="vala" i]::before {
+.hljs.language-vala::before {
 	content: "Vala";
 	background: #A56DE252;
 }
 
-.hljs:is([class~="vb" i], [class$="vbnet" i])::before {
+.hljs:is(.language-vb, .language-vbnet)::before {
 	content: "Visual Basic .NET";
 	background: #945DB752;
 }
 
-.hljs:is([class$="vbscript" i], [class$="vbs" i])::before {
+.hljs:is(.language-vbscript, .language-vbs)::before {
 	content: "VBScript";
 	background: #15DCDC52;
 }
 
-.hljs[class$="vbscript-html" i]::before { content: " VBScript in HTML"; background: #0d47a1; }
+.hljs.language-vbscript-html::before { content: " VBScript in HTML"; background: #0d47a1; }
 
-.hljs:is([class$="verilog" i], [class~="v" i], [class~="sv" i], [class$="svh" i])::before {
+.hljs:is(.language-verilog, .language-v, .language-sv, .language-svh)::before {
 	content: "Verilog";
 	background: #B2B7F852;
 }
 
-.hljs[class$="vhdl" i]::before {
+.hljs.language-vhdl::before {
 	content: "VHDL";
 	background: #ADB2CB52;
 }
 
-.hljs[class$="vim" i]::before {
+.hljs.language-vim::before {
 	content: "Vim Script";
 	background: #199F4B52;
 }
 
  /* W */
-.hljs[class$="wasm" i]::before {
+.hljs.language-wasm::before {
 	content: "WebAssembly";
 	background: #04133B52;
 }
 
-.hljs[class$="wren" i]::before {
+.hljs.language-wren::before {
 	content: "Wren";
 	background: #38383852;
 }
 
  /* X */
-.hljs[class~="xl" i]::before {
+.hljs.language-xl::before {
 	content: "eXtensible Language";
 	background: #4872a852;
 }
 
-.hljs:is([class$="xml" i], [class$="xjb" i], [class$="xsd" i], [class$="xsl" i])::before {
+.hljs:is(.language-xml, .language-xjb, .language-xsd, .language-xsl)::before {
 	content: "XML";
 	background: #0060AC52;
 }
 
-.hljs[class$="wsf" i]::before {
+.hljs.language-wsf::before {
 	content: "XML Property List";
 	background: #0060AC52;
 }
 
-.hljs:is([class$="xquery" i], [class$="xpath" i], [class~="xq" i], [class$="xqm" i])::before {
+.hljs:is(.language-xquery, .language-xpath, .language-xq, .language-xqm)::before {
 	content: "XQuery";
 	background: #1976d2;
 }
 
  /* Y */
-.hljs:is([class$="yaml" i], [class$="yml" i])::before {
+.hljs:is(.language-yaml, .language-yml)::before {
 	content: "YAML";
 	background: #CB171E52;
 }
 
  /* Z */
-.hljs:is([class$="zephir" i], [class$="zep" i])::before {
+.hljs:is(.language-zephir, .language-zep)::before {
 	content: "Zephir";
 	background: #118F9E52;
 }
