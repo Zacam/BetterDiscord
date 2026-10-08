@@ -1153,7 +1153,7 @@ div[id^="popout"]:has(.container__8cb2e) {
 	border-radius: var(--custom-app-top-bar-item-radius);
 	flex-basis: auto;
 	margin-left: 0px;
-	margin-right: 5px;
+	margin-right: 1px;
 	max-width: unset;
 	min-width: 26px;
 	width: auto;
@@ -1164,7 +1164,7 @@ div[id^="popout"]:has(.container__8cb2e) {
 	.searchBar_c322aa {
 		background: transparent;
 		/* Make the default state only show an icon that can be clicked. */
-		width: 28px;
+		/*width: 28px;*/
 		border: none;
 		padding: 0px;
 		.icon_c322aa {
@@ -1406,8 +1406,7 @@ div[id^="popout"]:has(.container__8cb2e) {
 		gap: unset;
 	}
 	.overlay_c0bea0 {
-		background: var(--background-base-lower);
-		width: fit-content;
+		width: auto;
 		.container__43a4b {
 			border: 1px solid var(--oPur-64);
 			gap: 4px;
@@ -1415,6 +1414,12 @@ div[id^="popout"]:has(.container__8cb2e) {
 			.buttonContainer__43a4b {
 				justify-content: center;
 			}
+		}
+		&:has(.details__39ec2 a[href*="music.youtube"]) {
+			background-color: #FF000052;
+		}
+		&:has(.content__39ec2 img[src*="i.scdn.co"]) {
+			background-color: #1DB95452;
 		}
 	}
 }
@@ -2564,6 +2569,7 @@ svg.downloadHoverButtonIcon__6c706 path {
 .live_a7acae {
 	--white: rgb(208,208,208);
 	--red-400: var(--oPur-64);
+	--badge-notification-background: var(--oPur-64);
 }
 
 .bottomControls_bfe55a {
