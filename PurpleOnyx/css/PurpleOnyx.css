@@ -543,10 +543,7 @@ border-color: var(--border-normal) !important;
 	box-sizing: unset;
 }
 
-div[data-layer="GUILD_SETTINGS"] {
-	.sidebarRegion__23e6b {
-		flex: 0 1 auto;
-	}
+.standardSidebarView__23e6b {
 	.sidebarRegionScroller__23e6b {
 		overflow-y: auto !important;
 		.sidebar__23e6b {
@@ -566,7 +563,6 @@ div[data-layer="GUILD_SETTINGS"] {
 		}
 	}
 	#roles-tab {
-		width: 670px;
 		.sidebar_e29cd7 {
 			.titleContainer_e29cd7 {
 				margin-block: 4px 0px;
@@ -579,7 +575,6 @@ div[data-layer="GUILD_SETTINGS"] {
 			}
 		}
 		.contentContainer__91dc3 {
-			/*box-sizing: content-box;*/
 			height: 100vh;
 			.scroller__16663 {
 				padding-bottom: 0px;
@@ -605,8 +600,12 @@ div[data-layer="GUILD_SETTINGS"] {
 			}
 		}
 	}
+	#access-tab {
+		.joinOptionContent__959cb {
+			height: unset;
+		}
+	}
 	.contentRegion__23e6b {
-		flex: 1 1 auto;
 		margin-top: 45px;
 		> .contentRegionScroller__23e6b {
 			border: 2px groove var(--border-normal);
