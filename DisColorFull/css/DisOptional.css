@@ -1,6 +1,7 @@
 /* 2026-10-09 13:42 PT */
 
 /* XBox */
+ /* Add New Connection */
 button[style*="/assets/c4f09fda61827e19.svg"] {
 	background-color: #0e7a0d;
 	clip-path: circle(31%);
@@ -11,14 +12,16 @@ button[style*="/assets/c4f09fda61827e19.svg"] {
 }
 .wrapper__02fc8:has(button[style*="/assets/c4f09fda61827e19.svg"]) {
 	background-color: var(--control-secondary-background-default);
-	border: 1px solid transparent;
+	border: 1px solid var(--control-secondary-border-default);
 	border-radius: var(--radius-sm);
 	height: 44px;
+	width: 44px;
 	&:hover {
 		background-color: #99aab54d;
 	}
 }
 
+ /* Profile View: "ShowConnections" Plugin */
 .connectionIcon_c56430[alt="Xbox Logo"]:not([src="/assets/0133fed7d4dc775c.svg"]) {
 	background-color: #0e7a0d;
 	clip-path: circle(46%);
