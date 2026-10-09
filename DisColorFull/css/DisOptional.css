@@ -1,4 +1,4 @@
-/* 2026-10-09 13:25 PT */
+/* 2026-10-09 13:35 PT */
 
 /* XBox */
 button[style*="/assets/c4f09fda61827e19.svg"] {
@@ -97,16 +97,16 @@ div[id*="context-transfer-playstation"] .iconContainer_c1e9c4 {
 /* Twitter */
  /* Settings > Connections> Add Connection */
 .accountButtonInner__41de9[style*="/assets/a61999ae9bfb9658.svg"] {
-	background-image: url("/assets/0815e2c86f2e0e37.svg") !important;
+	background-image: url("https://discord.com/assets/0815e2c86f2e0e37.svg") !important;
 }
  /* Setting- > Connecitons > Connection List */
 .connectionIcon__41de9[alt="X"] {
-	content: url("/assets/0815e2c86f2e0e37.svg");
+	content: url("https://discord.com/assets/0815e2c86f2e0e37.svg");
 }
 
  /*Profile: "ShowConnections" Plugin */
 .connectionIcon_c56430[alt="X Logo"] {
-	background-image: url("/assets/0815e2c86f2e0e37.svg");
+	background-image: url("https://discord.com/assets/0815e2c86f2e0e37.svg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 30px;
@@ -117,5 +117,5 @@ div[id*="context-transfer-playstation"] .iconContainer_c1e9c4 {
 
  /* Profile: "NewOldProfiles" Plugin */
 .connectedAccount_e6abe8 .connectedAccountIcon_e6abe8[alt="X Logo"] {
-	content: url("/assets/0815e2c86f2e0e37.svg");
+	content: url("https://discord.com/assets/0815e2c86f2e0e37.svg");
 }
