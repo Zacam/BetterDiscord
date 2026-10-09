@@ -1,4 +1,4 @@
-/* 2026-10-09 02:15 PT */
+/* 2026-10-09 07:35 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -19,6 +19,10 @@
 
 .bd-addon-list .bd-addon-header {
 	background: rgb(0,0,0);
+}
+
+.bd-addon-store-card-badge {
+	background: var(--oPur-64);
 }
 
 .bd-description-wrap {
