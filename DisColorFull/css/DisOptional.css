@@ -1,4 +1,4 @@
-/* 2026-10-09 13:35 PT */
+/* 2026-10-09 13:42 PT */
 
 /* XBox */
 button[style*="/assets/c4f09fda61827e19.svg"] {
@@ -10,7 +10,7 @@ button[style*="/assets/c4f09fda61827e19.svg"] {
 	}
 }
 .wrapper__02fc8:has(button[style*="/assets/c4f09fda61827e19.svg"]) {
-	background-color: var(--background-base-lower);
+	background-color: var(--control-secondary-background-default);
 	border: 1px solid transparent;
 	border-radius: var(--radius-sm);
 	height: 44px;
