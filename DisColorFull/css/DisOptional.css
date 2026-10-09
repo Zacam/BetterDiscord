@@ -1,4 +1,4 @@
-/* 2026-09-30 02:30 PT */
+/* 2026-10-09 13:15 PT */
 
 /* XBox */
 button[style*="/assets/c4f09fda61827e19.svg"] {
@@ -30,7 +30,7 @@ button[style*="/assets/c4f09fda61827e19.svg"] {
 
 /* Steam */
  /* Settings > Connections > Add Connection */
-.accountBtnInner__750de[style*="/assets/1f7ec18f3695d4cf.svg"] {
+.accountBtnInner__41de9[style*="/assets/1f7ec18f3695d4cf.svg"] {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg") !important;
 }
 
@@ -65,7 +65,7 @@ button[style*="/assets/c4f09fda61827e19.svg"] {
 
 /* Playstation */
  /* Settings > Connections> Add Connection */
-.accountBtnInner__750de[style*="/assets/eed203a7ec517e23.svg"]{
+.accountBtnInner__41de9[style*="/assets/eed203a7ec517e23.svg"]{
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg") !important;
 }
  /* Setting- > Connecitons > Connection List */
@@ -96,17 +96,17 @@ div[id*="context-transfer-playstation"] .iconContainer_c1e9c4 {
 
 /* Twitter */
  /* Settings > Connections> Add Connection */
-.accountBtnInner__750de[style*="/assets/a61999ae9bfb9658.svg"]{
-	background-image: url("https://discord.com/assets/0815e2c86f2e0e37.svg") !important;
+.accountBtnInner__41de9[style*="/assets/a61999ae9bfb9658.svg"]{
+	background-image: url("/assets/0815e2c86f2e0e37.svg") !important;
 }
  /* Setting- > Connecitons > Connection List */
 .connectionIcon__41de9[alt="X"] {
-	content: url("https://discord.com/assets/0815e2c86f2e0e37.svg");
+	content: url("/assets/0815e2c86f2e0e37.svg");
 }
 
  /*Profile: "ShowConnections" Plugin */
 .connectionIcon_c56430[alt="X Logo"] {
-	background-image: url("https://discord.com/assets/0815e2c86f2e0e37.svg");
+	background-image: url("/assets/0815e2c86f2e0e37.svg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 30px;
@@ -117,5 +117,5 @@ div[id*="context-transfer-playstation"] .iconContainer_c1e9c4 {
 
  /* Profile: "NewOldProfiles" Plugin */
 .connectedAccount_e6abe8 .connectedAccountIcon_e6abe8[alt="X Logo"] {
-	content: url("https://discord.com/assets/0815e2c86f2e0e37.svg");
+	content: url("/assets/0815e2c86f2e0e37.svg");
 }
