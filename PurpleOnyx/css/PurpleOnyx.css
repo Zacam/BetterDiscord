@@ -1,4 +1,4 @@
-/* 2026-10-08 12:55 PT */
+/* 2026-10-09 02:15 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -79,6 +79,40 @@
 	}
 }
 
+#bd-notifications-root {
+	padding: unset;
+}
+
+.bd-notification-top-right {
+	right: 8px;
+	top: 42px;
+}
+
+.bd-notification {
+	border: 2px solid var(--border-normal);
+	border-radius: 12px;
+	max-width: 248px;
+	min-width: 142px;
+	width: auto;
+	.bd-notification-content {
+		border-radius: unset;
+		padding: 8px 28px 0px 12px;
+	}
+	.bd-notification-close {
+		color: #F00;
+		margin: -12px;
+		opacity: 1;
+		padding: 8px;
+		&:hover {
+			background: var(--card-secondary-bg);
+			border-radius: 12px;
+		}
+	}
+	.bd-notification-progress {
+		margin-top: 6px;
+	}
+}
+
 .bd-notification.bd-notification-info {
 	border-color: var(--border-strong);
 	margin-bottom: 0px;
@@ -103,6 +137,13 @@
 	overflow: hidden auto;
 }
 
+.submenu_c1e9c4.menu_c1e9c4 :has(#settings-menu-BetterDiscord--betterdiscord_plugins_sidebarItem--plugin-store, #settings-menu-BetterDiscord--betterdiscord_themes_sidebarItem--theme-store){
+	#settings-menu-BetterDiscord--betterdiscord_plugins_sidebarItem--plugin-store, #settings-menu-BetterDiscord--betterdiscord_themes_sidebarItem--theme-store {
+		display: none;
+	}
+	.separator_c1e9c4 { display: none; }
+}
+
 #settings-menu button.bd-changelog-button:hover {
 	color: var(--text-strong);
 }/*</Better Discord overrides>*/
@@ -117,6 +158,7 @@
 /*Shop*/.shopScroll__1feb0,
 /*Mana Modal*/.bodyList__8a031:hover,
 /*Chat Body*/.messagesWrapper__36d07 .scroller__36d07:hover,
+/*Search Filter*/.body__8a031,
 /*Code*/.scrollbarGhostHairline__506b3.scrollbar__506b3,
 /*Threads*/.container_f369db>.list_f369db,
 /*Friends*/.peopleColumn__133bf .peopleList__5ec2f,
@@ -2343,7 +2385,7 @@ li.messageListItem__5126c .hasReply_c19a55:not(.mentioned__5126c ) {
 }
 
 .fileWrapper__0ccae {
-	max-width: 84%;
+	width: fit-content;
 	.file__0ccae {
 		border-color: var(--border-normal);
 		padding: 8px 16px;
