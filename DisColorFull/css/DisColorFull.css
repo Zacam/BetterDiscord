@@ -1,4 +1,5 @@
-/* 2026-10-06 05:30 PT */
+/* 2026-10-11 05:15 PT */
+
 /* Main Titlebar */
  /* Inbox */
 .toolbar__9293f .buttons_8227b0 > .clickable__81391 svg:has(>path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3"]), /* Old Title Bar */
@@ -556,5 +557,17 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	background-repeat: no-repeat;
 	>path {
 		display: none;
+	}
+}
+
+ /* Copy Server Info */
+#guild-header-popout-copy-server-info {
+	.iconContainerLeft_c1e9c4 path {
+		fill: #1384D4;
+	}
+}
+#guild-header-popout-copy-server-info.focused_c1e9c4 {
+	.iconContainerLeft_c1e9c4 path {
+		fill: #29B1EB;
 	}
 }
