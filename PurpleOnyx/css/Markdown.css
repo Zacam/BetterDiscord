@@ -1,4 +1,4 @@
-/* 2026-10-12 02:30 PT */
+/* 2026-10-20 17:30 PT */
 /*
  * Github Inspired coloration of code markup
  * Created for use with PurpleOnyx Theme
@@ -350,6 +350,9 @@ code:not(.inline, .diff, .codeView__4d95d) {
  /* N */
 .language-ninja::before {
 	content: "Ninja";
+	background: transparent;
+	text-shadow: 0px 0px 1px #c4c4c452;
+	-webkit-text-fill-color: transparent;
 }
 
 .language-nix::before {
