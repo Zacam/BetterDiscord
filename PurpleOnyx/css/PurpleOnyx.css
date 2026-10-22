@@ -1,4 +1,4 @@
-/* 2026-10-22 15:20 PT */
+/* 2026-10-22 15:30 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -1758,8 +1758,13 @@ div[data-layer="CHANNEL_SETTINGS"] {
 	color: var(--oPurple);
 	height: 21px;
 }
+.bottom__7aaec {
+	bottom: calc(var(--custom-app-panels-height) + var(--space-md));
+	padding-top: 0px;
+}
 .containerPadding__7aaec {
-	padding-bottom: 0px;
+	margin: unset;
+	padding: 0px;
 	width: 93%;
 	.bar__7aaec {
 		background: #000;
