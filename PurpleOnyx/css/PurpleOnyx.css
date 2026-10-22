@@ -1,4 +1,4 @@
-/* 2026-10-21 13:50 PT */
+/* 2026-10-22 07:45 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -1742,13 +1742,15 @@ div[data-layer="CHANNEL_SETTINGS"] {
 }
 
  /* Per-Server "New Unread/Mentions" Bar */
+.container__3b95d {
+	height: 21px;
+	padding: 4px 8px;
+}
 .unread__3b95d, .mention__3b95d {
 	background: #000;
 	border: 1px groove var(--border-active);
 	color: var(--oPurple);
-}
-.bottom__7aaec {
-	padding-top: 0px;
+	height: 21px;
 }
 .containerPadding__7aaec {
 	padding-bottom: 0px;
@@ -1757,12 +1759,12 @@ div[data-layer="CHANNEL_SETTINGS"] {
 		background: #000;
 		border: 1px groove var(--border-active);
 		justify-content: center;
-		margin-bottom: 17px;
+		margin-bottom: 0px;
 		svg.unreadIcon__7aaec {
 			display: none;
 		}
 		.text-xs\/semibold_cf4812 {
-			color: var(--oPurple) !important;
+			--interactive-text-default: var(--oPurple);
 		}
 	}
 }
