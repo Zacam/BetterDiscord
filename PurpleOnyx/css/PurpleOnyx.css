@@ -179,7 +179,6 @@
 /*Shop*/.shopScroll__08415,
 /*Shop Filter*/.filterBar__1feb0,
 /*Quests*/.scroller__23746.thin_d125d2.scrollerBase_d125d2,
-/*Server List*/div[data-list-id="guildsnav"] .scroller_ef3116,
 /*Channel List*/.sidebarList__5e434 .scroller__629e4:hover,
 /*Forum*/.grid_f369db.scrollerBase__99f8c,
 /*Member List*/.membersWrap_c8ffbb .members_c8ffbb:hover,
@@ -1569,7 +1568,7 @@ span:has(.pronouns__26b1f) {
 
 /* Servers Panel                                                                                                */
 .tree_ef3116 .scroller_ef3116 {
-	overflow: hidden auto !important;
+	scrollbar-width: none;
 	height: 100vh;
 }
 
