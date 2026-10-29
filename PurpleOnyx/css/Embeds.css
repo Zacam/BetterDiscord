@@ -1,4 +1,4 @@
-/* 2026-10-26 17:30 PT */
+/* 2026-10-28 23:00 PT */
 
  /* Square Embeds */
 [class*="mosaic"], [class*="Mosaic"],
@@ -23,10 +23,10 @@
 	&::after {
 		content: "";
 		position: absolute;
-		top: 4px;
-		right: 4px;
-		bottom: 4px;
-		left: 4px;
+		top: 3px;
+		right: 3px;
+		bottom: 3px;
+		left: 0px;
 		margin-left: -4px;
 		background: rgba(18, 18, 18, 0.95) !important;
 	}
