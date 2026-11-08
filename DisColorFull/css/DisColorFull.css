@@ -2,8 +2,8 @@
 
 /* Main Titlebar */
  /* Inbox */
-.toolbar__9293f .buttons_8227b0 > .clickable__81391 svg:has(>path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3"]), /* Old Title Bar */
-.trailing_c38106 > .iconWrapper__468db .clickable__81391 svg:has(>path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3"]) {
+.toolbar_ybUK7Z .buttons_8227b0 > .clickable_fErCLM svg:has(>path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3"]), /* Old Title Bar */
+.trailing_3zSH5d > .iconWrapper_8_fPij .clickable_fErCLM svg:has(>path[d^="M5 2a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3"]) {
 	background-image: url("https://discord.com/assets/a4c4a23d67f9f4cb.svg");
 	background-size: 18px;
 	background-position: center;
@@ -13,18 +13,18 @@
 	}
 }
 
-svg.inboxIcon__06f80 {
+svg.inboxIcon_LSviKk {
 	display: none;
 }
 
-.headerTitle__06f80 {
+.headerTitle_LSviKk {
 	background-image: url("https://discord.com/assets/a4c4a23d67f9f4cb.svg");
 	background-size: 18px;
 	background-position: left;
 	background-repeat: no-repeat;
 }
 
-h1.inboxTitle__06f80 {
+h1.inboxTitle_LSviKk {
 	margin-left: 28px;
 }
 
@@ -34,8 +34,8 @@ a[href="https://support.discord.com"] svg>path {
 }
 
  /* DevTools */
-.toolbar__9293f .buttons_8227b0 > div > .clickable__81391 svg:not(:has(>path[fill^="url(#uid_"])), /* Old Title Bar */
-.trailing_c38106 > div > .clickable__81391 svg:not(:has(>path[fill^="url(#uid_"])) {
+.toolbar_ybUK7Z .buttons_8227b0 > div > .clickable_fErCLM svg:not(:has(>path[fill^="url(#uid_"])), /* Old Title Bar */
+.trailing_3zSH5d > div > .clickable_fErCLM svg:not(:has(>path[fill^="url(#uid_"])) {
 	background-image: url("https://discord.com/assets/73763de9b2924904.svg");
 	background-size: 18px;
 	background-position: center;
@@ -46,7 +46,7 @@ a[href="https://support.discord.com"] svg>path {
 }
 
  /*  winButtons Close */
-.winButtonClose_c38106 {
+.winButtonClose_3zSH5d {
 	& polygon {
 		fill: #DA3E44;
 	}
@@ -165,9 +165,9 @@ svg.lucide-x {
 /* Toolbar */
  /* Search */
 .bd-search-wrapper>svg,
-.icon__75098 svg,
-.searchBar_c322aa svg.icon__0c4c4:not(.clear__0c4c4),
-form svg.icon__0c4c4:not(.clear__0c4c4) {
+.icon_0PLWhS svg,
+.searchBar_i16Ad0 svg.icon_v966Ys:not(.clear_v966Ys),
+form svg.icon_v966Ys:not(.clear_v966Ys) {
 	background-image: url("https://discord.com/assets/74f0a67afb481b21.svg");
 	background-size: 16px;
 	background-position: center;
@@ -180,12 +180,12 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	}
 }
 
-.searchBar_c322aa svg.clear__0c4c4>path {
+.searchBar_i16Ad0 svg.clear_v966Ys>path {
 	fill: rgb(218, 62, 68);
 }
 
  /* Threads */
-.toolbar__9293f>.icon_d98031 svg {
+.toolbar_ybUK7Z>.icon_l-3BKx svg {
 	background-image: url("https://discord.com/assets/5f5b447d1ae0cba4.svg");
 	background-size: 16px;
 	background-position: center;
@@ -196,7 +196,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	}
 }
 
-.browser_d98031.container_d9c882 .header_d9c882 svg.threadIcon_d9c882 {
+.browser_l-3BKx.container_c0tu5x .header_c0tu5x svg.threadIcon_c0tu5x {
 	background-image: url("https://discord.com/assets/5f5b447d1ae0cba4.svg");
 	background-size: 18px;
 	background-position: center;
@@ -208,7 +208,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 }
 
  /* Notification Bell */
-.toolbar__9293f>.iconWrapper__9293f:has(svg>path[d^="M1.3 21.3a1 1 0 1 0 1.4 1.4l20-20a1"]) {
+.toolbar_ybUK7Z>.iconWrapper_ybUK7Z:has(svg>path[d^="M1.3 21.3a1 1 0 1 0 1.4 1.4l20-20a1"]) {
 	background-image: url("https://discord.com/assets/ca750a2b73e36154.svg");
 	background-size: 18px;
 	background-position: center;
@@ -220,7 +220,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 }
 
  /* Topic Notification Bell */
-.toolbar__9293f>.iconWrapper__9293f:has(svg>path[d^="M9.7 2.89c.18-.07.32-.24.37-.43a2"]) {
+.toolbar_ybUK7Z>.iconWrapper_ybUK7Z:has(svg>path[d^="M9.7 2.89c.18-.07.32-.24.37-.43a2"]) {
 	background-image: url("https://discord.com/assets/5a9bb1889bc6b8dc.svg");
 	background-size: 18px;
 	background-position: center;
@@ -232,7 +232,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 }
 
  /* Pinned Message */
-.toolbar__9293f>.iconWrapper__9293f:has(>svg path[d^="M19.38 11.38a3 3 0 0 0 4.24 0l.03-.03a.5.5 0 0 0 0-.7L13.35.35a.5.5"]) {
+.toolbar_ybUK7Z>.iconWrapper_ybUK7Z:has(>svg path[d^="M19.38 11.38a3 3 0 0 0 4.24 0l.03-.03a.5.5 0 0 0 0-.7L13.35.35a.5.5"]) {
 	background-image: url("https://discord.com/assets/c7ba45651998dd2c.svg");
 	background-size: 18px;
 	background-position: center;
@@ -243,7 +243,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 }
 
   /* Pinned Popout */
-.messagesPopoutWrap__432f4>.header__432f4>.titleContainer__432f4 {
+.messagesPopoutWrap_6bgemo>.header_6bgemo>.titleContainer_6bgemo {
 	background-image: url("https://discord.com/assets/c7ba45651998dd2c.svg");
 	background-size: 18px;
 	background-position: left;
@@ -251,10 +251,9 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 	>svg {
 		display: none;
 	}
-}
-
-.messagesPopoutWrap__432f4>.header__432f4>.titleContainer__432f4>div {
-	margin-left: 28px;
+	>div {
+		margin-left: 28px;
+	}
 }
 
   /* Pinned Indicator */
@@ -269,46 +268,46 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 }
 
  /* Show/Hide Member List */
-.toolbar__9293f>.iconWrapper__9293f:has(>svg>path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5"]) {
+.toolbar_ybUK7Z>.iconWrapper_ybUK7Z:has(>svg>path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5"]) {
 	background-image: url("https://discord.com/assets/be8706c9515e4e6e.svg");
 	background-size: 20px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.toolbar__9293f>.iconWrapper__9293f>svg>path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5"] {
+.toolbar_ybUK7Z>.iconWrapper_ybUK7Z>svg>path[d^="M14.5 8a3 3 0 1 0-2.7-4.3c-.2.4.06.86.44 1.12a5"] {
 	display: none;
 }
 
  /* Start Voice Call */
-.toolbar__9293f>.iconWrapper__9293f>svg>path[d^="M2 7.4A5.4 5.4 0 0 1 7.4 2c.36 0 .7.22.83.55l1.93 4.64a1"],
-.toolbar__9293f>.iconWrapper__9293f>svg>path[d="M13 7a1 1 0 0 1 1-1 4 4 0 0 1 4 4 1 1 0 1 1-2 0 2 2 0 0 0-2-2 1 1 0 0 1-1-1Z"] {
+.toolbar_ybUK7Z>.iconWrapper_ybUK7Z>svg>path[d^="M2 7.4A5.4 5.4 0 0 1 7.4 2c.36 0 .7.22.83.55l1.93 4.64a1"],
+.toolbar_ybUK7Z>.iconWrapper_ybUK7Z>svg>path[d="M13 7a1 1 0 0 1 1-1 4 4 0 0 1 4 4 1 1 0 1 1-2 0 2 2 0 0 0-2-2 1 1 0 0 1-1-1Z"] {
 	fill: rgb(69, 163, 102);
 }
 
  /* Start Video Call */
-.toolbar__9293f>.iconWrapper__9293f:has(>svg>path[d^="M4 4a3 3 0 0 0-3 3v10a3"]) {
+.toolbar_ybUK7Z>.iconWrapper_ybUK7Z:has(>svg>path[d^="M4 4a3 3 0 0 0-3 3v10a3"]) {
 	background-image: url("https://discord.com/assets/d1612a30f6f75120.svg");
 	background-size: 18px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 
-.toolbar__9293f>.iconWrapper__9293f>svg:has(>path[d^="M4 4a3 3 0 0 0-3 3v10a3"]) {
+.toolbar_ybUK7Z>.iconWrapper_ybUK7Z>svg:has(>path[d^="M4 4a3 3 0 0 0-3 3v10a3"]) {
 	display: none;
 }
 
  /* Hide User Profile */
-.toolbar__9293f>.iconWrapper__9293f>svg>path[d^="M23 12.38c-.02.38-.45.58-.78.4a6.97 6.97 0 0 0-6.27-.08.54.54"] {
+.toolbar_ybUK7Z>.iconWrapper_ybUK7Z>svg>path[d^="M23 12.38c-.02.38-.45.58-.78.4a6.97 6.97 0 0 0-6.27-.08.54.54"] {
 	fill: #7289DA;
 }
 
-.toolbar__9293f>.iconWrapper__9293f.selected__9293f>svg path[d="M24 19a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"] {
+.toolbar_ybUK7Z>.iconWrapper_ybUK7Z.selected_ybUK7Z>svg path[d="M24 19a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"] {
 	fill: #A48BE2;
 }
 
  /* Show/Hide Chat */
-.toolbar__9293f .chatIcon__233f8 {
+.toolbar_ybUK7Z .chatIcon__233f8 {
 	background-image: url("https://discord.com/assets/e121c79c0d9d21e5.svg");
 	background-size: 20px;
 	background-position: center;
@@ -319,7 +318,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 }
 
  /* Friends List : New Group DM */
-.inviteToolbar__133bf>.iconWrapper__9293f {
+.inviteToolbar__133bf>.iconWrapper_ybUK7Z {
 	background-image: url("https://discord.com/assets/e121c79c0d9d21e5.svg");
 	background-size: 18px;
 	background-position: center;
@@ -507,7 +506,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 }
 
  /* Show All Channels */
-#guild-header-popout-opt-in .iconContainerLeft_c1e9c4 svg {
+#guild-header-popout-opt-in .iconContainerLeft_M3qk4j svg {
 	background-image: url("https://discord.com/assets/de6728ac385645a5.svg");
 	background-size: 18px;
 	background-position: center;
@@ -550,7 +549,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 }
 
  /* Hide Muted Channels */
-#guild-header-popout-hide-muted-channels .iconContainerLeft_c1e9c4 svg {
+#guild-header-popout-hide-muted-channels .iconContainerLeft_M3qk4j svg {
 	background-image: url("https://discord.com/assets/6c4edbf76bb07c39.svg");
 	background-size: 18px;
 	background-position: center;
@@ -562,12 +561,7 @@ form svg.icon__0c4c4:not(.clear__0c4c4) {
 
  /* Copy Server Info */
 #guild-header-popout-copy-server-info {
-	.iconContainerLeft_c1e9c4 path {
+	.iconContainerLeft_M3qk4j path {
 		fill: #1384D4;
-	}
-}
-#guild-header-popout-copy-server-info.focused_c1e9c4 {
-	.iconContainerLeft_c1e9c4 path {
-		fill: #29B1EB;
 	}
 }

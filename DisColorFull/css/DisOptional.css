@@ -10,7 +10,7 @@ button[style*="/assets/c4f09fda61827e19.svg"] {
 		clip-path: circle(31%);
 	}
 }
-.wrapper__02fc8:has(button[style*="/assets/c4f09fda61827e19.svg"]) {
+.wrapper_jn4e52:has(button[style*="/assets/c4f09fda61827e19.svg"]) {
 	background-color: var(--control-secondary-background-default);
 	border: 1px solid var(--control-secondary-border-default);
 	border-radius: var(--radius-sm);
@@ -33,12 +33,12 @@ button[style*="/assets/c4f09fda61827e19.svg"] {
 
 /* Steam */
  /* Settings > Connections > Add Connection */
-.accountButtonInner__41de9[style*="/assets/1f7ec18f3695d4cf.svg"] {
+.accountButtonInner_yX-kzH[style*="/assets/1f7ec18f3695d4cf.svg"] {
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg") !important;
 }
 
  /* Settings > Connections List */
-.connectionIcon__41de9[alt="Steam"] {
+.connectionIcon_yX-kzH[alt="Steam"] {
 	content: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg");
 }
 
@@ -68,11 +68,11 @@ button[style*="/assets/c4f09fda61827e19.svg"] {
 
 /* Playstation */
  /* Settings > Connections> Add Connection */
-.accountButtonInner__41de9[style*="/assets/eed203a7ec517e23.svg"]{
+.accountButtonInner_yX-kzH[style*="/assets/eed203a7ec517e23.svg"]{
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg") !important;
 }
  /* Setting- > Connecitons > Connection List */
-.connectionIcon__41de9[alt="PlayStation Network"] {
+.connectionIcon_yX-kzH[alt="PlayStation Network"] {
 	content: url("https://upload.wikimedia.org/wikipedia/commons/4/4e/Playstation_logo_colour.svg");
 }
 
@@ -99,11 +99,11 @@ div[id*="context-transfer-playstation"] .iconContainer_c1e9c4 {
 
 /* Twitter */
  /* Settings > Connections> Add Connection */
-.accountButtonInner__41de9[style*="/assets/a61999ae9bfb9658.svg"] {
+.accountButtonInner_yX-kzH[style*="/assets/a61999ae9bfb9658.svg"] {
 	background-image: url("https://discord.com/assets/0815e2c86f2e0e37.svg") !important;
 }
  /* Setting- > Connecitons > Connection List */
-.connectionIcon__41de9[alt="X"] {
+.connectionIcon_yX-kzH[alt="X"] {
 	content: url("https://discord.com/assets/0815e2c86f2e0e37.svg");
 }
 
