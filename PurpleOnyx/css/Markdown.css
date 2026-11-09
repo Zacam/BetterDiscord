@@ -1,4 +1,4 @@
-/* 2026-10-20 17:30 PT */
+/* 2026-11-08 21:20 PT */
 /*
  * Github Inspired coloration of code markup
  * Created for use with PurpleOnyx Theme
@@ -6,23 +6,23 @@
  */
 
  /* Code Actions Button */
-.markup__75297 .codeContainer__75297:hover .codeActions__75297 {
+.markup_ku1OHH .codeContainer_ku1OHH:hover .codeActions_ku1OHH {
 	gap: 4px;
 }
 
-.markup__75297 .codeActions__75297 {
+.markup_ku1OHH .codeActions_ku1OHH {
 	top: 0px;
 	z-index: 1;
 }
 
  /* Code Font Scale */
-.markup__75297 code {
+.markup_ku1OHH code {
 	font-size: .75rem;
 }
 
  /* Code Window Size */
-.markup__75297 blockquote,
-.markup__75297 pre {
+.markup_ku1OHH blockquote,
+.markup_ku1OHH pre {
 	max-width: calc-size(max-content, size + .5%);
 }
 
@@ -49,7 +49,7 @@ code:not(.inline, .diff, .codeView__4d95d) {
 }
 
 /* Markdown */
-.markup__75297 .hljs {
+.markup_ku1OHH .hljs {
 	padding: 0px 0px 2px 0px;
 	&::before {
 		align-items: center;
