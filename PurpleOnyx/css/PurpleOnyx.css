@@ -1,4 +1,4 @@
-/* 2026-11-10 07:30 PT */
+/* 2026-11-10 13:45 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -36,6 +36,11 @@
 .bd-button-filled.bd-button-color-brand,
 .bd-button.selected {
 	background-color: var(--oPur-64) !important;
+}
+
+.bd-button-filled.bd-button-color-white {
+	background-color: var(--oPur-21);
+	color: var(--text-strong);
 }
 
 .bd-modal-header {
@@ -166,7 +171,6 @@
 	overflow: hidden auto !important;
 	scrollbar-gutter: auto;
 }
-
   /* Regular Scrollbar */
 .messagesWrapper_8AE1Qq .scroller_8AE1Qq:hover/*Chat Body*/
 {
@@ -198,6 +202,23 @@
 	filter: drop-shadow(0 0 4px rgba(164,128,226,1)) drop-shadow(0 0 10px rgba(164,128,226,0.32));
 	--icon-muted: var(--oPur-42);
 	--icon-strong: var(--oPurple);
+}
+
+ /* Avatar Indicator Dots */
+.dots_B8IhI- {
+	transform: translate(12px, 140%);
+	.dot_B8IhI- {
+		background-color: var(--oPurple) !important;
+	}
+}
+
+#app-mount .wrapper_XpIUHy .pointerEvents_XpIUHy[x="14.5"] {
+	color: var(--oPurple) !important;
+	fill: transparent !important;
+}
+
+.base_U9Tvvz .dots_U9Tvvz {
+	color: var(--oPurple);
 }
 
  /* Tooltips */
