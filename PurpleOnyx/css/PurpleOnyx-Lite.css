@@ -1,4 +1,4 @@
-/* 2026-08-19 15:30 PT */
+/* 2026-11-19 07:30 PT */
 /* GitCord Markdown */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Markdown.css");
 
@@ -15,20 +15,20 @@
 
 /* Avatar Wrapper                                                                                               */
  /* Shrink up the size of the Wrapper */
-.visual-refresh section.panels__5e434 {
+.visual-refresh section.panels_pog62O {
 	bottom: 1px;
 	margin-left: calc(var(--custom-guild-list-width) + 2px);
 	width: calc(100% - var(--custom-guild-list-width) - 15px);
-	.container_e131a9 {
+	.container_9U6LUN {
 		border-bottom-color: var(--border-normal);
 	}
-	.actionButtons_e131a9 button {
+	.actionButtons_9U6LUN button {
 		padding: 0px;
 	}
 }/*</Avatar Wrapper>*/
 
 /* Chat Body                                                                                                    */
  /* Text Input Area */
-.textArea__74017.textAreaSlate__74017.slateContainer_ec4baf {
+.textArea_2x8-Qn.textAreaSlate_2x8-Qn.slateContainer_q99V_- {
 	height: unset !important;
 }/*</Chat Body>*/
