@@ -1,7 +1,7 @@
 /**
  * @name PurpleOnyx
  * @author Zacam
- * @version 2.0.9
+ * @version 2.1.0
  * @description Purple Accented NewUI Onyx Compact
  * @authorId 94933455258783744
  * @source https://github.com/Zacam/BetterDiscord/tree/main/PurpleOnyx
@@ -33,6 +33,7 @@
 	--background-modifier-selected: var(--oPur-32);
 	--badge-background-brand: var(--oPur-64);
 	--border-active: var(--oPur-64);
+	--border-focus: var(--oPur-64);
 	--border-normal: var(--oPur-42);
 	--border-strong: var(--oPur-84);
 	--border-subtle: var(--oPur-32);
