@@ -141,11 +141,15 @@
 	overflow: hidden auto;
 }
 
-.submenu_c1e9c4.menu_c1e9c4 :has(#settings-menu-BetterDiscord--betterdiscord_plugins_sidebarItem--plugin-store, #settings-menu-BetterDiscord--betterdiscord_themes_sidebarItem--theme-store){
+.submenu_M3qk4j.menu_M3qk4j :has(#settings-menu-BetterDiscord--betterdiscord_plugins_sidebarItem--plugin-store, #settings-menu-BetterDiscord--betterdiscord_themes_sidebarItem--theme-store){
 	#settings-menu-BetterDiscord--betterdiscord_plugins_sidebarItem--plugin-store, #settings-menu-BetterDiscord--betterdiscord_themes_sidebarItem--theme-store {
 		display: none;
 	}
-	.separator_c1e9c4 { display: none; }
+	.separator_M3qk4j { display: none; }
+}
+
+.bd-scroller-base .fieldset-container {
+	margin: 1px 0px;
 }
 
 #settings-menu button.bd-changelog-button:hover {
@@ -159,6 +163,7 @@
 /*General Discord                                                                                              */
  /* Scrollbars */
 .scrollbarGutterStable_tqapBM {
+	overflow: hidden auto !important;
 	scrollbar-gutter: auto;
 }
 
