@@ -1,4 +1,4 @@
-/* 2026-11-11 06:10 PT */
+/* 2026-11-11 06:30 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -1674,9 +1674,13 @@ div[data-layer="CHANNEL_SETTINGS"] {
 }
 
  /* Denote Age Restricted Marker */
-svg path[d^="M18.09 1.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 "]
-{
+svg path[d^="M18.09 1.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 "] {
 	fill: var(--status-danger) !important;
+}
+
+ /* Denote Limited Access Channel Marker */
+svg path[d^="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1"] {
+	fill: var(--status-warning) !important;
 }
 
  /* Icon to Name Gap */
