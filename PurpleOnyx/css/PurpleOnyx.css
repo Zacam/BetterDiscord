@@ -1,4 +1,4 @@
-/* 2026-11-11 06:30 PT */
+/* 2026-11-11 06:40 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -1645,6 +1645,11 @@ div[data-layer="CHANNEL_SETTINGS"] {
 		background: linear-gradient(to right, var(--oPur-64) 50%, transparent);
 		margin-left: 4px;
 	}
+}
+
+ /* Remove Unread Pips since Channel name color indicates */
+.unread_TNyK-N, .unreadImportant_TNyK-N {
+	display: none;
 }
 
  /* Server Event Popup */
