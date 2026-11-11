@@ -1,4 +1,4 @@
-/* 2026-11-10 07:30 PT */
+/* 2026-11-10 23:30 PT */
 
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 @import url(https://discordstyles.github.io/RadialStatus/RadialStatus.css);
@@ -342,6 +342,18 @@ div[class^="topSection"] {
 }
 
 /* DMs                                                                                                          */
+ /* Hide Status Indicator on Group DM's */
+.avatar_TBNqol {
+	svg.svg_SZ8p4i {
+		foreignObject {
+			mask: unset;
+		}
+	}
+}
+.avatar_TBNqol .status_PlwcO5 {
+	opacity: 0;
+}
+
  /* Show Connections */
 .user-profile-sidebar .connectionsWrapper_c56430 {
 	padding-left: 4px;
