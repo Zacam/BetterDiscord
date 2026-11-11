@@ -1,4 +1,4 @@
-/* 2026-11-11 02:00 PT */
+/* 2026-11-11 02:20 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -1671,6 +1671,12 @@ div[data-layer="CHANNEL_SETTINGS"] {
 .sectionDivider_ysO7Gy {
 	background-color: rgba(164,128,226,0.5) !important;
 	margin-top: 6px;
+}
+
+ /* Denote Age Restricted Marker */
+svg path[d^="M18.09 1.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h-7.92c-.79 "]
+{
+	fill: var(--status-danger) !important;
 }
 
  /* Icon to Name Gap */
