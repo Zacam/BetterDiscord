@@ -1,4 +1,4 @@
-/* 2026-11-10 23:30 PT */
+/* 2026-11-11 02:00 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -2125,6 +2125,17 @@ nav.guilds_pog62O {
 	.span_j9Vvzj, .barButtonAlt_j9Vvzj {
 		text-shadow: 0px 0px rgb(164,164,164);
 	}
+}
+
+ /* Spoilers */
+.spoilerWarning_0_7_Rr {
+	--__current--spoiler-warning-background-color: var(--oPur-32);
+}
+.obscureWarning_0_7_Rr {
+	--__current--spoiler-warning-text-color: rgb(192,192,192);
+}
+.spoilerWarning_0_7_Rr.obscureWarning_0_7_Rr.embed_0_7_Rr {
+	border-radius: 20px !important;
 }
 
  /* Message Highlight */
