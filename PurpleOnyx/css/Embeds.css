@@ -70,6 +70,9 @@
 .spoilerWarning_0_7_Rr.embed_0_7_Rr {
 	margin-inline-start: unset;
 }
+.spoilerWarning_0_7_Rr.obscureWarning_0_7_Rr.embed_0_7_Rr {
+	border-radius: 20px !important;
+}
 
  /* Platfor Border Colors */
 .embedFull_XyW1ZT:has(.embedAuthor__623de a[href*="bsky.app"]) {
