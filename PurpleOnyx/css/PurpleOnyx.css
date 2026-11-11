@@ -1,4 +1,4 @@
-/* 2026-11-11 06:40 PT */
+/* 2026-11-11 08:15 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -1685,6 +1685,11 @@ svg path[d^="M18.09 1.63c.4-.7 1.43-.7 1.82 0l3.96 6.9c.38.66-.12 1.47-.91 1.47h
 
  /* Denote Limited Access Channel Marker */
 svg path[d^="M16 4h.5v-.5a2.5 2.5 0 0 1 5 0V4h.5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-6a1"] {
+	fill: var(--status-warning) !important;
+}
+
+ /* Denote Forum /Thread Marker */
+svg path[d^="M18.91 12.98a5.45 5.45 0 0 1 2.18 6.2c-.1.33-.09.68.1.96l.83 "] {
 	fill: var(--status-warning) !important;
 }
 
