@@ -1,4 +1,4 @@
-/* 2026-11-10 19:40 PT */
+/* 2026-11-10 23:30 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -360,16 +360,16 @@ border-color: var(--border-normal) !important;
 }
 
  /* Radio Buttons */
-.standaloneRadioIndicator_oJuRbG:not([data-disabled]) {
+.standaloneRadioIndicator_oJuRbG:not([data-disabled="true"]) {
 	.outerRadioBase_oJuRbG {
 		stroke: var(--oPur-64);
 	}
 }
 
-.radioGroupOption_oJuRbG[data-selected="true"]:not([data-disabled]),
-.standaloneRadioIndicator_oJuRbG[data-selected="true"]:not([data-disabled]) {
+.radioGroupOption_oJuRbG[data-selected="true"]:not([data-disabled="true"]),
+.standaloneRadioIndicator_oJuRbG[data-selected="true"]:not([data-disabled="true"]) {
 	.outerRadioFill_oJuRbG, &:hover .outerRadioFill_oJuRbG {
-		fill: rgb(11,11,11);
+		fill: var(--background-base-low);
 	}
 	.innerDotRadio_oJuRbG {
 		fill: var(--oPur-84);
