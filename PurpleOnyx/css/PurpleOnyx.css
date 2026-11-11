@@ -1,4 +1,4 @@
-/* 2026-11-10 13:45 PT */
+/* 2026-11-10 19:40 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -1296,6 +1296,11 @@ div[id^="popout"]:has(.container_uTMZTY) {
 }/*</Toolbar>*/
 
 /* Profiles                                                                                                     */
+ /* Remove Hover Status Tooltip */
+.pointerEvents_XpIUHy {
+	pointer-events: none;
+}
+
  /* Remove Profile Banner Cutout */
 .fill_vNEdYY.banner_s9bWOi {
 	--custom-cutout-radius: 0px !important; /* 46px */
