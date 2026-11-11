@@ -2134,9 +2134,6 @@ nav.guilds_pog62O {
 .obscureWarning_0_7_Rr {
 	--__current--spoiler-warning-text-color: rgb(192,192,192);
 }
-.spoilerWarning_0_7_Rr.obscureWarning_0_7_Rr.embed_0_7_Rr {
-	border-radius: 20px !important;
-}
 
  /* Message Highlight */
 .messageListItem_SY_P2T::selection {
