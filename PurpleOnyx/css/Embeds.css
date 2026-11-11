@@ -1,4 +1,4 @@
-/* 2026-11-10 08:30 PT */
+/* 2026-11-11 02:00 PT */
 
 .container_YUQhib .compactEmbed_LlTAVD {
 	border-radius: unset;
@@ -15,6 +15,7 @@
 [class^="imageWrapper"] {
 	border-radius: 0px !important;
 }
+
  /* Wrap the Embed Border */
 .embedFull_XyW1ZT {
 	font-size: .75rem;
@@ -60,6 +61,14 @@
 	a {
 		text-decoration: none;
 	}
+}
+
+ /* Spoilered Embeds */
+.embedFull_XyW1ZT.isHidden_XyW1ZT {
+	border-inline-start: inset;
+}
+.spoilerWarning_0_7_Rr.embed_0_7_Rr {
+	margin-inline-start: unset;
 }
 
  /* Platfor Border Colors */
