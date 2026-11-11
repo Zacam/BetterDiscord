@@ -1,4 +1,4 @@
-/* 2026-11-11 02:20 PT */
+/* 2026-11-11 04:20 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -2489,12 +2489,10 @@ svg.downloadHoverButtonIcon_BwHv05 path {
 }/*</Chat Body>*/
 
 /* VC                                                                                                           */
- /* Replace VC Background Pulsing Gradient with Static One */
-.pulseGradient_BUFBam {
-	background: linear-gradient(to top, var(--oPur-21) 42%, transparent);
-	canvas {
-		display: none;
-	}
+ /* Replace VC Background Gradient */
+.root_rTsZa_ > div:has(>.container_mBjXoo) {
+	background: linear-gradient(to top, var(--oPur-21) 42%, transparent) !important;
+	.container_mBjXoo > svg { display: none; }
 }
 
  /* Header Fix */
