@@ -1,4 +1,4 @@
-/* 2026-11-11 08:15 PT */
+/* 2026-11-15 03:20 PT */
 
 /* Colorized Embeds */
 @import url("https://zacam.github.io/BetterDiscord/PurpleOnyx/css/Embeds.css");
@@ -1334,7 +1334,7 @@ div[id^="popout"]:has(.container_uTMZTY) {
  /* Profile Popup */
 .user-profile-popout {
 	border: 1px solid var(--border-active);
-	border-radius: 12px;
+	border-radius: 12px !important;
 	[class*="menu"] {
 		background-color: transparent;
 		.menuItemInner_nitlyF:hover {
@@ -2500,6 +2500,12 @@ svg.downloadHoverButtonIcon_BwHv05 path {
 
 .newMessageCount_SOY5H6 {
 	color: var(--oPurple) !important;
+}
+
+ /* Remove Header "Bubble" Icon spacers */
+.container_Wp3SYH.container_w6h4R2 .iconWrapper_Wp3SYH/*Topics*/,
+.container_w6h4R2 .emptyChannelIcon_w6h4R2.emptyChannelIconComponent_w6h4R2/*VC Chat*/ {
+	display: none;
 }/*</Chat Body>*/
 
 /* VC                                                                                                           */
