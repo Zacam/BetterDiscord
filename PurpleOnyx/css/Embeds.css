@@ -1,4 +1,4 @@
-/* 2026-11-11 02:00 PT */
+/* 2026-11-17 15:50 PT */
 
 .container_YUQhib .compactEmbed_LlTAVD {
 	border-radius: unset;
@@ -60,6 +60,23 @@
 	/* Remove href underlines */
 	a {
 		text-decoration: none;
+	}
+}
+
+ /* Stop Volumn Control being Clipped */
+.embedFull_XyW1ZT:has(.wrapperAudio_FJ99sr) {
+	border: none;
+	overflow: visible;
+}
+
+.grid_XyW1ZT:has(>.wrapperAudio_FJ99sr) {
+	padding: 0px;
+	overflow: visible;
+	.wrapperAudio_FJ99sr {
+		border-radius: unset;
+	}
+	.audioControls_FJ99sr {
+		margin-top: unset;
 	}
 }
 
